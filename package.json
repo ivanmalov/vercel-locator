@@ -1,0 +1,23 @@
+{
+  "name": "vercel-locator",
+  "version": "1.0.0",
+  "description": "Handle vercel geolocation headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmalov/vercel-locator.git"
+  },
+  "keywords": [
+    "Vercel",
+    "geolocation"
+  ],
+  "author": "ivanmalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanmalov/vercel-locator/issues"
+  },
+  "homepage": "https://github.com/ivanmalov/vercel-locator#readme"
+}
