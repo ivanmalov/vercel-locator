@@ -1,6 +1,6 @@
 {
   "name": "vercel-locator",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Handle vercel geolocation headers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,6 +27,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "geoinfo": "github:ivanmalov/geoinfo"
+    "geoinfo": "github:ivanmalov/geoinfo",
+    "tsx": "^4.20.3"
   }
 }
