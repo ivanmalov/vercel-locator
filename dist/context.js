@@ -7,5 +7,5 @@ function resolveVisitorContext(input, opts = {}) {
     const headers = input instanceof Request ? input.headers : input;
     const geo = (0, parse_1.parseGeo)(headers);
     // Assemble once and return
-    return Object.assign({ ip: (_a = headers.get('x-real-ip')) !== null && _a !== void 0 ? _a : null, headers: Object.fromEntries(headers) }, geo);
+    return Object.assign({ ip: (_a = headers.get('x-real-ip')) !== null && _a !== void 0 ? _a : null }, geo);
 }
