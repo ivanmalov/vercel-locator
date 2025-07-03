@@ -1,6 +1,6 @@
 {
   "name": "vercel-locator",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Handle vercel geolocation headers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
