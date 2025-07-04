@@ -1,13 +1,12 @@
 import { parseGeo, GeoInfo } from './parse';
-import { currency } from './generated/currency';
-
+import { countries, Country } from './generated/countries';
 export interface Config {
     //user expandable
 }
 
 export interface VisitorContext extends GeoInfo {
   ip: string | null;
-  currency?: string | null;
+  country: Country | null;
   //headers: Record<string, string | undefined>;
 }
 
@@ -21,7 +20,7 @@ export function resolveVisitorContext(
   // Assemble once and return
   return {
     ip: headers.get('x-real-ip') ?? null,
-    currency: currency[geo.countryCode ?? ''] ?? null,
+    country: countries[geo.countryCode ?? ''] ?? null,
     //headers: Object.fromEntries(headers),
     ...geo
   };
