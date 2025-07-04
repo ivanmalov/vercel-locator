@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.resolveVisitorContext = resolveVisitorContext;
 const parse_1 = require("./parse");
-const currency_1 = require("geoinfo/currency");
+const currency_1 = require("./generated/currency");
 function resolveVisitorContext(input, opts = {}) {
     const headers = input instanceof Request ? input.headers : input;
     const geo = (0, parse_1.parseGeo)(headers);

@@ -1,5 +1,5 @@
 import { parseGeo, GeoInfo } from './parse';
-import { currency } from 'geoinfo/currency';
+import { currency } from './generated/currency';
 
 export interface Config {
     //user expandable

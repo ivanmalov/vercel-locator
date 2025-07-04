@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "tsx scripts/build.ts",
     "build": "tsc"
   },
   "repository": {
@@ -27,7 +28,6 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "geoinfo": "github:ivanmalov/geoinfo",
     "tsx": "^4.20.3"
   }
 }
