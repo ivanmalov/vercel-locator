@@ -13,11 +13,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "ca",
-                "name": "Catalan"
+                "name": "Catalan",
+                "percentage": 51,
+                "status": "official"
             },
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 43,
+                "status": null
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 6.8,
+                "status": null
             }
         ]
     },
@@ -29,11 +39,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 78,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 50,
+                "status": null
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 7,
+                "status": null
+            },
+            {
+                "code": "ps",
+                "name": "Pashto",
+                "percentage": 2.9,
+                "status": null
+            },
+            {
+                "code": "bal",
+                "name": "Baluchi",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 1.9,
+                "status": null
             }
         ]
     },
@@ -45,19 +83,51 @@ exports.countries = {
         "languages": [
             {
                 "code": "fa",
-                "name": "Persian"
+                "name": "Persian",
+                "percentage": 50,
+                "status": "official"
             },
             {
                 "code": "ps",
-                "name": "Pashto"
+                "name": "Pashto",
+                "percentage": 43,
+                "status": "official"
+            },
+            {
+                "code": "uz-Arab",
+                "name": "Uzbek (Arabic)",
+                "percentage": 4.7,
+                "status": "official_regional"
             },
             {
                 "code": "tk",
-                "name": "Turkmen"
+                "name": "Turkmen",
+                "percentage": 1.7,
+                "status": "official_regional"
             },
             {
-                "code": "uz",
-                "name": "Uzbek"
+                "code": "bgn",
+                "name": "Western Balochi",
+                "percentage": 0.63,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.0084,
+                "status": null
+            },
+            {
+                "code": "ug",
+                "name": "Uyghur",
+                "percentage": 0.0075,
+                "status": null
+            },
+            {
+                "code": "kk-Arab",
+                "name": "Kazakh (Arabic)",
+                "percentage": 0.005,
+                "status": null
             }
         ]
     },
@@ -69,7 +139,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 86,
+                "status": "official"
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 1.6,
+                "status": null
             }
         ]
     },
@@ -81,7 +159,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 95,
+                "status": "official"
             }
         ]
     },
@@ -93,7 +173,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "sq",
-                "name": "Albanian"
+                "name": "Albanian",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "mk",
+                "name": "Macedonian",
+                "percentage": 0.47,
+                "status": null
             }
         ]
     },
@@ -105,7 +199,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "hy",
-                "name": "Armenian"
+                "name": "Armenian",
+                "percentage": 98,
+                "status": "official"
+            },
+            {
+                "code": "ku",
+                "name": "Kurdish",
+                "percentage": 3.3,
+                "status": null
+            },
+            {
+                "code": "az",
+                "name": "Azerbaijani",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -116,16 +224,28 @@ exports.countries = {
         "phone": "+244",
         "languages": [
             {
-                "code": "kmb",
-                "name": "Kimbundu"
-            },
-            {
                 "code": "pt",
-                "name": "Portuguese"
+                "name": "Portuguese",
+                "percentage": 67,
+                "status": "official"
             },
             {
                 "code": "umb",
-                "name": "Umbundu"
+                "name": "Umbundu",
+                "percentage": 29,
+                "status": null
+            },
+            {
+                "code": "kmb",
+                "name": "Kimbundu",
+                "percentage": 25,
+                "status": null
+            },
+            {
+                "code": "ln",
+                "name": "Lingala",
+                "percentage": 0.67,
+                "status": null
             }
         ]
     },
@@ -137,7 +257,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "und",
-                "name": "Unknown language"
+                "name": "Unknown language",
+                "percentage": 100,
+                "status": null
             }
         ]
     },
@@ -148,12 +270,28 @@ exports.countries = {
         "phone": "+54",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 100,
+                "status": "official"
             },
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "en",
+                "name": "English",
+                "percentage": 7,
+                "status": null
+            },
+            {
+                "code": "cy",
+                "name": "Welsh",
+                "percentage": 0.066,
+                "status": null
+            },
+            {
+                "code": "gn",
+                "name": "Guarani",
+                "percentage": 0.047,
+                "status": null
             }
         ]
     },
@@ -164,12 +302,16 @@ exports.countries = {
         "phone": "+1684",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "sm",
+                "name": "Samoan",
+                "percentage": 99,
+                "status": "official"
             },
             {
-                "code": "sm",
-                "name": "Samoan"
+                "code": "en",
+                "name": "English",
+                "percentage": 97,
+                "status": "de_facto_official"
             }
         ]
     },
@@ -180,32 +322,52 @@ exports.countries = {
         "phone": "+43",
         "languages": [
             {
-                "code": "bar",
-                "name": "Bavarian"
+                "code": "de",
+                "name": "German",
+                "percentage": 97,
+                "status": "official"
             },
             {
-                "code": "de",
-                "name": "German"
+                "code": "bar",
+                "name": "Bavarian",
+                "percentage": 95,
+                "status": null
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 73,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 9,
+                "status": null
             },
             {
                 "code": "hr",
-                "name": "Croatian"
-            },
-            {
-                "code": "hu",
-                "name": "Hungarian"
+                "name": "Croatian",
+                "percentage": 1.2,
+                "status": "official_regional"
             },
             {
                 "code": "sl",
-                "name": "Slovenian"
+                "name": "Slovenian",
+                "percentage": 0.37,
+                "status": "official_regional"
+            },
+            {
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 0.26,
+                "status": "official_regional"
             }
         ]
     },
@@ -217,7 +379,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 96,
+                "status": "de_facto_official"
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "wbp",
+                "name": "Warlpiri",
+                "percentage": 0.0093,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.0082,
+                "status": null
             }
         ]
     },
@@ -229,11 +417,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "nl",
-                "name": "Dutch"
+                "name": "Dutch",
+                "percentage": 97,
+                "status": "official"
             },
             {
                 "code": "pap",
-                "name": "Papiamento"
+                "name": "Papiamento",
+                "percentage": 61,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 2.4,
+                "status": null
             }
         ]
     },
@@ -245,7 +443,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "sv",
-                "name": "Swedish"
+                "name": "Swedish",
+                "percentage": 99,
+                "status": "official"
             }
         ]
     },
@@ -257,11 +457,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "az",
-                "name": "Azerbaijani"
+                "name": "Azerbaijani",
+                "percentage": 89,
+                "status": "official"
+            },
+            {
+                "code": "az-Cyrl",
+                "name": "Azerbaijani (Cyrillic)",
+                "percentage": 9.9,
+                "status": "official"
             },
             {
                 "code": "tly",
-                "name": "Talysh"
+                "name": "Talysh",
+                "percentage": 9.8,
+                "status": null
+            },
+            {
+                "code": "ku",
+                "name": "Kurdish",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "ttt",
+                "name": "Muslim Tat",
+                "percentage": 0.22,
+                "status": null
+            },
+            {
+                "code": "tkr",
+                "name": "Tsakhur",
+                "percentage": 0.16,
+                "status": null
             }
         ]
     },
@@ -273,19 +501,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "bs",
-                "name": "Bosnian"
+                "name": "Bosnian",
+                "percentage": 99,
+                "status": "official"
+            },
+            {
+                "code": "bs-Cyrl",
+                "name": "Bosnian (Cyrillic)",
+                "percentage": 99,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 45,
+                "status": null
             },
             {
                 "code": "hr",
-                "name": "Croatian"
+                "name": "Croatian",
+                "percentage": 12,
+                "status": "official"
             },
             {
                 "code": "sr",
-                "name": "Serbian"
+                "name": "Serbian",
+                "percentage": 10,
+                "status": "official"
+            },
+            {
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
+                "percentage": 10,
+                "status": "official"
             }
         ]
     },
@@ -297,7 +545,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -309,11 +559,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "bn",
-                "name": "Bangla"
+                "name": "Bangla",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 18,
+                "status": null
+            },
+            {
+                "code": "rhg",
+                "name": "Rohingya",
+                "percentage": 0.53,
+                "status": null
+            },
+            {
+                "code": "ccp",
+                "name": "Chakma",
+                "percentage": 0.22,
+                "status": null
+            },
+            {
+                "code": "my",
+                "name": "Burmese",
+                "percentage": 0.21,
+                "status": null
+            },
+            {
+                "code": "mni",
+                "name": "Manipuri",
+                "percentage": 0.011,
+                "status": null
             }
         ]
     },
@@ -324,24 +602,40 @@ exports.countries = {
         "phone": "+32",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
-            },
-            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "fr",
-                "name": "French"
+                "name": "English",
+                "percentage": 59,
+                "status": null
             },
             {
                 "code": "nl",
-                "name": "Dutch"
+                "name": "Dutch",
+                "percentage": 55,
+                "status": "official"
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 38,
+                "status": "official"
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 22,
+                "status": "official"
             },
             {
                 "code": "vls",
-                "name": "West Flemish"
+                "name": "West Flemish",
+                "percentage": 10,
+                "status": null
+            },
+            {
+                "code": "wa",
+                "name": "Walloon",
+                "percentage": 5.8,
+                "status": null
             }
         ]
     },
@@ -352,16 +646,34 @@ exports.countries = {
         "phone": "+226",
         "languages": [
             {
+                "code": "mos",
+                "name": "Mossi",
+                "percentage": 40,
+                "status": null
+            },
+            {
                 "code": "dyu",
-                "name": "Dyula"
+                "name": "Dyula",
+                "percentage": 32,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 25,
+                "status": "official"
             },
             {
-                "code": "mos",
-                "name": "Mossi"
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -373,15 +685,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "bg",
-                "name": "Bulgarian"
+                "name": "Bulgarian",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 25,
+                "status": null
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 23,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 8,
+                "status": null
             }
         ]
     },
@@ -393,7 +723,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 87,
+                "status": "official"
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 3.3,
+                "status": null
             }
         ]
     },
@@ -404,16 +742,28 @@ exports.countries = {
         "phone": "+257",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "rn",
+                "name": "Rundi",
+                "percentage": 63,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 59,
+                "status": "official"
             },
             {
-                "code": "rn",
-                "name": "Rundi"
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 0.047,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 0.046,
+                "status": "official"
             }
         ]
     },
@@ -424,12 +774,28 @@ exports.countries = {
         "phone": "+229",
         "languages": [
             {
-                "code": "fon",
-                "name": "Fon"
+                "code": "fr",
+                "name": "French",
+                "percentage": 34,
+                "status": "official"
             },
             {
-                "code": "fr",
-                "name": "French"
+                "code": "fon",
+                "name": "Fon",
+                "percentage": 25,
+                "status": null
+            },
+            {
+                "code": "yo",
+                "name": "Yoruba",
+                "percentage": 6.7,
+                "status": null
+            },
+            {
+                "code": "blo",
+                "name": "Anii",
+                "percentage": 0.3,
+                "status": null
             }
         ]
     },
@@ -441,7 +807,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 85,
+                "status": "official"
             }
         ]
     },
@@ -453,7 +821,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 92,
+                "status": "official"
             }
         ]
     },
@@ -465,7 +835,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "ms",
-                "name": "Malay"
+                "name": "Malay",
+                "percentage": 93,
+                "status": "official"
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "ms-Arab",
+                "name": "Malay (Arabic)",
+                "percentage": 5,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 1.6,
+                "status": null
             }
         ]
     },
@@ -476,16 +866,34 @@ exports.countries = {
         "phone": "+591",
         "languages": [
             {
-                "code": "ay",
-                "name": "Aymara"
-            },
-            {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 61,
+                "status": "official"
             },
             {
                 "code": "qu",
-                "name": "Quechua"
+                "name": "Quechua",
+                "percentage": 32,
+                "status": "official"
+            },
+            {
+                "code": "ay",
+                "name": "Aymara",
+                "percentage": 20,
+                "status": "official"
+            },
+            {
+                "code": "gn",
+                "name": "Guarani",
+                "percentage": 0.45,
+                "status": null
+            },
+            {
+                "code": "aro",
+                "name": "Araona",
+                "percentage": 0.0009,
+                "status": null
             }
         ]
     },
@@ -496,12 +904,16 @@ exports.countries = {
         "phone": "+599",
         "languages": [
             {
-                "code": "nl",
-                "name": "Dutch"
+                "code": "pap",
+                "name": "Papiamento",
+                "percentage": 81,
+                "status": null
             },
             {
-                "code": "pap",
-                "name": "Papiamento"
+                "code": "nl",
+                "name": "Dutch",
+                "percentage": 8,
+                "status": "official"
             }
         ]
     },
@@ -512,20 +924,64 @@ exports.countries = {
         "phone": "+55",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 91,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 8,
+                "status": null
             },
             {
-                "code": "pt",
-                "name": "Portuguese"
+                "code": "de",
+                "name": "German",
+                "percentage": 0.84,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 0.28,
+                "status": null
             },
             {
                 "code": "vec",
-                "name": "Venetian"
+                "name": "Venetian",
+                "percentage": 0.24,
+                "status": "official_regional"
+            },
+            {
+                "code": "ja",
+                "name": "Japanese",
+                "percentage": 0.21,
+                "status": null
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 0.036,
+                "status": null
+            },
+            {
+                "code": "kgp",
+                "name": "Kaingang",
+                "percentage": 0.024,
+                "status": null
+            },
+            {
+                "code": "ko",
+                "name": "Korean",
+                "percentage": 0.021,
+                "status": null
+            },
+            {
+                "code": "yrl",
+                "name": "Nheengatu",
+                "percentage": 0.01,
+                "status": null
             }
         ]
     },
@@ -537,7 +993,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -549,7 +1007,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "dz",
-                "name": "Dzongkha"
+                "name": "Dzongkha",
+                "percentage": 47,
+                "status": "official"
+            },
+            {
+                "code": "ne",
+                "name": "Nepali",
+                "percentage": 17,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 11,
+                "status": null
             }
         ]
     },
@@ -561,7 +1033,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "no",
-                "name": "Norwegian"
+                "name": "Norwegian",
+                "percentage": 100,
+                "status": null
             }
         ]
     },
@@ -573,11 +1047,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 81,
+                "status": "official"
             },
             {
                 "code": "tn",
-                "name": "Tswana"
+                "name": "Tswana",
+                "percentage": 62,
+                "status": "official"
+            },
+            {
+                "code": "af",
+                "name": "Afrikaans",
+                "percentage": 0.24,
+                "status": null
             }
         ]
     },
@@ -589,11 +1073,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "be",
-                "name": "Belarusian"
+                "name": "Belarusian",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 12,
+                "status": "official"
             }
         ]
     },
@@ -605,11 +1093,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 28,
+                "status": null
             }
         ]
     },
@@ -620,48 +1112,358 @@ exports.countries = {
         "phone": "+1",
         "languages": [
             {
-                "code": "chp",
-                "name": "Chipewyan"
-            },
-            {
-                "code": "crk",
-                "name": "Plains Cree"
-            },
-            {
-                "code": "den",
-                "name": "Slave"
-            },
-            {
-                "code": "dgr",
-                "name": "Dogrib"
-            },
-            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "es",
-                "name": "Spanish"
+                "name": "English",
+                "percentage": 87,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 29,
+                "status": "official"
             },
             {
-                "code": "gwi",
-                "name": "Gwichʼin"
-            },
-            {
-                "code": "iu",
-                "name": "Inuktitut"
-            },
-            {
-                "code": "pa",
-                "name": "Punjabi"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 3.2,
+                "status": null
             },
             {
                 "code": "zh",
-                "name": "Chinese"
+                "name": "Chinese",
+                "percentage": 2.7,
+                "status": null
+            },
+            {
+                "code": "pa",
+                "name": "Punjabi",
+                "percentage": 2.6,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "hi",
+                "name": "Hindi",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "fil",
+                "name": "Filipino",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "yue",
+                "name": "Cantonese",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "ur",
+                "name": "Urdu",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 0.93,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 0.85,
+                "status": null
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 0.65,
+                "status": null
+            },
+            {
+                "code": "vi",
+                "name": "Vietnamese",
+                "percentage": 0.64,
+                "status": null
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 0.61,
+                "status": null
+            },
+            {
+                "code": "gu",
+                "name": "Gujarati",
+                "percentage": 0.58,
+                "status": null
+            },
+            {
+                "code": "ko",
+                "name": "Korean",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.4,
+                "status": null
+            },
+            {
+                "code": "uk",
+                "name": "Ukrainian",
+                "percentage": 0.36,
+                "status": null
+            },
+            {
+                "code": "bn",
+                "name": "Bangla",
+                "percentage": 0.33,
+                "status": null
+            },
+            {
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 0.32,
+                "status": null
+            },
+            {
+                "code": "nl",
+                "name": "Dutch",
+                "percentage": 0.3,
+                "status": null
+            },
+            {
+                "code": "ja",
+                "name": "Japanese",
+                "percentage": 0.27,
+                "status": null
+            },
+            {
+                "code": "sr",
+                "name": "Serbian",
+                "percentage": 0.23,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 0.22,
+                "status": null
+            },
+            {
+                "code": "hr",
+                "name": "Croatian",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 0.18,
+                "status": null
+            },
+            {
+                "code": "so",
+                "name": "Somali",
+                "percentage": 0.16,
+                "status": null
+            },
+            {
+                "code": "iu",
+                "name": "Inuktitut",
+                "percentage": 0.11,
+                "status": "official_regional"
+            },
+            {
+                "code": "iu-Latn",
+                "name": "Inuktitut (Latin)",
+                "percentage": 0.11,
+                "status": "official_regional"
+            },
+            {
+                "code": "pdt",
+                "name": "Plautdietsch",
+                "percentage": 0.11,
+                "status": null
+            },
+            {
+                "code": "oj",
+                "name": "Ojibwa",
+                "percentage": 0.072,
+                "status": null
+            },
+            {
+                "code": "ojs",
+                "name": "Oji-Cree",
+                "percentage": 0.042,
+                "status": null
+            },
+            {
+                "code": "crk",
+                "name": "Plains Cree",
+                "percentage": 0.033,
+                "status": "official_regional"
+            },
+            {
+                "code": "chp",
+                "name": "Chipewyan",
+                "percentage": 0.032,
+                "status": "official_regional"
+            },
+            {
+                "code": "moe",
+                "name": "Innu-aimun",
+                "percentage": 0.03,
+                "status": null
+            },
+            {
+                "code": "mic",
+                "name": "Mi'kmaw",
+                "percentage": 0.024,
+                "status": null
+            },
+            {
+                "code": "atj",
+                "name": "Atikamekw",
+                "percentage": 0.018,
+                "status": null
+            },
+            {
+                "code": "bla",
+                "name": "Siksiká",
+                "percentage": 0.017,
+                "status": null
+            },
+            {
+                "code": "cr",
+                "name": "Cree",
+                "percentage": 0.013,
+                "status": null
+            },
+            {
+                "code": "crl",
+                "name": "Northern East Cree",
+                "percentage": 0.013,
+                "status": null
+            },
+            {
+                "code": "csw",
+                "name": "Swampy Cree",
+                "percentage": 0.012,
+                "status": null
+            },
+            {
+                "code": "war",
+                "name": "Waray",
+                "percentage": 0.012,
+                "status": null
+            },
+            {
+                "code": "ojw",
+                "name": "Western Ojibwa",
+                "percentage": 0.0094,
+                "status": null
+            },
+            {
+                "code": "den",
+                "name": "Slave",
+                "percentage": 0.006,
+                "status": "official_regional"
+            },
+            {
+                "code": "dgr",
+                "name": "Dogrib",
+                "percentage": 0.0055,
+                "status": "official_regional"
+            },
+            {
+                "code": "crg",
+                "name": "Michif",
+                "percentage": 0.0049,
+                "status": null
+            },
+            {
+                "code": "moh",
+                "name": "Mohawk",
+                "percentage": 0.0041,
+                "status": null
+            },
+            {
+                "code": "dak",
+                "name": "Dakota",
+                "percentage": 0.0039,
+                "status": null
+            },
+            {
+                "code": "hur",
+                "name": "Halkomelem",
+                "percentage": 0.0036,
+                "status": null
+            },
+            {
+                "code": "clc",
+                "name": "Chilcotin",
+                "percentage": 0.0022,
+                "status": null
+            },
+            {
+                "code": "kwk",
+                "name": "Kwakʼwala",
+                "percentage": 0.0021,
+                "status": null
+            },
+            {
+                "code": "pqm",
+                "name": "Maliseet-Passamaquoddy",
+                "percentage": 0.0021,
+                "status": null
+            },
+            {
+                "code": "oka",
+                "name": "Okanagan",
+                "percentage": 0.0018,
+                "status": null
+            },
+            {
+                "code": "lil",
+                "name": "Lillooet",
+                "percentage": 0.0015,
+                "status": null
+            },
+            {
+                "code": "gwi",
+                "name": "Gwichʼin",
+                "percentage": 0.0008,
+                "status": "official_regional"
             }
         ]
     },
@@ -672,12 +1474,16 @@ exports.countries = {
         "phone": "+61",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "ms-Arab",
+                "name": "Malay (Arabic)",
+                "percentage": 84,
+                "status": null
             },
             {
-                "code": "ms",
-                "name": "Malay"
+                "code": "en",
+                "name": "English",
+                "percentage": 17,
+                "status": "de_facto_official"
             }
         ]
     },
@@ -689,27 +1495,51 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "kg",
-                "name": "Kongo"
-            },
-            {
-                "code": "ln",
-                "name": "Lingala"
-            },
-            {
-                "code": "lu",
-                "name": "Luba-Katanga"
-            },
-            {
-                "code": "lua",
-                "name": "Luba-Lulua"
+                "name": "French",
+                "percentage": 51,
+                "status": "official"
             },
             {
                 "code": "sw",
-                "name": "Swahili"
+                "name": "Swahili",
+                "percentage": 50,
+                "status": "official_regional"
+            },
+            {
+                "code": "lua",
+                "name": "Luba-Lulua",
+                "percentage": 9.6,
+                "status": "official_regional"
+            },
+            {
+                "code": "ln",
+                "name": "Lingala",
+                "percentage": 3.1,
+                "status": "official_regional"
+            },
+            {
+                "code": "lu",
+                "name": "Luba-Katanga",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "kg",
+                "name": "Kongo",
+                "percentage": 1.5,
+                "status": "official_regional"
+            },
+            {
+                "code": "lol",
+                "name": "Mongo",
+                "percentage": 0.61,
+                "status": null
+            },
+            {
+                "code": "rw",
+                "name": "Kinyarwanda",
+                "percentage": 0.38,
+                "status": null
             }
         ]
     },
@@ -720,12 +1550,22 @@ exports.countries = {
         "phone": "+236",
         "languages": [
             {
-                "code": "fr",
-                "name": "French"
+                "code": "sg",
+                "name": "Sango",
+                "percentage": 49,
+                "status": "official"
             },
             {
-                "code": "sg",
-                "name": "Sango"
+                "code": "fr",
+                "name": "French",
+                "percentage": 29,
+                "status": "official"
+            },
+            {
+                "code": "ln",
+                "name": "Lingala",
+                "percentage": 0.24,
+                "status": null
             }
         ]
     },
@@ -737,7 +1577,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 61,
+                "status": "official"
+            },
+            {
+                "code": "ln",
+                "name": "Lingala",
+                "percentage": 2.4,
+                "status": null
             }
         ]
     },
@@ -749,27 +1597,57 @@ exports.countries = {
         "languages": [
             {
                 "code": "de",
-                "name": "German"
-            },
-            {
-                "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "fr",
-                "name": "French"
+                "name": "German",
+                "percentage": 76,
+                "status": "official"
             },
             {
                 "code": "gsw",
-                "name": "Swiss German"
+                "name": "Swiss German",
+                "percentage": 66,
+                "status": "de_facto_official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 45,
+                "status": null
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 39,
+                "status": "official"
             },
             {
                 "code": "it",
-                "name": "Italian"
+                "name": "Italian",
+                "percentage": 15,
+                "status": "official"
+            },
+            {
+                "code": "lmo",
+                "name": "Lombard",
+                "percentage": 4.1,
+                "status": null
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 3.4,
+                "status": null
             },
             {
                 "code": "rm",
-                "name": "Romansh"
+                "name": "Romansh",
+                "percentage": 0.5,
+                "status": "official_regional"
+            },
+            {
+                "code": "wae",
+                "name": "Walser",
+                "percentage": 0.11,
+                "status": null
             }
         ]
     },
@@ -781,7 +1659,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 34,
+                "status": "official"
+            },
+            {
+                "code": "kfo",
+                "name": "Koro",
+                "percentage": 0.23,
+                "status": null
             }
         ]
     },
@@ -793,7 +1679,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -804,12 +1692,22 @@ exports.countries = {
         "phone": "+56",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 98,
+                "status": "official"
             },
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "en",
+                "name": "English",
+                "percentage": 9.5,
+                "status": null
+            },
+            {
+                "code": "arn",
+                "name": "Mapuche",
+                "percentage": 1.5,
+                "status": null
             }
         ]
     },
@@ -820,20 +1718,172 @@ exports.countries = {
         "phone": "+237",
         "languages": [
             {
-                "code": "bum",
-                "name": "Bulu"
+                "code": "fr",
+                "name": "French",
+                "percentage": 68,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 38,
+                "status": "official"
+            },
+            {
+                "code": "bum",
+                "name": "Bulu",
+                "percentage": 4.6,
+                "status": null
             },
             {
                 "code": "ff",
-                "name": "Fula"
+                "name": "Fula",
+                "percentage": 3.6,
+                "status": null
             },
             {
-                "code": "fr",
-                "name": "French"
+                "code": "ewo",
+                "name": "Ewondo",
+                "percentage": 3.1,
+                "status": null
+            },
+            {
+                "code": "ybb",
+                "name": "Yemba",
+                "percentage": 1.6,
+                "status": null
+            },
+            {
+                "code": "bbj",
+                "name": "Ghomala",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "nnh",
+                "name": "Ngiemboon",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "bkm",
+                "name": "Kom",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "bas",
+                "name": "Basaa",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "bax",
+                "name": "Bamun",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "byv",
+                "name": "Medumba",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "mua",
+                "name": "Mundang",
+                "percentage": 1,
+                "status": null
+            },
+            {
+                "code": "maf",
+                "name": "Mafa",
+                "percentage": 0.74,
+                "status": null
+            },
+            {
+                "code": "bfd",
+                "name": "Bafut",
+                "percentage": 0.57,
+                "status": null
+            },
+            {
+                "code": "bss",
+                "name": "Akoose",
+                "percentage": 0.54,
+                "status": null
+            },
+            {
+                "code": "kkj",
+                "name": "Kako",
+                "percentage": 0.54,
+                "status": null
+            },
+            {
+                "code": "dua",
+                "name": "Duala",
+                "percentage": 0.48,
+                "status": null
+            },
+            {
+                "code": "mgo",
+                "name": "Metaʼ",
+                "percentage": 0.47,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.39,
+                "status": null
+            },
+            {
+                "code": "jgo",
+                "name": "Ngomba",
+                "percentage": 0.34,
+                "status": null
+            },
+            {
+                "code": "ksf",
+                "name": "Bafia",
+                "percentage": 0.32,
+                "status": null
+            },
+            {
+                "code": "ken",
+                "name": "Kenyang",
+                "percentage": 0.25,
+                "status": null
+            },
+            {
+                "code": "agq",
+                "name": "Aghem",
+                "percentage": 0.14,
+                "status": null
+            },
+            {
+                "code": "ha-Arab",
+                "name": "Hausa (Arabic)",
+                "percentage": 0.14,
+                "status": null
+            },
+            {
+                "code": "nmg",
+                "name": "Kwasio",
+                "percentage": 0.029,
+                "status": null
+            },
+            {
+                "code": "yav",
+                "name": "Yangben",
+                "percentage": 0.0074,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -844,60 +1894,136 @@ exports.countries = {
         "phone": "+86",
         "languages": [
             {
-                "code": "bo",
-                "name": "Tibetan"
-            },
-            {
-                "code": "gan",
-                "name": "Gan Chinese"
-            },
-            {
-                "code": "hak",
-                "name": "Hakka Chinese"
-            },
-            {
-                "code": "hsn",
-                "name": "Xiang Chinese"
-            },
-            {
-                "code": "ii",
-                "name": "Sichuan Yi"
-            },
-            {
-                "code": "kk",
-                "name": "Kazakh"
-            },
-            {
-                "code": "ko",
-                "name": "Korean"
-            },
-            {
-                "code": "mn",
-                "name": "Mongolian"
-            },
-            {
-                "code": "nan",
-                "name": "Min Nan Chinese"
-            },
-            {
-                "code": "ug",
-                "name": "Uyghur"
+                "code": "zh",
+                "name": "Chinese",
+                "percentage": 90,
+                "status": "official"
             },
             {
                 "code": "wuu",
-                "name": "Wu Chinese"
+                "name": "Wu Chinese",
+                "percentage": 6,
+                "status": null
             },
             {
                 "code": "yue",
-                "name": "Cantonese"
+                "name": "Cantonese",
+                "percentage": 5.2,
+                "status": null
+            },
+            {
+                "code": "yue-Hans",
+                "name": "Cantonese (Simplified)",
+                "percentage": 5.2,
+                "status": null
+            },
+            {
+                "code": "hsn",
+                "name": "Xiang Chinese",
+                "percentage": 2.9,
+                "status": null
+            },
+            {
+                "code": "hak",
+                "name": "Hakka Chinese",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "nan",
+                "name": "Min Nan Chinese",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "gan",
+                "name": "Gan Chinese",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "ii",
+                "name": "Sichuan Yi",
+                "percentage": 0.6,
+                "status": null
+            },
+            {
+                "code": "ug",
+                "name": "Uyghur",
+                "percentage": 0.55,
+                "status": "official_regional"
             },
             {
                 "code": "za",
-                "name": "Zhuang"
+                "name": "Zhuang",
+                "percentage": 0.31,
+                "status": "official_regional"
             },
             {
-                "code": "zh",
-                "name": "Chinese"
+                "code": "mn-Mong",
+                "name": "Mongolian (Mongolian)",
+                "percentage": 0.26,
+                "status": "official_regional"
+            },
+            {
+                "code": "bo",
+                "name": "Tibetan",
+                "percentage": 0.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "ko",
+                "name": "Korean",
+                "percentage": 0.15,
+                "status": "official_regional"
+            },
+            {
+                "code": "kk-Arab",
+                "name": "Kazakh (Arabic)",
+                "percentage": 0.085,
+                "status": null
+            },
+            {
+                "code": "ky-Arab",
+                "name": "Kyrgyz (Arabic)",
+                "percentage": 0.034,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 0.0045,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.004,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 0.001,
+                "status": null
+            },
+            {
+                "code": "vi",
+                "name": "Vietnamese",
+                "percentage": 0.0005,
+                "status": null
+            },
+            {
+                "code": "uz-Cyrl",
+                "name": "Uzbek (Cyrillic)",
+                "percentage": 0.0004,
+                "status": null
+            },
+            {
+                "code": "lzh",
+                "name": "Literary Chinese",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -909,7 +2035,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 93,
+                "status": "official"
+            },
+            {
+                "code": "guc",
+                "name": "Wayuu",
+                "percentage": 0.27,
+                "status": null
+            },
+            {
+                "code": "yrl",
+                "name": "Nheengatu",
+                "percentage": 0.006,
+                "status": null
             }
         ]
     },
@@ -921,7 +2061,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 95,
+                "status": "official"
             }
         ]
     },
@@ -933,7 +2075,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -945,11 +2089,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "kea",
-                "name": "Kabuverdianu"
+                "name": "Kabuverdianu",
+                "percentage": 91,
+                "status": null
             },
             {
                 "code": "pt",
-                "name": "Portuguese"
+                "name": "Portuguese",
+                "percentage": 76,
+                "status": "official"
             }
         ]
     },
@@ -960,12 +2108,22 @@ exports.countries = {
         "phone": "+599",
         "languages": [
             {
-                "code": "nl",
-                "name": "Dutch"
+                "code": "pap",
+                "name": "Papiamento",
+                "percentage": 81,
+                "status": "de_facto_official"
             },
             {
-                "code": "pap",
-                "name": "Papiamento"
+                "code": "nl",
+                "name": "Dutch",
+                "percentage": 8,
+                "status": "official"
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 3.7,
+                "status": null
             }
         ]
     },
@@ -977,7 +2135,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 83,
+                "status": "official"
             }
         ]
     },
@@ -989,15 +2149,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "el",
-                "name": "Greek"
+                "name": "Greek",
+                "percentage": 95,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 73,
+                "status": null
             },
             {
                 "code": "tr",
-                "name": "Turkish"
+                "name": "Turkish",
+                "percentage": 23,
+                "status": "official"
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 6.6,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 0.21,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.098,
+                "status": null
             }
         ]
     },
@@ -1009,19 +2193,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "cs",
-                "name": "Czech"
-            },
-            {
-                "code": "de",
-                "name": "German"
+                "name": "Czech",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 27,
+                "status": null
             },
             {
                 "code": "sk",
-                "name": "Slovak"
+                "name": "Slovak",
+                "percentage": 16,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 15,
+                "status": null
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 0.49,
+                "status": null
             }
         ]
     },
@@ -1032,60 +2230,148 @@ exports.countries = {
         "phone": "+49",
         "languages": [
             {
-                "code": "bar",
-                "name": "Bavarian"
-            },
-            {
-                "code": "da",
-                "name": "Danish"
-            },
-            {
                 "code": "de",
-                "name": "German"
+                "name": "German",
+                "percentage": 91,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "es",
-                "name": "Spanish"
+                "name": "English",
+                "percentage": 64,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 18,
+                "status": null
             },
             {
-                "code": "frr",
-                "name": "Northern Frisian"
-            },
-            {
-                "code": "gsw",
-                "name": "Swiss German"
-            },
-            {
-                "code": "it",
-                "name": "Italian"
+                "code": "bar",
+                "name": "Bavarian",
+                "percentage": 17,
+                "status": null
             },
             {
                 "code": "nds",
-                "name": "Low German"
+                "name": "Low German",
+                "percentage": 12,
+                "status": null
             },
             {
                 "code": "nl",
-                "name": "Dutch"
+                "name": "Dutch",
+                "percentage": 9,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 7,
+                "status": null
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 6,
+                "status": null
             },
             {
                 "code": "ru",
-                "name": "Russian"
-            },
-            {
-                "code": "tr",
-                "name": "Turkish"
+                "name": "Russian",
+                "percentage": 6,
+                "status": null
             },
             {
                 "code": "vmf",
-                "name": "Main-Franconian"
+                "name": "Main-Franconian",
+                "percentage": 6,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 2.5,
+                "status": null
+            },
+            {
+                "code": "gsw",
+                "name": "Swiss German",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "da",
+                "name": "Danish",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "hr",
+                "name": "Croatian",
+                "percentage": 0.79,
+                "status": null
+            },
+            {
+                "code": "ku",
+                "name": "Kurdish",
+                "percentage": 0.66,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.38,
+                "status": null
+            },
+            {
+                "code": "ksh",
+                "name": "Colognian",
+                "percentage": 0.3,
+                "status": null
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 0.29,
+                "status": null
+            },
+            {
+                "code": "hsb",
+                "name": "Upper Sorbian",
+                "percentage": 0.016,
+                "status": null
+            },
+            {
+                "code": "frr",
+                "name": "Northern Frisian",
+                "percentage": 0.012,
+                "status": "official_regional"
+            },
+            {
+                "code": "dsb",
+                "name": "Lower Sorbian",
+                "percentage": 0.0083,
+                "status": null
+            },
+            {
+                "code": "frs",
+                "name": "Eastern Frisian",
+                "percentage": 0.0024,
+                "status": null
+            },
+            {
+                "code": "stq",
+                "name": "Saterland Frisian",
+                "percentage": 0.0012,
+                "status": null
+            },
+            {
+                "code": "pfl",
+                "name": "Palatine German",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1096,20 +2382,28 @@ exports.countries = {
         "phone": "+253",
         "languages": [
             {
-                "code": "aa",
-                "name": "Afar"
-            },
-            {
-                "code": "ar",
-                "name": "Arabic"
-            },
-            {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 50,
+                "status": "official"
+            },
+            {
+                "code": "aa",
+                "name": "Afar",
+                "percentage": 42,
+                "status": null
             },
             {
                 "code": "so",
-                "name": "Somali"
+                "name": "Somali",
+                "percentage": 41,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 7.3,
+                "status": "official"
             }
         ]
     },
@@ -1121,19 +2415,45 @@ exports.countries = {
         "languages": [
             {
                 "code": "da",
-                "name": "Danish"
-            },
-            {
-                "code": "de",
-                "name": "German"
+                "name": "Danish",
+                "percentage": 93,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 86,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 47,
+                "status": "official_regional"
+            },
+            {
+                "code": "sv",
+                "name": "Swedish",
+                "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "fo",
+                "name": "Faroese",
+                "percentage": 0.38,
+                "status": null
             },
             {
                 "code": "kl",
-                "name": "Kalaallisut"
+                "name": "Kalaallisut",
+                "percentage": 0.12,
+                "status": "official_regional"
+            },
+            {
+                "code": "jut",
+                "name": "Jutish",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1145,7 +2465,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 94,
+                "status": "official"
             }
         ]
     },
@@ -1157,7 +2479,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 78,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 0.074,
+                "status": null
             }
         ]
     },
@@ -1168,24 +2498,34 @@ exports.countries = {
         "phone": "+213",
         "languages": [
             {
-                "code": "ar",
-                "name": "Arabic"
-            },
-            {
                 "code": "arq",
-                "name": "Algerian Arabic"
+                "name": "Algerian Arabic",
+                "percentage": 83,
+                "status": null
             },
             {
-                "code": "en",
-                "name": "English"
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 74,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 33,
+                "status": "official"
             },
             {
                 "code": "kab",
-                "name": "Kabyle"
+                "name": "Kabyle",
+                "percentage": 7.8,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 7,
+                "status": null
             }
         ]
     },
@@ -1197,15 +2537,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 96,
+                "status": "official"
             },
             {
                 "code": "qu",
-                "name": "Quechua"
+                "name": "Quechua",
+                "percentage": 17,
+                "status": "official"
             },
             {
                 "code": "qug",
-                "name": "Chimborazo Highland Quichua"
+                "name": "Chimborazo Highland Quichua",
+                "percentage": 5.7,
+                "status": null
             }
         ]
     },
@@ -1216,20 +2562,40 @@ exports.countries = {
         "phone": "+372",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
-            },
-            {
                 "code": "et",
-                "name": "Estonian"
-            },
-            {
-                "code": "fi",
-                "name": "Finnish"
+                "name": "Estonian",
+                "percentage": 71,
+                "status": "official"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 56,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 50,
+                "status": null
+            },
+            {
+                "code": "fi",
+                "name": "Finnish",
+                "percentage": 21,
+                "status": null
+            },
+            {
+                "code": "vro",
+                "name": "Võro",
+                "percentage": 5.7,
+                "status": null
+            },
+            {
+                "code": "ie",
+                "name": "Interlingue",
+                "percentage": 0.0001,
+                "status": null
             }
         ]
     },
@@ -1241,19 +2607,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 94,
+                "status": "official"
             },
             {
                 "code": "arz",
-                "name": "Egyptian Arabic"
-            },
-            {
-                "code": "cop",
-                "name": "Coptic"
+                "name": "Egyptian Arabic",
+                "percentage": 64,
+                "status": null
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 35,
+                "status": null
+            },
+            {
+                "code": "cop",
+                "name": "Coptic",
+                "percentage": 6,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.061,
+                "status": null
             }
         ]
     },
@@ -1265,7 +2645,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -1276,20 +2658,46 @@ exports.countries = {
         "phone": "+291",
         "languages": [
             {
-                "code": "ar",
-                "name": "Arabic"
+                "code": "ti",
+                "name": "Tigrinya",
+                "percentage": 60,
+                "status": "de_facto_official"
             },
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "ti",
-                "name": "Tigrinya"
+                "name": "English",
+                "percentage": 59,
+                "status": "official"
             },
             {
                 "code": "tig",
-                "name": "Tigre"
+                "name": "Tigre",
+                "percentage": 18,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 4.9,
+                "status": "official"
+            },
+            {
+                "code": "aa",
+                "name": "Afar",
+                "percentage": 3.6,
+                "status": null
+            },
+            {
+                "code": "ssy",
+                "name": "Saho",
+                "percentage": 3.6,
+                "status": null
+            },
+            {
+                "code": "byn",
+                "name": "Blin",
+                "percentage": 1.3,
+                "status": null
             }
         ]
     },
@@ -1300,32 +2708,58 @@ exports.countries = {
         "phone": "+34",
         "languages": [
             {
-                "code": "ast",
-                "name": "Asturian"
-            },
-            {
-                "code": "ca",
-                "name": "Catalan"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 99,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 24,
+                "status": null
             },
             {
-                "code": "es",
-                "name": "Spanish"
-            },
-            {
-                "code": "eu",
-                "name": "Basque"
+                "code": "ca",
+                "name": "Catalan",
+                "percentage": 17,
+                "status": "official_regional"
             },
             {
                 "code": "gl",
-                "name": "Galician"
+                "name": "Galician",
+                "percentage": 7,
+                "status": "official_regional"
+            },
+            {
+                "code": "eu",
+                "name": "Basque",
+                "percentage": 2,
+                "status": "official_regional"
+            },
+            {
+                "code": "ast",
+                "name": "Asturian",
+                "percentage": 1.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "ext",
+                "name": "Extremaduran",
+                "percentage": 0.49,
+                "status": null
+            },
+            {
+                "code": "an",
+                "name": "Aragonese",
+                "percentage": 0.052,
+                "status": null
             },
             {
                 "code": "oc",
-                "name": "Occitan"
+                "name": "Occitan",
+                "percentage": 0.01,
+                "status": "official_regional"
             }
         ]
     },
@@ -1336,36 +2770,58 @@ exports.countries = {
         "phone": "+251",
         "languages": [
             {
-                "code": "aa",
-                "name": "Afar"
+                "code": "en",
+                "name": "English",
+                "percentage": 43,
+                "status": null
             },
             {
                 "code": "am",
-                "name": "Amharic"
-            },
-            {
-                "code": "en",
-                "name": "English"
+                "name": "Amharic",
+                "percentage": 33,
+                "status": "official"
             },
             {
                 "code": "om",
-                "name": "Oromo"
-            },
-            {
-                "code": "sid",
-                "name": "Sidamo"
+                "name": "Oromo",
+                "percentage": 32,
+                "status": null
             },
             {
                 "code": "so",
-                "name": "Somali"
+                "name": "Somali",
+                "percentage": 6,
+                "status": null
             },
             {
                 "code": "ti",
-                "name": "Tigrinya"
+                "name": "Tigrinya",
+                "percentage": 6,
+                "status": null
+            },
+            {
+                "code": "sid",
+                "name": "Sidamo",
+                "percentage": 3.5,
+                "status": null
             },
             {
                 "code": "wal",
-                "name": "Wolaytta"
+                "name": "Wolaytta",
+                "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "aa",
+                "name": "Afar",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "gez",
+                "name": "Geez",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1376,24 +2832,58 @@ exports.countries = {
         "phone": "+358",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
+                "code": "fi",
+                "name": "Finnish",
+                "percentage": 94,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "fi",
-                "name": "Finnish"
-            },
-            {
-                "code": "sms",
-                "name": "Skolt Sami"
+                "name": "English",
+                "percentage": 70,
+                "status": null
             },
             {
                 "code": "sv",
-                "name": "Swedish"
+                "name": "Swedish",
+                "percentage": 44,
+                "status": "official"
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 18,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 0.81,
+                "status": null
+            },
+            {
+                "code": "et",
+                "name": "Estonian",
+                "percentage": 0.11,
+                "status": null
+            },
+            {
+                "code": "se",
+                "name": "Northern Sami",
+                "percentage": 0.036,
+                "status": null
+            },
+            {
+                "code": "smn",
+                "name": "Inari Sami",
+                "percentage": 0.011,
+                "status": null
+            },
+            {
+                "code": "sms",
+                "name": "Skolt Sami",
+                "percentage": 0.011,
+                "status": "official_regional"
             }
         ]
     },
@@ -1405,19 +2895,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "fj",
-                "name": "Fijian"
+                "name": "English",
+                "percentage": 94,
+                "status": "official"
             },
             {
                 "code": "hi",
-                "name": "Hindi"
+                "name": "Hindi",
+                "percentage": 44,
+                "status": null
             },
             {
                 "code": "hif",
-                "name": "Fiji Hindi"
+                "name": "Fiji Hindi",
+                "percentage": 41,
+                "status": "official"
+            },
+            {
+                "code": "fj",
+                "name": "Fijian",
+                "percentage": 39,
+                "status": "official"
+            },
+            {
+                "code": "rtm",
+                "name": "Rotuman",
+                "percentage": 0.26,
+                "status": null
             }
         ]
     },
@@ -1429,7 +2933,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 77,
+                "status": "official"
             }
         ]
     },
@@ -1440,16 +2946,34 @@ exports.countries = {
         "phone": "+691",
         "languages": [
             {
-                "code": "chk",
-                "name": "Chuukese"
+                "code": "en",
+                "name": "English",
+                "percentage": 57,
+                "status": "official"
             },
             {
-                "code": "en",
-                "name": "English"
+                "code": "chk",
+                "name": "Chuukese",
+                "percentage": 30,
+                "status": null
             },
             {
                 "code": "pon",
-                "name": "Pohnpeian"
+                "name": "Pohnpeian",
+                "percentage": 23,
+                "status": null
+            },
+            {
+                "code": "kos",
+                "name": "Kosraean",
+                "percentage": 8,
+                "status": null
+            },
+            {
+                "code": "yap",
+                "name": "Yapese",
+                "percentage": 6.6,
+                "status": null
             }
         ]
     },
@@ -1461,7 +2985,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fo",
-                "name": "Faroese"
+                "name": "Faroese",
+                "percentage": 95,
+                "status": "official"
             }
         ]
     },
@@ -1472,28 +2998,106 @@ exports.countries = {
         "phone": "+33",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
+                "code": "fr",
+                "name": "French",
+                "percentage": 97,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 39,
+                "status": null
             },
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 13,
+                "status": null
             },
             {
-                "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "it",
-                "name": "Italian"
+                "code": "de",
+                "name": "German",
+                "percentage": 5,
+                "status": null
             },
             {
                 "code": "oc",
-                "name": "Occitan"
+                "name": "Occitan",
+                "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "pcd",
+                "name": "Picard",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "gsw",
+                "name": "Swiss German",
+                "percentage": 0.91,
+                "status": null
+            },
+            {
+                "code": "br",
+                "name": "Breton",
+                "percentage": 0.83,
+                "status": null
+            },
+            {
+                "code": "co",
+                "name": "Corsican",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.19,
+                "status": null
+            },
+            {
+                "code": "ca",
+                "name": "Catalan",
+                "percentage": 0.17,
+                "status": null
+            },
+            {
+                "code": "eu",
+                "name": "Basque",
+                "percentage": 0.13,
+                "status": null
+            },
+            {
+                "code": "nl",
+                "name": "Dutch",
+                "percentage": 0.13,
+                "status": null
+            },
+            {
+                "code": "frp",
+                "name": "Arpitan",
+                "percentage": 0.094,
+                "status": null
+            },
+            {
+                "code": "ia",
+                "name": "Interlingua",
+                "percentage": 0.0002,
+                "status": null
             }
         ]
     },
@@ -1505,7 +3109,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 63,
+                "status": "official"
             }
         ]
     },
@@ -1516,56 +3122,148 @@ exports.countries = {
         "phone": "+44",
         "languages": [
             {
-                "code": "cy",
-                "name": "Welsh"
-            },
-            {
-                "code": "de",
-                "name": "German"
-            },
-            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "es",
-                "name": "Spanish"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 17,
+                "status": null
             },
             {
-                "code": "ga",
-                "name": "Irish"
+                "code": "de",
+                "name": "German",
+                "percentage": 9,
+                "status": null
             },
             {
-                "code": "gd",
-                "name": "Scottish Gaelic"
-            },
-            {
-                "code": "gu",
-                "name": "Gujarati"
-            },
-            {
-                "code": "pa",
-                "name": "Punjabi"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 8,
+                "status": null
             },
             {
                 "code": "pl",
-                "name": "Polish"
+                "name": "Polish",
+                "percentage": 4,
+                "status": null
             },
             {
-                "code": "sco",
-                "name": "Scots"
-            },
-            {
-                "code": "ta",
-                "name": "Tamil"
+                "code": "pa",
+                "name": "Punjabi",
+                "percentage": 3.6,
+                "status": null
             },
             {
                 "code": "ur",
-                "name": "Urdu"
+                "name": "Urdu",
+                "percentage": 3.5,
+                "status": null
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 3.2,
+                "status": null
+            },
+            {
+                "code": "gu",
+                "name": "Gujarati",
+                "percentage": 2.9,
+                "status": null
+            },
+            {
+                "code": "sco",
+                "name": "Scots",
+                "percentage": 2.5,
+                "status": null
+            },
+            {
+                "code": "cy",
+                "name": "Welsh",
+                "percentage": 1.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 0.8,
+                "status": null
+            },
+            {
+                "code": "bn",
+                "name": "Bangla",
+                "percentage": 0.4,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.3,
+                "status": null
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 0.3,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "lt",
+                "name": "Lithuanian",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "so",
+                "name": "Somali",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "ga",
+                "name": "Irish",
+                "percentage": 0.15,
+                "status": "official_regional"
+            },
+            {
+                "code": "gd",
+                "name": "Scottish Gaelic",
+                "percentage": 0.11,
+                "status": "official_regional"
+            },
+            {
+                "code": "kw",
+                "name": "Cornish",
+                "percentage": 0.0029,
+                "status": null
+            },
+            {
+                "code": "en-Shaw",
+                "name": "English (Shavian)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1577,7 +3275,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 96,
+                "status": "official"
             }
         ]
     },
@@ -1588,16 +3288,52 @@ exports.countries = {
         "phone": "+995",
         "languages": [
             {
-                "code": "ab",
-                "name": "Abkhazian"
+                "code": "ka",
+                "name": "Georgian",
+                "percentage": 86,
+                "status": "official"
             },
             {
-                "code": "ka",
-                "name": "Georgian"
+                "code": "xmf",
+                "name": "Mingrelian",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 9,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 7,
+                "status": null
+            },
+            {
+                "code": "ab",
+                "name": "Abkhazian",
+                "percentage": 2.2,
+                "status": "official_regional"
             },
             {
                 "code": "os",
-                "name": "Ossetic"
+                "name": "Ossetic",
+                "percentage": 2.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "ku",
+                "name": "Kurdish",
+                "percentage": 0.89,
+                "status": null
+            },
+            {
+                "code": "lzz-Geor",
+                "name": "Laz (Georgian)",
+                "percentage": 0.002,
+                "status": null
             }
         ]
     },
@@ -1609,7 +3345,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 62,
+                "status": "official"
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 2.5,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 2.4,
+                "status": null
             }
         ]
     },
@@ -1621,7 +3371,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -1632,28 +3384,64 @@ exports.countries = {
         "phone": "+233",
         "languages": [
             {
-                "code": "ada",
-                "name": "Adangme"
-            },
-            {
                 "code": "ak",
-                "name": "Akan"
-            },
-            {
-                "code": "ee",
-                "name": "Ewe"
+                "name": "Akan",
+                "percentage": 39,
+                "status": "official_regional"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 21,
+                "status": "official"
             },
             {
-                "code": "gaa",
-                "name": "Ga"
+                "code": "ee",
+                "name": "Ewe",
+                "percentage": 11,
+                "status": "official_regional"
             },
             {
                 "code": "gur",
-                "name": "Frafra"
+                "name": "Frafra",
+                "percentage": 3.5,
+                "status": null
+            },
+            {
+                "code": "ada",
+                "name": "Adangme",
+                "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "gaa",
+                "name": "Ga",
+                "percentage": 2.8,
+                "status": "official_regional"
+            },
+            {
+                "code": "nzi",
+                "name": "Nzima",
+                "percentage": 1,
+                "status": null
+            },
+            {
+                "code": "ha",
+                "name": "Hausa",
+                "percentage": 0.86,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1665,11 +3453,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 80,
+                "status": "official"
             },
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 50,
+                "status": null
             }
         ]
     },
@@ -1681,7 +3473,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "kl",
-                "name": "Kalaallisut"
+                "name": "Kalaallisut",
+                "percentage": 84,
+                "status": "official"
+            },
+            {
+                "code": "da",
+                "name": "Danish",
+                "percentage": 14,
+                "status": null
             }
         ]
     },
@@ -1693,11 +3493,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 40,
+                "status": "official"
             },
             {
                 "code": "man",
-                "name": "Mandingo"
+                "name": "Mandingo",
+                "percentage": 29,
+                "status": null
+            },
+            {
+                "code": "man-Nkoo",
+                "name": "Mandingo (N’Ko)",
+                "percentage": 29,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1708,20 +3530,52 @@ exports.countries = {
         "phone": "+224",
         "languages": [
             {
-                "code": "ff",
-                "name": "Fula"
+                "code": "fr",
+                "name": "French",
+                "percentage": 27,
+                "status": "official"
             },
             {
-                "code": "fr",
-                "name": "French"
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 26,
+                "status": null
             },
             {
                 "code": "man",
-                "name": "Mandingo"
+                "name": "Mandingo",
+                "percentage": 23,
+                "status": null
+            },
+            {
+                "code": "man-Nkoo",
+                "name": "Mandingo (N’Ko)",
+                "percentage": 23,
+                "status": null
             },
             {
                 "code": "sus",
-                "name": "Susu"
+                "name": "Susu",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "nqo",
+                "name": "N’Ko",
+                "percentage": 5,
+                "status": null
+            },
+            {
+                "code": "kpe",
+                "name": "Kpelle",
+                "percentage": 3.8,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1733,7 +3587,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 84,
+                "status": "official"
             }
         ]
     },
@@ -1745,19 +3601,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 87,
+                "status": "official"
             },
             {
                 "code": "fan",
-                "name": "Fang"
+                "name": "Fang",
+                "percentage": 51,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 29,
+                "status": "official"
             },
             {
                 "code": "pt",
-                "name": "Portuguese"
+                "name": "Portuguese",
+                "percentage": 0.0001,
+                "status": "official"
             }
         ]
     },
@@ -1769,11 +3633,69 @@ exports.countries = {
         "languages": [
             {
                 "code": "el",
-                "name": "Greek"
+                "name": "Greek",
+                "percentage": 99,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 51,
+                "status": null
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 7.3,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 5,
+                "status": null
+            },
+            {
+                "code": "pnt",
+                "name": "Pontic",
+                "percentage": 3.7,
+                "status": null
+            },
+            {
+                "code": "mk",
+                "name": "Macedonian",
+                "percentage": 1.6,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "bg",
+                "name": "Bulgarian",
+                "percentage": 0.27,
+                "status": null
+            },
+            {
+                "code": "sq",
+                "name": "Albanian",
+                "percentage": 0.096,
+                "status": null
+            },
+            {
+                "code": "tsd",
+                "name": "Tsakonian",
+                "percentage": 0.0019,
+                "status": null
+            },
+            {
+                "code": "grc",
+                "name": "Ancient Greek",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1785,7 +3707,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -1797,11 +3721,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 93,
+                "status": "official"
             },
             {
                 "code": "quc",
-                "name": "Kʼicheʼ"
+                "name": "Kʼicheʼ",
+                "percentage": 7,
+                "status": "official_regional"
             }
         ]
     },
@@ -1812,12 +3740,16 @@ exports.countries = {
         "phone": "+1671",
         "languages": [
             {
-                "code": "ch",
-                "name": "Chamorro"
+                "code": "en",
+                "name": "English",
+                "percentage": 91,
+                "status": "de_facto_official"
             },
             {
-                "code": "en",
-                "name": "English"
+                "code": "ch",
+                "name": "Chamorro",
+                "percentage": 22,
+                "status": "official"
             }
         ]
     },
@@ -1829,7 +3761,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "pt",
-                "name": "Portuguese"
+                "name": "Portuguese",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 15,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -1841,7 +3793,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -1852,16 +3806,28 @@ exports.countries = {
         "phone": "+852",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 95,
+                "status": "official"
             },
             {
                 "code": "yue",
-                "name": "Cantonese"
+                "name": "Cantonese",
+                "percentage": 90,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 51,
+                "status": "official"
             },
             {
                 "code": "zh",
-                "name": "Chinese"
+                "name": "Chinese",
+                "percentage": 5,
+                "status": null
             }
         ]
     },
@@ -1873,7 +3839,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "und",
-                "name": "Unknown language"
+                "name": "Unknown language",
+                "percentage": 100,
+                "status": null
             }
         ]
     },
@@ -1885,7 +3853,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 78,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 0.44,
+                "status": null
             }
         ]
     },
@@ -1896,20 +3872,28 @@ exports.countries = {
         "phone": "+385",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "hr",
+                "name": "Croatian",
+                "percentage": 99,
+                "status": "official"
             },
             {
-                "code": "hr",
-                "name": "Croatian"
+                "code": "en",
+                "name": "English",
+                "percentage": 49,
+                "status": null
             },
             {
                 "code": "it",
-                "name": "Italian"
+                "name": "Italian",
+                "percentage": 1.6,
+                "status": "official_regional"
             },
             {
                 "code": "vec",
-                "name": "Venetian"
+                "name": "Venetian",
+                "percentage": 0.7,
+                "status": "official_regional"
             }
         ]
     },
@@ -1920,12 +3904,16 @@ exports.countries = {
         "phone": "+509",
         "languages": [
             {
-                "code": "fr",
-                "name": "French"
+                "code": "ht",
+                "name": "Haitian Creole",
+                "percentage": 81,
+                "status": "official"
             },
             {
-                "code": "ht",
-                "name": "Haitian Creole"
+                "code": "fr",
+                "name": "French",
+                "percentage": 42,
+                "status": "official"
             }
         ]
     },
@@ -1936,16 +3924,52 @@ exports.countries = {
         "phone": "+36",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 20,
+                "status": null
             },
             {
-                "code": "hu",
-                "name": "Hungarian"
+                "code": "de",
+                "name": "German",
+                "percentage": 18,
+                "status": null
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 0.99,
+                "status": null
+            },
+            {
+                "code": "hr",
+                "name": "Croatian",
+                "percentage": 0.32,
+                "status": null
+            },
+            {
+                "code": "sk",
+                "name": "Slovak",
+                "percentage": 0.12,
+                "status": null
+            },
+            {
+                "code": "sl",
+                "name": "Slovenian",
+                "percentage": 0.051,
+                "status": null
             }
         ]
     },
@@ -1956,68 +3980,142 @@ exports.countries = {
         "phone": "+62",
         "languages": [
             {
-                "code": "ace",
-                "name": "Acehnese"
-            },
-            {
-                "code": "ban",
-                "name": "Balinese"
-            },
-            {
-                "code": "bbc",
-                "name": "Batak Toba"
-            },
-            {
-                "code": "bew",
-                "name": "Betawi"
-            },
-            {
-                "code": "bjn",
-                "name": "Banjar"
-            },
-            {
-                "code": "bug",
-                "name": "Buginese"
-            },
-            {
-                "code": "gor",
-                "name": "Gorontalo"
-            },
-            {
                 "code": "id",
-                "name": "Indonesian"
+                "name": "Indonesian",
+                "percentage": 64,
+                "status": "official"
             },
             {
                 "code": "jv",
-                "name": "Javanese"
-            },
-            {
-                "code": "mad",
-                "name": "Madurese"
-            },
-            {
-                "code": "mak",
-                "name": "Makasar"
-            },
-            {
-                "code": "min",
-                "name": "Minangkabau"
-            },
-            {
-                "code": "ms",
-                "name": "Malay"
-            },
-            {
-                "code": "sas",
-                "name": "Sasak"
+                "name": "Javanese",
+                "percentage": 34,
+                "status": null
             },
             {
                 "code": "su",
-                "name": "Sundanese"
+                "name": "Sundanese",
+                "percentage": 12,
+                "status": null
             },
             {
-                "code": "zh",
-                "name": "Chinese"
+                "code": "mad",
+                "name": "Madurese",
+                "percentage": 6.3,
+                "status": null
+            },
+            {
+                "code": "ms",
+                "name": "Malay",
+                "percentage": 3.4,
+                "status": null
+            },
+            {
+                "code": "min",
+                "name": "Minangkabau",
+                "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "bew",
+                "name": "Betawi",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "ban",
+                "name": "Balinese",
+                "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "bug",
+                "name": "Buginese",
+                "percentage": 1.6,
+                "status": null
+            },
+            {
+                "code": "bjn",
+                "name": "Banjar",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
+                "code": "ace",
+                "name": "Acehnese",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "ms-Arab",
+                "name": "Malay (Arabic)",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "sas",
+                "name": "Sasak",
+                "percentage": 0.97,
+                "status": null
+            },
+            {
+                "code": "bbc",
+                "name": "Batak Toba",
+                "percentage": 0.92,
+                "status": null
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 0.92,
+                "status": null
+            },
+            {
+                "code": "mak",
+                "name": "Makasar",
+                "percentage": 0.73,
+                "status": null
+            },
+            {
+                "code": "gor",
+                "name": "Gorontalo",
+                "percentage": 0.41,
+                "status": null
+            },
+            {
+                "code": "gay",
+                "name": "Gayo",
+                "percentage": 0.12,
+                "status": null
+            },
+            {
+                "code": "mdr",
+                "name": "Mandar",
+                "percentage": 0.092,
+                "status": null
+            },
+            {
+                "code": "sly",
+                "name": "Selayar",
+                "percentage": 0.054,
+                "status": null
+            },
+            {
+                "code": "mwv",
+                "name": "Mentawai",
+                "percentage": 0.024,
+                "status": null
+            },
+            {
+                "code": "ban-Bali",
+                "name": "Balinese (Balinese)",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "kaw",
+                "name": "Kawi",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -2029,11 +4127,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "ga",
-                "name": "Irish"
+                "name": "Irish",
+                "percentage": 22,
+                "status": "official"
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 13,
+                "status": null
             }
         ]
     },
@@ -2044,20 +4152,76 @@ exports.countries = {
         "phone": "+972",
         "languages": [
             {
-                "code": "ar",
-                "name": "Arabic"
+                "code": "he",
+                "name": "Hebrew",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 85,
+                "status": null
             },
             {
-                "code": "he",
-                "name": "Hebrew"
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 20,
+                "status": "official"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 3.7,
+                "status": null
+            },
+            {
+                "code": "yi",
+                "name": "Yiddish",
+                "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
+                "code": "lad",
+                "name": "Ladino",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 1,
+                "status": null
+            },
+            {
+                "code": "am",
+                "name": "Amharic",
+                "percentage": 0.59,
+                "status": null
+            },
+            {
+                "code": "ti",
+                "name": "Tigrinya",
+                "percentage": 0.11,
+                "status": null
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 0.085,
+                "status": null
             }
         ]
     },
@@ -2069,11 +4233,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "gv",
-                "name": "Manx"
+                "name": "Manx",
+                "percentage": 1.8,
+                "status": "official"
             }
         ]
     },
@@ -2084,140 +4252,286 @@ exports.countries = {
         "phone": "+91",
         "languages": [
             {
-                "code": "as",
-                "name": "Assamese"
-            },
-            {
-                "code": "awa",
-                "name": "Awadhi"
-            },
-            {
-                "code": "bgc",
-                "name": "Haryanvi"
-            },
-            {
-                "code": "bho",
-                "name": "Bhojpuri"
-            },
-            {
-                "code": "bn",
-                "name": "Bangla"
-            },
-            {
-                "code": "brx",
-                "name": "Bodo"
-            },
-            {
-                "code": "doi",
-                "name": "Dogri"
+                "code": "hi",
+                "name": "Hindi",
+                "percentage": 41,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 19,
+                "status": "official"
             },
             {
-                "code": "gon",
-                "name": "Gondi"
-            },
-            {
-                "code": "gu",
-                "name": "Gujarati"
-            },
-            {
-                "code": "hi",
-                "name": "Hindi"
-            },
-            {
-                "code": "kha",
-                "name": "Khasi"
-            },
-            {
-                "code": "kn",
-                "name": "Kannada"
-            },
-            {
-                "code": "kok",
-                "name": "Konkani"
-            },
-            {
-                "code": "kru",
-                "name": "Kurukh"
-            },
-            {
-                "code": "ks",
-                "name": "Kashmiri"
-            },
-            {
-                "code": "mag",
-                "name": "Magahi"
-            },
-            {
-                "code": "mai",
-                "name": "Maithili"
-            },
-            {
-                "code": "ml",
-                "name": "Malayalam"
-            },
-            {
-                "code": "mni",
-                "name": "Manipuri"
-            },
-            {
-                "code": "mr",
-                "name": "Marathi"
-            },
-            {
-                "code": "mwr",
-                "name": "Marwari"
-            },
-            {
-                "code": "ne",
-                "name": "Nepali"
-            },
-            {
-                "code": "or",
-                "name": "Odia"
-            },
-            {
-                "code": "pa",
-                "name": "Punjabi"
-            },
-            {
-                "code": "raj",
-                "name": "Rajasthani"
-            },
-            {
-                "code": "sa",
-                "name": "Sanskrit"
-            },
-            {
-                "code": "sat",
-                "name": "Santali"
-            },
-            {
-                "code": "sd",
-                "name": "Sindhi"
-            },
-            {
-                "code": "ta",
-                "name": "Tamil"
-            },
-            {
-                "code": "tcy",
-                "name": "Tulu"
+                "code": "bn",
+                "name": "Bangla",
+                "percentage": 8.1,
+                "status": "official_regional"
             },
             {
                 "code": "te",
-                "name": "Telugu"
+                "name": "Telugu",
+                "percentage": 7.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "mr",
+                "name": "Marathi",
+                "percentage": 7,
+                "status": "official_regional"
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 5.9,
+                "status": "official_regional"
             },
             {
                 "code": "ur",
-                "name": "Urdu"
+                "name": "Urdu",
+                "percentage": 5,
+                "status": "official_regional"
+            },
+            {
+                "code": "gu",
+                "name": "Gujarati",
+                "percentage": 4.5,
+                "status": "official_regional"
+            },
+            {
+                "code": "kn",
+                "name": "Kannada",
+                "percentage": 3.7,
+                "status": "official_regional"
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 3.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "or",
+                "name": "Odia",
+                "percentage": 3.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "pa",
+                "name": "Punjabi",
+                "percentage": 2.8,
+                "status": "official_regional"
+            },
+            {
+                "code": "bho",
+                "name": "Bhojpuri",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "awa",
+                "name": "Awadhi",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "as",
+                "name": "Assamese",
+                "percentage": 1.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "bgc",
+                "name": "Haryanvi",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "mag",
+                "name": "Magahi",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "mai",
+                "name": "Maithili",
+                "percentage": 1.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "mwr",
+                "name": "Marwari",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "ne",
+                "name": "Nepali",
+                "percentage": 0.56,
+                "status": "official_regional"
+            },
+            {
+                "code": "sat",
+                "name": "Santali",
+                "percentage": 0.55,
+                "status": "official_regional"
+            },
+            {
+                "code": "ks",
+                "name": "Kashmiri",
+                "percentage": 0.41,
+                "status": "official_regional"
+            },
+            {
+                "code": "kok",
+                "name": "Konkani",
+                "percentage": 0.32,
+                "status": "official_regional"
+            },
+            {
+                "code": "sd",
+                "name": "Sindhi",
+                "percentage": 0.26,
+                "status": "official_regional"
+            },
+            {
+                "code": "gon",
+                "name": "Gondi",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "doi",
+                "name": "Dogri",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "kru",
+                "name": "Kurukh",
+                "percentage": 0.19,
+                "status": null
             },
             {
                 "code": "xnr",
-                "name": "Kangri"
+                "name": "Kangri",
+                "percentage": 0.16,
+                "status": null
+            },
+            {
+                "code": "tcy",
+                "name": "Tulu",
+                "percentage": 0.15,
+                "status": null
+            },
+            {
+                "code": "brx",
+                "name": "Bodo",
+                "percentage": 0.14,
+                "status": null
+            },
+            {
+                "code": "sd-Deva",
+                "name": "Sindhi (Devanagari)",
+                "percentage": 0.14,
+                "status": "official_regional"
+            },
+            {
+                "code": "mni",
+                "name": "Manipuri",
+                "percentage": 0.11,
+                "status": null
+            },
+            {
+                "code": "hi-Latn",
+                "name": "Hindi (Latin)",
+                "percentage": 0.1,
+                "status": null
+            },
+            {
+                "code": "raj",
+                "name": "Rajasthani",
+                "percentage": 0.1,
+                "status": null
+            },
+            {
+                "code": "kha",
+                "name": "Khasi",
+                "percentage": 0.08,
+                "status": "official_regional"
+            },
+            {
+                "code": "saz",
+                "name": "Saurashtra",
+                "percentage": 0.029,
+                "status": null
+            },
+            {
+                "code": "ccp",
+                "name": "Chakma",
+                "percentage": 0.028,
+                "status": null
+            },
+            {
+                "code": "bfq",
+                "name": "Badaga",
+                "percentage": 0.023,
+                "status": null
+            },
+            {
+                "code": "njo",
+                "name": "Ao Naga",
+                "percentage": 0.023,
+                "status": null
+            },
+            {
+                "code": "bo",
+                "name": "Tibetan",
+                "percentage": 0.011,
+                "status": null
+            },
+            {
+                "code": "bpy",
+                "name": "Bishnupriya",
+                "percentage": 0.0068,
+                "status": null
+            },
+            {
+                "code": "bra",
+                "name": "Braj",
+                "percentage": 0.0041,
+                "status": null
+            },
+            {
+                "code": "kxv",
+                "name": "Kuvi",
+                "percentage": 0.0029,
+                "status": null
+            },
+            {
+                "code": "lah",
+                "name": "Western Panjabi",
+                "percentage": 0.0025,
+                "status": null
+            },
+            {
+                "code": "sa",
+                "name": "Sanskrit",
+                "percentage": 0.0012,
+                "status": "official_regional"
+            },
+            {
+                "code": "dv",
+                "name": "Divehi",
+                "percentage": 0.0003,
+                "status": null
+            },
+            {
+                "code": "dz",
+                "name": "Dzongkha",
+                "percentage": 0.0002,
+                "status": null
             }
         ]
     },
@@ -2229,7 +4543,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -2241,19 +4557,45 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
-            },
-            {
-                "code": "az",
-                "name": "Azerbaijani"
-            },
-            {
-                "code": "ckb",
-                "name": "Central Kurdish"
+                "name": "Arabic",
+                "percentage": 68,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 35,
+                "status": null
+            },
+            {
+                "code": "ckb",
+                "name": "Central Kurdish",
+                "percentage": 20,
+                "status": "official_regional"
+            },
+            {
+                "code": "az-Arab",
+                "name": "Azerbaijani (Arabic)",
+                "percentage": 1.8,
+                "status": "official_regional"
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 0.87,
+                "status": null
+            },
+            {
+                "code": "lrc",
+                "name": "Northern Luri",
+                "percentage": 0.61,
+                "status": null
+            },
+            {
+                "code": "syr",
+                "name": "Syriac",
+                "percentage": 0.5,
+                "status": null
             }
         ]
     },
@@ -2264,48 +4606,112 @@ exports.countries = {
         "phone": "+98",
         "languages": [
             {
-                "code": "ar",
-                "name": "Arabic"
-            },
-            {
-                "code": "az",
-                "name": "Azerbaijani"
-            },
-            {
-                "code": "bal",
-                "name": "Baluchi"
-            },
-            {
-                "code": "bqi",
-                "name": "Bakhtiari"
-            },
-            {
-                "code": "ckb",
-                "name": "Central Kurdish"
-            },
-            {
                 "code": "fa",
-                "name": "Persian"
+                "name": "Persian",
+                "percentage": 75,
+                "status": "official"
             },
             {
-                "code": "glk",
-                "name": "Gilaki"
-            },
-            {
-                "code": "lrc",
-                "name": "Northern Luri"
+                "code": "az-Arab",
+                "name": "Azerbaijani (Arabic)",
+                "percentage": 24,
+                "status": null
             },
             {
                 "code": "mzn",
-                "name": "Mazanderani"
+                "name": "Mazanderani",
+                "percentage": 5,
+                "status": null
+            },
+            {
+                "code": "glk",
+                "name": "Gilaki",
+                "percentage": 4.6,
+                "status": null
+            },
+            {
+                "code": "ckb",
+                "name": "Central Kurdish",
+                "percentage": 3.9,
+                "status": null
             },
             {
                 "code": "sdh",
-                "name": "Southern Kurdish"
+                "name": "Southern Kurdish",
+                "percentage": 3.7,
+                "status": null
             },
             {
                 "code": "tk",
-                "name": "Turkmen"
+                "name": "Turkmen",
+                "percentage": 2.8,
+                "status": null
+            },
+            {
+                "code": "lrc",
+                "name": "Northern Luri",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "bal",
+                "name": "Baluchi",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "bqi",
+                "name": "Bakhtiari",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.67,
+                "status": null
+            },
+            {
+                "code": "bgn",
+                "name": "Western Balochi",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "ps",
+                "name": "Pashto",
+                "percentage": 0.16,
+                "status": null
+            },
+            {
+                "code": "ka",
+                "name": "Georgian",
+                "percentage": 0.071,
+                "status": null
+            },
+            {
+                "code": "gbz",
+                "name": "Zoroastrian Dari",
+                "percentage": 0.0091,
+                "status": null
+            },
+            {
+                "code": "kk-Arab",
+                "name": "Kazakh (Arabic)",
+                "percentage": 0.0034,
+                "status": null
             }
         ]
     },
@@ -2317,7 +4723,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "is",
-                "name": "Icelandic"
+                "name": "Icelandic",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
+                "code": "da",
+                "name": "Danish",
+                "percentage": 0.62,
+                "status": null
             }
         ]
     },
@@ -2328,28 +4742,118 @@ exports.countries = {
         "phone": "+39",
         "languages": [
             {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 95,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 34,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "it",
-                "name": "Italian"
+                "name": "French",
+                "percentage": 20,
+                "status": "official_regional"
             },
             {
                 "code": "lmo",
-                "name": "Lombard"
+                "name": "Lombard",
+                "percentage": 5.7,
+                "status": null
             },
             {
                 "code": "sc",
-                "name": "Sardinian"
+                "name": "Sardinian",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 1.6,
+                "status": null
             },
             {
                 "code": "vec",
-                "name": "Venetian"
+                "name": "Venetian",
+                "percentage": 1.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "nap",
+                "name": "Neapolitan",
+                "percentage": 0.97,
+                "status": null
+            },
+            {
+                "code": "lij",
+                "name": "Ligurian",
+                "percentage": 0.86,
+                "status": null
+            },
+            {
+                "code": "scn",
+                "name": "Sicilian",
+                "percentage": 0.82,
+                "status": null
+            },
+            {
+                "code": "sdc",
+                "name": "Sassarese Sardinian",
+                "percentage": 0.17,
+                "status": null
+            },
+            {
+                "code": "sl",
+                "name": "Slovenian",
+                "percentage": 0.17,
+                "status": null
+            },
+            {
+                "code": "fur",
+                "name": "Friulian",
+                "percentage": 0.06,
+                "status": null
+            },
+            {
+                "code": "egl",
+                "name": "Emilian",
+                "percentage": 0.05,
+                "status": null
+            },
+            {
+                "code": "ca",
+                "name": "Catalan",
+                "percentage": 0.035,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.035,
+                "status": null
+            },
+            {
+                "code": "pms",
+                "name": "Piedmontese",
+                "percentage": 0.01,
+                "status": null
+            },
+            {
+                "code": "hr",
+                "name": "Croatian",
+                "percentage": 0.0057,
+                "status": null
+            },
+            {
+                "code": "rgn",
+                "name": "Romagnol",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -2361,7 +4865,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 95,
+                "status": "official"
             }
         ]
     },
@@ -2373,11 +4879,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "jam",
-                "name": "Jamaican Creole English"
+                "name": "Jamaican Creole English",
+                "percentage": 95,
+                "status": null
             }
         ]
     },
@@ -2389,11 +4899,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 45,
+                "status": null
             }
         ]
     },
@@ -2405,7 +4919,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ja",
-                "name": "Japanese"
+                "name": "Japanese",
+                "percentage": 95,
+                "status": "official"
+            },
+            {
+                "code": "ko",
+                "name": "Korean",
+                "percentage": 0.52,
+                "status": null
             }
         ]
     },
@@ -2416,40 +4938,118 @@ exports.countries = {
         "phone": "+254",
         "languages": [
             {
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 66,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "guz",
-                "name": "Gusii"
-            },
-            {
-                "code": "kam",
-                "name": "Kamba"
+                "name": "English",
+                "percentage": 19,
+                "status": "official"
             },
             {
                 "code": "ki",
-                "name": "Kikuyu"
-            },
-            {
-                "code": "kln",
-                "name": "Kalenjin"
-            },
-            {
-                "code": "luo",
-                "name": "Luo"
+                "name": "Kikuyu",
+                "percentage": 17,
+                "status": null
             },
             {
                 "code": "luy",
-                "name": "Luyia"
+                "name": "Luyia",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "luo",
+                "name": "Luo",
+                "percentage": 9.8,
+                "status": null
+            },
+            {
+                "code": "kam",
+                "name": "Kamba",
+                "percentage": 7.6,
+                "status": null
+            },
+            {
+                "code": "kln",
+                "name": "Kalenjin",
+                "percentage": 7.6,
+                "status": null
+            },
+            {
+                "code": "guz",
+                "name": "Gusii",
+                "percentage": 4.9,
+                "status": null
             },
             {
                 "code": "mer",
-                "name": "Meru"
+                "name": "Meru",
+                "percentage": 4,
+                "status": null
             },
             {
-                "code": "sw",
-                "name": "Swahili"
+                "code": "mas",
+                "name": "Masai",
+                "percentage": 1.6,
+                "status": null
+            },
+            {
+                "code": "ebu",
+                "name": "Embu",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
+                "code": "so",
+                "name": "Somali",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "dav",
+                "name": "Taita",
+                "percentage": 0.82,
+                "status": null
+            },
+            {
+                "code": "teo",
+                "name": "Teso",
+                "percentage": 0.74,
+                "status": null
+            },
+            {
+                "code": "om",
+                "name": "Oromo",
+                "percentage": 0.47,
+                "status": null
+            },
+            {
+                "code": "saq",
+                "name": "Samburu",
+                "percentage": 0.46,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.046,
+                "status": null
+            },
+            {
+                "code": "pa",
+                "name": "Punjabi",
+                "percentage": 0.017,
+                "status": null
+            },
+            {
+                "code": "gu",
+                "name": "Gujarati",
+                "percentage": 0.0086,
+                "status": null
             }
         ]
     },
@@ -2461,11 +5061,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "ky",
-                "name": "Kyrgyz"
+                "name": "Kyrgyz",
+                "percentage": 48,
+                "status": "official"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 36,
+                "status": "official"
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.019,
+                "status": null
             }
         ]
     },
@@ -2477,7 +5087,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "km",
-                "name": "Khmer"
+                "name": "Khmer",
+                "percentage": 89,
+                "status": "official"
             }
         ]
     },
@@ -2489,11 +5101,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "gil",
-                "name": "Gilbertese"
+                "name": "Gilbertese",
+                "percentage": 60,
+                "status": "official"
             }
         ]
     },
@@ -2505,11 +5121,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 66,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 26,
+                "status": "official"
             }
         ]
     },
@@ -2521,7 +5141,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             }
         ]
     },
@@ -2533,7 +5155,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "ko",
-                "name": "Korean"
+                "name": "Korean",
+                "percentage": 88,
+                "status": "official"
             }
         ]
     },
@@ -2545,7 +5169,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "ko",
-                "name": "Korean"
+                "name": "Korean",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -2557,7 +5183,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -2569,7 +5197,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             }
         ]
     },
@@ -2580,20 +5210,40 @@ exports.countries = {
         "phone": "+77",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
-            },
-            {
-                "code": "en",
-                "name": "English"
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 72,
+                "status": "official"
             },
             {
                 "code": "kk",
-                "name": "Kazakh"
+                "name": "Kazakh",
+                "percentage": 64,
+                "status": "official"
             },
             {
-                "code": "ru",
-                "name": "Russian"
+                "code": "en",
+                "name": "English",
+                "percentage": 15,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 6.4,
+                "status": null
+            },
+            {
+                "code": "ug-Cyrl",
+                "name": "Uyghur (Cyrillic)",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.018,
+                "status": null
             }
         ]
     },
@@ -2605,7 +5255,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "lo",
-                "name": "Lao"
+                "name": "Lao",
+                "percentage": 69,
+                "status": "official"
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 3,
+                "status": null
             }
         ]
     },
@@ -2617,15 +5275,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 86,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 40,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 38,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 5.2,
+                "status": null
+            },
+            {
+                "code": "ku-Arab",
+                "name": "Kurdish (Arabic)",
+                "percentage": 1.7,
+                "status": null
             }
         ]
     },
@@ -2637,7 +5313,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 90,
+                "status": "official"
             }
         ]
     },
@@ -2649,11 +5327,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "de",
-                "name": "German"
+                "name": "German",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "gsw",
-                "name": "Swiss German"
+                "name": "Swiss German",
+                "percentage": 85,
+                "status": "de_facto_official"
+            },
+            {
+                "code": "wae",
+                "name": "Walser",
+                "percentage": 3.2,
+                "status": null
             }
         ]
     },
@@ -2664,16 +5352,22 @@ exports.countries = {
         "phone": "+94",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
-            },
-            {
                 "code": "si",
-                "name": "Sinhala"
+                "name": "Sinhala",
+                "percentage": 68,
+                "status": "official"
             },
             {
                 "code": "ta",
-                "name": "Tamil"
+                "name": "Tamil",
+                "percentage": 15,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 10,
+                "status": null
             }
         ]
     },
@@ -2685,7 +5379,45 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 83,
+                "status": "official"
+            },
+            {
+                "code": "kpe",
+                "name": "Kpelle",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "vai",
+                "name": "Vai",
+                "percentage": 2.6,
+                "status": null
+            },
+            {
+                "code": "men",
+                "name": "Mende",
+                "percentage": 0.48,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "vai-Latn",
+                "name": "Vai (Latin)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -2696,12 +5428,34 @@ exports.countries = {
         "phone": "+266",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "st",
+                "name": "Southern Sotho",
+                "percentage": 98,
+                "status": "official"
             },
             {
-                "code": "st",
-                "name": "Southern Sotho"
+                "code": "en",
+                "name": "English",
+                "percentage": 27,
+                "status": "official"
+            },
+            {
+                "code": "zu",
+                "name": "Zulu",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "ss",
+                "name": "Swati",
+                "percentage": 2.4,
+                "status": null
+            },
+            {
+                "code": "xh",
+                "name": "Xhosa",
+                "percentage": 0.99,
+                "status": null
             }
         ]
     },
@@ -2712,16 +5466,34 @@ exports.countries = {
         "phone": "+370",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
-            },
-            {
                 "code": "lt",
-                "name": "Lithuanian"
+                "name": "Lithuanian",
+                "percentage": 86,
+                "status": "official"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 80,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 38,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "sgs",
+                "name": "Samogitian",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -2732,20 +5504,34 @@ exports.countries = {
         "phone": "+352",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
-            },
-            {
-                "code": "en",
-                "name": "English"
-            },
-            {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 92,
+                "status": "official"
             },
             {
                 "code": "lb",
-                "name": "Luxembourgish"
+                "name": "Luxembourgish",
+                "percentage": 67,
+                "status": "official"
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 63,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 56,
+                "status": null
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 16,
+                "status": null
             }
         ]
     },
@@ -2756,16 +5542,28 @@ exports.countries = {
         "phone": "+371",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "lv",
+                "name": "Latvian",
+                "percentage": 61,
+                "status": "official"
             },
             {
-                "code": "lv",
-                "name": "Latvian"
+                "code": "en",
+                "name": "English",
+                "percentage": 46,
+                "status": null
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 38,
+                "status": null
+            },
+            {
+                "code": "ltg",
+                "name": "Latgalian",
+                "percentage": 8.9,
+                "status": null
             }
         ]
     },
@@ -2777,7 +5575,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 74,
+                "status": "official"
             }
         ]
     },
@@ -2788,36 +5588,70 @@ exports.countries = {
         "phone": "+212",
         "languages": [
             {
-                "code": "ar",
-                "name": "Arabic"
-            },
-            {
                 "code": "ary",
-                "name": "Moroccan Arabic"
+                "name": "Moroccan Arabic",
+                "percentage": 87,
+                "status": null
             },
             {
-                "code": "en",
-                "name": "English"
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 62,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "rif",
-                "name": "Riffian"
-            },
-            {
-                "code": "shi",
-                "name": "Tachelhit"
-            },
-            {
-                "code": "tzm",
-                "name": "Central Atlas Tamazight"
+                "name": "French",
+                "percentage": 36,
+                "status": "de_facto_official"
             },
             {
                 "code": "zgh",
-                "name": "Standard Moroccan Tamazight"
+                "name": "Standard Moroccan Tamazight",
+                "percentage": 22,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "tzm",
+                "name": "Central Atlas Tamazight",
+                "percentage": 9.8,
+                "status": "official"
+            },
+            {
+                "code": "shi",
+                "name": "Tachelhit",
+                "percentage": 8.7,
+                "status": null
+            },
+            {
+                "code": "shi-Latn",
+                "name": "Tachelhit (Latin)",
+                "percentage": 8.7,
+                "status": null
+            },
+            {
+                "code": "rif",
+                "name": "Riffian",
+                "percentage": 4.9,
+                "status": null
+            },
+            {
+                "code": "rif-Tfng",
+                "name": "Riffian (Tifinagh)",
+                "percentage": 4.9,
+                "status": null
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 0.065,
+                "status": null
             }
         ]
     },
@@ -2829,7 +5663,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 97,
+                "status": "official"
             }
         ]
     },
@@ -2841,7 +5677,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "ro",
-                "name": "Romanian"
+                "name": "Romanian",
+                "percentage": 63,
+                "status": "official"
+            },
+            {
+                "code": "uk",
+                "name": "Ukrainian",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "bg",
+                "name": "Bulgarian",
+                "percentage": 9.4,
+                "status": null
+            },
+            {
+                "code": "gag",
+                "name": "Gagauz",
+                "percentage": 3.3,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 3,
+                "status": null
             }
         ]
     },
@@ -2852,8 +5714,22 @@ exports.countries = {
         "phone": "+382",
         "languages": [
             {
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
+                "code": "sq",
+                "name": "Albanian",
+                "percentage": 7.9,
+                "status": null
+            },
+            {
                 "code": "sr",
-                "name": "Serbian"
+                "name": "Serbian",
+                "percentage": 5,
+                "status": null
             }
         ]
     },
@@ -2865,7 +5741,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 84,
+                "status": "official"
             }
         ]
     },
@@ -2876,16 +5754,22 @@ exports.countries = {
         "phone": "+261",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "mg",
+                "name": "Malagasy",
+                "percentage": 90,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 27,
+                "status": "official"
             },
             {
-                "code": "mg",
-                "name": "Malagasy"
+                "code": "en",
+                "name": "English",
+                "percentage": 18,
+                "status": "official"
             }
         ]
     },
@@ -2897,11 +5781,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 93,
+                "status": "official"
             },
             {
                 "code": "mh",
-                "name": "Marshallese"
+                "name": "Marshallese",
+                "percentage": 73,
+                "status": "official"
             }
         ]
     },
@@ -2913,11 +5801,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "mk",
-                "name": "Macedonian"
+                "name": "Macedonian",
+                "percentage": 67,
+                "status": "official"
             },
             {
                 "code": "sq",
-                "name": "Albanian"
+                "name": "Albanian",
+                "percentage": 25,
+                "status": "official_regional"
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 3.5,
+                "status": null
             }
         ]
     },
@@ -2929,15 +5827,51 @@ exports.countries = {
         "languages": [
             {
                 "code": "bm",
-                "name": "Bambara"
+                "name": "Bambara",
+                "percentage": 46,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 17,
+                "status": "official"
             },
             {
                 "code": "snk",
-                "name": "Soninke"
+                "name": "Soninke",
+                "percentage": 5.9,
+                "status": null
+            },
+            {
+                "code": "ses",
+                "name": "Koyraboro Senni",
+                "percentage": 3.4,
+                "status": null
+            },
+            {
+                "code": "tmh",
+                "name": "Tamashek",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "bm-Nkoo",
+                "name": "Bambara (N’Ko)",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "khq",
+                "name": "Koyra Chiini",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.9,
+                "status": null
             }
         ]
     },
@@ -2949,11 +5883,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "my",
-                "name": "Burmese"
+                "name": "Burmese",
+                "percentage": 64,
+                "status": "official"
             },
             {
                 "code": "shn",
-                "name": "Shan"
+                "name": "Shan",
+                "percentage": 6.4,
+                "status": null
+            },
+            {
+                "code": "kac",
+                "name": "Kachin",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "rhg",
+                "name": "Rohingya",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.022,
+                "status": null
             }
         ]
     },
@@ -2965,7 +5921,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "mn",
-                "name": "Mongolian"
+                "name": "Mongolian",
+                "percentage": 93,
+                "status": "official"
+            },
+            {
+                "code": "kk-Arab",
+                "name": "Kazakh (Arabic)",
+                "percentage": 7.2,
+                "status": null
+            },
+            {
+                "code": "zh",
+                "name": "Chinese",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 0.12,
+                "status": null
+            },
+            {
+                "code": "ug-Cyrl",
+                "name": "Uyghur (Cyrillic)",
+                "percentage": 0.03,
+                "status": null
             }
         ]
     },
@@ -2976,20 +5958,46 @@ exports.countries = {
         "phone": "+853",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "pt",
-                "name": "Portuguese"
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "yue",
-                "name": "Cantonese"
+                "name": "Cantonese",
+                "percentage": 86,
+                "status": "de_facto_official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 23,
+                "status": null
             },
             {
                 "code": "zh",
-                "name": "Chinese"
+                "name": "Chinese",
+                "percentage": 5,
+                "status": null
+            },
+            {
+                "code": "nan",
+                "name": "Min Nan Chinese",
+                "percentage": 3.7,
+                "status": null
+            },
+            {
+                "code": "fil",
+                "name": "Filipino",
+                "percentage": 3.1,
+                "status": null
+            },
+            {
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 2.3,
+                "status": "official"
             }
         ]
     },
@@ -3001,7 +6009,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 97,
+                "status": "de_facto_official"
+            },
+            {
+                "code": "ch",
+                "name": "Chamorro",
+                "percentage": 18,
+                "status": null
             }
         ]
     },
@@ -3013,7 +6029,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 81,
+                "status": "official"
             }
         ]
     },
@@ -3025,7 +6043,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 85,
+                "status": "official"
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 5.7,
+                "status": null
+            },
+            {
+                "code": "wo",
+                "name": "Wolof",
+                "percentage": 0.23,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -3037,7 +6081,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 64,
+                "status": "official"
             }
         ]
     },
@@ -3048,16 +6094,28 @@ exports.countries = {
         "phone": "+356",
         "languages": [
             {
+                "code": "mt",
+                "name": "Maltese",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 88,
+                "status": "official"
             },
             {
                 "code": "it",
-                "name": "Italian"
+                "name": "Italian",
+                "percentage": 56,
+                "status": null
             },
             {
-                "code": "mt",
-                "name": "Maltese"
+                "code": "fr",
+                "name": "French",
+                "percentage": 13,
+                "status": null
             }
         ]
     },
@@ -3068,16 +6126,40 @@ exports.countries = {
         "phone": "+230",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "mfe",
+                "name": "Morisyen",
+                "percentage": 90,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 73,
+                "status": "official"
             },
             {
-                "code": "mfe",
-                "name": "Morisyen"
+                "code": "en",
+                "name": "English",
+                "percentage": 72,
+                "status": "official"
+            },
+            {
+                "code": "bho",
+                "name": "Bhojpuri",
+                "percentage": 8.6,
+                "status": null
+            },
+            {
+                "code": "ur",
+                "name": "Urdu",
+                "percentage": 5.2,
+                "status": null
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 2.5,
+                "status": null
             }
         ]
     },
@@ -3089,11 +6171,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "dv",
-                "name": "Divehi"
+                "name": "Divehi",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 75,
+                "status": null
             }
         ]
     },
@@ -3105,15 +6191,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 63,
+                "status": "official"
             },
             {
                 "code": "ny",
-                "name": "Nyanja"
+                "name": "Nyanja",
+                "percentage": 63,
+                "status": "official"
             },
             {
                 "code": "tum",
-                "name": "Tumbuka"
+                "name": "Tumbuka",
+                "percentage": 8.4,
+                "status": null
+            },
+            {
+                "code": "tog",
+                "name": "Nyasa Tonga",
+                "percentage": 0.98,
+                "status": null
+            },
+            {
+                "code": "zu",
+                "name": "Zulu",
+                "percentage": 0.33,
+                "status": null
             }
         ]
     },
@@ -3124,12 +6228,28 @@ exports.countries = {
         "phone": "+52",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 83,
+                "status": "de_facto_official"
             },
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "en",
+                "name": "English",
+                "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "vec",
+                "name": "Venetian",
+                "percentage": 0.0019,
+                "status": null
+            },
+            {
+                "code": "sei",
+                "name": "Seri",
+                "percentage": 0.0007,
+                "status": null
             }
         ]
     },
@@ -3140,20 +6260,64 @@ exports.countries = {
         "phone": "+60",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
-            },
-            {
                 "code": "ms",
-                "name": "Malay"
+                "name": "Malay",
+                "percentage": 75,
+                "status": "official"
             },
             {
-                "code": "ta",
-                "name": "Tamil"
+                "code": "en",
+                "name": "English",
+                "percentage": 21,
+                "status": null
             },
             {
                 "code": "zh",
-                "name": "Chinese"
+                "name": "Chinese",
+                "percentage": 17,
+                "status": null
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 4.2,
+                "status": null
+            },
+            {
+                "code": "iba",
+                "name": "Iban",
+                "percentage": 2.5,
+                "status": null
+            },
+            {
+                "code": "jv",
+                "name": "Javanese",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "dtp",
+                "name": "Central Dusun",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 0.15,
+                "status": null
+            },
+            {
+                "code": "bug",
+                "name": "Buginese",
+                "percentage": 0.079,
+                "status": null
+            },
+            {
+                "code": "bjn",
+                "name": "Banjar",
+                "percentage": 0.014,
+                "status": null
             }
         ]
     },
@@ -3164,24 +6328,58 @@ exports.countries = {
         "phone": "+258",
         "languages": [
             {
-                "code": "mgh",
-                "name": "Makhuwa-Meetto"
-            },
-            {
                 "code": "pt",
-                "name": "Portuguese"
-            },
-            {
-                "code": "seh",
-                "name": "Sena"
-            },
-            {
-                "code": "ts",
-                "name": "Tsonga"
+                "name": "Portuguese",
+                "percentage": 27,
+                "status": "official"
             },
             {
                 "code": "vmw",
-                "name": "Makhuwa"
+                "name": "Makhuwa",
+                "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "ts",
+                "name": "Tsonga",
+                "percentage": 7.9,
+                "status": null
+            },
+            {
+                "code": "seh",
+                "name": "Sena",
+                "percentage": 4.6,
+                "status": null
+            },
+            {
+                "code": "mgh",
+                "name": "Makhuwa-Meetto",
+                "percentage": 4.5,
+                "status": null
+            },
+            {
+                "code": "ny",
+                "name": "Nyanja",
+                "percentage": 2.6,
+                "status": null
+            },
+            {
+                "code": "yao",
+                "name": "Yao",
+                "percentage": 2.4,
+                "status": null
+            },
+            {
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 0.028,
+                "status": null
+            },
+            {
+                "code": "zu",
+                "name": "Zulu",
+                "percentage": 0.0054,
+                "status": null
             }
         ]
     },
@@ -3193,19 +6391,51 @@ exports.countries = {
         "languages": [
             {
                 "code": "af",
-                "name": "Afrikaans"
-            },
-            {
-                "code": "en",
-                "name": "English"
+                "name": "Afrikaans",
+                "percentage": 75,
+                "status": null
             },
             {
                 "code": "kj",
-                "name": "Kuanyama"
+                "name": "Kuanyama",
+                "percentage": 35,
+                "status": null
             },
             {
                 "code": "ng",
-                "name": "Ndonga"
+                "name": "Ndonga",
+                "percentage": 21,
+                "status": null
+            },
+            {
+                "code": "naq",
+                "name": "Nama",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "hz",
+                "name": "Herero",
+                "percentage": 9.1,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 7,
+                "status": "official"
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 0.9,
+                "status": null
+            },
+            {
+                "code": "tn",
+                "name": "Tswana",
+                "percentage": 0.56,
+                "status": null
             }
         ]
     },
@@ -3217,7 +6447,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 99,
+                "status": "official"
             }
         ]
     },
@@ -3228,20 +6460,52 @@ exports.countries = {
         "phone": "+227",
         "languages": [
             {
+                "code": "ha",
+                "name": "Hausa",
+                "percentage": 41,
+                "status": null
+            },
+            {
                 "code": "dje",
-                "name": "Zarma"
+                "name": "Zarma",
+                "percentage": 17,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "ha",
-                "name": "Hausa"
+                "name": "French",
+                "percentage": 13,
+                "status": "official"
             },
             {
                 "code": "tmh",
-                "name": "Tamashek"
+                "name": "Tamashek",
+                "percentage": 6,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.21,
+                "status": null
+            },
+            {
+                "code": "twq",
+                "name": "Tasawaq",
+                "percentage": 0.03,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -3253,7 +6517,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 96,
+                "status": "official"
             }
         ]
     },
@@ -3264,40 +6530,106 @@ exports.countries = {
         "phone": "+234",
         "languages": [
             {
-                "code": "bin",
-                "name": "Bini"
-            },
-            {
-                "code": "efi",
-                "name": "Efik"
-            },
-            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "ha",
-                "name": "Hausa"
-            },
-            {
-                "code": "ibb",
-                "name": "Ibibio"
-            },
-            {
-                "code": "ig",
-                "name": "Igbo"
+                "name": "English",
+                "percentage": 53,
+                "status": "official"
             },
             {
                 "code": "pcm",
-                "name": "Nigerian Pidgin"
+                "name": "Nigerian Pidgin",
+                "percentage": 21,
+                "status": null
             },
             {
-                "code": "tiv",
-                "name": "Tiv"
+                "code": "ha",
+                "name": "Hausa",
+                "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "ig",
+                "name": "Igbo",
+                "percentage": 13,
+                "status": null
             },
             {
                 "code": "yo",
-                "name": "Yoruba"
+                "name": "Yoruba",
+                "percentage": 13,
+                "status": "official"
+            },
+            {
+                "code": "tiv",
+                "name": "Tiv",
+                "percentage": 1.6,
+                "status": null
+            },
+            {
+                "code": "efi",
+                "name": "Efik",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "ibb",
+                "name": "Ibibio",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "ha-Arab",
+                "name": "Hausa (Arabic)",
+                "percentage": 1,
+                "status": null
+            },
+            {
+                "code": "bin",
+                "name": "Bini",
+                "percentage": 0.71,
+                "status": null
+            },
+            {
+                "code": "kaj",
+                "name": "Jju",
+                "percentage": 0.21,
+                "status": null
+            },
+            {
+                "code": "kcg",
+                "name": "Tyap",
+                "percentage": 0.093,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.071,
+                "status": null
+            },
+            {
+                "code": "cch",
+                "name": "Atsam",
+                "percentage": 0.021,
+                "status": null
+            },
+            {
+                "code": "ann",
+                "name": "Obolo",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -3309,7 +6641,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 78,
+                "status": "official"
             }
         ]
     },
@@ -3320,28 +6654,70 @@ exports.countries = {
         "phone": "+31",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
+                "code": "nl",
+                "name": "Dutch",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 90,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 71,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "fy",
-                "name": "Western Frisian"
+                "name": "French",
+                "percentage": 19,
+                "status": null
             },
             {
                 "code": "nds",
-                "name": "Low German"
+                "name": "Low German",
+                "percentage": 11,
+                "status": null
             },
             {
-                "code": "nl",
-                "name": "Dutch"
+                "code": "li",
+                "name": "Limburgish",
+                "percentage": 5.5,
+                "status": null
+            },
+            {
+                "code": "fy",
+                "name": "Western Frisian",
+                "percentage": 4.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "id",
+                "name": "Indonesian",
+                "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "zea",
+                "name": "Zeelandic",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "rif",
+                "name": "Riffian",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 1.2,
+                "status": null
             }
         ]
     },
@@ -3353,19 +6729,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "nb",
-                "name": "Norwegian Bokmål"
-            },
-            {
-                "code": "nn",
-                "name": "Norwegian Nynorsk"
+                "name": "Norwegian Bokmål",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "no",
-                "name": "Norwegian"
+                "name": "Norwegian",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
+                "code": "nn",
+                "name": "Norwegian Nynorsk",
+                "percentage": 25,
+                "status": "official"
             },
             {
                 "code": "se",
-                "name": "Northern Sami"
+                "name": "Northern Sami",
+                "percentage": 0.29,
+                "status": "official_regional"
             }
         ]
     },
@@ -3376,20 +6760,58 @@ exports.countries = {
         "phone": "+977",
         "languages": [
             {
-                "code": "bho",
-                "name": "Bhojpuri"
+                "code": "ne",
+                "name": "Nepali",
+                "percentage": 44,
+                "status": "official"
             },
             {
                 "code": "mai",
-                "name": "Maithili"
+                "name": "Maithili",
+                "percentage": 11,
+                "status": null
             },
             {
-                "code": "ne",
-                "name": "Nepali"
+                "code": "bho",
+                "name": "Bhojpuri",
+                "percentage": 6.8,
+                "status": null
             },
             {
                 "code": "new",
-                "name": "Newari"
+                "name": "Newari",
+                "percentage": 3.3,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "awa",
+                "name": "Awadhi",
+                "percentage": 2.2,
+                "status": null
+            },
+            {
+                "code": "hi",
+                "name": "Hindi",
+                "percentage": 0.42,
+                "status": null
+            },
+            {
+                "code": "bo",
+                "name": "Tibetan",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "bn",
+                "name": "Bangla",
+                "percentage": 0.094,
+                "status": null
             }
         ]
     },
@@ -3401,11 +6823,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 95,
+                "status": "official"
             },
             {
                 "code": "na",
-                "name": "Nauru"
+                "name": "Nauru",
+                "percentage": 70,
+                "status": "official"
             }
         ]
     },
@@ -3417,11 +6843,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 56,
+                "status": "official"
             },
             {
                 "code": "niu",
-                "name": "Niuean"
+                "name": "Niuean",
+                "percentage": 56,
+                "status": "official"
             }
         ]
     },
@@ -3433,11 +6863,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "de_facto_official"
             },
             {
                 "code": "mi",
-                "name": "Māori"
+                "name": "Māori",
+                "percentage": 2.8,
+                "status": "official"
             }
         ]
     },
@@ -3449,7 +6883,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 81,
+                "status": "official"
+            },
+            {
+                "code": "bal",
+                "name": "Baluchi",
+                "percentage": 4.9,
+                "status": null
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 0.94,
+                "status": null
             }
         ]
     },
@@ -3461,7 +6909,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 69,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 0.13,
+                "status": null
             }
         ]
     },
@@ -3473,11 +6935,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 73,
+                "status": "official"
             },
             {
                 "code": "qu",
-                "name": "Quechua"
+                "name": "Quechua",
+                "percentage": 15,
+                "status": "official"
+            },
+            {
+                "code": "ay",
+                "name": "Aymara",
+                "percentage": 1.6,
+                "status": null
             }
         ]
     },
@@ -3489,11 +6961,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 98,
+                "status": "official"
             },
             {
                 "code": "ty",
-                "name": "Tahitian"
+                "name": "Tahitian",
+                "percentage": 31,
+                "status": "official"
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 7.8,
+                "status": null
             }
         ]
     },
@@ -3504,16 +6986,22 @@ exports.countries = {
         "phone": "+675",
         "languages": [
             {
+                "code": "tpi",
+                "name": "Tok Pisin",
+                "percentage": 71,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 50,
+                "status": "official"
             },
             {
                 "code": "ho",
-                "name": "Hiri Motu"
-            },
-            {
-                "code": "tpi",
-                "name": "Tok Pisin"
+                "name": "Hiri Motu",
+                "percentage": 2.1,
+                "status": "official"
             }
         ]
     },
@@ -3524,44 +7012,82 @@ exports.countries = {
         "phone": "+63",
         "languages": [
             {
-                "code": "bik",
-                "name": "Bikol"
-            },
-            {
-                "code": "ceb",
-                "name": "Cebuano"
-            },
-            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "es",
-                "name": "Spanish"
+                "name": "English",
+                "percentage": 64,
+                "status": "official"
             },
             {
                 "code": "fil",
-                "name": "Filipino"
+                "name": "Filipino",
+                "percentage": 60,
+                "status": "official"
             },
             {
-                "code": "hil",
-                "name": "Hiligaynon"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 31,
+                "status": null
+            },
+            {
+                "code": "ceb",
+                "name": "Cebuano",
+                "percentage": 24,
+                "status": "official_regional"
             },
             {
                 "code": "ilo",
-                "name": "Iloko"
+                "name": "Iloko",
+                "percentage": 9.6,
+                "status": "official_regional"
             },
             {
-                "code": "pag",
-                "name": "Pangasinan"
+                "code": "hil",
+                "name": "Hiligaynon",
+                "percentage": 8.4,
+                "status": "official_regional"
             },
             {
-                "code": "pam",
-                "name": "Pampanga"
+                "code": "bik",
+                "name": "Bikol",
+                "percentage": 3,
+                "status": null
             },
             {
                 "code": "war",
-                "name": "Waray"
+                "name": "Waray",
+                "percentage": 2.9,
+                "status": "official_regional"
+            },
+            {
+                "code": "pam",
+                "name": "Pampanga",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "pag",
+                "name": "Pangasinan",
+                "percentage": 1.4,
+                "status": "official_regional"
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 0.73,
+                "status": null
+            },
+            {
+                "code": "cps",
+                "name": "Capiznon",
+                "percentage": 0.66,
+                "status": null
+            },
+            {
+                "code": "krj",
+                "name": "Kinaray-a",
+                "percentage": 0.39,
+                "status": null
             }
         ]
     },
@@ -3572,44 +7098,88 @@ exports.countries = {
         "phone": "+92",
         "languages": [
             {
-                "code": "bal",
-                "name": "Baluchi"
+                "code": "ur",
+                "name": "Urdu",
+                "percentage": 95,
+                "status": "official"
             },
             {
-                "code": "bgn",
-                "name": "Western Balochi"
-            },
-            {
-                "code": "brh",
-                "name": "Brahui"
+                "code": "pa-Arab",
+                "name": "Punjabi (Arabic)",
+                "percentage": 70,
+                "status": null
             },
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "fa",
-                "name": "Persian"
+                "name": "English",
+                "percentage": 50,
+                "status": "official"
             },
             {
                 "code": "lah",
-                "name": "Western Panjabi"
-            },
-            {
-                "code": "pa",
-                "name": "Punjabi"
+                "name": "Western Panjabi",
+                "percentage": 40,
+                "status": null
             },
             {
                 "code": "ps",
-                "name": "Pashto"
+                "name": "Pashto",
+                "percentage": 16,
+                "status": null
             },
             {
                 "code": "sd",
-                "name": "Sindhi"
+                "name": "Sindhi",
+                "percentage": 15,
+                "status": null
             },
             {
-                "code": "ur",
-                "name": "Urdu"
+                "code": "bal",
+                "name": "Baluchi",
+                "percentage": 2.6,
+                "status": null
+            },
+            {
+                "code": "brh",
+                "name": "Brahui",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 0.66,
+                "status": null
+            },
+            {
+                "code": "bgn",
+                "name": "Western Balochi",
+                "percentage": 0.57,
+                "status": null
+            },
+            {
+                "code": "tg-Arab",
+                "name": "Tajik (Arabic)",
+                "percentage": 0.33,
+                "status": null
+            },
+            {
+                "code": "khw",
+                "name": "Khowar",
+                "percentage": 0.15,
+                "status": null
+            },
+            {
+                "code": "ks",
+                "name": "Kashmiri",
+                "percentage": 0.069,
+                "status": null
+            },
+            {
+                "code": "trw",
+                "name": "Torwali",
+                "percentage": 0.053,
+                "status": null
             }
         ]
     },
@@ -3620,28 +7190,70 @@ exports.countries = {
         "phone": "+48",
         "languages": [
             {
-                "code": "csb",
-                "name": "Kashubian"
-            },
-            {
-                "code": "de",
-                "name": "German"
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 96,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 33,
+                "status": null
             },
             {
-                "code": "lt",
-                "name": "Lithuanian"
-            },
-            {
-                "code": "pl",
-                "name": "Polish"
+                "code": "de",
+                "name": "German",
+                "percentage": 19,
+                "status": "official_regional"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 18,
+                "status": null
+            },
+            {
+                "code": "szl",
+                "name": "Silesian",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "be",
+                "name": "Belarusian",
+                "percentage": 0.58,
+                "status": null
+            },
+            {
+                "code": "uk",
+                "name": "Ukrainian",
+                "percentage": 0.39,
+                "status": null
+            },
+            {
+                "code": "csb",
+                "name": "Kashubian",
+                "percentage": 0.13,
+                "status": "official_regional"
+            },
+            {
+                "code": "sli",
+                "name": "Lower Silesian",
+                "percentage": 0.031,
+                "status": null
+            },
+            {
+                "code": "lt",
+                "name": "Lithuanian",
+                "percentage": 0.021,
+                "status": "official_regional"
+            },
+            {
+                "code": "prg",
+                "name": "Prussian",
+                "percentage": 0.0001,
+                "status": null
             }
         ]
     },
@@ -3653,7 +7265,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 100,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 3.7,
+                "status": null
             }
         ]
     },
@@ -3665,7 +7285,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 92,
+                "status": "official"
             }
         ]
     },
@@ -3676,12 +7298,16 @@ exports.countries = {
         "phone": "+1939",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 87,
+                "status": "official"
             },
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "en",
+                "name": "English",
+                "percentage": 49,
+                "status": "de_facto_official"
             }
         ]
     },
@@ -3693,7 +7319,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 100,
+                "status": "official"
             }
         ]
     },
@@ -3704,20 +7332,34 @@ exports.countries = {
         "phone": "+351",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 96,
+                "status": "official"
             },
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "en",
+                "name": "English",
+                "percentage": 27,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 15,
+                "status": null
             },
             {
-                "code": "pt",
-                "name": "Portuguese"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 10,
+                "status": null
+            },
+            {
+                "code": "gl",
+                "name": "Galician",
+                "percentage": 0.14,
+                "status": null
             }
         ]
     },
@@ -3728,12 +7370,16 @@ exports.countries = {
         "phone": "+680",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "pau",
+                "name": "Palauan",
+                "percentage": 74,
+                "status": "official"
             },
             {
-                "code": "pau",
-                "name": "Palauan"
+                "code": "en",
+                "name": "English",
+                "percentage": 8.6,
+                "status": "official"
             }
         ]
     },
@@ -3744,12 +7390,22 @@ exports.countries = {
         "phone": "+595",
         "languages": [
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "gn",
+                "name": "Guarani",
+                "percentage": 80,
+                "status": "official"
             },
             {
-                "code": "gn",
-                "name": "Guarani"
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 3.2,
+                "status": "official"
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 2.9,
+                "status": null
             }
         ]
     },
@@ -3761,7 +7417,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 89,
+                "status": "official"
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 0.25,
+                "status": null
             }
         ]
     },
@@ -3773,7 +7443,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 89,
+                "status": "official"
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 15,
+                "status": null
             }
         ]
     },
@@ -3784,24 +7462,70 @@ exports.countries = {
         "phone": "+40",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 90,
+                "status": "official"
             },
             {
-                "code": "es",
-                "name": "Spanish"
+                "code": "en",
+                "name": "English",
+                "percentage": 31,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 12,
+                "status": null
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 10,
+                "status": null
             },
             {
                 "code": "hu",
-                "name": "Hungarian"
+                "name": "Hungarian",
+                "percentage": 6.6,
+                "status": null
             },
             {
-                "code": "ro",
-                "name": "Romanian"
+                "code": "de",
+                "name": "German",
+                "percentage": 0.21,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 0.13,
+                "status": null
+            },
+            {
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
+                "percentage": 0.12,
+                "status": null
+            },
+            {
+                "code": "bg",
+                "name": "Bulgarian",
+                "percentage": 0.037,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.023,
+                "status": null
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 0.015,
+                "status": null
             }
         ]
     },
@@ -3812,32 +7536,52 @@ exports.countries = {
         "phone": "+381",
         "languages": [
             {
-                "code": "hr",
-                "name": "Croatian"
+                "code": "sr",
+                "name": "Serbian",
+                "percentage": 99,
+                "status": "official"
             },
             {
-                "code": "hu",
-                "name": "Hungarian"
-            },
-            {
-                "code": "ro",
-                "name": "Romanian"
-            },
-            {
-                "code": "sk",
-                "name": "Slovak"
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
+                "percentage": 99,
+                "status": "official"
             },
             {
                 "code": "sq",
-                "name": "Albanian"
+                "name": "Albanian",
+                "percentage": 19,
+                "status": null
             },
             {
-                "code": "sr",
-                "name": "Serbian"
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 4.8,
+                "status": "official_regional"
+            },
+            {
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 2.1,
+                "status": "official_regional"
+            },
+            {
+                "code": "hr",
+                "name": "Croatian",
+                "percentage": 0.93,
+                "status": "official_regional"
+            },
+            {
+                "code": "sk",
+                "name": "Slovak",
+                "percentage": 0.85,
+                "status": "official_regional"
             },
             {
                 "code": "uk",
-                "name": "Ukrainian"
+                "name": "Ukrainian",
+                "percentage": 0,
+                "status": "official_regional"
             }
         ]
     },
@@ -3848,88 +7592,226 @@ exports.countries = {
         "phone": "+7",
         "languages": [
             {
-                "code": "ady",
-                "name": "Adyghe"
-            },
-            {
-                "code": "av",
-                "name": "Avaric"
-            },
-            {
-                "code": "az",
-                "name": "Azerbaijani"
-            },
-            {
-                "code": "ba",
-                "name": "Bashkir"
-            },
-            {
-                "code": "ce",
-                "name": "Chechen"
-            },
-            {
-                "code": "cv",
-                "name": "Chuvash"
-            },
-            {
-                "code": "hy",
-                "name": "Armenian"
-            },
-            {
-                "code": "inh",
-                "name": "Ingush"
-            },
-            {
-                "code": "kbd",
-                "name": "Kabardian"
-            },
-            {
-                "code": "koi",
-                "name": "Komi-Permyak"
-            },
-            {
-                "code": "krc",
-                "name": "Karachay-Balkar"
-            },
-            {
-                "code": "kum",
-                "name": "Kumyk"
-            },
-            {
-                "code": "kv",
-                "name": "Komi"
-            },
-            {
-                "code": "lez",
-                "name": "Lezghian"
-            },
-            {
-                "code": "mdf",
-                "name": "Moksha"
-            },
-            {
-                "code": "myv",
-                "name": "Erzya"
-            },
-            {
                 "code": "ru",
-                "name": "Russian"
-            },
-            {
-                "code": "sah",
-                "name": "Yakut"
+                "name": "Russian",
+                "percentage": 94,
+                "status": "official"
             },
             {
                 "code": "tt",
-                "name": "Tatar"
+                "name": "Tatar",
+                "percentage": 1.4,
+                "status": "official_regional"
             },
             {
-                "code": "tyv",
-                "name": "Tuvinian"
+                "code": "ba",
+                "name": "Bashkir",
+                "percentage": 1.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "cv",
+                "name": "Chuvash",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 0.84,
+                "status": null
+            },
+            {
+                "code": "ce",
+                "name": "Chechen",
+                "percentage": 0.66,
+                "status": "official_regional"
+            },
+            {
+                "code": "av",
+                "name": "Avaric",
+                "percentage": 0.39,
+                "status": "official_regional"
             },
             {
                 "code": "udm",
-                "name": "Udmurt"
+                "name": "Udmurt",
+                "percentage": 0.38,
+                "status": "official_regional"
+            },
+            {
+                "code": "chm",
+                "name": "Mari",
+                "percentage": 0.37,
+                "status": null
+            },
+            {
+                "code": "os",
+                "name": "Ossetic",
+                "percentage": 0.32,
+                "status": null
+            },
+            {
+                "code": "sah",
+                "name": "Yakut",
+                "percentage": 0.32,
+                "status": "official_regional"
+            },
+            {
+                "code": "kbd",
+                "name": "Kabardian",
+                "percentage": 0.31,
+                "status": "official_regional"
+            },
+            {
+                "code": "myv",
+                "name": "Erzya",
+                "percentage": 0.31,
+                "status": "official_regional"
+            },
+            {
+                "code": "dar",
+                "name": "Dargwa",
+                "percentage": 0.26,
+                "status": null
+            },
+            {
+                "code": "bua",
+                "name": "Buriat",
+                "percentage": 0.22,
+                "status": null
+            },
+            {
+                "code": "mdf",
+                "name": "Moksha",
+                "percentage": 0.21,
+                "status": "official_regional"
+            },
+            {
+                "code": "kum",
+                "name": "Kumyk",
+                "percentage": 0.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "kv",
+                "name": "Komi",
+                "percentage": 0.18,
+                "status": "official_regional"
+            },
+            {
+                "code": "lez",
+                "name": "Lezghian",
+                "percentage": 0.18,
+                "status": "official_regional"
+            },
+            {
+                "code": "krc",
+                "name": "Karachay-Balkar",
+                "percentage": 0.17,
+                "status": "official_regional"
+            },
+            {
+                "code": "inh",
+                "name": "Ingush",
+                "percentage": 0.16,
+                "status": "official_regional"
+            },
+            {
+                "code": "tyv",
+                "name": "Tuvinian",
+                "percentage": 0.13,
+                "status": "official_regional"
+            },
+            {
+                "code": "az-Cyrl",
+                "name": "Azerbaijani (Cyrillic)",
+                "percentage": 0.093,
+                "status": "official_regional"
+            },
+            {
+                "code": "ady",
+                "name": "Adyghe",
+                "percentage": 0.088,
+                "status": "official_regional"
+            },
+            {
+                "code": "krl",
+                "name": "Karelian",
+                "percentage": 0.082,
+                "status": null
+            },
+            {
+                "code": "koi",
+                "name": "Komi-Permyak",
+                "percentage": 0.045,
+                "status": "official_regional"
+            },
+            {
+                "code": "pnt-Cyrl",
+                "name": "Pontic (Cyrillic)",
+                "percentage": 0.04,
+                "status": null
+            },
+            {
+                "code": "mrj",
+                "name": "Western Mari",
+                "percentage": 0.021,
+                "status": null
+            },
+            {
+                "code": "alt",
+                "name": "Southern Altai",
+                "percentage": 0.014,
+                "status": null
+            },
+            {
+                "code": "fi",
+                "name": "Finnish",
+                "percentage": 0.012,
+                "status": null
+            },
+            {
+                "code": "sr",
+                "name": "Serbian",
+                "percentage": 0.0041,
+                "status": null
+            },
+            {
+                "code": "vep",
+                "name": "Veps",
+                "percentage": 0.0026,
+                "status": null
+            },
+            {
+                "code": "mn",
+                "name": "Mongolian",
+                "percentage": 0.0015,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.0006,
+                "status": null
+            },
+            {
+                "code": "izh",
+                "name": "Ingrian",
+                "percentage": 0.0001,
+                "status": null
+            },
+            {
+                "code": "cu",
+                "name": "Church Slavic",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "vot",
+                "name": "Votic",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -3940,16 +7822,22 @@ exports.countries = {
         "phone": "+250",
         "languages": [
             {
+                "code": "rw",
+                "name": "Kinyarwanda",
+                "percentage": 77,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 15,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
-            },
-            {
-                "code": "rw",
-                "name": "Kinyarwanda"
+                "name": "French",
+                "percentage": 5.8,
+                "status": "official"
             }
         ]
     },
@@ -3961,11 +7849,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "ars",
-                "name": "Najdi Arabic"
+                "name": "Najdi Arabic",
+                "percentage": 3,
+                "status": null
             }
         ]
     },
@@ -3977,11 +7869,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "official"
             },
             {
                 "code": "pis",
-                "name": "Pijin"
+                "name": "Pijin",
+                "percentage": 82,
+                "status": null
+            },
+            {
+                "code": "rug",
+                "name": "Roviana",
+                "percentage": 1.4,
+                "status": null
             }
         ]
     },
@@ -3993,15 +7895,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "crs",
-                "name": "Seselwa Creole French"
-            },
-            {
-                "code": "en",
-                "name": "English"
+                "name": "Seselwa Creole French",
+                "percentage": 98,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 53,
+                "status": "official"
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 38,
+                "status": "official"
             }
         ]
     },
@@ -4013,15 +7921,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
-            },
-            {
-                "code": "bej",
-                "name": "Beja"
+                "name": "Arabic",
+                "percentage": 61,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 61,
+                "status": "official"
+            },
+            {
+                "code": "bej",
+                "name": "Beja",
+                "percentage": 5.4,
+                "status": null
+            },
+            {
+                "code": "ha-Arab",
+                "name": "Hausa (Arabic)",
+                "percentage": 1.8,
+                "status": null
             }
         ]
     },
@@ -4032,16 +7952,58 @@ exports.countries = {
         "phone": "+46",
         "languages": [
             {
+                "code": "sv",
+                "name": "Swedish",
+                "percentage": 95,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 86,
+                "status": null
             },
             {
                 "code": "fi",
-                "name": "Finnish"
+                "name": "Finnish",
+                "percentage": 2.2,
+                "status": "official_regional"
             },
             {
-                "code": "sv",
-                "name": "Swedish"
+                "code": "fit",
+                "name": "Tornedalen Finnish",
+                "percentage": 0.55,
+                "status": null
+            },
+            {
+                "code": "se",
+                "name": "Northern Sami",
+                "percentage": 0.33,
+                "status": null
+            },
+            {
+                "code": "yi",
+                "name": "Yiddish",
+                "percentage": 0.028,
+                "status": null
+            },
+            {
+                "code": "smj",
+                "name": "Lule Sami",
+                "percentage": 0.014,
+                "status": null
+            },
+            {
+                "code": "sma",
+                "name": "Southern Sami",
+                "percentage": 0.0028,
+                "status": null
+            },
+            {
+                "code": "ia",
+                "name": "Interlingua",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -4053,19 +8015,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "ms",
-                "name": "Malay"
-            },
-            {
-                "code": "ta",
-                "name": "Tamil"
+                "name": "English",
+                "percentage": 93,
+                "status": "official"
             },
             {
                 "code": "zh",
-                "name": "Chinese"
+                "name": "Chinese",
+                "percentage": 77,
+                "status": "official"
+            },
+            {
+                "code": "ms",
+                "name": "Malay",
+                "percentage": 14,
+                "status": "official"
+            },
+            {
+                "code": "ta",
+                "name": "Tamil",
+                "percentage": 2.1,
+                "status": "official"
+            },
+            {
+                "code": "ml",
+                "name": "Malayalam",
+                "percentage": 0.17,
+                "status": null
+            },
+            {
+                "code": "pa",
+                "name": "Punjabi",
+                "percentage": 0.16,
+                "status": null
             }
         ]
     },
@@ -4077,7 +8059,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 68,
+                "status": "official"
             }
         ]
     },
@@ -4088,24 +8072,46 @@ exports.countries = {
         "phone": "+386",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
-            },
-            {
-                "code": "en",
-                "name": "English"
+                "code": "sl",
+                "name": "Slovenian",
+                "percentage": 87,
+                "status": "official"
             },
             {
                 "code": "hr",
-                "name": "Croatian"
+                "name": "Croatian",
+                "percentage": 61,
+                "status": null
             },
             {
-                "code": "sl",
-                "name": "Slovenian"
+                "code": "en",
+                "name": "English",
+                "percentage": 59,
+                "status": null
+            },
+            {
+                "code": "de",
+                "name": "German",
+                "percentage": 42,
+                "status": null
             },
             {
                 "code": "vec",
-                "name": "Venetian"
+                "name": "Venetian",
+                "percentage": 1.4,
+                "status": "official_regional"
+            },
+            {
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 0.44,
+                "status": null
+            },
+            {
+                "code": "it",
+                "name": "Italian",
+                "percentage": 0.19,
+                "status": null
             }
         ]
     },
@@ -4117,11 +8123,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "nb",
-                "name": "Norwegian Bokmål"
+                "name": "Norwegian Bokmål",
+                "percentage": 51,
+                "status": "official"
             },
             {
                 "code": "ru",
-                "name": "Russian"
+                "name": "Russian",
+                "percentage": 41,
+                "status": null
             }
         ]
     },
@@ -4132,20 +8142,46 @@ exports.countries = {
         "phone": "+421",
         "languages": [
             {
-                "code": "cs",
-                "name": "Czech"
+                "code": "sk",
+                "name": "Slovak",
+                "percentage": 90,
+                "status": "official"
             },
             {
-                "code": "de",
-                "name": "German"
+                "code": "cs",
+                "name": "Czech",
+                "percentage": 47,
+                "status": null
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 26,
+                "status": null
             },
             {
-                "code": "sk",
-                "name": "Slovak"
+                "code": "de",
+                "name": "German",
+                "percentage": 22,
+                "status": null
+            },
+            {
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "uk",
+                "name": "Ukrainian",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 0.93,
+                "status": null
             }
         ]
     },
@@ -4156,20 +8192,40 @@ exports.countries = {
         "phone": "+232",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "kri",
+                "name": "Krio",
+                "percentage": 95,
+                "status": null
             },
             {
-                "code": "kri",
-                "name": "Krio"
+                "code": "en",
+                "name": "English",
+                "percentage": 35,
+                "status": "official"
             },
             {
                 "code": "men",
-                "name": "Mende"
+                "name": "Mende",
+                "percentage": 27,
+                "status": null
             },
             {
                 "code": "tem",
-                "name": "Timne"
+                "name": "Timne",
+                "percentage": 26,
+                "status": null
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -4181,7 +8237,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "it",
-                "name": "Italian"
+                "name": "Italian",
+                "percentage": 89,
+                "status": "official"
+            },
+            {
+                "code": "eo",
+                "name": "Esperanto",
+                "percentage": 0.85,
+                "status": null
             }
         ]
     },
@@ -4192,24 +8256,40 @@ exports.countries = {
         "phone": "+221",
         "languages": [
             {
-                "code": "dyo",
-                "name": "Jola-Fonyi"
-            },
-            {
-                "code": "ff",
-                "name": "Fula"
+                "code": "wo",
+                "name": "Wolof",
+                "percentage": 70,
+                "status": "de_facto_official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 26,
+                "status": "official"
+            },
+            {
+                "code": "ff",
+                "name": "Fula",
+                "percentage": 21,
+                "status": "official_regional"
             },
             {
                 "code": "srr",
-                "name": "Serer"
+                "name": "Serer",
+                "percentage": 11,
+                "status": "official_regional"
             },
             {
-                "code": "wo",
-                "name": "Wolof"
+                "code": "dyo",
+                "name": "Jola-Fonyi",
+                "percentage": 2.6,
+                "status": "official_regional"
+            },
+            {
+                "code": "ff-Adlm",
+                "name": "Fula (Adlam)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -4220,12 +8300,28 @@ exports.countries = {
         "phone": "+252",
         "languages": [
             {
-                "code": "ar",
-                "name": "Arabic"
+                "code": "so",
+                "name": "Somali",
+                "percentage": 78,
+                "status": "official"
             },
             {
-                "code": "so",
-                "name": "Somali"
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 34,
+                "status": "official"
+            },
+            {
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "om",
+                "name": "Oromo",
+                "percentage": 0.42,
+                "status": null
             }
         ]
     },
@@ -4237,11 +8333,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "nl",
-                "name": "Dutch"
+                "name": "Dutch",
+                "percentage": 90,
+                "status": "official"
             },
             {
                 "code": "srn",
-                "name": "Sranan Tongo"
+                "name": "Sranan Tongo",
+                "percentage": 68,
+                "status": null
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.36,
+                "status": null
             }
         ]
     },
@@ -4253,11 +8365,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 27,
+                "status": null
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 27,
+                "status": "official"
+            },
+            {
+                "code": "nus",
+                "name": "Nuer",
+                "percentage": 5.6,
+                "status": null
             }
         ]
     },
@@ -4268,12 +8390,16 @@ exports.countries = {
         "phone": "+239",
         "languages": [
             {
-                "code": "fr",
-                "name": "French"
+                "code": "pt",
+                "name": "Portuguese",
+                "percentage": 85,
+                "status": "official"
             },
             {
-                "code": "pt",
-                "name": "Portuguese"
+                "code": "fr",
+                "name": "French",
+                "percentage": 20,
+                "status": null
             }
         ]
     },
@@ -4285,7 +8411,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 89,
+                "status": "official"
             }
         ]
     },
@@ -4297,11 +8425,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 68,
+                "status": "official"
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 11,
+                "status": null
             },
             {
                 "code": "nl",
-                "name": "Dutch"
+                "name": "Dutch",
+                "percentage": 3.4,
+                "status": "official"
             }
         ]
     },
@@ -4313,15 +8451,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
-            },
-            {
-                "code": "fr",
-                "name": "French"
+                "name": "Arabic",
+                "percentage": 80,
+                "status": "official"
             },
             {
                 "code": "ku",
-                "name": "Kurdish"
+                "name": "Kurdish",
+                "percentage": 8,
+                "status": null
+            },
+            {
+                "code": "fr",
+                "name": "French",
+                "percentage": 5.9,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "syr",
+                "name": "Syriac",
+                "percentage": 0.084,
+                "status": null
             }
         ]
     },
@@ -4333,11 +8489,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 80,
+                "status": "official"
             },
             {
                 "code": "ss",
-                "name": "Swati"
+                "name": "Swati",
+                "percentage": 58,
+                "status": "official"
+            },
+            {
+                "code": "zu",
+                "name": "Zulu",
+                "percentage": 6.8,
+                "status": null
+            },
+            {
+                "code": "ts",
+                "name": "Tsonga",
+                "percentage": 1.7,
+                "status": null
             }
         ]
     },
@@ -4349,7 +8521,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             }
         ]
     },
@@ -4361,11 +8535,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 17,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 13,
+                "status": "official"
             }
         ]
     },
@@ -4377,7 +8555,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 100,
+                "status": null
             }
         ]
     },
@@ -4388,12 +8568,22 @@ exports.countries = {
         "phone": "+228",
         "languages": [
             {
-                "code": "ee",
-                "name": "Ewe"
+                "code": "fr",
+                "name": "French",
+                "percentage": 41,
+                "status": "official"
             },
             {
-                "code": "fr",
-                "name": "French"
+                "code": "ee",
+                "name": "Ewe",
+                "percentage": 17,
+                "status": null
+            },
+            {
+                "code": "blo",
+                "name": "Anii",
+                "percentage": 0.15,
+                "status": null
             }
         ]
     },
@@ -4404,16 +8594,34 @@ exports.countries = {
         "phone": "+66",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
-            },
-            {
                 "code": "th",
-                "name": "Thai"
+                "name": "Thai",
+                "percentage": 80,
+                "status": "official"
             },
             {
-                "code": "zh",
-                "name": "Chinese"
+                "code": "en",
+                "name": "English",
+                "percentage": 27,
+                "status": null
+            },
+            {
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.098,
+                "status": null
+            },
+            {
+                "code": "shn",
+                "name": "Shan",
+                "percentage": 0.096,
+                "status": null
             }
         ]
     },
@@ -4424,12 +8632,28 @@ exports.countries = {
         "phone": "+992",
         "languages": [
             {
-                "code": "ru",
-                "name": "Russian"
+                "code": "tg",
+                "name": "Tajik",
+                "percentage": 100,
+                "status": "official"
             },
             {
-                "code": "tg",
-                "name": "Tajik"
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 12,
+                "status": null
+            },
+            {
+                "code": "fa",
+                "name": "Persian",
+                "percentage": 0.78,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.0096,
+                "status": null
             }
         ]
     },
@@ -4440,16 +8664,22 @@ exports.countries = {
         "phone": "+690",
         "languages": [
             {
+                "code": "tkl",
+                "name": "Tokelau",
+                "percentage": 69,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 38,
+                "status": "official"
             },
             {
                 "code": "sm",
-                "name": "Samoan"
-            },
-            {
-                "code": "tkl",
-                "name": "Tokelau"
+                "name": "Samoan",
+                "percentage": 20,
+                "status": null
             }
         ]
     },
@@ -4461,11 +8691,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "pt",
-                "name": "Portuguese"
+                "name": "Portuguese",
+                "percentage": 59,
+                "status": "official"
             },
             {
                 "code": "tet",
-                "name": "Tetum"
+                "name": "Tetum",
+                "percentage": 59,
+                "status": "official"
             }
         ]
     },
@@ -4477,7 +8711,33 @@ exports.countries = {
         "languages": [
             {
                 "code": "tk",
-                "name": "Turkmen"
+                "name": "Turkmen",
+                "percentage": 70,
+                "status": "official"
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 12,
+                "status": null
+            },
+            {
+                "code": "uz",
+                "name": "Uzbek",
+                "percentage": 9,
+                "status": null
+            },
+            {
+                "code": "ku",
+                "name": "Kurdish",
+                "percentage": 0.4,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.1,
+                "status": null
             }
         ]
     },
@@ -4489,15 +8749,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "aeb",
-                "name": "Tunisian Arabic"
+                "name": "Tunisian Arabic",
+                "percentage": 90,
+                "status": null
             },
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 90,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 53,
+                "status": "official"
             }
         ]
     },
@@ -4508,12 +8774,16 @@ exports.countries = {
         "phone": "+676",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "to",
+                "name": "Tongan",
+                "percentage": 95,
+                "status": "official"
             },
             {
-                "code": "to",
-                "name": "Tongan"
+                "code": "en",
+                "name": "English",
+                "percentage": 28,
+                "status": "official"
             }
         ]
     },
@@ -4524,20 +8794,148 @@ exports.countries = {
         "phone": "+90",
         "languages": [
             {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 93,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 17,
+                "status": null
             },
             {
                 "code": "ku",
-                "name": "Kurdish"
-            },
-            {
-                "code": "tr",
-                "name": "Turkish"
+                "name": "Kurdish",
+                "percentage": 5.5,
+                "status": null
             },
             {
                 "code": "zza",
-                "name": "Zaza"
+                "name": "Zaza",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "kbd",
+                "name": "Kabardian",
+                "percentage": 0.77,
+                "status": null
+            },
+            {
+                "code": "az",
+                "name": "Azerbaijani",
+                "percentage": 0.74,
+                "status": null
+            },
+            {
+                "code": "az-Arab",
+                "name": "Azerbaijani (Arabic)",
+                "percentage": 0.65,
+                "status": null
+            },
+            {
+                "code": "ar",
+                "name": "Arabic",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "bg",
+                "name": "Bulgarian",
+                "percentage": 0.42,
+                "status": null
+            },
+            {
+                "code": "ady",
+                "name": "Adyghe",
+                "percentage": 0.39,
+                "status": null
+            },
+            {
+                "code": "kiu",
+                "name": "Kirmanjki",
+                "percentage": 0.19,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 0.1,
+                "status": null
+            },
+            {
+                "code": "hy",
+                "name": "Armenian",
+                "percentage": 0.056,
+                "status": null
+            },
+            {
+                "code": "ka",
+                "name": "Georgian",
+                "percentage": 0.056,
+                "status": null
+            },
+            {
+                "code": "lzz",
+                "name": "Laz",
+                "percentage": 0.028,
+                "status": null
+            },
+            {
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
+                "percentage": 0.028,
+                "status": null
+            },
+            {
+                "code": "sq",
+                "name": "Albanian",
+                "percentage": 0.021,
+                "status": null
+            },
+            {
+                "code": "pnt-Latn",
+                "name": "Pontic (Latin)",
+                "percentage": 0.0061,
+                "status": null
+            },
+            {
+                "code": "ab",
+                "name": "Abkhazian",
+                "percentage": 0.0048,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.0048,
+                "status": null
+            },
+            {
+                "code": "tru",
+                "name": "Turoyo",
+                "percentage": 0.0036,
+                "status": null
+            },
+            {
+                "code": "uz",
+                "name": "Uzbek",
+                "percentage": 0.0024,
+                "status": null
+            },
+            {
+                "code": "ky-Latn",
+                "name": "Kyrgyz (Latin)",
+                "percentage": 0.0014,
+                "status": null
+            },
+            {
+                "code": "kk",
+                "name": "Kazakh",
+                "percentage": 0.0007,
+                "status": null
             }
         ]
     },
@@ -4549,7 +8947,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 88,
+                "status": "official"
+            },
+            {
+                "code": "es",
+                "name": "Spanish",
+                "percentage": 0.29,
+                "status": null
             }
         ]
     },
@@ -4560,12 +8966,16 @@ exports.countries = {
         "phone": "+688",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "tvl",
+                "name": "Tuvalu",
+                "percentage": 85,
+                "status": "official"
             },
             {
-                "code": "tvl",
-                "name": "Tuvalu"
+                "code": "en",
+                "name": "English",
+                "percentage": 9.1,
+                "status": "official"
             }
         ]
     },
@@ -4576,16 +8986,28 @@ exports.countries = {
         "phone": "+886",
         "languages": [
             {
-                "code": "hak",
-                "name": "Hakka Chinese"
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 95,
+                "status": "official"
             },
             {
-                "code": "nan",
-                "name": "Min Nan Chinese"
+                "code": "nan-Hant",
+                "name": "Min Nan Chinese (Traditional)",
+                "percentage": 57,
+                "status": "official"
             },
             {
-                "code": "zh",
-                "name": "Chinese"
+                "code": "hak-Hant",
+                "name": "Hakka Chinese (Traditional)",
+                "percentage": 11,
+                "status": "official"
+            },
+            {
+                "code": "trv",
+                "name": "Taroko",
+                "percentage": 0.02,
+                "status": null
             }
         ]
     },
@@ -4596,32 +9018,94 @@ exports.countries = {
         "phone": "+255",
         "languages": [
             {
-                "code": "bez",
-                "name": "Bena"
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 90,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "kde",
-                "name": "Makonde"
-            },
-            {
-                "code": "ksb",
-                "name": "Shambala"
-            },
-            {
-                "code": "nym",
-                "name": "Nyamwezi"
+                "name": "English",
+                "percentage": 69,
+                "status": "official"
             },
             {
                 "code": "suk",
-                "name": "Sukuma"
+                "name": "Sukuma",
+                "percentage": 8.7,
+                "status": null
             },
             {
-                "code": "sw",
-                "name": "Swahili"
+                "code": "nym",
+                "name": "Nyamwezi",
+                "percentage": 3.3,
+                "status": null
+            },
+            {
+                "code": "kde",
+                "name": "Makonde",
+                "percentage": 2.5,
+                "status": null
+            },
+            {
+                "code": "bez",
+                "name": "Bena",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "ksb",
+                "name": "Shambala",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "mas",
+                "name": "Masai",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
+                "code": "asa",
+                "name": "Asu",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "lag",
+                "name": "Langi",
+                "percentage": 0.87,
+                "status": null
+            },
+            {
+                "code": "jmc",
+                "name": "Machame",
+                "percentage": 0.74,
+                "status": null
+            },
+            {
+                "code": "rof",
+                "name": "Rombo",
+                "percentage": 0.74,
+                "status": null
+            },
+            {
+                "code": "vun",
+                "name": "Vunjo",
+                "percentage": 0.74,
+                "status": null
+            },
+            {
+                "code": "rwk",
+                "name": "Rwa",
+                "percentage": 0.22,
+                "status": null
+            },
+            {
+                "code": "sbp",
+                "name": "Sangu",
+                "percentage": 0.2,
+                "status": null
             }
         ]
     },
@@ -4632,12 +9116,76 @@ exports.countries = {
         "phone": "+380",
         "languages": [
             {
-                "code": "ru",
-                "name": "Russian"
+                "code": "uk",
+                "name": "Ukrainian",
+                "percentage": 65,
+                "status": "official"
             },
             {
-                "code": "uk",
-                "name": "Ukrainian"
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 46,
+                "status": "de_facto_official"
+            },
+            {
+                "code": "pl",
+                "name": "Polish",
+                "percentage": 2.4,
+                "status": null
+            },
+            {
+                "code": "yi",
+                "name": "Yiddish",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "rue",
+                "name": "Rusyn",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "be",
+                "name": "Belarusian",
+                "percentage": 0.83,
+                "status": null
+            },
+            {
+                "code": "crh",
+                "name": "Crimean Tatar",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "ro",
+                "name": "Romanian",
+                "percentage": 0.52,
+                "status": null
+            },
+            {
+                "code": "bg",
+                "name": "Bulgarian",
+                "percentage": 0.49,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 0.42,
+                "status": null
+            },
+            {
+                "code": "hu",
+                "name": "Hungarian",
+                "percentage": 0.37,
+                "status": null
+            },
+            {
+                "code": "el",
+                "name": "Greek",
+                "percentage": 0.02,
+                "status": null
             }
         ]
     },
@@ -4648,40 +9196,64 @@ exports.countries = {
         "phone": "+256",
         "languages": [
             {
-                "code": "ach",
-                "name": "Acoli"
-            },
-            {
-                "code": "cgg",
-                "name": "Chiga"
-            },
-            {
-                "code": "en",
-                "name": "English"
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 75,
+                "status": "official"
             },
             {
                 "code": "lg",
-                "name": "Ganda"
+                "name": "Ganda",
+                "percentage": 13,
+                "status": null
             },
             {
                 "code": "nyn",
-                "name": "Nyankole"
+                "name": "Nyankole",
+                "percentage": 6.3,
+                "status": null
             },
             {
-                "code": "rw",
-                "name": "Kinyarwanda"
-            },
-            {
-                "code": "sw",
-                "name": "Swahili"
-            },
-            {
-                "code": "teo",
-                "name": "Teso"
+                "code": "cgg",
+                "name": "Chiga",
+                "percentage": 5.4,
+                "status": null
             },
             {
                 "code": "xog",
-                "name": "Soga"
+                "name": "Soga",
+                "percentage": 5.3,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 3.9,
+                "status": "official"
+            },
+            {
+                "code": "teo",
+                "name": "Teso",
+                "percentage": 3.9,
+                "status": null
+            },
+            {
+                "code": "ach",
+                "name": "Acoli",
+                "percentage": 3.7,
+                "status": null
+            },
+            {
+                "code": "rw",
+                "name": "Kinyarwanda",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "hi",
+                "name": "Hindi",
+                "percentage": 0.0045,
+                "status": null
             }
         ]
     },
@@ -4693,7 +9265,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 100,
+                "status": "de_facto_official"
             }
         ]
     },
@@ -4704,44 +9278,172 @@ exports.countries = {
         "phone": "+1",
         "languages": [
             {
-                "code": "de",
-                "name": "German"
-            },
-            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 96,
+                "status": "de_facto_official"
             },
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 9.6,
+                "status": "official_regional"
             },
             {
-                "code": "fil",
-                "name": "Filipino"
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 0.69,
+                "status": null
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 0.56,
+                "status": null
             },
             {
-                "code": "haw",
-                "name": "Hawaiian"
+                "code": "de",
+                "name": "German",
+                "percentage": 0.47,
+                "status": null
+            },
+            {
+                "code": "fil",
+                "name": "Filipino",
+                "percentage": 0.42,
+                "status": null
             },
             {
                 "code": "it",
-                "name": "Italian"
-            },
-            {
-                "code": "ko",
-                "name": "Korean"
+                "name": "Italian",
+                "percentage": 0.34,
+                "status": null
             },
             {
                 "code": "vi",
-                "name": "Vietnamese"
+                "name": "Vietnamese",
+                "percentage": 0.34,
+                "status": null
             },
             {
-                "code": "zh",
-                "name": "Chinese"
+                "code": "ko",
+                "name": "Korean",
+                "percentage": 0.3,
+                "status": null
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "nv",
+                "name": "Navajo",
+                "percentage": 0.05,
+                "status": null
+            },
+            {
+                "code": "yi",
+                "name": "Yiddish",
+                "percentage": 0.049,
+                "status": null
+            },
+            {
+                "code": "pdc",
+                "name": "Pennsylvania German",
+                "percentage": 0.039,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.035,
+                "status": null
+            },
+            {
+                "code": "haw",
+                "name": "Hawaiian",
+                "percentage": 0.0089,
+                "status": "official_regional"
+            },
+            {
+                "code": "frc",
+                "name": "Cajun French",
+                "percentage": 0.0084,
+                "status": null
+            },
+            {
+                "code": "chr",
+                "name": "Cherokee",
+                "percentage": 0.0077,
+                "status": null
+            },
+            {
+                "code": "esu",
+                "name": "Central Yupik",
+                "percentage": 0.0063,
+                "status": null
+            },
+            {
+                "code": "dak",
+                "name": "Dakota",
+                "percentage": 0.0059,
+                "status": null
+            },
+            {
+                "code": "cho",
+                "name": "Choctaw",
+                "percentage": 0.0033,
+                "status": null
+            },
+            {
+                "code": "lkt",
+                "name": "Lakota",
+                "percentage": 0.0024,
+                "status": null
+            },
+            {
+                "code": "ik",
+                "name": "Inupiaq",
+                "percentage": 0.0023,
+                "status": null
+            },
+            {
+                "code": "mus",
+                "name": "Muscogee",
+                "percentage": 0.0012,
+                "status": null
+            },
+            {
+                "code": "cad",
+                "name": "Caddo",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "cic",
+                "name": "Chickasaw",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "io",
+                "name": "Ido",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "jbo",
+                "name": "Lojban",
+                "percentage": 0,
+                "status": null
+            },
+            {
+                "code": "osa",
+                "name": "Osage",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
@@ -4753,7 +9455,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 88,
+                "status": "official"
             }
         ]
     },
@@ -4764,12 +9468,34 @@ exports.countries = {
         "phone": "+998",
         "languages": [
             {
-                "code": "ru",
-                "name": "Russian"
+                "code": "uz",
+                "name": "Uzbek",
+                "percentage": 85,
+                "status": "official"
             },
             {
-                "code": "uz",
-                "name": "Uzbek"
+                "code": "uz-Cyrl",
+                "name": "Uzbek (Cyrillic)",
+                "percentage": 15,
+                "status": "official"
+            },
+            {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "kaa",
+                "name": "Kara-Kalpak",
+                "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "tr",
+                "name": "Turkish",
+                "percentage": 0.62,
+                "status": null
             }
         ]
     },
@@ -4781,11 +9507,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "it",
-                "name": "Italian"
+                "name": "Italian",
+                "percentage": 82,
+                "status": "de_facto_official"
             },
             {
                 "code": "la",
-                "name": "Latin"
+                "name": "Latin",
+                "percentage": 82,
+                "status": null
             }
         ]
     },
@@ -4797,7 +9527,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 96,
+                "status": "official"
             }
         ]
     },
@@ -4809,7 +9541,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "es",
-                "name": "Spanish"
+                "name": "Spanish",
+                "percentage": 82,
+                "status": "official"
+            },
+            {
+                "code": "yrl",
+                "name": "Nheengatu",
+                "percentage": 0.0064,
+                "status": null
             }
         ]
     },
@@ -4821,7 +9561,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 98,
+                "status": "official"
             }
         ]
     },
@@ -4833,7 +9575,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 75,
+                "status": "de_facto_official"
             }
         ]
     },
@@ -4845,11 +9589,27 @@ exports.countries = {
         "languages": [
             {
                 "code": "vi",
-                "name": "Vietnamese"
+                "name": "Vietnamese",
+                "percentage": 86,
+                "status": "official"
             },
             {
-                "code": "zh",
-                "name": "Chinese"
+                "code": "zh-Hant",
+                "name": "Traditional Chinese",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "blt",
+                "name": "Tai Dam",
+                "percentage": 0.69,
+                "status": null
+            },
+            {
+                "code": "hnj",
+                "name": "Hmong Njua",
+                "percentage": 0.17,
+                "status": null
             }
         ]
     },
@@ -4861,15 +9621,21 @@ exports.countries = {
         "languages": [
             {
                 "code": "bi",
-                "name": "Bislama"
+                "name": "Bislama",
+                "percentage": 90,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 83,
+                "status": "official"
             },
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 31,
+                "status": "official"
             }
         ]
     },
@@ -4881,7 +9647,9 @@ exports.countries = {
         "languages": [
             {
                 "code": "fr",
-                "name": "French"
+                "name": "French",
+                "percentage": 83,
+                "status": "official"
             }
         ]
     },
@@ -4892,12 +9660,16 @@ exports.countries = {
         "phone": "+685",
         "languages": [
             {
-                "code": "en",
-                "name": "English"
+                "code": "sm",
+                "name": "Samoan",
+                "percentage": 100,
+                "status": "official"
             },
             {
-                "code": "sm",
-                "name": "Samoan"
+                "code": "en",
+                "name": "English",
+                "percentage": 2.1,
+                "status": "official"
             }
         ]
     },
@@ -4908,16 +9680,28 @@ exports.countries = {
         "phone": "+383",
         "languages": [
             {
-                "code": "aln",
-                "name": "Gheg Albanian"
+                "code": "sq",
+                "name": "Albanian",
+                "percentage": 92,
+                "status": "official"
             },
             {
-                "code": "sq",
-                "name": "Albanian"
+                "code": "aln",
+                "name": "Gheg Albanian",
+                "percentage": 74,
+                "status": null
             },
             {
                 "code": "sr",
-                "name": "Serbian"
+                "name": "Serbian",
+                "percentage": 5,
+                "status": "official"
+            },
+            {
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
+                "percentage": 5,
+                "status": "official"
             }
         ]
     },
@@ -4929,11 +9713,15 @@ exports.countries = {
         "languages": [
             {
                 "code": "ar",
-                "name": "Arabic"
+                "name": "Arabic",
+                "percentage": 74,
+                "status": "official"
             },
             {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 9,
+                "status": null
             }
         ]
     },
@@ -4944,12 +9732,22 @@ exports.countries = {
         "phone": "+262",
         "languages": [
             {
-                "code": "fr",
-                "name": "French"
+                "code": "swb",
+                "name": "Comorian",
+                "percentage": 88,
+                "status": null
             },
             {
-                "code": "swb",
-                "name": "Comorian"
+                "code": "fr",
+                "name": "French",
+                "percentage": 63,
+                "status": "official"
+            },
+            {
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 1.4,
+                "status": null
             }
         ]
     },
@@ -4960,52 +9758,82 @@ exports.countries = {
         "phone": "+27",
         "languages": [
             {
-                "code": "af",
-                "name": "Afrikaans"
-            },
-            {
                 "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "hi",
-                "name": "Hindi"
-            },
-            {
-                "code": "nr",
-                "name": "South Ndebele"
-            },
-            {
-                "code": "nso",
-                "name": "Northern Sotho"
-            },
-            {
-                "code": "ss",
-                "name": "Swati"
-            },
-            {
-                "code": "st",
-                "name": "Southern Sotho"
-            },
-            {
-                "code": "tn",
-                "name": "Tswana"
-            },
-            {
-                "code": "ts",
-                "name": "Tsonga"
-            },
-            {
-                "code": "ve",
-                "name": "Venda"
-            },
-            {
-                "code": "xh",
-                "name": "Xhosa"
+                "name": "English",
+                "percentage": 31,
+                "status": "official"
             },
             {
                 "code": "zu",
-                "name": "Zulu"
+                "name": "Zulu",
+                "percentage": 24,
+                "status": "official_regional"
+            },
+            {
+                "code": "xh",
+                "name": "Xhosa",
+                "percentage": 18,
+                "status": "official_regional"
+            },
+            {
+                "code": "af",
+                "name": "Afrikaans",
+                "percentage": 13,
+                "status": "official_regional"
+            },
+            {
+                "code": "nso",
+                "name": "Northern Sotho",
+                "percentage": 9.4,
+                "status": "official_regional"
+            },
+            {
+                "code": "tn",
+                "name": "Tswana",
+                "percentage": 8.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "st",
+                "name": "Southern Sotho",
+                "percentage": 7.9,
+                "status": "official_regional"
+            },
+            {
+                "code": "ts",
+                "name": "Tsonga",
+                "percentage": 4.4,
+                "status": "official_regional"
+            },
+            {
+                "code": "ss",
+                "name": "Swati",
+                "percentage": 2.7,
+                "status": "official_regional"
+            },
+            {
+                "code": "ve",
+                "name": "Venda",
+                "percentage": 2.3,
+                "status": "official_regional"
+            },
+            {
+                "code": "hi",
+                "name": "Hindi",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "nr",
+                "name": "South Ndebele",
+                "percentage": 1.6,
+                "status": "official_regional"
+            },
+            {
+                "code": "sw",
+                "name": "Swahili",
+                "percentage": 0.0017,
+                "status": null
             }
         ]
     },
@@ -5017,19 +9845,39 @@ exports.countries = {
         "languages": [
             {
                 "code": "bem",
-                "name": "Bemba"
-            },
-            {
-                "code": "en",
-                "name": "English"
-            },
-            {
-                "code": "loz",
-                "name": "Lozi"
+                "name": "Bemba",
+                "percentage": 34,
+                "status": null
             },
             {
                 "code": "ny",
-                "name": "Nyanja"
+                "name": "Nyanja",
+                "percentage": 19,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 16,
+                "status": "official"
+            },
+            {
+                "code": "loz",
+                "name": "Lozi",
+                "percentage": 5.5,
+                "status": null
+            },
+            {
+                "code": "tum",
+                "name": "Tumbuka",
+                "percentage": 2.6,
+                "status": null
+            },
+            {
+                "code": "lun",
+                "name": "Lunda",
+                "percentage": 1.9,
+                "status": null
             }
         ]
     },
@@ -5040,16 +9888,40 @@ exports.countries = {
         "phone": "+263",
         "languages": [
             {
+                "code": "sn",
+                "name": "Shona",
+                "percentage": 81,
+                "status": "official"
+            },
+            {
                 "code": "en",
-                "name": "English"
+                "name": "English",
+                "percentage": 42,
+                "status": "official"
             },
             {
                 "code": "nd",
-                "name": "North Ndebele"
+                "name": "North Ndebele",
+                "percentage": 12,
+                "status": "official"
             },
             {
-                "code": "sn",
-                "name": "Shona"
+                "code": "ny",
+                "name": "Nyanja",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "ve",
+                "name": "Venda",
+                "percentage": 0.64,
+                "status": null
+            },
+            {
+                "code": "tn",
+                "name": "Tswana",
+                "percentage": 0.22,
+                "status": null
             }
         ]
     }

@@ -6,6 +6,8 @@ export interface Country {
     languages: {
         code: string;
         name: string;
+        percentage: number | null;
+        status: string | null;
     }[];
 }
 export declare const countries: Record<string, Country>;
