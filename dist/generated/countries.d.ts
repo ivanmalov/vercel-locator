@@ -1,7 +1,18 @@
 export interface Country {
-    name: string;
-    currencyCode: string | null;
-    currency: string | null;
+    name: {
+        common: string;
+        official: string;
+        commonArticle: string | null;
+        officialArticle: string | null;
+    };
+    topLevelDomain: string | null;
+    currency: {
+        code: string;
+        name: string;
+        singular: string;
+        plural: string;
+        symbol: string;
+    } | null;
     phone: string | null;
     languages: {
         code: string;

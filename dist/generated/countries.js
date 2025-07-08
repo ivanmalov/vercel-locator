@@ -6,9 +6,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.countries = void 0;
 exports.countries = {
     "AD": {
-        "name": "Andorra",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Andorra",
+            "official": "Principality of Andorra",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ad",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+376",
         "languages": [
             {
@@ -32,9 +43,20 @@ exports.countries = {
         ]
     },
     "AE": {
-        "name": "United Arab Emirates",
-        "currencyCode": "AED",
-        "currency": "United Arab Emirates Dirham",
+        "name": {
+            "common": "United Arab Emirates",
+            "official": "United Arab Emirates",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ae",
+        "currency": {
+            "code": "AED",
+            "name": "United Arab Emirates Dirham",
+            "singular": "UAE dirham",
+            "plural": "UAE dirhams",
+            "symbol": "AED"
+        },
         "phone": "+971",
         "languages": [
             {
@@ -76,9 +98,20 @@ exports.countries = {
         ]
     },
     "AF": {
-        "name": "Afghanistan",
-        "currencyCode": "AFN",
-        "currency": "Afghan Afghani",
+        "name": {
+            "common": "Afghanistan",
+            "official": "Islamic Republic of Afghanistan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".af",
+        "currency": {
+            "code": "AFN",
+            "name": "Afghan Afghani",
+            "singular": "Afghan Afghani",
+            "plural": "Afghan Afghanis",
+            "symbol": "AFN"
+        },
         "phone": "+93",
         "languages": [
             {
@@ -94,6 +127,12 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "haz",
+                "name": "Hazaragi",
+                "percentage": 5.9,
+                "status": null
+            },
+            {
                 "code": "uz-Arab",
                 "name": "Uzbek (Arabic)",
                 "percentage": 4.7,
@@ -104,6 +143,12 @@ exports.countries = {
                 "name": "Turkmen",
                 "percentage": 1.7,
                 "status": "official_regional"
+            },
+            {
+                "code": "prd",
+                "name": "Parsi-Dari",
+                "percentage": 1.2,
+                "status": null
             },
             {
                 "code": "bgn",
@@ -132,9 +177,20 @@ exports.countries = {
         ]
     },
     "AG": {
-        "name": "Antigua & Barbuda",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Antigua and Barbuda",
+            "official": "Antigua and Barbuda",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ag",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1268",
         "languages": [
             {
@@ -152,9 +208,20 @@ exports.countries = {
         ]
     },
     "AI": {
-        "name": "Anguilla",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Anguilla",
+            "official": "Anguilla",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ai",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1264",
         "languages": [
             {
@@ -166,9 +233,20 @@ exports.countries = {
         ]
     },
     "AL": {
-        "name": "Albania",
-        "currencyCode": "ALL",
-        "currency": "Albanian Lek",
+        "name": {
+            "common": "Albania",
+            "official": "Republic of Albania",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".al",
+        "currency": {
+            "code": "ALL",
+            "name": "Albanian Lek",
+            "singular": "Albanian lek",
+            "plural": "Albanian lekë",
+            "symbol": "ALL"
+        },
         "phone": "+355",
         "languages": [
             {
@@ -192,20 +270,43 @@ exports.countries = {
         ]
     },
     "AM": {
-        "name": "Armenia",
-        "currencyCode": "AMD",
-        "currency": "Armenian Dram",
+        "name": {
+            "common": "Armenia",
+            "official": "Republic of Armenia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".am",
+        "currency": {
+            "code": "AMD",
+            "name": "Armenian Dram",
+            "singular": "Armenian dram",
+            "plural": "Armenian drams",
+            "symbol": "AMD"
+        },
         "phone": "+374",
         "languages": [
             {
                 "code": "hy",
                 "name": "Armenian",
-                "percentage": 98,
+                "percentage": 99,
                 "status": "official"
             },
             {
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 65,
+                "status": null
+            },
+            {
                 "code": "ku",
-                "name": "Kurdish",
+                "name": "Kurmanji",
+                "percentage": 3.3,
+                "status": null
+            },
+            {
+                "code": "ku-Cyrl",
+                "name": "Kurmanji (Cyrillic)",
                 "percentage": 3.3,
                 "status": null
             },
@@ -218,9 +319,20 @@ exports.countries = {
         ]
     },
     "AO": {
-        "name": "Angola",
-        "currencyCode": "AOA",
-        "currency": "Angolan Kwanza",
+        "name": {
+            "common": "Angola",
+            "official": "Republic of Angola",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ao",
+        "currency": {
+            "code": "AOA",
+            "name": "Angolan Kwanza",
+            "singular": "Angolan kwanza",
+            "plural": "Angolan kwanzas",
+            "symbol": "AOA"
+        },
         "phone": "+244",
         "languages": [
             {
@@ -250,9 +362,14 @@ exports.countries = {
         ]
     },
     "AQ": {
-        "name": "Antarctica",
-        "currencyCode": "XXX",
-        "currency": "Unknown Currency",
+        "name": {
+            "common": "Antarctica",
+            "official": "Antarctica",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".aq",
+        "currency": null,
         "phone": "+672",
         "languages": [
             {
@@ -264,9 +381,20 @@ exports.countries = {
         ]
     },
     "AR": {
-        "name": "Argentina",
-        "currencyCode": "ARS",
-        "currency": "Argentine Peso",
+        "name": {
+            "common": "Argentina",
+            "official": "Argentine Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ar",
+        "currency": {
+            "code": "ARS",
+            "name": "Argentine Peso",
+            "singular": "Argentine peso",
+            "plural": "Argentine pesos",
+            "symbol": "ARS"
+        },
         "phone": "+54",
         "languages": [
             {
@@ -296,9 +424,20 @@ exports.countries = {
         ]
     },
     "AS": {
-        "name": "American Samoa",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "American Samoa",
+            "official": "American Samoa",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".as",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1684",
         "languages": [
             {
@@ -316,9 +455,20 @@ exports.countries = {
         ]
     },
     "AT": {
-        "name": "Austria",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Austria",
+            "official": "Republic of Austria",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".at",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+43",
         "languages": [
             {
@@ -372,9 +522,20 @@ exports.countries = {
         ]
     },
     "AU": {
-        "name": "Australia",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Australia",
+            "official": "Commonwealth of Australia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".au",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+61",
         "languages": [
             {
@@ -385,7 +546,7 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 2.1,
                 "status": null
             },
@@ -410,9 +571,20 @@ exports.countries = {
         ]
     },
     "AW": {
-        "name": "Aruba",
-        "currencyCode": "AWG",
-        "currency": "Aruban Florin",
+        "name": {
+            "common": "Aruba",
+            "official": "Country of Aruba",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".aw",
+        "currency": {
+            "code": "AWG",
+            "name": "Aruban Florin",
+            "singular": "Aruban florin",
+            "plural": "Aruban florin",
+            "symbol": "AWG"
+        },
         "phone": "+297",
         "languages": [
             {
@@ -436,9 +608,20 @@ exports.countries = {
         ]
     },
     "AX": {
-        "name": "Åland Islands",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Åland Islands",
+            "official": "Åland",
+            "commonArticle": "the",
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ax",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+358",
         "languages": [
             {
@@ -450,9 +633,20 @@ exports.countries = {
         ]
     },
     "AZ": {
-        "name": "Azerbaijan",
-        "currencyCode": "AZN",
-        "currency": "Azerbaijani Manat",
+        "name": {
+            "common": "Azerbaijan",
+            "official": "Republic of Azerbaijan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".az",
+        "currency": {
+            "code": "AZN",
+            "name": "Azerbaijani Manat",
+            "singular": "Azerbaijani manat",
+            "plural": "Azerbaijani manats",
+            "symbol": "AZN"
+        },
         "phone": "+994",
         "languages": [
             {
@@ -475,7 +669,13 @@ exports.countries = {
             },
             {
                 "code": "ku",
-                "name": "Kurdish",
+                "name": "Kurmanji",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "ku-Cyrl",
+                "name": "Kurmanji (Cyrillic)",
                 "percentage": 0.24,
                 "status": null
             },
@@ -494,9 +694,20 @@ exports.countries = {
         ]
     },
     "BA": {
-        "name": "Bosnia & Herzegovina",
-        "currencyCode": "BAM",
-        "currency": "Bosnia-Herzegovina Convertible Mark",
+        "name": {
+            "common": "Bosnia and Herzegovina",
+            "official": "Bosnia and Herzegovina",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ba",
+        "currency": {
+            "code": "BAM",
+            "name": "Bosnia-Herzegovina Convertible Mark",
+            "singular": "Bosnia-Herzegovina convertible mark",
+            "plural": "Bosnia-Herzegovina convertible marks",
+            "symbol": "BAM"
+        },
         "phone": "+387",
         "languages": [
             {
@@ -538,9 +749,20 @@ exports.countries = {
         ]
     },
     "BB": {
-        "name": "Barbados",
-        "currencyCode": "BBD",
-        "currency": "Barbadian Dollar",
+        "name": {
+            "common": "Barbados",
+            "official": "Barbados",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".bb",
+        "currency": {
+            "code": "BBD",
+            "name": "Barbadian Dollar",
+            "singular": "Barbadian dollar",
+            "plural": "Barbadian dollars",
+            "symbol": "BBD"
+        },
         "phone": "+1246",
         "languages": [
             {
@@ -552,9 +774,20 @@ exports.countries = {
         ]
     },
     "BD": {
-        "name": "Bangladesh",
-        "currencyCode": "BDT",
-        "currency": "Bangladeshi Taka",
+        "name": {
+            "common": "Bangladesh",
+            "official": "People's Republic of Bangladesh",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bd",
+        "currency": {
+            "code": "BDT",
+            "name": "Bangladeshi Taka",
+            "singular": "Bangladeshi taka",
+            "plural": "Bangladeshi takas",
+            "symbol": "BDT"
+        },
         "phone": "+880",
         "languages": [
             {
@@ -567,6 +800,18 @@ exports.countries = {
                 "code": "en",
                 "name": "English",
                 "percentage": 18,
+                "status": null
+            },
+            {
+                "code": "rkt",
+                "name": "Rangpuri",
+                "percentage": 6.5,
+                "status": null
+            },
+            {
+                "code": "syl",
+                "name": "Sylheti",
+                "percentage": 5,
                 "status": null
             },
             {
@@ -588,6 +833,18 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "grt",
+                "name": "Garo",
+                "percentage": 0.073,
+                "status": null
+            },
+            {
+                "code": "mro",
+                "name": "Mru",
+                "percentage": 0.018,
+                "status": null
+            },
+            {
                 "code": "mni",
                 "name": "Manipuri",
                 "percentage": 0.011,
@@ -596,9 +853,20 @@ exports.countries = {
         ]
     },
     "BE": {
-        "name": "Belgium",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Belgium",
+            "official": "Kingdom of Belgium",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".be",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+32",
         "languages": [
             {
@@ -640,9 +908,20 @@ exports.countries = {
         ]
     },
     "BF": {
-        "name": "Burkina Faso",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".bf",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+226",
         "languages": [
             {
@@ -678,9 +957,20 @@ exports.countries = {
         ]
     },
     "BG": {
-        "name": "Bulgaria",
-        "currencyCode": "BGN",
-        "currency": "Bulgarian Lev",
+        "name": {
+            "common": "Bulgaria",
+            "official": "Republic of Bulgaria",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bg",
+        "currency": {
+            "code": "BGN",
+            "name": "Bulgarian Lev",
+            "singular": "Bulgarian lev",
+            "plural": "Bulgarian leva",
+            "symbol": "BGN"
+        },
         "phone": "+359",
         "languages": [
             {
@@ -716,9 +1006,20 @@ exports.countries = {
         ]
     },
     "BH": {
-        "name": "Bahrain",
-        "currencyCode": "BHD",
-        "currency": "Bahraini Dinar",
+        "name": {
+            "common": "Bahrain",
+            "official": "Kingdom of Bahrain",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bh",
+        "currency": {
+            "code": "BHD",
+            "name": "Bahraini Dinar",
+            "singular": "Bahraini dinar",
+            "plural": "Bahraini dinars",
+            "symbol": "BHD"
+        },
         "phone": "+973",
         "languages": [
             {
@@ -736,9 +1037,20 @@ exports.countries = {
         ]
     },
     "BI": {
-        "name": "Burundi",
-        "currencyCode": "BIF",
-        "currency": "Burundian Franc",
+        "name": {
+            "common": "Burundi",
+            "official": "Republic of Burundi",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bi",
+        "currency": {
+            "code": "BIF",
+            "name": "Burundian Franc",
+            "singular": "Burundian franc",
+            "plural": "Burundian francs",
+            "symbol": "BIF"
+        },
         "phone": "+257",
         "languages": [
             {
@@ -768,9 +1080,20 @@ exports.countries = {
         ]
     },
     "BJ": {
-        "name": "Benin",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Benin",
+            "official": "Republic of Benin",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bj",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+229",
         "languages": [
             {
@@ -800,9 +1123,20 @@ exports.countries = {
         ]
     },
     "BL": {
-        "name": "St. Barthélemy",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Saint Barthélemy",
+            "official": "Collectivity of Saint-Barthélemy",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bl",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+590",
         "languages": [
             {
@@ -814,9 +1148,20 @@ exports.countries = {
         ]
     },
     "BM": {
-        "name": "Bermuda",
-        "currencyCode": "BMD",
-        "currency": "Bermudan Dollar",
+        "name": {
+            "common": "Bermuda",
+            "official": "Bermuda",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".bm",
+        "currency": {
+            "code": "BMD",
+            "name": "Bermudan Dollar",
+            "singular": "Bermudan dollar",
+            "plural": "Bermudan dollars",
+            "symbol": "BMD"
+        },
         "phone": "+1441",
         "languages": [
             {
@@ -828,9 +1173,20 @@ exports.countries = {
         ]
     },
     "BN": {
-        "name": "Brunei",
-        "currencyCode": "BND",
-        "currency": "Brunei Dollar",
+        "name": {
+            "common": "Brunei",
+            "official": "Brunei Darussalam",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".bn",
+        "currency": {
+            "code": "BND",
+            "name": "Brunei Dollar",
+            "singular": "Brunei dollar",
+            "plural": "Brunei dollars",
+            "symbol": "BND"
+        },
         "phone": "+673",
         "languages": [
             {
@@ -841,7 +1197,7 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 11,
                 "status": null
             },
@@ -860,9 +1216,20 @@ exports.countries = {
         ]
     },
     "BO": {
-        "name": "Bolivia",
-        "currencyCode": "BOB",
-        "currency": "Bolivian Boliviano",
+        "name": {
+            "common": "Bolivia",
+            "official": "Plurinational State of Bolivia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bo",
+        "currency": {
+            "code": "BOB",
+            "name": "Bolivian Boliviano",
+            "singular": "Bolivian boliviano",
+            "plural": "Bolivian bolivianos",
+            "symbol": "BOB"
+        },
         "phone": "+591",
         "languages": [
             {
@@ -898,9 +1265,20 @@ exports.countries = {
         ]
     },
     "BQ": {
-        "name": "Caribbean Netherlands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Bonaire, Sint Eustatius and Saba",
+            "official": "Bonaire, Sint Eustatius and Saba",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".nl",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+599",
         "languages": [
             {
@@ -918,9 +1296,20 @@ exports.countries = {
         ]
     },
     "BR": {
-        "name": "Brazil",
-        "currencyCode": "BRL",
-        "currency": "Brazilian Real",
+        "name": {
+            "common": "Brazil",
+            "official": "Federative Republic of Brazil",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".br",
+        "currency": {
+            "code": "BRL",
+            "name": "Brazilian Real",
+            "singular": "Brazilian real",
+            "plural": "Brazilian reals",
+            "symbol": "R$"
+        },
         "phone": "+55",
         "languages": [
             {
@@ -982,13 +1371,36 @@ exports.countries = {
                 "name": "Nheengatu",
                 "percentage": 0.01,
                 "status": null
+            },
+            {
+                "code": "gub",
+                "name": "Guajajára",
+                "percentage": 0.0084,
+                "status": null
+            },
+            {
+                "code": "xav",
+                "name": "Xavánte",
+                "percentage": 0.0045,
+                "status": null
             }
         ]
     },
     "BS": {
-        "name": "Bahamas",
-        "currencyCode": "BSD",
-        "currency": "Bahamian Dollar",
+        "name": {
+            "common": "Bahamas",
+            "official": "Commonwealth of The Bahamas",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bs",
+        "currency": {
+            "code": "BSD",
+            "name": "Bahamian Dollar",
+            "singular": "Bahamian dollar",
+            "plural": "Bahamian dollars",
+            "symbol": "BSD"
+        },
         "phone": "+1242",
         "languages": [
             {
@@ -1000,9 +1412,20 @@ exports.countries = {
         ]
     },
     "BT": {
-        "name": "Bhutan",
-        "currencyCode": "BTN",
-        "currency": "Bhutanese Ngultrum",
+        "name": {
+            "common": "Bhutan",
+            "official": "Kingdom of Bhutan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bt",
+        "currency": {
+            "code": "BTN",
+            "name": "Bhutanese Ngultrum",
+            "singular": "Bhutanese ngultrum",
+            "plural": "Bhutanese ngultrums",
+            "symbol": "BTN"
+        },
         "phone": "+975",
         "languages": [
             {
@@ -1018,17 +1441,40 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "tsj",
+                "name": "Tshangla",
+                "percentage": 15,
+                "status": null
+            },
+            {
                 "code": "en",
                 "name": "English",
                 "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "lep",
+                "name": "Lepcha",
+                "percentage": 3.9,
                 "status": null
             }
         ]
     },
     "BV": {
-        "name": "Bouvet Island",
-        "currencyCode": "NOK",
-        "currency": "Norwegian Krone",
+        "name": {
+            "common": "Bouvet Island",
+            "official": "Bouvet Island",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".no",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian Krone",
+            "singular": "Norwegian krone",
+            "plural": "Norwegian kroner",
+            "symbol": "NOK"
+        },
         "phone": "+47",
         "languages": [
             {
@@ -1040,9 +1486,20 @@ exports.countries = {
         ]
     },
     "BW": {
-        "name": "Botswana",
-        "currencyCode": "BWP",
-        "currency": "Botswanan Pula",
+        "name": {
+            "common": "Botswana",
+            "official": "Republic of Botswana",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".bw",
+        "currency": {
+            "code": "BWP",
+            "name": "Botswanan Pula",
+            "singular": "Botswanan pula",
+            "plural": "Botswanan pulas",
+            "symbol": "BWP"
+        },
         "phone": "+267",
         "languages": [
             {
@@ -1066,49 +1523,106 @@ exports.countries = {
         ]
     },
     "BY": {
-        "name": "Belarus",
-        "currencyCode": "BYN",
-        "currency": "Belarusian Ruble",
+        "name": {
+            "common": "Belarus",
+            "official": "Republic of Belarus",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".by",
+        "currency": {
+            "code": "BYN",
+            "name": "Belarusian Ruble",
+            "singular": "Belarusian ruble",
+            "plural": "Belarusian rubles",
+            "symbol": "BYN"
+        },
         "phone": "+375",
         "languages": [
             {
-                "code": "be",
-                "name": "Belarusian",
-                "percentage": 100,
+                "code": "ru",
+                "name": "Russian",
+                "percentage": 71,
                 "status": "official"
             },
             {
-                "code": "ru",
-                "name": "Russian",
-                "percentage": 12,
+                "code": "be",
+                "name": "Belarusian",
+                "percentage": 26,
                 "status": "official"
             }
         ]
     },
     "BZ": {
-        "name": "Belize",
-        "currencyCode": "BZD",
-        "currency": "Belize Dollar",
+        "name": {
+            "common": "Belize",
+            "official": "Belize",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".bz",
+        "currency": {
+            "code": "BZD",
+            "name": "Belize Dollar",
+            "singular": "Belize dollar",
+            "plural": "Belize dollars",
+            "symbol": "BZD"
+        },
         "phone": "+501",
         "languages": [
             {
                 "code": "en",
                 "name": "English",
-                "percentage": 100,
+                "percentage": 77,
                 "status": "official"
             },
             {
                 "code": "es",
                 "name": "Spanish",
-                "percentage": 28,
+                "percentage": 55,
+                "status": null
+            },
+            {
+                "code": "bzj",
+                "name": "Belize Kriol English",
+                "percentage": 50,
+                "status": null
+            },
+            {
+                "code": "kek",
+                "name": "Qʼeqchiʼ",
+                "percentage": 6.5,
+                "status": null
+            },
+            {
+                "code": "mop",
+                "name": "Mopán Maya",
+                "percentage": 4,
+                "status": null
+            },
+            {
+                "code": "cab",
+                "name": "Garifuna",
+                "percentage": 1.9,
                 "status": null
             }
         ]
     },
     "CA": {
-        "name": "Canada",
-        "currencyCode": "CAD",
-        "currency": "Canadian Dollar",
+        "name": {
+            "common": "Canada",
+            "official": "Canada",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ca",
+        "currency": {
+            "code": "CAD",
+            "name": "Canadian Dollar",
+            "singular": "Canadian dollar",
+            "plural": "Canadian dollars",
+            "symbol": "CA$"
+        },
         "phone": "+1",
         "languages": [
             {
@@ -1220,14 +1734,14 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "ko",
-                "name": "Korean",
+                "code": "pl",
+                "name": "Polish",
                 "percentage": 0.56,
                 "status": null
             },
             {
-                "code": "pl",
-                "name": "Polish",
+                "code": "ko",
+                "name": "Korean",
                 "percentage": 0.56,
                 "status": null
             },
@@ -1430,6 +1944,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "nsk",
+                "name": "Naskapi",
+                "percentage": 0.0027,
+                "status": null
+            },
+            {
                 "code": "clc",
                 "name": "Chilcotin",
                 "percentage": 0.0022,
@@ -1468,9 +1988,20 @@ exports.countries = {
         ]
     },
     "CC": {
-        "name": "Cocos (Keeling) Islands",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Cocos (Keeling) Islands",
+            "official": "Cocos (Keeling) Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cc",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+61",
         "languages": [
             {
@@ -1488,9 +2019,20 @@ exports.countries = {
         ]
     },
     "CD": {
-        "name": "Congo - Kinshasa",
-        "currencyCode": "CDF",
-        "currency": "Congolese Franc",
+        "name": {
+            "common": "DR Congo",
+            "official": "Democratic Republic of the Congo",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cd",
+        "currency": {
+            "code": "CDF",
+            "name": "Congolese Franc",
+            "singular": "Congolese franc",
+            "plural": "Congolese francs",
+            "symbol": "CDF"
+        },
         "phone": "+243",
         "languages": [
             {
@@ -1544,9 +2086,20 @@ exports.countries = {
         ]
     },
     "CF": {
-        "name": "Central African Republic",
-        "currencyCode": "XAF",
-        "currency": "Central African CFA Franc",
+        "name": {
+            "common": "Central African Republic",
+            "official": "Central African Republic",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cf",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA Franc",
+            "singular": "Central African CFA franc",
+            "plural": "Central African CFA francs",
+            "symbol": "FCFA"
+        },
         "phone": "+236",
         "languages": [
             {
@@ -1570,9 +2123,20 @@ exports.countries = {
         ]
     },
     "CG": {
-        "name": "Congo - Brazzaville",
-        "currencyCode": "XAF",
-        "currency": "Central African CFA Franc",
+        "name": {
+            "common": "Congo",
+            "official": "Republic of the Congo",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cg",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA Franc",
+            "singular": "Central African CFA franc",
+            "plural": "Central African CFA francs",
+            "symbol": "FCFA"
+        },
         "phone": "+242",
         "languages": [
             {
@@ -1590,9 +2154,20 @@ exports.countries = {
         ]
     },
     "CH": {
-        "name": "Switzerland",
-        "currencyCode": "CHF",
-        "currency": "Swiss Franc",
+        "name": {
+            "common": "Switzerland",
+            "official": "Swiss Confederation",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ch",
+        "currency": {
+            "code": "CHF",
+            "name": "Swiss Franc",
+            "singular": "Swiss franc",
+            "plural": "Swiss francs",
+            "symbol": "CHF"
+        },
         "phone": "+41",
         "languages": [
             {
@@ -1644,6 +2219,12 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "rmo",
+                "name": "Sinte Romani",
+                "percentage": 0.29,
+                "status": null
+            },
+            {
                 "code": "wae",
                 "name": "Walser",
                 "percentage": 0.11,
@@ -1652,9 +2233,20 @@ exports.countries = {
         ]
     },
     "CI": {
-        "name": "Côte d’Ivoire",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Côte d'Ivoire",
+            "official": "Republic of Côte d'Ivoire",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ci",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+225",
         "languages": [
             {
@@ -1664,17 +2256,52 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "bci",
+                "name": "Baoulé",
+                "percentage": 11,
+                "status": null
+            },
+            {
+                "code": "sef",
+                "name": "Cebaara Senoufo",
+                "percentage": 4.3,
+                "status": null
+            },
+            {
+                "code": "dnj",
+                "name": "Dan",
+                "percentage": 4,
+                "status": null
+            },
+            {
                 "code": "kfo",
                 "name": "Koro",
                 "percentage": 0.23,
+                "status": null
+            },
+            {
+                "code": "bqv",
+                "name": "Koro Wachi",
+                "percentage": 0.17,
                 "status": null
             }
         ]
     },
     "CK": {
-        "name": "Cook Islands",
-        "currencyCode": "NZD",
-        "currency": "New Zealand Dollar",
+        "name": {
+            "common": "Cook Islands",
+            "official": "Cook Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ck",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand Dollar",
+            "singular": "New Zealand dollar",
+            "plural": "New Zealand dollars",
+            "symbol": "NZ$"
+        },
         "phone": "+682",
         "languages": [
             {
@@ -1686,9 +2313,20 @@ exports.countries = {
         ]
     },
     "CL": {
-        "name": "Chile",
-        "currencyCode": "CLP",
-        "currency": "Chilean Peso",
+        "name": {
+            "common": "Chile",
+            "official": "Republic of Chile",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cl",
+        "currency": {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "singular": "Chilean peso",
+            "plural": "Chilean pesos",
+            "symbol": "CLP"
+        },
         "phone": "+56",
         "languages": [
             {
@@ -1712,9 +2350,20 @@ exports.countries = {
         ]
     },
     "CM": {
-        "name": "Cameroon",
-        "currencyCode": "XAF",
-        "currency": "Central African CFA Franc",
+        "name": {
+            "common": "Cameroon",
+            "official": "Republic of Cameroon",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cm",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA Franc",
+            "singular": "Central African CFA franc",
+            "plural": "Central African CFA francs",
+            "symbol": "FCFA"
+        },
         "phone": "+237",
         "languages": [
             {
@@ -1888,9 +2537,20 @@ exports.countries = {
         ]
     },
     "CN": {
-        "name": "China",
-        "currencyCode": "CNY",
-        "currency": "Chinese Yuan",
+        "name": {
+            "common": "China",
+            "official": "People's Republic of China",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cn",
+        "currency": {
+            "code": "CNY",
+            "name": "Chinese Yuan",
+            "singular": "Chinese yuan",
+            "plural": "Chinese yuan",
+            "symbol": "CN¥"
+        },
         "phone": "+86",
         "languages": [
             {
@@ -1984,9 +2644,45 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "lis",
+                "name": "Lisu",
+                "percentage": 0.045,
+                "status": null
+            },
+            {
                 "code": "ky-Arab",
                 "name": "Kyrgyz (Arabic)",
                 "percentage": 0.034,
+                "status": null
+            },
+            {
+                "code": "nxq",
+                "name": "Naxi",
+                "percentage": 0.024,
+                "status": null
+            },
+            {
+                "code": "khb",
+                "name": "Lü",
+                "percentage": 0.019,
+                "status": null
+            },
+            {
+                "code": "tdd",
+                "name": "Tai Nüa",
+                "percentage": 0.019,
+                "status": null
+            },
+            {
+                "code": "mww",
+                "name": "Hmong Daw",
+                "percentage": 0.017,
+                "status": null
+            },
+            {
+                "code": "lcp",
+                "name": "Western Lawa",
+                "percentage": 0.0058,
                 "status": null
             },
             {
@@ -2028,9 +2724,20 @@ exports.countries = {
         ]
     },
     "CO": {
-        "name": "Colombia",
-        "currencyCode": "COP",
-        "currency": "Colombian Peso",
+        "name": {
+            "common": "Colombia",
+            "official": "Republic of Colombia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".co",
+        "currency": {
+            "code": "COP",
+            "name": "Colombian Peso",
+            "singular": "Colombian peso",
+            "plural": "Colombian pesos",
+            "symbol": "COP"
+        },
         "phone": "+57",
         "languages": [
             {
@@ -2054,9 +2761,20 @@ exports.countries = {
         ]
     },
     "CR": {
-        "name": "Costa Rica",
-        "currencyCode": "CRC",
-        "currency": "Costa Rican Colón",
+        "name": {
+            "common": "Costa Rica",
+            "official": "Republic of Costa Rica",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cr",
+        "currency": {
+            "code": "CRC",
+            "name": "Costa Rican Colón",
+            "singular": "Costa Rican colón",
+            "plural": "Costa Rican colóns",
+            "symbol": "CRC"
+        },
         "phone": "+506",
         "languages": [
             {
@@ -2068,9 +2786,20 @@ exports.countries = {
         ]
     },
     "CU": {
-        "name": "Cuba",
-        "currencyCode": "CUP",
-        "currency": "Cuban Peso",
+        "name": {
+            "common": "Cuba",
+            "official": "Republic of Cuba",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cu",
+        "currency": {
+            "code": "CUP",
+            "name": "Cuban Peso",
+            "singular": "Cuban peso",
+            "plural": "Cuban pesos",
+            "symbol": "CUP"
+        },
         "phone": "+53",
         "languages": [
             {
@@ -2082,9 +2811,20 @@ exports.countries = {
         ]
     },
     "CV": {
-        "name": "Cape Verde",
-        "currencyCode": "CVE",
-        "currency": "Cape Verdean Escudo",
+        "name": {
+            "common": "Cabo Verde",
+            "official": "Republic of Cabo Verde",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cv",
+        "currency": {
+            "code": "CVE",
+            "name": "Cape Verdean Escudo",
+            "singular": "Cape Verdean escudo",
+            "plural": "Cape Verdean escudos",
+            "symbol": "CVE"
+        },
         "phone": "+238",
         "languages": [
             {
@@ -2102,9 +2842,20 @@ exports.countries = {
         ]
     },
     "CW": {
-        "name": "Curaçao",
-        "currencyCode": "XCG",
-        "currency": "Caribbean Guilder",
+        "name": {
+            "common": "Curaçao",
+            "official": "Country of Curaçao",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cw",
+        "currency": {
+            "code": "XCG",
+            "name": "Caribbean guilder",
+            "singular": "Caribbean guilder",
+            "plural": "Caribbean guilders",
+            "symbol": "XCG"
+        },
         "phone": "+599",
         "languages": [
             {
@@ -2128,9 +2879,20 @@ exports.countries = {
         ]
     },
     "CX": {
-        "name": "Christmas Island",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Christmas Island",
+            "official": "Territory of Christmas Island",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cx",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+61",
         "languages": [
             {
@@ -2142,9 +2904,20 @@ exports.countries = {
         ]
     },
     "CY": {
-        "name": "Cyprus",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cy",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+357",
         "languages": [
             {
@@ -2182,13 +2955,30 @@ exports.countries = {
                 "name": "Arabic",
                 "percentage": 0.098,
                 "status": null
+            },
+            {
+                "code": "ecy",
+                "name": "Eteocypriot",
+                "percentage": 0.0001,
+                "status": null
             }
         ]
     },
     "CZ": {
-        "name": "Czechia",
-        "currencyCode": "CZK",
-        "currency": "Czech Koruna",
+        "name": {
+            "common": "Czechia",
+            "official": "Czech Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".cz",
+        "currency": {
+            "code": "CZK",
+            "name": "Czech Koruna",
+            "singular": "Czech koruna",
+            "plural": "Czech korunas",
+            "symbol": "CZK"
+        },
         "phone": "+420",
         "languages": [
             {
@@ -2224,9 +3014,20 @@ exports.countries = {
         ]
     },
     "DE": {
-        "name": "Germany",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".de",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+49",
         "languages": [
             {
@@ -2308,6 +3109,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "swg",
+                "name": "Swabian",
+                "percentage": 1,
+                "status": null
+            },
+            {
                 "code": "hr",
                 "name": "Croatian",
                 "percentage": 0.79,
@@ -2315,7 +3122,7 @@ exports.countries = {
             },
             {
                 "code": "ku",
-                "name": "Kurdish",
+                "name": "Kurmanji",
                 "percentage": 0.66,
                 "status": null
             },
@@ -2376,9 +3183,20 @@ exports.countries = {
         ]
     },
     "DJ": {
-        "name": "Djibouti",
-        "currencyCode": "DJF",
-        "currency": "Djiboutian Franc",
+        "name": {
+            "common": "Djibouti",
+            "official": "Republic of Djibouti",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".dj",
+        "currency": {
+            "code": "DJF",
+            "name": "Djiboutian Franc",
+            "singular": "Djiboutian franc",
+            "plural": "Djiboutian francs",
+            "symbol": "DJF"
+        },
         "phone": "+253",
         "languages": [
             {
@@ -2408,9 +3226,20 @@ exports.countries = {
         ]
     },
     "DK": {
-        "name": "Denmark",
-        "currencyCode": "DKK",
-        "currency": "Danish Krone",
+        "name": {
+            "common": "Denmark",
+            "official": "Kingdom of Denmark",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".dk",
+        "currency": {
+            "code": "DKK",
+            "name": "Danish Krone",
+            "singular": "Danish krone",
+            "plural": "Danish kroner",
+            "symbol": "DKK"
+        },
         "phone": "+45",
         "languages": [
             {
@@ -2458,9 +3287,20 @@ exports.countries = {
         ]
     },
     "DM": {
-        "name": "Dominica",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Dominica",
+            "official": "Commonwealth of Dominica",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".dm",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1767",
         "languages": [
             {
@@ -2472,9 +3312,20 @@ exports.countries = {
         ]
     },
     "DO": {
-        "name": "Dominican Republic",
-        "currencyCode": "DOP",
-        "currency": "Dominican Peso",
+        "name": {
+            "common": "Dominican Republic",
+            "official": "Dominican Republic",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".do",
+        "currency": {
+            "code": "DOP",
+            "name": "Dominican Peso",
+            "singular": "Dominican peso",
+            "plural": "Dominican pesos",
+            "symbol": "DOP"
+        },
         "phone": "+1849",
         "languages": [
             {
@@ -2492,9 +3343,20 @@ exports.countries = {
         ]
     },
     "DZ": {
-        "name": "Algeria",
-        "currencyCode": "DZD",
-        "currency": "Algerian Dinar",
+        "name": {
+            "common": "Algeria",
+            "official": "People's Democratic Republic of Algeria",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".dz",
+        "currency": {
+            "code": "DZD",
+            "name": "Algerian Dinar",
+            "singular": "Algerian dinar",
+            "plural": "Algerian dinars",
+            "symbol": "DZD"
+        },
         "phone": "+213",
         "languages": [
             {
@@ -2516,6 +3378,12 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "mey",
+                "name": "Hassaniyya",
+                "percentage": 11,
+                "status": null
+            },
+            {
                 "code": "kab",
                 "name": "Kabyle",
                 "percentage": 7.8,
@@ -2530,9 +3398,20 @@ exports.countries = {
         ]
     },
     "EC": {
-        "name": "Ecuador",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Ecuador",
+            "official": "Republic of Ecuador",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ec",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+593",
         "languages": [
             {
@@ -2556,9 +3435,20 @@ exports.countries = {
         ]
     },
     "EE": {
-        "name": "Estonia",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Estonia",
+            "official": "Republic of Estonia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ee",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+372",
         "languages": [
             {
@@ -2600,9 +3490,20 @@ exports.countries = {
         ]
     },
     "EG": {
-        "name": "Egypt",
-        "currencyCode": "EGP",
-        "currency": "Egyptian Pound",
+        "name": {
+            "common": "Egypt",
+            "official": "Arab Republic of Egypt",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".eg",
+        "currency": {
+            "code": "EGP",
+            "name": "Egyptian Pound",
+            "singular": "Egyptian pound",
+            "plural": "Egyptian pounds",
+            "symbol": "EGP"
+        },
         "phone": "+20",
         "languages": [
             {
@@ -2638,9 +3539,20 @@ exports.countries = {
         ]
     },
     "EH": {
-        "name": "Western Sahara",
-        "currencyCode": "MAD",
-        "currency": "Moroccan Dirham",
+        "name": {
+            "common": "Western Sahara",
+            "official": "Sahrawi Arab Democratic Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": null,
+        "currency": {
+            "code": "MAD",
+            "name": "Moroccan Dirham",
+            "singular": "Moroccan dirham",
+            "plural": "Moroccan dirhams",
+            "symbol": "MAD"
+        },
         "phone": "+212",
         "languages": [
             {
@@ -2648,13 +3560,30 @@ exports.countries = {
                 "name": "Arabic",
                 "percentage": 100,
                 "status": "official"
+            },
+            {
+                "code": "mey",
+                "name": "Hassaniyya",
+                "percentage": 0.0002,
+                "status": null
             }
         ]
     },
     "ER": {
-        "name": "Eritrea",
-        "currencyCode": "ERN",
-        "currency": "Eritrean Nakfa",
+        "name": {
+            "common": "Eritrea",
+            "official": "State of Eritrea",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".er",
+        "currency": {
+            "code": "ERN",
+            "name": "Eritrean Nakfa",
+            "singular": "Eritrean nakfa",
+            "plural": "Eritrean nakfas",
+            "symbol": "ERN"
+        },
         "phone": "+291",
         "languages": [
             {
@@ -2702,9 +3631,20 @@ exports.countries = {
         ]
     },
     "ES": {
-        "name": "Spain",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Spain",
+            "official": "Kingdom of Spain",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".es",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+34",
         "languages": [
             {
@@ -2764,9 +3704,20 @@ exports.countries = {
         ]
     },
     "ET": {
-        "name": "Ethiopia",
-        "currencyCode": "ETB",
-        "currency": "Ethiopian Birr",
+        "name": {
+            "common": "Ethiopia",
+            "official": "Federal Democratic Republic of Ethiopia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".et",
+        "currency": {
+            "code": "ETB",
+            "name": "Ethiopian Birr",
+            "singular": "Ethiopian birr",
+            "plural": "Ethiopian birrs",
+            "symbol": "ETB"
+        },
         "phone": "+251",
         "languages": [
             {
@@ -2826,9 +3777,20 @@ exports.countries = {
         ]
     },
     "FI": {
-        "name": "Finland",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Finland",
+            "official": "Republic of Finland",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".fi",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+358",
         "languages": [
             {
@@ -2868,6 +3830,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "rmf",
+                "name": "Kalo Finnish Romani",
+                "percentage": 0.089,
+                "status": null
+            },
+            {
                 "code": "se",
                 "name": "Northern Sami",
                 "percentage": 0.036,
@@ -2888,9 +3856,20 @@ exports.countries = {
         ]
     },
     "FJ": {
-        "name": "Fiji",
-        "currencyCode": "FJD",
-        "currency": "Fijian Dollar",
+        "name": {
+            "common": "Fiji",
+            "official": "Republic of Fiji",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".fj",
+        "currency": {
+            "code": "FJD",
+            "name": "Fijian Dollar",
+            "singular": "Fijian dollar",
+            "plural": "Fijian dollars",
+            "symbol": "FJD"
+        },
         "phone": "+679",
         "languages": [
             {
@@ -2926,9 +3905,20 @@ exports.countries = {
         ]
     },
     "FK": {
-        "name": "Falkland Islands",
-        "currencyCode": "FKP",
-        "currency": "Falkland Islands Pound",
+        "name": {
+            "common": "Falkland Islands",
+            "official": "Falkland Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".fk",
+        "currency": {
+            "code": "FKP",
+            "name": "Falkland Islands Pound",
+            "singular": "Falkland Islands pound",
+            "plural": "Falkland Islands pounds",
+            "symbol": "FKP"
+        },
         "phone": "+500",
         "languages": [
             {
@@ -2940,9 +3930,20 @@ exports.countries = {
         ]
     },
     "FM": {
-        "name": "Micronesia",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Micronesia",
+            "official": "Federated States of Micronesia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".fm",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+691",
         "languages": [
             {
@@ -2974,13 +3975,30 @@ exports.countries = {
                 "name": "Yapese",
                 "percentage": 6.6,
                 "status": null
+            },
+            {
+                "code": "uli",
+                "name": "Ulithian",
+                "percentage": 3,
+                "status": null
             }
         ]
     },
     "FO": {
-        "name": "Faroe Islands",
-        "currencyCode": "DKK",
-        "currency": "Danish Krone",
+        "name": {
+            "common": "Faroe Islands",
+            "official": "Faroe Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".fo",
+        "currency": {
+            "code": "DKK",
+            "name": "Danish Krone",
+            "singular": "Danish krone",
+            "plural": "Danish kroner",
+            "symbol": "DKK"
+        },
         "phone": "+298",
         "languages": [
             {
@@ -2992,9 +4010,20 @@ exports.countries = {
         ]
     },
     "FR": {
-        "name": "France",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "France",
+            "official": "French Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".fr",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+33",
         "languages": [
             {
@@ -3076,14 +4105,14 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "eu",
-                "name": "Basque",
+                "code": "nl",
+                "name": "Dutch",
                 "percentage": 0.13,
                 "status": null
             },
             {
-                "code": "nl",
-                "name": "Dutch",
+                "code": "eu",
+                "name": "Basque",
                 "percentage": 0.13,
                 "status": null
             },
@@ -3091,6 +4120,12 @@ exports.countries = {
                 "code": "frp",
                 "name": "Arpitan",
                 "percentage": 0.094,
+                "status": null
+            },
+            {
+                "code": "mww",
+                "name": "Hmong Daw",
+                "percentage": 0.015,
                 "status": null
             },
             {
@@ -3102,9 +4137,20 @@ exports.countries = {
         ]
     },
     "GA": {
-        "name": "Gabon",
-        "currencyCode": "XAF",
-        "currency": "Central African CFA Franc",
+        "name": {
+            "common": "Gabon",
+            "official": "Gabonese Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ga",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA Franc",
+            "singular": "Central African CFA franc",
+            "plural": "Central African CFA francs",
+            "symbol": "FCFA"
+        },
         "phone": "+241",
         "languages": [
             {
@@ -3112,13 +4158,30 @@ exports.countries = {
                 "name": "French",
                 "percentage": 63,
                 "status": "official"
+            },
+            {
+                "code": "puu",
+                "name": "Punu",
+                "percentage": 9,
+                "status": null
             }
         ]
     },
     "GB": {
-        "name": "United Kingdom",
-        "currencyCode": "GBP",
-        "currency": "British Pound",
+        "name": {
+            "common": "United Kingdom",
+            "official": "United Kingdom of Great Britain and Northern Ireland",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".uk",
+        "currency": {
+            "code": "GBP",
+            "name": "British Pound",
+            "singular": "British pound",
+            "plural": "British pounds",
+            "symbol": "£"
+        },
         "phone": "+44",
         "languages": [
             {
@@ -3207,7 +4270,7 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 0.3,
                 "status": null
             },
@@ -3260,6 +4323,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "pi",
+                "name": "Pali",
+                "percentage": 0.0002,
+                "status": null
+            },
+            {
                 "code": "en-Shaw",
                 "name": "English (Shavian)",
                 "percentage": 0,
@@ -3268,9 +4337,20 @@ exports.countries = {
         ]
     },
     "GD": {
-        "name": "Grenada",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Grenada",
+            "official": "Grenada",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gd",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1473",
         "languages": [
             {
@@ -3282,9 +4362,20 @@ exports.countries = {
         ]
     },
     "GE": {
-        "name": "Georgia",
-        "currencyCode": "GEL",
-        "currency": "Georgian Lari",
+        "name": {
+            "common": "Georgia",
+            "official": "Georgia",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ge",
+        "currency": {
+            "code": "GEL",
+            "name": "Georgian Lari",
+            "singular": "Georgian lari",
+            "plural": "Georgian laris",
+            "symbol": "GEL"
+        },
         "phone": "+995",
         "languages": [
             {
@@ -3324,8 +4415,8 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
-                "code": "ku",
-                "name": "Kurdish",
+                "code": "ku-Cyrl",
+                "name": "Kurmanji (Cyrillic)",
                 "percentage": 0.89,
                 "status": null
             },
@@ -3338,9 +4429,20 @@ exports.countries = {
         ]
     },
     "GF": {
-        "name": "French Guiana",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "French Guiana",
+            "official": "French Guiana",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gf",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+594",
         "languages": [
             {
@@ -3350,8 +4452,14 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "gcr",
+                "name": "Guianese Creole French",
+                "percentage": 26,
+                "status": null
+            },
+            {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 2.5,
                 "status": null
             },
@@ -3364,9 +4472,20 @@ exports.countries = {
         ]
     },
     "GG": {
-        "name": "Guernsey",
-        "currencyCode": "GBP",
-        "currency": "British Pound",
+        "name": {
+            "common": "Guernsey",
+            "official": "Bailiwick of Guernsey",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gg",
+        "currency": {
+            "code": "GBP",
+            "name": "British Pound",
+            "singular": "British pound",
+            "plural": "British pounds",
+            "symbol": "£"
+        },
         "phone": "+44",
         "languages": [
             {
@@ -3378,9 +4497,20 @@ exports.countries = {
         ]
     },
     "GH": {
-        "name": "Ghana",
-        "currencyCode": "GHS",
-        "currency": "Ghanaian Cedi",
+        "name": {
+            "common": "Ghana",
+            "official": "Republic of Ghana",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gh",
+        "currency": {
+            "code": "GHS",
+            "name": "Ghanaian Cedi",
+            "singular": "Ghanaian cedi",
+            "plural": "Ghanaian cedis",
+            "symbol": "GHS"
+        },
         "phone": "+233",
         "languages": [
             {
@@ -3400,6 +4530,12 @@ exports.countries = {
                 "name": "Ewe",
                 "percentage": 11,
                 "status": "official_regional"
+            },
+            {
+                "code": "abr",
+                "name": "Abron",
+                "percentage": 5,
+                "status": null
             },
             {
                 "code": "gur",
@@ -3432,6 +4568,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "saf",
+                "name": "Safaliba",
+                "percentage": 0.012,
+                "status": null
+            },
+            {
                 "code": "ff",
                 "name": "Fula",
                 "percentage": 0,
@@ -3446,9 +4588,20 @@ exports.countries = {
         ]
     },
     "GI": {
-        "name": "Gibraltar",
-        "currencyCode": "GIP",
-        "currency": "Gibraltar Pound",
+        "name": {
+            "common": "Gibraltar",
+            "official": "Gibraltar",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gi",
+        "currency": {
+            "code": "GIP",
+            "name": "Gibraltar Pound",
+            "singular": "Gibraltar pound",
+            "plural": "Gibraltar pounds",
+            "symbol": "GIP"
+        },
         "phone": "+350",
         "languages": [
             {
@@ -3466,9 +4619,20 @@ exports.countries = {
         ]
     },
     "GL": {
-        "name": "Greenland",
-        "currencyCode": "DKK",
-        "currency": "Danish Krone",
+        "name": {
+            "common": "Greenland",
+            "official": "Greenland",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gl",
+        "currency": {
+            "code": "DKK",
+            "name": "Danish Krone",
+            "singular": "Danish krone",
+            "plural": "Danish kroner",
+            "symbol": "DKK"
+        },
         "phone": "+299",
         "languages": [
             {
@@ -3486,9 +4650,20 @@ exports.countries = {
         ]
     },
     "GM": {
-        "name": "Gambia",
-        "currencyCode": "GMD",
-        "currency": "Gambian Dalasi",
+        "name": {
+            "common": "Gambia",
+            "official": "Republic of The Gambia",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gm",
+        "currency": {
+            "code": "GMD",
+            "name": "Gambian Dalasi",
+            "singular": "Gambian dalasi",
+            "plural": "Gambian dalasis",
+            "symbol": "GMD"
+        },
         "phone": "+220",
         "languages": [
             {
@@ -3524,9 +4699,20 @@ exports.countries = {
         ]
     },
     "GN": {
-        "name": "Guinea",
-        "currencyCode": "GNF",
-        "currency": "Guinean Franc",
+        "name": {
+            "common": "Guinea",
+            "official": "Republic of Guinea",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gn",
+        "currency": {
+            "code": "GNF",
+            "name": "Guinean Franc",
+            "singular": "Guinean franc",
+            "plural": "Guinean francs",
+            "symbol": "GNF"
+        },
         "phone": "+224",
         "languages": [
             {
@@ -3580,9 +4766,20 @@ exports.countries = {
         ]
     },
     "GP": {
-        "name": "Guadeloupe",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Guadeloupe",
+            "official": "Guadeloupe",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gp",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+590",
         "languages": [
             {
@@ -3594,9 +4791,20 @@ exports.countries = {
         ]
     },
     "GQ": {
-        "name": "Equatorial Guinea",
-        "currencyCode": "XAF",
-        "currency": "Central African CFA Franc",
+        "name": {
+            "common": "Equatorial Guinea",
+            "official": "Republic of Equatorial Guinea",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gq",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA Franc",
+            "singular": "Central African CFA franc",
+            "plural": "Central African CFA francs",
+            "symbol": "FCFA"
+        },
         "phone": "+240",
         "languages": [
             {
@@ -3618,6 +4826,12 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "bvb",
+                "name": "Bube",
+                "percentage": 7.9,
+                "status": null
+            },
+            {
                 "code": "pt",
                 "name": "Portuguese",
                 "percentage": 0.0001,
@@ -3626,9 +4840,20 @@ exports.countries = {
         ]
     },
     "GR": {
-        "name": "Greece",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Greece",
+            "official": "Hellenic Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gr",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+30",
         "languages": [
             {
@@ -3692,6 +4917,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "gmy",
+                "name": "Mycenaean Greek",
+                "percentage": 0,
+                "status": null
+            },
+            {
                 "code": "grc",
                 "name": "Ancient Greek",
                 "percentage": 0,
@@ -3700,9 +4931,20 @@ exports.countries = {
         ]
     },
     "GS": {
-        "name": "South Georgia & South Sandwich Islands",
-        "currencyCode": "GBP",
-        "currency": "British Pound",
+        "name": {
+            "common": "South Georgia and the South Sandwich Islands",
+            "official": "South Georgia and the South Sandwich Islands",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gs",
+        "currency": {
+            "code": "GBP",
+            "name": "British Pound",
+            "singular": "British pound",
+            "plural": "British pounds",
+            "symbol": "£"
+        },
         "phone": "+500",
         "languages": [
             {
@@ -3714,29 +4956,195 @@ exports.countries = {
         ]
     },
     "GT": {
-        "name": "Guatemala",
-        "currencyCode": "GTQ",
-        "currency": "Guatemalan Quetzal",
+        "name": {
+            "common": "Guatemala",
+            "official": "Republic of Guatemala",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gt",
+        "currency": {
+            "code": "GTQ",
+            "name": "Guatemalan Quetzal",
+            "singular": "Guatemalan quetzal",
+            "plural": "Guatemalan quetzals",
+            "symbol": "GTQ"
+        },
         "phone": "+502",
         "languages": [
             {
                 "code": "es",
                 "name": "Spanish",
-                "percentage": 93,
+                "percentage": 88,
                 "status": "official"
+            },
+            {
+                "code": "cak",
+                "name": "Kaqchikel",
+                "percentage": 8.8,
+                "status": "official_regional"
+            },
+            {
+                "code": "kek",
+                "name": "Qʼeqchiʼ",
+                "percentage": 8.8,
+                "status": null
             },
             {
                 "code": "quc",
                 "name": "Kʼicheʼ",
-                "percentage": 7,
+                "percentage": 8.6,
                 "status": "official_regional"
+            },
+            {
+                "code": "mam",
+                "name": "Mam",
+                "percentage": 4.6,
+                "status": null
+            },
+            {
+                "code": "en",
+                "name": "English",
+                "percentage": 3.1,
+                "status": null
+            },
+            {
+                "code": "kjb",
+                "name": "Q'anjob'al",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "poh",
+                "name": "Poqomchi'",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "acr",
+                "name": "Achi",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "ixl",
+                "name": "Ixil",
+                "percentage": 0.89,
+                "status": "official_regional"
+            },
+            {
+                "code": "tzj",
+                "name": "Tz'utujil",
+                "percentage": 0.61,
+                "status": null
+            },
+            {
+                "code": "knj",
+                "name": "Western Kanjobal",
+                "percentage": 0.58,
+                "status": null
+            },
+            {
+                "code": "cac",
+                "name": "Chuj",
+                "percentage": 0.43,
+                "status": null
+            },
+            {
+                "code": "jac",
+                "name": "Popti'",
+                "percentage": 0.31,
+                "status": null
+            },
+            {
+                "code": "agu",
+                "name": "Aguacateco",
+                "percentage": 0.26,
+                "status": null
+            },
+            {
+                "code": "caa",
+                "name": "Chortí",
+                "percentage": 0.13,
+                "status": "official_regional"
+            },
+            {
+                "code": "poc",
+                "name": "Poqomam",
+                "percentage": 0.09,
+                "status": null
+            },
+            {
+                "code": "quv",
+                "name": "Sacapulteco",
+                "percentage": 0.054,
+                "status": "official_regional"
+            },
+            {
+                "code": "usp",
+                "name": "Uspanteco",
+                "percentage": 0.045,
+                "status": "official_regional"
+            },
+            {
+                "code": "qum",
+                "name": "Sipacapense",
+                "percentage": 0.036,
+                "status": null
+            },
+            {
+                "code": "cab",
+                "name": "Garifuna",
+                "percentage": 0.027,
+                "status": null
+            },
+            {
+                "code": "ttc",
+                "name": "Tektiteko",
+                "percentage": 0.027,
+                "status": null
+            },
+            {
+                "code": "xin",
+                "name": "Xinca",
+                "percentage": 0.027,
+                "status": "official_regional"
+            },
+            {
+                "code": "ckz",
+                "name": "Cakchiquel-Quiché Mixed Language",
+                "percentage": 0.018,
+                "status": null
+            },
+            {
+                "code": "mop",
+                "name": "Mopán Maya",
+                "percentage": 0.018,
+                "status": null
+            },
+            {
+                "code": "itz",
+                "name": "Itzá",
+                "percentage": 0.0091,
+                "status": null
             }
         ]
     },
     "GU": {
-        "name": "Guam",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Guam",
+            "official": "Guam",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".gu",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1671",
         "languages": [
             {
@@ -3754,9 +5162,20 @@ exports.countries = {
         ]
     },
     "GW": {
-        "name": "Guinea-Bissau",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Guinea-Bissau",
+            "official": "Republic of Guinea-Bissau",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gw",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+245",
         "languages": [
             {
@@ -3769,6 +5188,12 @@ exports.countries = {
                 "code": "fr",
                 "name": "French",
                 "percentage": 15,
+                "status": null
+            },
+            {
+                "code": "knf",
+                "name": "Mankanya",
+                "percentage": 2.6,
                 "status": null
             },
             {
@@ -3786,9 +5211,20 @@ exports.countries = {
         ]
     },
     "GY": {
-        "name": "Guyana",
-        "currencyCode": "GYD",
-        "currency": "Guyanaese Dollar",
+        "name": {
+            "common": "Guyana",
+            "official": "Co-operative Republic of Guyana",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".gy",
+        "currency": {
+            "code": "GYD",
+            "name": "Guyanaese Dollar",
+            "singular": "Guyanaese dollar",
+            "plural": "Guyanaese dollars",
+            "symbol": "GYD"
+        },
         "phone": "+595",
         "languages": [
             {
@@ -3800,14 +5236,25 @@ exports.countries = {
         ]
     },
     "HK": {
-        "name": "Hong Kong SAR China",
-        "currencyCode": "HKD",
-        "currency": "Hong Kong Dollar",
+        "name": {
+            "common": "Hong Kong",
+            "official": "Hong Kong Special Administrative Region of China",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".hk",
+        "currency": {
+            "code": "HKD",
+            "name": "Hong Kong Dollar",
+            "singular": "Hong Kong dollar",
+            "plural": "Hong Kong dollars",
+            "symbol": "HK$"
+        },
         "phone": "+852",
         "languages": [
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 95,
                 "status": "official"
             },
@@ -3832,9 +5279,20 @@ exports.countries = {
         ]
     },
     "HM": {
-        "name": "Heard & McDonald Islands",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Heard Island and McDonald Islands",
+            "official": "Territory of Heard Island and McDonald Islands",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".hm",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+672",
         "languages": [
             {
@@ -3846,16 +5304,33 @@ exports.countries = {
         ]
     },
     "HN": {
-        "name": "Honduras",
-        "currencyCode": "HNL",
-        "currency": "Honduran Lempira",
+        "name": {
+            "common": "Honduras",
+            "official": "Republic of Honduras",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".hn",
+        "currency": {
+            "code": "HNL",
+            "name": "Honduran Lempira",
+            "singular": "Honduran lempira",
+            "plural": "Honduran lempiras",
+            "symbol": "HNL"
+        },
         "phone": "+504",
         "languages": [
             {
                 "code": "es",
                 "name": "Spanish",
-                "percentage": 78,
+                "percentage": 91,
                 "status": "official"
+            },
+            {
+                "code": "cab",
+                "name": "Garifuna",
+                "percentage": 0.47,
+                "status": null
             },
             {
                 "code": "en",
@@ -3866,9 +5341,20 @@ exports.countries = {
         ]
     },
     "HR": {
-        "name": "Croatia",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Croatia",
+            "official": "Republic of Croatia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".hr",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+385",
         "languages": [
             {
@@ -3898,9 +5384,20 @@ exports.countries = {
         ]
     },
     "HT": {
-        "name": "Haiti",
-        "currencyCode": "HTG",
-        "currency": "Haitian Gourde",
+        "name": {
+            "common": "Haiti",
+            "official": "Republic of Haiti",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ht",
+        "currency": {
+            "code": "HTG",
+            "name": "Haitian Gourde",
+            "singular": "Haitian gourde",
+            "plural": "Haitian gourdes",
+            "symbol": "HTG"
+        },
         "phone": "+509",
         "languages": [
             {
@@ -3918,9 +5415,20 @@ exports.countries = {
         ]
     },
     "HU": {
-        "name": "Hungary",
-        "currencyCode": "HUF",
-        "currency": "Hungarian Forint",
+        "name": {
+            "common": "Hungary",
+            "official": "Hungary",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".hu",
+        "currency": {
+            "code": "HUF",
+            "name": "Hungarian Forint",
+            "singular": "Hungarian forint",
+            "plural": "Hungarian forints",
+            "symbol": "HUF"
+        },
         "phone": "+36",
         "languages": [
             {
@@ -3974,9 +5482,20 @@ exports.countries = {
         ]
     },
     "ID": {
-        "name": "Indonesia",
-        "currencyCode": "IDR",
-        "currency": "Indonesian Rupiah",
+        "name": {
+            "common": "Indonesia",
+            "official": "Republic of Indonesia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".id",
+        "currency": {
+            "code": "IDR",
+            "name": "Indonesian Rupiah",
+            "singular": "Indonesian rupiah",
+            "plural": "Indonesian rupiahs",
+            "symbol": "IDR"
+        },
         "phone": "+62",
         "languages": [
             {
@@ -4065,7 +5584,7 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 0.92,
                 "status": null
             },
@@ -4076,9 +5595,51 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "ljp",
+                "name": "Lampung Api",
+                "percentage": 0.69,
+                "status": null
+            },
+            {
+                "code": "rej",
+                "name": "Rejang",
+                "percentage": 0.46,
+                "status": null
+            },
+            {
                 "code": "gor",
                 "name": "Gorontalo",
                 "percentage": 0.41,
+                "status": null
+            },
+            {
+                "code": "nij",
+                "name": "Ngaju",
+                "percentage": 0.37,
+                "status": null
+            },
+            {
+                "code": "kge",
+                "name": "Komering",
+                "percentage": 0.32,
+                "status": null
+            },
+            {
+                "code": "aoz",
+                "name": "Uab Meto",
+                "percentage": 0.27,
+                "status": null
+            },
+            {
+                "code": "kvr",
+                "name": "Kerinci",
+                "percentage": 0.14,
+                "status": null
+            },
+            {
+                "code": "lbw",
+                "name": "Tolaki",
+                "percentage": 0.13,
                 "status": null
             },
             {
@@ -4088,8 +5649,20 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "rob",
+                "name": "Tae'",
+                "percentage": 0.11,
+                "status": null
+            },
+            {
                 "code": "mdr",
                 "name": "Mandar",
+                "percentage": 0.092,
+                "status": null
+            },
+            {
+                "code": "sxn",
+                "name": "Sangir",
                 "percentage": 0.092,
                 "status": null
             },
@@ -4120,9 +5693,20 @@ exports.countries = {
         ]
     },
     "IE": {
-        "name": "Ireland",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Ireland",
+            "official": "Ireland",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ie",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+353",
         "languages": [
             {
@@ -4146,9 +5730,20 @@ exports.countries = {
         ]
     },
     "IL": {
-        "name": "Israel",
-        "currencyCode": "ILS",
-        "currency": "Israeli New Shekel",
+        "name": {
+            "common": "Israel",
+            "official": "State of Israel",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".il",
+        "currency": {
+            "code": "ILS",
+            "name": "Israeli New Shekel",
+            "singular": "Israeli new shekel",
+            "plural": "Israeli new shekels",
+            "symbol": "₪"
+        },
         "phone": "+972",
         "languages": [
             {
@@ -4168,6 +5763,12 @@ exports.countries = {
                 "name": "Arabic",
                 "percentage": 20,
                 "status": "official"
+            },
+            {
+                "code": "apc",
+                "name": "Levantine Arabic",
+                "percentage": 17,
+                "status": null
             },
             {
                 "code": "ru",
@@ -4226,9 +5827,20 @@ exports.countries = {
         ]
     },
     "IM": {
-        "name": "Isle of Man",
-        "currencyCode": "GBP",
-        "currency": "British Pound",
+        "name": {
+            "common": "Isle of Man",
+            "official": "Isle of Man",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".im",
+        "currency": {
+            "code": "GBP",
+            "name": "British Pound",
+            "singular": "British pound",
+            "plural": "British pounds",
+            "symbol": "£"
+        },
         "phone": "+44",
         "languages": [
             {
@@ -4246,9 +5858,20 @@ exports.countries = {
         ]
     },
     "IN": {
-        "name": "India",
-        "currencyCode": "INR",
-        "currency": "Indian Rupee",
+        "name": {
+            "common": "India",
+            "official": "Republic of India",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".in",
+        "currency": {
+            "code": "INR",
+            "name": "Indian Rupee",
+            "singular": "Indian rupee",
+            "plural": "Indian rupees",
+            "symbol": "₹"
+        },
         "phone": "+91",
         "languages": [
             {
@@ -4354,15 +5977,33 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "mwr",
+                "name": "Marwari",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
                 "code": "mai",
                 "name": "Maithili",
                 "percentage": 1.2,
                 "status": "official_regional"
             },
             {
-                "code": "mwr",
-                "name": "Marwari",
-                "percentage": 1.2,
+                "code": "hne",
+                "name": "Chhattisgarhi",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "dcc",
+                "name": "Deccan",
+                "percentage": 0.99,
+                "status": null
+            },
+            {
+                "code": "bjj",
+                "name": "Kanauji",
+                "percentage": 0.56,
                 "status": null
             },
             {
@@ -4378,16 +6019,52 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "wtm",
+                "name": "Mewati",
+                "percentage": 0.46,
+                "status": null
+            },
+            {
+                "code": "rkt",
+                "name": "Rangpuri",
+                "percentage": 0.43,
+                "status": null
+            },
+            {
                 "code": "ks",
                 "name": "Kashmiri",
                 "percentage": 0.41,
                 "status": "official_regional"
             },
             {
+                "code": "knn",
+                "name": "Konkani (individual language)",
+                "percentage": 0.37,
+                "status": null
+            },
+            {
                 "code": "kok",
                 "name": "Konkani",
                 "percentage": 0.32,
                 "status": "official_regional"
+            },
+            {
+                "code": "swv",
+                "name": "Shekhawati",
+                "percentage": 0.28,
+                "status": null
+            },
+            {
+                "code": "gbm",
+                "name": "Garhwali",
+                "percentage": 0.27,
+                "status": null
+            },
+            {
+                "code": "lmn",
+                "name": "Lambadi",
+                "percentage": 0.27,
+                "status": null
             },
             {
                 "code": "sd",
@@ -4399,6 +6076,12 @@ exports.countries = {
                 "code": "gon",
                 "name": "Gondi",
                 "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "kfy",
+                "name": "Kumaoni",
+                "percentage": 0.22,
                 "status": null
             },
             {
@@ -4414,6 +6097,18 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "sck",
+                "name": "Sadri",
+                "percentage": 0.18,
+                "status": null
+            },
+            {
+                "code": "wbq",
+                "name": "Waddar",
+                "percentage": 0.18,
+                "status": null
+            },
+            {
                 "code": "xnr",
                 "name": "Kangri",
                 "percentage": 0.16,
@@ -4426,9 +6121,15 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "brx",
-                "name": "Bodo",
-                "percentage": 0.14,
+                "code": "wbr",
+                "name": "Wagdi",
+                "percentage": 0.15,
+                "status": null
+            },
+            {
+                "code": "khn",
+                "name": "Khandesi",
+                "percentage": 0.15,
                 "status": null
             },
             {
@@ -4438,15 +6139,27 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
-                "code": "mni",
-                "name": "Manipuri",
-                "percentage": 0.11,
+                "code": "brx",
+                "name": "Bodo",
+                "percentage": 0.14,
                 "status": null
             },
             {
-                "code": "hi-Latn",
-                "name": "Hindi (Latin)",
-                "percentage": 0.1,
+                "code": "noe",
+                "name": "Nimadi",
+                "percentage": 0.13,
+                "status": null
+            },
+            {
+                "code": "bhb",
+                "name": "Bhili",
+                "percentage": 0.12,
+                "status": null
+            },
+            {
+                "code": "mni",
+                "name": "Manipuri",
+                "percentage": 0.11,
                 "status": null
             },
             {
@@ -4456,10 +6169,76 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "hi-Latn",
+                "name": "Hindi (Latin)",
+                "percentage": 0.1,
+                "status": null
+            },
+            {
+                "code": "hoc",
+                "name": "Ho",
+                "percentage": 0.099,
+                "status": null
+            },
+            {
+                "code": "mtr",
+                "name": "Mewari",
+                "percentage": 0.097,
+                "status": null
+            },
+            {
+                "code": "unr",
+                "name": "Mundari",
+                "percentage": 0.094,
+                "status": null
+            },
+            {
+                "code": "bhi",
+                "name": "Bhilali",
+                "percentage": 0.092,
+                "status": null
+            },
+            {
+                "code": "hoj",
+                "name": "Haroti",
+                "percentage": 0.082,
+                "status": null
+            },
+            {
                 "code": "kha",
                 "name": "Khasi",
                 "percentage": 0.08,
                 "status": "official_regional"
+            },
+            {
+                "code": "kfr",
+                "name": "Kutchi",
+                "percentage": 0.075,
+                "status": null
+            },
+            {
+                "code": "grt",
+                "name": "Garo",
+                "percentage": 0.053,
+                "status": null
+            },
+            {
+                "code": "unx",
+                "name": "Munda",
+                "percentage": 0.048,
+                "status": null
+            },
+            {
+                "code": "bfy",
+                "name": "Bagheli",
+                "percentage": 0.037,
+                "status": null
+            },
+            {
+                "code": "srx",
+                "name": "Sirmauri",
+                "percentage": 0.035,
+                "status": null
             },
             {
                 "code": "saz",
@@ -4486,6 +6265,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "ria",
+                "name": "Riang (India)",
+                "percentage": 0.013,
+                "status": null
+            },
+            {
                 "code": "bo",
                 "name": "Tibetan",
                 "percentage": 0.011,
@@ -4498,15 +6283,39 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "bft",
+                "name": "Balti",
+                "percentage": 0.0062,
+                "status": null
+            },
+            {
                 "code": "bra",
                 "name": "Braj",
                 "percentage": 0.0041,
                 "status": null
             },
             {
+                "code": "lep",
+                "name": "Lepcha",
+                "percentage": 0.0035,
+                "status": null
+            },
+            {
                 "code": "kxv",
                 "name": "Kuvi",
                 "percentage": 0.0029,
+                "status": null
+            },
+            {
+                "code": "btv",
+                "name": "Bateri",
+                "percentage": 0.0026,
+                "status": null
+            },
+            {
+                "code": "lif",
+                "name": "Limbu",
+                "percentage": 0.0026,
                 "status": null
             },
             {
@@ -4522,6 +6331,12 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "kht",
+                "name": "Khamti",
+                "percentage": 0.0006,
+                "status": null
+            },
+            {
                 "code": "dv",
                 "name": "Divehi",
                 "percentage": 0.0003,
@@ -4532,13 +6347,30 @@ exports.countries = {
                 "name": "Dzongkha",
                 "percentage": 0.0002,
                 "status": null
+            },
+            {
+                "code": "pi-Deva",
+                "name": "Pali (Devanagari)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
     "IO": {
-        "name": "British Indian Ocean Territory",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "British Indian Ocean Territory",
+            "official": "British Indian Ocean Territory",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".io",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+246",
         "languages": [
             {
@@ -4550,9 +6382,20 @@ exports.countries = {
         ]
     },
     "IQ": {
-        "name": "Iraq",
-        "currencyCode": "IQD",
-        "currency": "Iraqi Dinar",
+        "name": {
+            "common": "Iraq",
+            "official": "Republic of Iraq",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".iq",
+        "currency": {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "singular": "Iraqi dinar",
+            "plural": "Iraqi dinars",
+            "symbol": "IQD"
+        },
         "phone": "+964",
         "languages": [
             {
@@ -4569,9 +6412,15 @@ exports.countries = {
             },
             {
                 "code": "ckb",
-                "name": "Central Kurdish",
-                "percentage": 20,
+                "name": "Central",
+                "percentage": 12,
                 "status": "official_regional"
+            },
+            {
+                "code": "ku-Arab",
+                "name": "Kurmanji (Arabic)",
+                "percentage": 10,
+                "status": null
             },
             {
                 "code": "az-Arab",
@@ -4600,9 +6449,20 @@ exports.countries = {
         ]
     },
     "IR": {
-        "name": "Iran",
-        "currencyCode": "IRR",
-        "currency": "Iranian Rial",
+        "name": {
+            "common": "Iran",
+            "official": "Islamic Republic of Iran",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ir",
+        "currency": {
+            "code": "IRR",
+            "name": "Iranian Rial",
+            "singular": "Iranian rial",
+            "plural": "Iranian rials",
+            "symbol": "IRR"
+        },
         "phone": "+98",
         "languages": [
             {
@@ -4630,15 +6490,9 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "ckb",
-                "name": "Central Kurdish",
-                "percentage": 3.9,
-                "status": null
-            },
-            {
                 "code": "sdh",
-                "name": "Southern Kurdish",
-                "percentage": 3.7,
+                "name": "Southern",
+                "percentage": 4.5,
                 "status": null
             },
             {
@@ -4666,9 +6520,27 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "rmt",
+                "name": "Domari",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
                 "code": "bqi",
                 "name": "Bakhtiari",
                 "percentage": 1.4,
+                "status": null
+            },
+            {
+                "code": "luz",
+                "name": "Southern Luri",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "lki",
+                "name": "Laki",
+                "percentage": 0.76,
                 "status": null
             },
             {
@@ -4678,9 +6550,27 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "ckb",
+                "name": "Central",
+                "percentage": 0.63,
+                "status": null
+            },
+            {
+                "code": "ku-Arab",
+                "name": "Kurmanji (Arabic)",
+                "percentage": 0.56,
+                "status": null
+            },
+            {
                 "code": "bgn",
                 "name": "Western Balochi",
                 "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "prd",
+                "name": "Parsi-Dari",
+                "percentage": 0.5,
                 "status": null
             },
             {
@@ -4716,9 +6606,20 @@ exports.countries = {
         ]
     },
     "IS": {
-        "name": "Iceland",
-        "currencyCode": "ISK",
-        "currency": "Icelandic Króna",
+        "name": {
+            "common": "Iceland",
+            "official": "Iceland",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".is",
+        "currency": {
+            "code": "ISK",
+            "name": "Icelandic Króna",
+            "singular": "Icelandic króna",
+            "plural": "Icelandic krónur",
+            "symbol": "ISK"
+        },
         "phone": "+354",
         "languages": [
             {
@@ -4736,9 +6637,20 @@ exports.countries = {
         ]
     },
     "IT": {
-        "name": "Italy",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Italy",
+            "official": "Italian Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".it",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+39",
         "languages": [
             {
@@ -4784,6 +6696,12 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "pms",
+                "name": "Piedmontese",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
                 "code": "nap",
                 "name": "Neapolitan",
                 "percentage": 0.97,
@@ -4802,14 +6720,14 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "sdc",
-                "name": "Sassarese Sardinian",
+                "code": "sl",
+                "name": "Slovenian",
                 "percentage": 0.17,
                 "status": null
             },
             {
-                "code": "sl",
-                "name": "Slovenian",
+                "code": "sdc",
+                "name": "Sassarese Sardinian",
                 "percentage": 0.17,
                 "status": null
             },
@@ -4826,6 +6744,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "lld",
+                "name": "Ladin",
+                "percentage": 0.048,
+                "status": null
+            },
+            {
                 "code": "ca",
                 "name": "Catalan",
                 "percentage": 0.035,
@@ -4838,15 +6762,15 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "pms",
-                "name": "Piedmontese",
-                "percentage": 0.01,
-                "status": null
-            },
-            {
                 "code": "hr",
                 "name": "Croatian",
                 "percentage": 0.0057,
+                "status": null
+            },
+            {
+                "code": "mhn",
+                "name": "Mócheno",
+                "percentage": 0.0023,
                 "status": null
             },
             {
@@ -4858,9 +6782,20 @@ exports.countries = {
         ]
     },
     "JE": {
-        "name": "Jersey",
-        "currencyCode": "GBP",
-        "currency": "British Pound",
+        "name": {
+            "common": "Jersey",
+            "official": "Bailiwick of Jersey",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".je",
+        "currency": {
+            "code": "GBP",
+            "name": "British Pound",
+            "singular": "British pound",
+            "plural": "British pounds",
+            "symbol": "£"
+        },
         "phone": "+44",
         "languages": [
             {
@@ -4872,9 +6807,20 @@ exports.countries = {
         ]
     },
     "JM": {
-        "name": "Jamaica",
-        "currencyCode": "JMD",
-        "currency": "Jamaican Dollar",
+        "name": {
+            "common": "Jamaica",
+            "official": "Jamaica",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".jm",
+        "currency": {
+            "code": "JMD",
+            "name": "Jamaican Dollar",
+            "singular": "Jamaican dollar",
+            "plural": "Jamaican dollars",
+            "symbol": "JMD"
+        },
         "phone": "+1876",
         "languages": [
             {
@@ -4892,9 +6838,20 @@ exports.countries = {
         ]
     },
     "JO": {
-        "name": "Jordan",
-        "currencyCode": "JOD",
-        "currency": "Jordanian Dinar",
+        "name": {
+            "common": "Jordan",
+            "official": "Hashemite Kingdom of Jordan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".jo",
+        "currency": {
+            "code": "JOD",
+            "name": "Jordanian Dinar",
+            "singular": "Jordanian dinar",
+            "plural": "Jordanian dinars",
+            "symbol": "JOD"
+        },
         "phone": "+962",
         "languages": [
             {
@@ -4902,6 +6859,12 @@ exports.countries = {
                 "name": "Arabic",
                 "percentage": 100,
                 "status": "official"
+            },
+            {
+                "code": "apc",
+                "name": "Levantine Arabic",
+                "percentage": 66,
+                "status": null
             },
             {
                 "code": "en",
@@ -4912,9 +6875,20 @@ exports.countries = {
         ]
     },
     "JP": {
-        "name": "Japan",
-        "currencyCode": "JPY",
-        "currency": "Japanese Yen",
+        "name": {
+            "common": "Japan",
+            "official": "Japan",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".jp",
+        "currency": {
+            "code": "JPY",
+            "name": "Japanese Yen",
+            "singular": "Japanese yen",
+            "plural": "Japanese yen",
+            "symbol": "¥"
+        },
         "phone": "+81",
         "languages": [
             {
@@ -4922,6 +6896,12 @@ exports.countries = {
                 "name": "Japanese",
                 "percentage": 95,
                 "status": "official"
+            },
+            {
+                "code": "ryu",
+                "name": "Central Okinawan",
+                "percentage": 0.77,
+                "status": null
             },
             {
                 "code": "ko",
@@ -4932,9 +6912,20 @@ exports.countries = {
         ]
     },
     "KE": {
-        "name": "Kenya",
-        "currencyCode": "KES",
-        "currency": "Kenyan Shilling",
+        "name": {
+            "common": "Kenya",
+            "official": "Republic of Kenya",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ke",
+        "currency": {
+            "code": "KES",
+            "name": "Kenyan Shilling",
+            "singular": "Kenyan shilling",
+            "plural": "Kenyan shillings",
+            "symbol": "KES"
+        },
         "phone": "+254",
         "languages": [
             {
@@ -5022,6 +7013,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "pko",
+                "name": "Pökoot",
+                "percentage": 0.69,
+                "status": null
+            },
+            {
                 "code": "om",
                 "name": "Oromo",
                 "percentage": 0.47,
@@ -5054,9 +7051,20 @@ exports.countries = {
         ]
     },
     "KG": {
-        "name": "Kyrgyzstan",
-        "currencyCode": "KGS",
-        "currency": "Kyrgystani Som",
+        "name": {
+            "common": "Kyrgyzstan",
+            "official": "Kyrgyz Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kg",
+        "currency": {
+            "code": "KGS",
+            "name": "Kyrgyz Som",
+            "singular": "Kyrgyz som",
+            "plural": "Kyrgyz soms",
+            "symbol": "KGS"
+        },
         "phone": "+996",
         "languages": [
             {
@@ -5080,9 +7088,20 @@ exports.countries = {
         ]
     },
     "KH": {
-        "name": "Cambodia",
-        "currencyCode": "KHR",
-        "currency": "Cambodian Riel",
+        "name": {
+            "common": "Cambodia",
+            "official": "Kingdom of Cambodia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kh",
+        "currency": {
+            "code": "KHR",
+            "name": "Cambodian Riel",
+            "singular": "Cambodian riel",
+            "plural": "Cambodian riels",
+            "symbol": "KHR"
+        },
         "phone": "+855",
         "languages": [
             {
@@ -5090,13 +7109,36 @@ exports.countries = {
                 "name": "Khmer",
                 "percentage": 89,
                 "status": "official"
+            },
+            {
+                "code": "cja",
+                "name": "Western Cham",
+                "percentage": 1.6,
+                "status": null
+            },
+            {
+                "code": "kdt",
+                "name": "Kuy",
+                "percentage": 0.11,
+                "status": null
             }
         ]
     },
     "KI": {
-        "name": "Kiribati",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Kiribati",
+            "official": "Republic of Kiribati",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ki",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+686",
         "languages": [
             {
@@ -5114,15 +7156,38 @@ exports.countries = {
         ]
     },
     "KM": {
-        "name": "Comoros",
-        "currencyCode": "KMF",
-        "currency": "Comorian Franc",
+        "name": {
+            "common": "Comoros",
+            "official": "Union of the Comoros",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".km",
+        "currency": {
+            "code": "KMF",
+            "name": "Comorian Franc",
+            "singular": "Comorian franc",
+            "plural": "Comorian francs",
+            "symbol": "KMF"
+        },
         "phone": "+269",
         "languages": [
             {
                 "code": "ar",
                 "name": "Arabic",
                 "percentage": 66,
+                "status": "official"
+            },
+            {
+                "code": "zdj",
+                "name": "Ngazidja Comorian",
+                "percentage": 37,
+                "status": "official"
+            },
+            {
+                "code": "wni",
+                "name": "Ndzwani Comorian",
+                "percentage": 34,
                 "status": "official"
             },
             {
@@ -5134,9 +7199,20 @@ exports.countries = {
         ]
     },
     "KN": {
-        "name": "St. Kitts & Nevis",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Saint Kitts and Nevis",
+            "official": "Federation of Saint Kitts and Nevis",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kn",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1869",
         "languages": [
             {
@@ -5148,9 +7224,20 @@ exports.countries = {
         ]
     },
     "KP": {
-        "name": "North Korea",
-        "currencyCode": "KPW",
-        "currency": "North Korean Won",
+        "name": {
+            "common": "Korea",
+            "official": "Democratic People's Republic of Korea",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kp",
+        "currency": {
+            "code": "KPW",
+            "name": "North Korean Won",
+            "singular": "North Korean won",
+            "plural": "North Korean won",
+            "symbol": "KPW"
+        },
         "phone": "+850",
         "languages": [
             {
@@ -5162,9 +7249,20 @@ exports.countries = {
         ]
     },
     "KR": {
-        "name": "South Korea",
-        "currencyCode": "KRW",
-        "currency": "South Korean Won",
+        "name": {
+            "common": "Korea",
+            "official": "Republic of Korea",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kr",
+        "currency": {
+            "code": "KRW",
+            "name": "South Korean Won",
+            "singular": "South Korean won",
+            "plural": "South Korean won",
+            "symbol": "₩"
+        },
         "phone": "+82",
         "languages": [
             {
@@ -5176,9 +7274,20 @@ exports.countries = {
         ]
     },
     "KW": {
-        "name": "Kuwait",
-        "currencyCode": "KWD",
-        "currency": "Kuwaiti Dinar",
+        "name": {
+            "common": "Kuwait",
+            "official": "State of Kuwait",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kw",
+        "currency": {
+            "code": "KWD",
+            "name": "Kuwaiti Dinar",
+            "singular": "Kuwaiti dinar",
+            "plural": "Kuwaiti dinars",
+            "symbol": "KWD"
+        },
         "phone": "+965",
         "languages": [
             {
@@ -5190,9 +7299,20 @@ exports.countries = {
         ]
     },
     "KY": {
-        "name": "Cayman Islands",
-        "currencyCode": "KYD",
-        "currency": "Cayman Islands Dollar",
+        "name": {
+            "common": "Cayman Islands",
+            "official": "Cayman Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ky",
+        "currency": {
+            "code": "KYD",
+            "name": "Cayman Islands Dollar",
+            "singular": "Cayman Islands dollar",
+            "plural": "Cayman Islands dollars",
+            "symbol": "KYD"
+        },
         "phone": "+ 345",
         "languages": [
             {
@@ -5204,9 +7324,20 @@ exports.countries = {
         ]
     },
     "KZ": {
-        "name": "Kazakhstan",
-        "currencyCode": "KZT",
-        "currency": "Kazakhstani Tenge",
+        "name": {
+            "common": "Kazakhstan",
+            "official": "Republic of Kazakhstan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".kz",
+        "currency": {
+            "code": "KZT",
+            "name": "Kazakhstani Tenge",
+            "singular": "Kazakhstani tenge",
+            "plural": "Kazakhstani tenges",
+            "symbol": "KZT"
+        },
         "phone": "+77",
         "languages": [
             {
@@ -5248,9 +7379,20 @@ exports.countries = {
         ]
     },
     "LA": {
-        "name": "Laos",
-        "currencyCode": "LAK",
-        "currency": "Laotian Kip",
+        "name": {
+            "common": "Laos",
+            "official": "Lao People's Democratic Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".la",
+        "currency": {
+            "code": "LAK",
+            "name": "Laotian Kip",
+            "singular": "Laotian kip",
+            "plural": "Laotian kips",
+            "symbol": "LAK"
+        },
         "phone": "+856",
         "languages": [
             {
@@ -5260,19 +7402,54 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "kjg",
+                "name": "Khmu",
+                "percentage": 5.8,
+                "status": null
+            },
+            {
                 "code": "hnj",
                 "name": "Hmong Njua",
                 "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "mww",
+                "name": "Hmong Daw",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
+                "code": "kdt",
+                "name": "Kuy",
+                "percentage": 0.96,
                 "status": null
             }
         ]
     },
     "LB": {
-        "name": "Lebanon",
-        "currencyCode": "LBP",
-        "currency": "Lebanese Pound",
+        "name": {
+            "common": "Lebanon",
+            "official": "Lebanese Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".lb",
+        "currency": {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "singular": "Lebanese pound",
+            "plural": "Lebanese pounds",
+            "symbol": "LBP"
+        },
         "phone": "+961",
         "languages": [
+            {
+                "code": "apc",
+                "name": "Levantine Arabic",
+                "percentage": 100,
+                "status": null
+            },
             {
                 "code": "ar",
                 "name": "Arabic",
@@ -5299,16 +7476,27 @@ exports.countries = {
             },
             {
                 "code": "ku-Arab",
-                "name": "Kurdish (Arabic)",
+                "name": "Kurmanji (Arabic)",
                 "percentage": 1.7,
                 "status": null
             }
         ]
     },
     "LC": {
-        "name": "St. Lucia",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".lc",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1758",
         "languages": [
             {
@@ -5320,9 +7508,20 @@ exports.countries = {
         ]
     },
     "LI": {
-        "name": "Liechtenstein",
-        "currencyCode": "CHF",
-        "currency": "Swiss Franc",
+        "name": {
+            "common": "Liechtenstein",
+            "official": "Principality of Liechtenstein",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".li",
+        "currency": {
+            "code": "CHF",
+            "name": "Swiss Franc",
+            "singular": "Swiss franc",
+            "plural": "Swiss francs",
+            "symbol": "CHF"
+        },
         "phone": "+423",
         "languages": [
             {
@@ -5346,9 +7545,20 @@ exports.countries = {
         ]
     },
     "LK": {
-        "name": "Sri Lanka",
-        "currencyCode": "LKR",
-        "currency": "Sri Lankan Rupee",
+        "name": {
+            "common": "Sri Lanka",
+            "official": "Democratic Socialist Republic of Sri Lanka",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".lk",
+        "currency": {
+            "code": "LKR",
+            "name": "Sri Lankan Rupee",
+            "singular": "Sri Lankan rupee",
+            "plural": "Sri Lankan rupees",
+            "symbol": "LKR"
+        },
         "phone": "+94",
         "languages": [
             {
@@ -5368,13 +7578,30 @@ exports.countries = {
                 "name": "English",
                 "percentage": 10,
                 "status": null
+            },
+            {
+                "code": "pi-Sinh",
+                "name": "Pali (Sinhala)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
     "LR": {
-        "name": "Liberia",
-        "currencyCode": "LRD",
-        "currency": "Liberian Dollar",
+        "name": {
+            "common": "Liberia",
+            "official": "Republic of Liberia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".lr",
+        "currency": {
+            "code": "LRD",
+            "name": "Liberian Dollar",
+            "singular": "Liberian dollar",
+            "plural": "Liberian dollars",
+            "symbol": "LRD"
+        },
         "phone": "+231",
         "languages": [
             {
@@ -5384,21 +7611,63 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "lir",
+                "name": "Liberian English",
+                "percentage": 74,
+                "status": null
+            },
+            {
                 "code": "kpe",
                 "name": "Kpelle",
+                "percentage": 20,
+                "status": null
+            },
+            {
+                "code": "bsq",
+                "name": "Bassa",
                 "percentage": 14,
+                "status": null
+            },
+            {
+                "code": "grb",
+                "name": "Grebo",
+                "percentage": 9.9,
+                "status": null
+            },
+            {
+                "code": "dnj",
+                "name": "Dan",
+                "percentage": 7.9,
+                "status": null
+            },
+            {
+                "code": "mev",
+                "name": "Mano",
+                "percentage": 7.2,
+                "status": null
+            },
+            {
+                "code": "kss",
+                "name": "Southern Kisi",
+                "percentage": 4.3,
                 "status": null
             },
             {
                 "code": "vai",
                 "name": "Vai",
-                "percentage": 2.6,
+                "percentage": 3.8,
+                "status": null
+            },
+            {
+                "code": "bza",
+                "name": "Bandi",
+                "percentage": 2.9,
                 "status": null
             },
             {
                 "code": "men",
                 "name": "Mende",
-                "percentage": 0.48,
+                "percentage": 1.7,
                 "status": null
             },
             {
@@ -5422,9 +7691,20 @@ exports.countries = {
         ]
     },
     "LS": {
-        "name": "Lesotho",
-        "currencyCode": "ZAR",
-        "currency": "South African Rand",
+        "name": {
+            "common": "Lesotho",
+            "official": "Kingdom of Lesotho",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ls",
+        "currency": {
+            "code": "ZAR",
+            "name": "South African Rand",
+            "singular": "South African rand",
+            "plural": "South African rand",
+            "symbol": "ZAR"
+        },
         "phone": "+266",
         "languages": [
             {
@@ -5460,9 +7740,20 @@ exports.countries = {
         ]
     },
     "LT": {
-        "name": "Lithuania",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Lithuania",
+            "official": "Republic of Lithuania",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".lt",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+370",
         "languages": [
             {
@@ -5498,9 +7789,20 @@ exports.countries = {
         ]
     },
     "LU": {
-        "name": "Luxembourg",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Luxembourg",
+            "official": "Grand Duchy of Luxembourg",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".lu",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+352",
         "languages": [
             {
@@ -5536,9 +7838,20 @@ exports.countries = {
         ]
     },
     "LV": {
-        "name": "Latvia",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Latvia",
+            "official": "Republic of Latvia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".lv",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+371",
         "languages": [
             {
@@ -5568,9 +7881,20 @@ exports.countries = {
         ]
     },
     "LY": {
-        "name": "Libya",
-        "currencyCode": "LYD",
-        "currency": "Libyan Dinar",
+        "name": {
+            "common": "Libya",
+            "official": "State of Libya",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ly",
+        "currency": {
+            "code": "LYD",
+            "name": "Libyan Dinar",
+            "singular": "Libyan dinar",
+            "plural": "Libyan dinars",
+            "symbol": "LYD"
+        },
         "phone": "+218",
         "languages": [
             {
@@ -5582,9 +7906,20 @@ exports.countries = {
         ]
     },
     "MA": {
-        "name": "Morocco",
-        "currencyCode": "MAD",
-        "currency": "Moroccan Dirham",
+        "name": {
+            "common": "Morocco",
+            "official": "Kingdom of Morocco",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ma",
+        "currency": {
+            "code": "MAD",
+            "name": "Moroccan Dirham",
+            "singular": "Moroccan dirham",
+            "plural": "Moroccan dirhams",
+            "symbol": "MAD"
+        },
         "phone": "+212",
         "languages": [
             {
@@ -5648,6 +7983,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "mey",
+                "name": "Hassaniyya",
+                "percentage": 0.82,
+                "status": null
+            },
+            {
                 "code": "es",
                 "name": "Spanish",
                 "percentage": 0.065,
@@ -5656,9 +7997,20 @@ exports.countries = {
         ]
     },
     "MC": {
-        "name": "Monaco",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Monaco",
+            "official": "Principality of Monaco",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mc",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+377",
         "languages": [
             {
@@ -5670,9 +8022,20 @@ exports.countries = {
         ]
     },
     "MD": {
-        "name": "Moldova",
-        "currencyCode": "MDL",
-        "currency": "Moldovan Leu",
+        "name": {
+            "common": "Moldova",
+            "official": "Republic of Moldova",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".md",
+        "currency": {
+            "code": "MDL",
+            "name": "Moldovan Leu",
+            "singular": "Moldovan leu",
+            "plural": "Moldovan lei",
+            "symbol": "MDL"
+        },
         "phone": "+373",
         "languages": [
             {
@@ -5708,9 +8071,20 @@ exports.countries = {
         ]
     },
     "ME": {
-        "name": "Montenegro",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Montenegro",
+            "official": "Montenegro",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".me",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+382",
         "languages": [
             {
@@ -5734,9 +8108,20 @@ exports.countries = {
         ]
     },
     "MF": {
-        "name": "St. Martin",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Saint Martin",
+            "official": "Collectivity of Saint-Martin",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mf",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+590",
         "languages": [
             {
@@ -5748,9 +8133,20 @@ exports.countries = {
         ]
     },
     "MG": {
-        "name": "Madagascar",
-        "currencyCode": "MGA",
-        "currency": "Malagasy Ariary",
+        "name": {
+            "common": "Madagascar",
+            "official": "Republic of Madagascar",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mg",
+        "currency": {
+            "code": "MGA",
+            "name": "Malagasy Ariary",
+            "singular": "Malagasy ariary",
+            "plural": "Malagasy ariaries",
+            "symbol": "MGA"
+        },
         "phone": "+261",
         "languages": [
             {
@@ -5774,9 +8170,20 @@ exports.countries = {
         ]
     },
     "MH": {
-        "name": "Marshall Islands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Marshall Islands",
+            "official": "Republic of the Marshall Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mh",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+692",
         "languages": [
             {
@@ -5794,9 +8201,20 @@ exports.countries = {
         ]
     },
     "MK": {
-        "name": "North Macedonia",
-        "currencyCode": "MKD",
-        "currency": "Macedonian Denar",
+        "name": {
+            "common": "North Macedonia",
+            "official": "Republic of North Macedonia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mk",
+        "currency": {
+            "code": "MKD",
+            "name": "Macedonian Denar",
+            "singular": "Macedonian denar",
+            "plural": "Macedonian denari",
+            "symbol": "MKD"
+        },
         "phone": "+389",
         "languages": [
             {
@@ -5820,9 +8238,20 @@ exports.countries = {
         ]
     },
     "ML": {
-        "name": "Mali",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Mali",
+            "official": "Republic of Mali",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ml",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+223",
         "languages": [
             {
@@ -5838,9 +8267,21 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "ffm",
+                "name": "Maasina Fulfulde",
+                "percentage": 7.7,
+                "status": null
+            },
+            {
                 "code": "snk",
                 "name": "Soninke",
                 "percentage": 5.9,
+                "status": null
+            },
+            {
+                "code": "mwk",
+                "name": "Kita Maninkakan",
+                "percentage": 5,
                 "status": null
             },
             {
@@ -5868,17 +8309,52 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "dtm",
+                "name": "Tomo Kan Dogon",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "kao",
+                "name": "Xaasongaxango",
+                "percentage": 1,
+                "status": null
+            },
+            {
                 "code": "ar",
                 "name": "Arabic",
                 "percentage": 0.9,
+                "status": null
+            },
+            {
+                "code": "bmq",
+                "name": "Bomu",
+                "percentage": 0.86,
+                "status": null
+            },
+            {
+                "code": "bze",
+                "name": "Jenaama Bozo",
+                "percentage": 0.85,
                 "status": null
             }
         ]
     },
     "MM": {
-        "name": "Myanmar (Burma)",
-        "currencyCode": "MMK",
-        "currency": "Myanmar Kyat",
+        "name": {
+            "common": "Myanmar",
+            "official": "Republic of the Union of Myanmar",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mm",
+        "currency": {
+            "code": "MMK",
+            "name": "Myanmar Kyat",
+            "singular": "Myanmar kyat",
+            "plural": "Myanmar kyats",
+            "symbol": "MMK"
+        },
         "phone": "+95",
         "languages": [
             {
@@ -5906,17 +8382,46 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "mnw",
+                "name": "Mon",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
                 "code": "hnj",
                 "name": "Hmong Njua",
                 "percentage": 0.022,
+                "status": null
+            },
+            {
+                "code": "kht",
+                "name": "Khamti",
+                "percentage": 0.0074,
+                "status": null
+            },
+            {
+                "code": "pi-Mymr",
+                "name": "Pali (Myanmar)",
+                "percentage": 0,
                 "status": null
             }
         ]
     },
     "MN": {
-        "name": "Mongolia",
-        "currencyCode": "MNT",
-        "currency": "Mongolian Tugrik",
+        "name": {
+            "common": "Mongolia",
+            "official": "Mongolia",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".mn",
+        "currency": {
+            "code": "MNT",
+            "name": "Mongolian Tugrik",
+            "singular": "Mongolian tugrik",
+            "plural": "Mongolian tugriks",
+            "symbol": "MNT"
+        },
         "phone": "+976",
         "languages": [
             {
@@ -5952,14 +8457,25 @@ exports.countries = {
         ]
     },
     "MO": {
-        "name": "Macao SAR China",
-        "currencyCode": "MOP",
-        "currency": "Macanese Pataca",
+        "name": {
+            "common": "Macao",
+            "official": "Macao Special Administrative Region of China",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mo",
+        "currency": {
+            "code": "MOP",
+            "name": "Macanese Pataca",
+            "singular": "Macanese pataca",
+            "plural": "Macanese patacas",
+            "symbol": "MOP"
+        },
         "phone": "+853",
         "languages": [
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 98,
                 "status": "official"
             },
@@ -5982,8 +8498,8 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "nan",
-                "name": "Min Nan Chinese",
+                "code": "nan-Hant",
+                "name": "Min Nan Chinese (Traditional)",
                 "percentage": 3.7,
                 "status": null
             },
@@ -6002,9 +8518,20 @@ exports.countries = {
         ]
     },
     "MP": {
-        "name": "Northern Mariana Islands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Northern Mariana Islands",
+            "official": "Commonwealth of the Northern Mariana Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mp",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1670",
         "languages": [
             {
@@ -6022,9 +8549,20 @@ exports.countries = {
         ]
     },
     "MQ": {
-        "name": "Martinique",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Martinique",
+            "official": "Martinique",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".mq",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+596",
         "languages": [
             {
@@ -6036,11 +8574,28 @@ exports.countries = {
         ]
     },
     "MR": {
-        "name": "Mauritania",
-        "currencyCode": "MRU",
-        "currency": "Mauritanian Ouguiya",
+        "name": {
+            "common": "Mauritania",
+            "official": "Islamic Republic of Mauritania",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mr",
+        "currency": {
+            "code": "MRU",
+            "name": "Mauritanian Ouguiya",
+            "singular": "Mauritanian ouguiya",
+            "plural": "Mauritanian ouguiyas",
+            "symbol": "MRU"
+        },
         "phone": "+222",
         "languages": [
+            {
+                "code": "mey",
+                "name": "Hassaniyya",
+                "percentage": 87,
+                "status": null
+            },
             {
                 "code": "ar",
                 "name": "Arabic",
@@ -6074,9 +8629,20 @@ exports.countries = {
         ]
     },
     "MS": {
-        "name": "Montserrat",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Montserrat",
+            "official": "Montserrat",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ms",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1664",
         "languages": [
             {
@@ -6088,9 +8654,20 @@ exports.countries = {
         ]
     },
     "MT": {
-        "name": "Malta",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Malta",
+            "official": "Republic of Malta",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mt",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+356",
         "languages": [
             {
@@ -6120,9 +8697,20 @@ exports.countries = {
         ]
     },
     "MU": {
-        "name": "Mauritius",
-        "currencyCode": "MUR",
-        "currency": "Mauritian Rupee",
+        "name": {
+            "common": "Mauritius",
+            "official": "Republic of Mauritius",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mu",
+        "currency": {
+            "code": "MUR",
+            "name": "Mauritian Rupee",
+            "singular": "Mauritian rupee",
+            "plural": "Mauritian rupees",
+            "symbol": "MUR"
+        },
         "phone": "+230",
         "languages": [
             {
@@ -6164,9 +8752,20 @@ exports.countries = {
         ]
     },
     "MV": {
-        "name": "Maldives",
-        "currencyCode": "MVR",
-        "currency": "Maldivian Rufiyaa",
+        "name": {
+            "common": "Maldives",
+            "official": "Republic of Maldives",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mv",
+        "currency": {
+            "code": "MVR",
+            "name": "Maldivian Rufiyaa",
+            "singular": "Maldivian rufiyaa",
+            "plural": "Maldivian rufiyaas",
+            "symbol": "MVR"
+        },
         "phone": "+960",
         "languages": [
             {
@@ -6184,9 +8783,20 @@ exports.countries = {
         ]
     },
     "MW": {
-        "name": "Malawi",
-        "currencyCode": "MWK",
-        "currency": "Malawian Kwacha",
+        "name": {
+            "common": "Malawi",
+            "official": "Republic of Malawi",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mw",
+        "currency": {
+            "code": "MWK",
+            "name": "Malawian Kwacha",
+            "singular": "Malawian kwacha",
+            "plural": "Malawian kwachas",
+            "symbol": "MWK"
+        },
         "phone": "+265",
         "languages": [
             {
@@ -6222,9 +8832,20 @@ exports.countries = {
         ]
     },
     "MX": {
-        "name": "Mexico",
-        "currencyCode": "MXN",
-        "currency": "Mexican Peso",
+        "name": {
+            "common": "Mexico",
+            "official": "United Mexican States",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mx",
+        "currency": {
+            "code": "MXN",
+            "name": "Mexican Peso",
+            "singular": "Mexican peso",
+            "plural": "Mexican pesos",
+            "symbol": "MX$"
+        },
         "phone": "+52",
         "languages": [
             {
@@ -6237,6 +8858,36 @@ exports.countries = {
                 "code": "en",
                 "name": "English",
                 "percentage": 13,
+                "status": null
+            },
+            {
+                "code": "yua",
+                "name": "Yucateco",
+                "percentage": 0.67,
+                "status": null
+            },
+            {
+                "code": "nhe",
+                "name": "Eastern Huasteca Nahuatl",
+                "percentage": 0.39,
+                "status": null
+            },
+            {
+                "code": "nhw",
+                "name": "Western Huasteca Nahuatl",
+                "percentage": 0.39,
+                "status": null
+            },
+            {
+                "code": "maz",
+                "name": "Central Mazahua",
+                "percentage": 0.34,
+                "status": null
+            },
+            {
+                "code": "nch",
+                "name": "Central Huasteca Nahuatl",
+                "percentage": 0.19,
                 "status": null
             },
             {
@@ -6254,9 +8905,20 @@ exports.countries = {
         ]
     },
     "MY": {
-        "name": "Malaysia",
-        "currencyCode": "MYR",
-        "currency": "Malaysian Ringgit",
+        "name": {
+            "common": "Malaysia",
+            "official": "Malaysia",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".my",
+        "currency": {
+            "code": "MYR",
+            "name": "Malaysian Ringgit",
+            "singular": "Malaysian ringgit",
+            "plural": "Malaysian ringgits",
+            "symbol": "MYR"
+        },
         "phone": "+60",
         "languages": [
             {
@@ -6296,6 +8958,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "zmi",
+                "name": "Negeri Sembilan Malay",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
                 "code": "dtp",
                 "name": "Central Dusun",
                 "percentage": 0.56,
@@ -6322,9 +8990,20 @@ exports.countries = {
         ]
     },
     "MZ": {
-        "name": "Mozambique",
-        "currencyCode": "MZN",
-        "currency": "Mozambican Metical",
+        "name": {
+            "common": "Mozambique",
+            "official": "Republic of Mozambique",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".mz",
+        "currency": {
+            "code": "MZN",
+            "name": "Mozambican Metical",
+            "singular": "Mozambican metical",
+            "plural": "Mozambican meticals",
+            "symbol": "MZN"
+        },
         "phone": "+258",
         "languages": [
             {
@@ -6340,9 +9019,21 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "ndc",
+                "name": "Ndau",
+                "percentage": 9.9,
+                "status": null
+            },
+            {
                 "code": "ts",
                 "name": "Tsonga",
                 "percentage": 7.9,
+                "status": null
+            },
+            {
+                "code": "ngl",
+                "name": "Lomwe",
+                "percentage": 6.8,
                 "status": null
             },
             {
@@ -6355,6 +9046,12 @@ exports.countries = {
                 "code": "mgh",
                 "name": "Makhuwa-Meetto",
                 "percentage": 4.5,
+                "status": null
+            },
+            {
+                "code": "rng",
+                "name": "Ronga",
+                "percentage": 3.4,
                 "status": null
             },
             {
@@ -6384,9 +9081,20 @@ exports.countries = {
         ]
     },
     "NA": {
-        "name": "Namibia",
-        "currencyCode": "NAD",
-        "currency": "Namibian Dollar",
+        "name": {
+            "common": "Namibia",
+            "official": "Republic of Namibia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".na",
+        "currency": {
+            "code": "NAD",
+            "name": "Namibian Dollar",
+            "singular": "Namibian dollar",
+            "plural": "Namibian dollars",
+            "symbol": "NAD"
+        },
         "phone": "+264",
         "languages": [
             {
@@ -6440,9 +9148,20 @@ exports.countries = {
         ]
     },
     "NC": {
-        "name": "New Caledonia",
-        "currencyCode": "XPF",
-        "currency": "CFP Franc",
+        "name": {
+            "common": "New Caledonia",
+            "official": "New Caledonia",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".nc",
+        "currency": {
+            "code": "XPF",
+            "name": "CFP Franc",
+            "singular": "CFP franc",
+            "plural": "CFP francs",
+            "symbol": "CFPF"
+        },
         "phone": "+687",
         "languages": [
             {
@@ -6454,9 +9173,20 @@ exports.countries = {
         ]
     },
     "NE": {
-        "name": "Niger",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Niger",
+            "official": "Republic of the Niger",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ne",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+227",
         "languages": [
             {
@@ -6476,6 +9206,12 @@ exports.countries = {
                 "name": "French",
                 "percentage": 13,
                 "status": "official"
+            },
+            {
+                "code": "fuq",
+                "name": "Central-Eastern Niger Fulfulde",
+                "percentage": 7,
+                "status": null
             },
             {
                 "code": "tmh",
@@ -6510,9 +9246,20 @@ exports.countries = {
         ]
     },
     "NF": {
-        "name": "Norfolk Island",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Norfolk Island",
+            "official": "Territory of Norfolk Island",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".nf",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+672",
         "languages": [
             {
@@ -6524,9 +9271,20 @@ exports.countries = {
         ]
     },
     "NG": {
-        "name": "Nigeria",
-        "currencyCode": "NGN",
-        "currency": "Nigerian Naira",
+        "name": {
+            "common": "Nigeria",
+            "official": "Federal Republic of Nigeria",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ng",
+        "currency": {
+            "code": "NGN",
+            "name": "Nigerian Naira",
+            "singular": "Nigerian naira",
+            "plural": "Nigerian nairas",
+            "symbol": "NGN"
+        },
         "phone": "+234",
         "languages": [
             {
@@ -6558,6 +9316,12 @@ exports.countries = {
                 "name": "Yoruba",
                 "percentage": 13,
                 "status": "official"
+            },
+            {
+                "code": "fuv",
+                "name": "Nigerian Fulfulde",
+                "percentage": 6.7,
+                "status": null
             },
             {
                 "code": "tiv",
@@ -6614,9 +9378,9 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "ann",
-                "name": "Obolo",
-                "percentage": 0,
+                "code": "amo",
+                "name": "Amo",
+                "percentage": 0.0087,
                 "status": null
             },
             {
@@ -6630,13 +9394,30 @@ exports.countries = {
                 "name": "Fula (Adlam)",
                 "percentage": 0,
                 "status": null
+            },
+            {
+                "code": "ann",
+                "name": "Obolo",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
     "NI": {
-        "name": "Nicaragua",
-        "currencyCode": "NIO",
-        "currency": "Nicaraguan Córdoba",
+        "name": {
+            "common": "Nicaragua",
+            "official": "Republic of Nicaragua",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ni",
+        "currency": {
+            "code": "NIO",
+            "name": "Nicaraguan Córdoba",
+            "singular": "Nicaraguan córdoba",
+            "plural": "Nicaraguan córdobas",
+            "symbol": "NIO"
+        },
         "phone": "+505",
         "languages": [
             {
@@ -6648,9 +9429,20 @@ exports.countries = {
         ]
     },
     "NL": {
-        "name": "Netherlands",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Netherlands",
+            "official": "Kingdom of the Netherlands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".nl",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+31",
         "languages": [
             {
@@ -6696,6 +9488,12 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "gos",
+                "name": "Gronings",
+                "percentage": 3.6,
+                "status": null
+            },
+            {
                 "code": "id",
                 "name": "Indonesian",
                 "percentage": 1.8,
@@ -6722,9 +9520,20 @@ exports.countries = {
         ]
     },
     "NO": {
-        "name": "Norway",
-        "currencyCode": "NOK",
-        "currency": "Norwegian Krone",
+        "name": {
+            "common": "Norway",
+            "official": "Kingdom of Norway",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".no",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian Krone",
+            "singular": "Norwegian krone",
+            "plural": "Norwegian kroner",
+            "symbol": "NOK"
+        },
         "phone": "+47",
         "languages": [
             {
@@ -6754,9 +9563,20 @@ exports.countries = {
         ]
     },
     "NP": {
-        "name": "Nepal",
-        "currencyCode": "NPR",
-        "currency": "Nepalese Rupee",
+        "name": {
+            "common": "Nepal",
+            "official": "Federal Democratic Republic of Nepal",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".np",
+        "currency": {
+            "code": "NPR",
+            "name": "Nepalese Rupee",
+            "singular": "Nepalese rupee",
+            "plural": "Nepalese rupees",
+            "symbol": "NPR"
+        },
         "phone": "+977",
         "languages": [
             {
@@ -6784,9 +9604,21 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "jml",
+                "name": "Jumli",
+                "percentage": 3.2,
+                "status": null
+            },
+            {
                 "code": "en",
                 "name": "English",
                 "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "dty",
+                "name": "Dotyali",
+                "percentage": 2.5,
                 "status": null
             },
             {
@@ -6796,9 +9628,87 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "thl",
+                "name": "Dangaura Tharu",
+                "percentage": 2,
+                "status": null
+            },
+            {
+                "code": "bap",
+                "name": "Bantawa",
+                "percentage": 1.5,
+                "status": null
+            },
+            {
+                "code": "tdg",
+                "name": "Western Tamang",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
+                "code": "thr",
+                "name": "Rana Tharu",
+                "percentage": 1.2,
+                "status": null
+            },
+            {
+                "code": "mgp",
+                "name": "Eastern Magar",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "lif",
+                "name": "Limbu",
+                "percentage": 1.1,
+                "status": null
+            },
+            {
+                "code": "thq",
+                "name": "Kochila Tharu",
+                "percentage": 1,
+                "status": null
+            },
+            {
+                "code": "mrd",
+                "name": "Western Magar",
+                "percentage": 0.83,
+                "status": null
+            },
+            {
+                "code": "bfy",
+                "name": "Bagheli",
+                "percentage": 0.54,
+                "status": null
+            },
+            {
+                "code": "xsr",
+                "name": "Sherpa",
+                "percentage": 0.52,
+                "status": null
+            },
+            {
+                "code": "rjs",
+                "name": "Rajbanshi",
+                "percentage": 0.44,
+                "status": null
+            },
+            {
+                "code": "taj",
+                "name": "Eastern Tamang",
+                "percentage": 0.43,
+                "status": null
+            },
+            {
                 "code": "hi",
                 "name": "Hindi",
                 "percentage": 0.42,
+                "status": null
+            },
+            {
+                "code": "gvr",
+                "name": "Gurung",
+                "percentage": 0.29,
                 "status": null
             },
             {
@@ -6808,17 +9718,58 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "tkt",
+                "name": "Kathoriya Tharu",
+                "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "suz",
+                "name": "Sunwar",
+                "percentage": 0.13,
+                "status": null
+            },
+            {
+                "code": "tdh",
+                "name": "Thulung",
+                "percentage": 0.12,
+                "status": null
+            },
+            {
                 "code": "bn",
                 "name": "Bangla",
                 "percentage": 0.094,
+                "status": null
+            },
+            {
+                "code": "unr-Deva",
+                "name": "Mundari (Devanagari)",
+                "percentage": 0.018,
+                "status": null
+            },
+            {
+                "code": "lep",
+                "name": "Lepcha",
+                "percentage": 0.0091,
                 "status": null
             }
         ]
     },
     "NR": {
-        "name": "Nauru",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Nauru",
+            "official": "Republic of Nauru",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".nr",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+674",
         "languages": [
             {
@@ -6836,9 +9787,20 @@ exports.countries = {
         ]
     },
     "NU": {
-        "name": "Niue",
-        "currencyCode": "NZD",
-        "currency": "New Zealand Dollar",
+        "name": {
+            "common": "Niue",
+            "official": "Niue",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".nu",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand Dollar",
+            "singular": "New Zealand dollar",
+            "plural": "New Zealand dollars",
+            "symbol": "NZ$"
+        },
         "phone": "+683",
         "languages": [
             {
@@ -6856,9 +9818,20 @@ exports.countries = {
         ]
     },
     "NZ": {
-        "name": "New Zealand",
-        "currencyCode": "NZD",
-        "currency": "New Zealand Dollar",
+        "name": {
+            "common": "New Zealand",
+            "official": "New Zealand",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".nz",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand Dollar",
+            "singular": "New Zealand dollar",
+            "plural": "New Zealand dollars",
+            "symbol": "NZ$"
+        },
         "phone": "+64",
         "languages": [
             {
@@ -6876,9 +9849,20 @@ exports.countries = {
         ]
     },
     "OM": {
-        "name": "Oman",
-        "currencyCode": "OMR",
-        "currency": "Omani Rial",
+        "name": {
+            "common": "Oman",
+            "official": "Sultanate of Oman",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".om",
+        "currency": {
+            "code": "OMR",
+            "name": "Omani Rial",
+            "singular": "Omani rial",
+            "plural": "Omani rials",
+            "symbol": "OMR"
+        },
         "phone": "+968",
         "languages": [
             {
@@ -6902,9 +9886,20 @@ exports.countries = {
         ]
     },
     "PA": {
-        "name": "Panama",
-        "currencyCode": "PAB",
-        "currency": "Panamanian Balboa",
+        "name": {
+            "common": "Panama",
+            "official": "Republic of Panama",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pa",
+        "currency": {
+            "code": "PAB",
+            "name": "Panamanian Balboa",
+            "singular": "Panamanian balboa",
+            "plural": "Panamanian balboas",
+            "symbol": "PAB"
+        },
         "phone": "+507",
         "languages": [
             {
@@ -6921,16 +9916,27 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 0.13,
                 "status": null
             }
         ]
     },
     "PE": {
-        "name": "Peru",
-        "currencyCode": "PEN",
-        "currency": "Peruvian Sol",
+        "name": {
+            "common": "Peru",
+            "official": "Republic of Peru",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pe",
+        "currency": {
+            "code": "PEN",
+            "name": "Peruvian Sol",
+            "singular": "Peruvian sol",
+            "plural": "Peruvian soles",
+            "symbol": "PEN"
+        },
         "phone": "+51",
         "languages": [
             {
@@ -6954,9 +9960,20 @@ exports.countries = {
         ]
     },
     "PF": {
-        "name": "French Polynesia",
-        "currencyCode": "XPF",
-        "currency": "CFP Franc",
+        "name": {
+            "common": "French Polynesia",
+            "official": "French Polynesia",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".pf",
+        "currency": {
+            "code": "XPF",
+            "name": "CFP Franc",
+            "singular": "CFP franc",
+            "plural": "CFP francs",
+            "symbol": "CFPF"
+        },
         "phone": "+689",
         "languages": [
             {
@@ -6973,16 +9990,27 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 7.8,
                 "status": null
             }
         ]
     },
     "PG": {
-        "name": "Papua New Guinea",
-        "currencyCode": "PGK",
-        "currency": "Papua New Guinean Kina",
+        "name": {
+            "common": "Papua New Guinea",
+            "official": "Independent State of Papua New Guinea",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pg",
+        "currency": {
+            "code": "PGK",
+            "name": "Papua New Guinean Kina",
+            "singular": "Papua New Guinean kina",
+            "plural": "Papua New Guinean kina",
+            "symbol": "PGK"
+        },
         "phone": "+675",
         "languages": [
             {
@@ -7006,9 +10034,20 @@ exports.countries = {
         ]
     },
     "PH": {
-        "name": "Philippines",
-        "currencyCode": "PHP",
-        "currency": "Philippine Peso",
+        "name": {
+            "common": "Philippines",
+            "official": "Republic of the Philippines",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ph",
+        "currency": {
+            "code": "PHP",
+            "name": "Philippine Peso",
+            "singular": "Philippine peso",
+            "plural": "Philippine pesos",
+            "symbol": "₱"
+        },
         "phone": "+63",
         "languages": [
             {
@@ -7060,6 +10099,12 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "fbl",
+                "name": "West Albay Bikol",
+                "percentage": 2.3,
+                "status": null
+            },
+            {
                 "code": "pam",
                 "name": "Pampanga",
                 "percentage": 2.3,
@@ -7072,8 +10117,20 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "mdh",
+                "name": "Maguindanaon",
+                "percentage": 1.2,
+                "status": "official_regional"
+            },
+            {
+                "code": "tsg",
+                "name": "Tausug",
+                "percentage": 1.1,
+                "status": "official_regional"
+            },
+            {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 0.73,
                 "status": null
             },
@@ -7088,13 +10145,48 @@ exports.countries = {
                 "name": "Kinaray-a",
                 "percentage": 0.39,
                 "status": null
+            },
+            {
+                "code": "bto",
+                "name": "Rinconada Bikol",
+                "percentage": 0.28,
+                "status": null
+            },
+            {
+                "code": "hnn",
+                "name": "Hanunoo",
+                "percentage": 0.016,
+                "status": null
+            },
+            {
+                "code": "tbw",
+                "name": "Tagbanwa",
+                "percentage": 0.0085,
+                "status": null
+            },
+            {
+                "code": "bku",
+                "name": "Buhid",
+                "percentage": 0.0068,
+                "status": null
             }
         ]
     },
     "PK": {
-        "name": "Pakistan",
-        "currencyCode": "PKR",
-        "currency": "Pakistani Rupee",
+        "name": {
+            "common": "Pakistan",
+            "official": "Islamic Republic of Pakistan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pk",
+        "currency": {
+            "code": "PKR",
+            "name": "Pakistani Rupee",
+            "singular": "Pakistani rupee",
+            "plural": "Pakistani rupees",
+            "symbol": "PKR"
+        },
         "phone": "+92",
         "languages": [
             {
@@ -7134,9 +10226,21 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "skr",
+                "name": "Seraiki",
+                "percentage": 12,
+                "status": null
+            },
+            {
                 "code": "bal",
                 "name": "Baluchi",
                 "percentage": 2.6,
+                "status": null
+            },
+            {
+                "code": "hno",
+                "name": "Northern Hindko",
+                "percentage": 1.7,
                 "status": null
             },
             {
@@ -7158,15 +10262,57 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "hnd",
+                "name": "Southern Hindko",
+                "percentage": 0.41,
+                "status": null
+            },
+            {
                 "code": "tg-Arab",
                 "name": "Tajik (Arabic)",
                 "percentage": 0.33,
                 "status": null
             },
             {
+                "code": "gju",
+                "name": "Gujari",
+                "percentage": 0.2,
+                "status": null
+            },
+            {
+                "code": "bft",
+                "name": "Balti",
+                "percentage": 0.18,
+                "status": null
+            },
+            {
+                "code": "kvx",
+                "name": "Parkari Koli",
+                "percentage": 0.16,
+                "status": null
+            },
+            {
                 "code": "khw",
                 "name": "Khowar",
                 "percentage": 0.15,
+                "status": null
+            },
+            {
+                "code": "mvy",
+                "name": "Indus Kohistani",
+                "percentage": 0.14,
+                "status": null
+            },
+            {
+                "code": "kxp",
+                "name": "Wadiyara Koli",
+                "percentage": 0.11,
+                "status": null
+            },
+            {
+                "code": "gjk",
+                "name": "Kachi Koli",
+                "percentage": 0.11,
                 "status": null
             },
             {
@@ -7180,13 +10326,30 @@ exports.countries = {
                 "name": "Torwali",
                 "percentage": 0.053,
                 "status": null
+            },
+            {
+                "code": "btv",
+                "name": "Bateri",
+                "percentage": 0.019,
+                "status": null
             }
         ]
     },
     "PL": {
-        "name": "Poland",
-        "currencyCode": "PLN",
-        "currency": "Polish Zloty",
+        "name": {
+            "common": "Poland",
+            "official": "Republic of Poland",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pl",
+        "currency": {
+            "code": "PLN",
+            "name": "Polish Zloty",
+            "singular": "Polish zloty",
+            "plural": "Polish zlotys",
+            "symbol": "PLN"
+        },
         "phone": "+48",
         "languages": [
             {
@@ -7258,9 +10421,20 @@ exports.countries = {
         ]
     },
     "PM": {
-        "name": "St. Pierre & Miquelon",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Saint Pierre and Miquelon",
+            "official": "Territorial Collectivity of Saint Pierre and Miquelon",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pm",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+508",
         "languages": [
             {
@@ -7278,9 +10452,20 @@ exports.countries = {
         ]
     },
     "PN": {
-        "name": "Pitcairn Islands",
-        "currencyCode": "NZD",
-        "currency": "New Zealand Dollar",
+        "name": {
+            "common": "Pitcairn Islands",
+            "official": "Pitcairn, Henderson, Ducie and Oeno Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pn",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand Dollar",
+            "singular": "New Zealand dollar",
+            "plural": "New Zealand dollars",
+            "symbol": "NZ$"
+        },
         "phone": "+872",
         "languages": [
             {
@@ -7292,9 +10477,20 @@ exports.countries = {
         ]
     },
     "PR": {
-        "name": "Puerto Rico",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Puerto Rico",
+            "official": "Commonwealth of Puerto Rico",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pr",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1939",
         "languages": [
             {
@@ -7312,9 +10508,20 @@ exports.countries = {
         ]
     },
     "PS": {
-        "name": "Palestinian Territories",
-        "currencyCode": "ILS",
-        "currency": "Israeli New Shekel",
+        "name": {
+            "common": "Palestine",
+            "official": "State of Palestine",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ps",
+        "currency": {
+            "code": "ILS",
+            "name": "Israeli New Shekel",
+            "singular": "Israeli new shekel",
+            "plural": "Israeli new shekels",
+            "symbol": "₪"
+        },
         "phone": "+970",
         "languages": [
             {
@@ -7322,13 +10529,30 @@ exports.countries = {
                 "name": "Arabic",
                 "percentage": 100,
                 "status": "official"
+            },
+            {
+                "code": "apc",
+                "name": "Levantine Arabic",
+                "percentage": 87,
+                "status": null
             }
         ]
     },
     "PT": {
-        "name": "Portugal",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Portugal",
+            "official": "Portuguese Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pt",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+351",
         "languages": [
             {
@@ -7364,9 +10588,20 @@ exports.countries = {
         ]
     },
     "PW": {
-        "name": "Palau",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Palau",
+            "official": "Republic of Palau",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".pw",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+680",
         "languages": [
             {
@@ -7384,9 +10619,20 @@ exports.countries = {
         ]
     },
     "PY": {
-        "name": "Paraguay",
-        "currencyCode": "PYG",
-        "currency": "Paraguayan Guarani",
+        "name": {
+            "common": "Paraguay",
+            "official": "Republic of Paraguay",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".py",
+        "currency": {
+            "code": "PYG",
+            "name": "Paraguayan Guarani",
+            "singular": "Paraguayan guarani",
+            "plural": "Paraguayan guaranis",
+            "symbol": "PYG"
+        },
         "phone": "+595",
         "languages": [
             {
@@ -7410,9 +10656,20 @@ exports.countries = {
         ]
     },
     "QA": {
-        "name": "Qatar",
-        "currencyCode": "QAR",
-        "currency": "Qatari Riyal",
+        "name": {
+            "common": "Qatar",
+            "official": "State of Qatar",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".qa",
+        "currency": {
+            "code": "QAR",
+            "name": "Qatari Riyal",
+            "singular": "Qatari riyal",
+            "plural": "Qatari riyals",
+            "symbol": "QAR"
+        },
         "phone": "+974",
         "languages": [
             {
@@ -7436,9 +10693,20 @@ exports.countries = {
         ]
     },
     "RE": {
-        "name": "Réunion",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Réunion",
+            "official": "Réunion",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".re",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+262",
         "languages": [
             {
@@ -7446,6 +10714,12 @@ exports.countries = {
                 "name": "French",
                 "percentage": 89,
                 "status": "official"
+            },
+            {
+                "code": "rcf",
+                "name": "Réunion Creole French",
+                "percentage": 71,
+                "status": null
             },
             {
                 "code": "ta",
@@ -7456,9 +10730,20 @@ exports.countries = {
         ]
     },
     "RO": {
-        "name": "Romania",
-        "currencyCode": "RON",
-        "currency": "Romanian Leu",
+        "name": {
+            "common": "Romania",
+            "official": "Romania",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ro",
+        "currency": {
+            "code": "RON",
+            "name": "Romanian Leu",
+            "singular": "Romanian leu",
+            "plural": "Romanian lei",
+            "symbol": "RON"
+        },
         "phone": "+40",
         "languages": [
             {
@@ -7530,9 +10815,20 @@ exports.countries = {
         ]
     },
     "RS": {
-        "name": "Serbia",
-        "currencyCode": "RSD",
-        "currency": "Serbian Dinar",
+        "name": {
+            "common": "Serbia",
+            "official": "Republic of Serbia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".rs",
+        "currency": {
+            "code": "RSD",
+            "name": "Serbian Dinar",
+            "singular": "Serbian dinar",
+            "plural": "Serbian dinars",
+            "symbol": "RSD"
+        },
         "phone": "+381",
         "languages": [
             {
@@ -7586,9 +10882,20 @@ exports.countries = {
         ]
     },
     "RU": {
-        "name": "Russia",
-        "currencyCode": "RUB",
-        "currency": "Russian Ruble",
+        "name": {
+            "common": "Russian Federation",
+            "official": "Russian Federation",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ru",
+        "currency": {
+            "code": "RUB",
+            "name": "Russian Ruble",
+            "singular": "Russian ruble",
+            "plural": "Russian rubles",
+            "symbol": "RUB"
+        },
         "phone": "+7",
         "languages": [
             {
@@ -7646,16 +10953,16 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "os",
-                "name": "Ossetic",
-                "percentage": 0.32,
-                "status": null
-            },
-            {
                 "code": "sah",
                 "name": "Yakut",
                 "percentage": 0.32,
                 "status": "official_regional"
+            },
+            {
+                "code": "os",
+                "name": "Ossetic",
+                "percentage": 0.32,
+                "status": null
             },
             {
                 "code": "kbd",
@@ -7679,7 +10986,7 @@ exports.countries = {
                 "code": "bua",
                 "name": "Buriat",
                 "percentage": 0.22,
-                "status": null
+                "status": "official_regional"
             },
             {
                 "code": "mdf",
@@ -7742,6 +11049,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "lbe",
+                "name": "Lak",
+                "percentage": 0.078,
+                "status": "official_regional"
+            },
+            {
                 "code": "koi",
                 "name": "Komi-Permyak",
                 "percentage": 0.045,
@@ -7802,23 +11115,34 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "cu",
-                "name": "Church Slavic",
+                "code": "vot",
+                "name": "Votic",
                 "percentage": 0,
                 "status": null
             },
             {
-                "code": "vot",
-                "name": "Votic",
+                "code": "cu",
+                "name": "Church Slavic",
                 "percentage": 0,
                 "status": null
             }
         ]
     },
     "RW": {
-        "name": "Rwanda",
-        "currencyCode": "RWF",
-        "currency": "Rwandan Franc",
+        "name": {
+            "common": "Rwanda",
+            "official": "Republic of Rwanda",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".rw",
+        "currency": {
+            "code": "RWF",
+            "name": "Rwandan Franc",
+            "singular": "Rwandan franc",
+            "plural": "Rwandan francs",
+            "symbol": "RWF"
+        },
         "phone": "+250",
         "languages": [
             {
@@ -7842,9 +11166,20 @@ exports.countries = {
         ]
     },
     "SA": {
-        "name": "Saudi Arabia",
-        "currencyCode": "SAR",
-        "currency": "Saudi Riyal",
+        "name": {
+            "common": "Saudi Arabia",
+            "official": "Kingdom of Saudi Arabia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sa",
+        "currency": {
+            "code": "SAR",
+            "name": "Saudi Riyal",
+            "singular": "Saudi riyal",
+            "plural": "Saudi riyals",
+            "symbol": "SAR"
+        },
         "phone": "+966",
         "languages": [
             {
@@ -7862,9 +11197,20 @@ exports.countries = {
         ]
     },
     "SB": {
-        "name": "Solomon Islands",
-        "currencyCode": "SBD",
-        "currency": "Solomon Islands Dollar",
+        "name": {
+            "common": "Solomon Islands",
+            "official": "Solomon Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sb",
+        "currency": {
+            "code": "SBD",
+            "name": "Solomon Islands Dollar",
+            "singular": "Solomon Islands dollar",
+            "plural": "Solomon Islands dollars",
+            "symbol": "SBD"
+        },
         "phone": "+677",
         "languages": [
             {
@@ -7888,9 +11234,20 @@ exports.countries = {
         ]
     },
     "SC": {
-        "name": "Seychelles",
-        "currencyCode": "SCR",
-        "currency": "Seychellois Rupee",
+        "name": {
+            "common": "Seychelles",
+            "official": "Republic of Seychelles",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sc",
+        "currency": {
+            "code": "SCR",
+            "name": "Seychellois Rupee",
+            "singular": "Seychellois rupee",
+            "plural": "Seychellois rupees",
+            "symbol": "SCR"
+        },
         "phone": "+248",
         "languages": [
             {
@@ -7914,11 +11271,28 @@ exports.countries = {
         ]
     },
     "SD": {
-        "name": "Sudan",
-        "currencyCode": "SDG",
-        "currency": "Sudanese Pound",
+        "name": {
+            "common": "Sudan",
+            "official": "Republic of the Sudan",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sd",
+        "currency": {
+            "code": "SDG",
+            "name": "Sudanese Pound",
+            "singular": "Sudanese pound",
+            "plural": "Sudanese pounds",
+            "symbol": "SDG"
+        },
         "phone": "+249",
         "languages": [
+            {
+                "code": "apd",
+                "name": "Sudanese Arabic",
+                "percentage": 61,
+                "status": null
+            },
             {
                 "code": "ar",
                 "name": "Arabic",
@@ -7938,17 +11312,52 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "fvr",
+                "name": "Fur",
+                "percentage": 2.7,
+                "status": null
+            },
+            {
                 "code": "ha-Arab",
                 "name": "Hausa (Arabic)",
                 "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "mls",
+                "name": "Masalit",
+                "percentage": 0.99,
+                "status": null
+            },
+            {
+                "code": "fia",
+                "name": "Nobiin",
+                "percentage": 0.83,
+                "status": null
+            },
+            {
+                "code": "zag",
+                "name": "Zaghawa",
+                "percentage": 0.51,
                 "status": null
             }
         ]
     },
     "SE": {
-        "name": "Sweden",
-        "currencyCode": "SEK",
-        "currency": "Swedish Krona",
+        "name": {
+            "common": "Sweden",
+            "official": "Kingdom of Sweden",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".se",
+        "currency": {
+            "code": "SEK",
+            "name": "Swedish Krona",
+            "singular": "Swedish krona",
+            "plural": "Swedish kronor",
+            "symbol": "SEK"
+        },
         "phone": "+46",
         "languages": [
             {
@@ -7982,6 +11391,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "rmu",
+                "name": "Tavringer Romani",
+                "percentage": 0.09,
+                "status": null
+            },
+            {
                 "code": "yi",
                 "name": "Yiddish",
                 "percentage": 0.028,
@@ -8008,9 +11423,20 @@ exports.countries = {
         ]
     },
     "SG": {
-        "name": "Singapore",
-        "currencyCode": "SGD",
-        "currency": "Singapore Dollar",
+        "name": {
+            "common": "Singapore",
+            "official": "Republic of Singapore",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sg",
+        "currency": {
+            "code": "SGD",
+            "name": "Singapore Dollar",
+            "singular": "Singapore dollar",
+            "plural": "Singapore dollars",
+            "symbol": "SGD"
+        },
         "phone": "+65",
         "languages": [
             {
@@ -8052,9 +11478,20 @@ exports.countries = {
         ]
     },
     "SH": {
-        "name": "St. Helena",
-        "currencyCode": "SHP",
-        "currency": "St. Helena Pound",
+        "name": {
+            "common": "Saint Helena, Ascension and Tristan da Cunha",
+            "official": "Saint Helena, Ascension and Tristan da Cunha",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".sh",
+        "currency": {
+            "code": "SHP",
+            "name": "St. Helena Pound",
+            "singular": "St. Helena pound",
+            "plural": "St. Helena pounds",
+            "symbol": "SHP"
+        },
         "phone": "+290",
         "languages": [
             {
@@ -8066,9 +11503,20 @@ exports.countries = {
         ]
     },
     "SI": {
-        "name": "Slovenia",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Slovenia",
+            "official": "Republic of Slovenia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".si",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+386",
         "languages": [
             {
@@ -8116,9 +11564,20 @@ exports.countries = {
         ]
     },
     "SJ": {
-        "name": "Svalbard & Jan Mayen",
-        "currencyCode": "NOK",
-        "currency": "Norwegian Krone",
+        "name": {
+            "common": "Svalbard and Jan Mayen",
+            "official": "Svalbard and Jan Mayen",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".no",
+        "currency": {
+            "code": "NOK",
+            "name": "Norwegian Krone",
+            "singular": "Norwegian krone",
+            "plural": "Norwegian kroner",
+            "symbol": "NOK"
+        },
         "phone": "+47",
         "languages": [
             {
@@ -8136,9 +11595,20 @@ exports.countries = {
         ]
     },
     "SK": {
-        "name": "Slovakia",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Slovakia",
+            "official": "Slovak Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sk",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+421",
         "languages": [
             {
@@ -8186,9 +11656,20 @@ exports.countries = {
         ]
     },
     "SL": {
-        "name": "Sierra Leone",
-        "currencyCode": "SLE",
-        "currency": "Sierra Leonean Leone",
+        "name": {
+            "common": "Sierra Leone",
+            "official": "Republic of Sierra Leone",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sl",
+        "currency": {
+            "code": "SLE",
+            "name": "Sierra Leonean Leone",
+            "singular": "Sierra Leonean leone",
+            "plural": "Sierra Leonean leones",
+            "symbol": "SLE"
+        },
         "phone": "+232",
         "languages": [
             {
@@ -8230,9 +11711,20 @@ exports.countries = {
         ]
     },
     "SM": {
-        "name": "San Marino",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "San Marino",
+            "official": "Republic of San Marino",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sm",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+378",
         "languages": [
             {
@@ -8250,9 +11742,20 @@ exports.countries = {
         ]
     },
     "SN": {
-        "name": "Senegal",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Senegal",
+            "official": "Republic of Senegal",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sn",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+221",
         "languages": [
             {
@@ -8286,6 +11789,54 @@ exports.countries = {
                 "status": "official_regional"
             },
             {
+                "code": "sav",
+                "name": "Saafi-Saafi",
+                "percentage": 1.5,
+                "status": "official_regional"
+            },
+            {
+                "code": "mfv",
+                "name": "Mandjak",
+                "percentage": 0.77,
+                "status": "official_regional"
+            },
+            {
+                "code": "bjt",
+                "name": "Balanta-Ganja",
+                "percentage": 0.61,
+                "status": "official_regional"
+            },
+            {
+                "code": "snf",
+                "name": "Noon",
+                "percentage": 0.24,
+                "status": "official_regional"
+            },
+            {
+                "code": "knf",
+                "name": "Mankanya",
+                "percentage": 0.21,
+                "status": "official_regional"
+            },
+            {
+                "code": "bsc",
+                "name": "Oniyan",
+                "percentage": 0.097,
+                "status": "official_regional"
+            },
+            {
+                "code": "mey-Latn",
+                "name": "Hassaniyya (Latin)",
+                "percentage": 0.038,
+                "status": "official_regional"
+            },
+            {
+                "code": "tnr",
+                "name": "Ménik",
+                "percentage": 0.018,
+                "status": "official_regional"
+            },
+            {
                 "code": "ff-Adlm",
                 "name": "Fula (Adlam)",
                 "percentage": 0,
@@ -8294,9 +11845,20 @@ exports.countries = {
         ]
     },
     "SO": {
-        "name": "Somalia",
-        "currencyCode": "SOS",
-        "currency": "Somali Shilling",
+        "name": {
+            "common": "Somalia",
+            "official": "Federal Republic of Somalia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".so",
+        "currency": {
+            "code": "SOS",
+            "name": "Somali Shilling",
+            "singular": "Somali shilling",
+            "plural": "Somali shillings",
+            "symbol": "SOS"
+        },
         "phone": "+252",
         "languages": [
             {
@@ -8326,9 +11888,20 @@ exports.countries = {
         ]
     },
     "SR": {
-        "name": "Suriname",
-        "currencyCode": "SRD",
-        "currency": "Surinamese Dollar",
+        "name": {
+            "common": "Suriname",
+            "official": "Republic of Suriname",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sr",
+        "currency": {
+            "code": "SRD",
+            "name": "Surinamese Dollar",
+            "singular": "Surinamese dollar",
+            "plural": "Surinamese dollars",
+            "symbol": "SRD"
+        },
         "phone": "+597",
         "languages": [
             {
@@ -8345,7 +11918,7 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 1.1,
                 "status": null
             },
@@ -8358,9 +11931,20 @@ exports.countries = {
         ]
     },
     "SS": {
-        "name": "South Sudan",
-        "currencyCode": "SSP",
-        "currency": "South Sudanese Pound",
+        "name": {
+            "common": "South Sudan",
+            "official": "Republic of South Sudan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ss",
+        "currency": {
+            "code": "SSP",
+            "name": "South Sudanese Pound",
+            "singular": "South Sudanese pound",
+            "plural": "South Sudanese pounds",
+            "symbol": "SSP"
+        },
         "phone": "+211",
         "languages": [
             {
@@ -8384,9 +11968,20 @@ exports.countries = {
         ]
     },
     "ST": {
-        "name": "São Tomé & Príncipe",
-        "currencyCode": "STN",
-        "currency": "São Tomé and Príncipe Dobra",
+        "name": {
+            "common": "São Tomé and Príncipe",
+            "official": "Democratic Republic of São Tomé and Príncipe",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".st",
+        "currency": {
+            "code": "STN",
+            "name": "São Tomé & Príncipe Dobra",
+            "singular": "São Tomé & Príncipe dobra",
+            "plural": "São Tomé & Príncipe dobras",
+            "symbol": "STN"
+        },
         "phone": "+239",
         "languages": [
             {
@@ -8404,9 +11999,20 @@ exports.countries = {
         ]
     },
     "SV": {
-        "name": "El Salvador",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "El Salvador",
+            "official": "Republic of El Salvador",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sv",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+503",
         "languages": [
             {
@@ -8414,13 +12020,42 @@ exports.countries = {
                 "name": "Spanish",
                 "percentage": 89,
                 "status": "official"
+            },
+            {
+                "code": "ccr",
+                "name": "Cacaopera",
+                "percentage": 0.056,
+                "status": null
+            },
+            {
+                "code": "ppl",
+                "name": "Pipil",
+                "percentage": 0.041,
+                "status": null
+            },
+            {
+                "code": "len",
+                "name": "Lenca",
+                "percentage": 0.02,
+                "status": null
             }
         ]
     },
     "SX": {
-        "name": "Sint Maarten",
-        "currencyCode": "XCG",
-        "currency": "Caribbean Guilder",
+        "name": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".sx",
+        "currency": {
+            "code": "XCG",
+            "name": "Caribbean guilder",
+            "singular": "Caribbean guilder",
+            "plural": "Caribbean guilders",
+            "symbol": "XCG"
+        },
         "phone": "+1",
         "languages": [
             {
@@ -8436,6 +12071,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "vic",
+                "name": "Virgin Islands Creole English",
+                "percentage": 6.7,
+                "status": null
+            },
+            {
                 "code": "nl",
                 "name": "Dutch",
                 "percentage": 3.4,
@@ -8444,11 +12085,28 @@ exports.countries = {
         ]
     },
     "SY": {
-        "name": "Syria",
-        "currencyCode": "SYP",
-        "currency": "Syrian Pound",
+        "name": {
+            "common": "Syrian Arab Republic",
+            "official": "Syrian Arab Republic",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sy",
+        "currency": {
+            "code": "SYP",
+            "name": "Syrian Pound",
+            "singular": "Syrian pound",
+            "plural": "Syrian pounds",
+            "symbol": "SYP"
+        },
         "phone": "+963",
         "languages": [
+            {
+                "code": "apc",
+                "name": "Levantine Arabic",
+                "percentage": 85,
+                "status": null
+            },
             {
                 "code": "ar",
                 "name": "Arabic",
@@ -8457,7 +12115,7 @@ exports.countries = {
             },
             {
                 "code": "ku",
-                "name": "Kurdish",
+                "name": "Kurmanji",
                 "percentage": 8,
                 "status": null
             },
@@ -8482,9 +12140,20 @@ exports.countries = {
         ]
     },
     "SZ": {
-        "name": "Eswatini",
-        "currencyCode": "SZL",
-        "currency": "Swazi Lilangeni",
+        "name": {
+            "common": "Eswatini",
+            "official": "Kingdom of Eswatini",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".sz",
+        "currency": {
+            "code": "SZL",
+            "name": "Swazi Lilangeni",
+            "singular": "Swazi lilangeni",
+            "plural": "Swazi emalangeni",
+            "symbol": "SZL"
+        },
         "phone": "+268",
         "languages": [
             {
@@ -8514,9 +12183,20 @@ exports.countries = {
         ]
     },
     "TC": {
-        "name": "Turks & Caicos Islands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Turks and Caicos Islands",
+            "official": "Turks and Caicos Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tc",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1649",
         "languages": [
             {
@@ -8528,9 +12208,20 @@ exports.countries = {
         ]
     },
     "TD": {
-        "name": "Chad",
-        "currencyCode": "XAF",
-        "currency": "Central African CFA Franc",
+        "name": {
+            "common": "Chad",
+            "official": "Republic of Chad",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".td",
+        "currency": {
+            "code": "XAF",
+            "name": "Central African CFA Franc",
+            "singular": "Central African CFA franc",
+            "plural": "Central African CFA francs",
+            "symbol": "FCFA"
+        },
         "phone": "+235",
         "languages": [
             {
@@ -8548,9 +12239,20 @@ exports.countries = {
         ]
     },
     "TF": {
-        "name": "French Southern Territories",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "French Southern Territories",
+            "official": "French Southern and Antarctic Lands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tf",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+262",
         "languages": [
             {
@@ -8562,9 +12264,20 @@ exports.countries = {
         ]
     },
     "TG": {
-        "name": "Togo",
-        "currencyCode": "XOF",
-        "currency": "West African CFA Franc",
+        "name": {
+            "common": "Togo",
+            "official": "Togolese Republic",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tg",
+        "currency": {
+            "code": "XOF",
+            "name": "West African CFA Franc",
+            "singular": "West African CFA franc",
+            "plural": "West African CFA francs",
+            "symbol": "F CFA"
+        },
         "phone": "+228",
         "languages": [
             {
@@ -8580,6 +12293,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "ife",
+                "name": "Ifè",
+                "percentage": 1.3,
+                "status": null
+            },
+            {
                 "code": "blo",
                 "name": "Anii",
                 "percentage": 0.15,
@@ -8588,9 +12307,20 @@ exports.countries = {
         ]
     },
     "TH": {
-        "name": "Thailand",
-        "currencyCode": "THB",
-        "currency": "Thai Baht",
+        "name": {
+            "common": "Thailand",
+            "official": "Kingdom of Thailand",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".th",
+        "currency": {
+            "code": "THB",
+            "name": "Thai Baht",
+            "singular": "Thai baht",
+            "plural": "Thai baht",
+            "symbol": "THB"
+        },
         "phone": "+66",
         "languages": [
             {
@@ -8606,9 +12336,51 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "tts",
+                "name": "Northeastern Thai",
+                "percentage": 24,
+                "status": null
+            },
+            {
+                "code": "nod",
+                "name": "Northern Thai",
+                "percentage": 9.6,
+                "status": null
+            },
+            {
+                "code": "sou",
+                "name": "Southern Thai",
+                "percentage": 8,
+                "status": null
+            },
+            {
+                "code": "mfa",
+                "name": "Pattani Malay",
+                "percentage": 5,
+                "status": null
+            },
+            {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 1.8,
+                "status": null
+            },
+            {
+                "code": "kxm",
+                "name": "Northern Khmer",
+                "percentage": 1.7,
+                "status": null
+            },
+            {
+                "code": "kdt",
+                "name": "Kuy",
+                "percentage": 0.48,
+                "status": null
+            },
+            {
+                "code": "mnw",
+                "name": "Mon",
+                "percentage": 0.17,
                 "status": null
             },
             {
@@ -8622,13 +12394,48 @@ exports.countries = {
                 "name": "Shan",
                 "percentage": 0.096,
                 "status": null
+            },
+            {
+                "code": "mww",
+                "name": "Hmong Daw",
+                "percentage": 0.047,
+                "status": null
+            },
+            {
+                "code": "lcp",
+                "name": "Western Lawa",
+                "percentage": 0.01,
+                "status": null
+            },
+            {
+                "code": "lwl",
+                "name": "Eastern Lawa",
+                "percentage": 0.01,
+                "status": null
+            },
+            {
+                "code": "pi-Thai",
+                "name": "Pali (Thai)",
+                "percentage": 0,
+                "status": null
             }
         ]
     },
     "TJ": {
-        "name": "Tajikistan",
-        "currencyCode": "TJS",
-        "currency": "Tajikistani Somoni",
+        "name": {
+            "common": "Tajikistan",
+            "official": "Republic of Tajikistan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tj",
+        "currency": {
+            "code": "TJS",
+            "name": "Tajikistani Somoni",
+            "singular": "Tajikistani somoni",
+            "plural": "Tajikistani somonis",
+            "symbol": "TJS"
+        },
         "phone": "+992",
         "languages": [
             {
@@ -8658,14 +12465,25 @@ exports.countries = {
         ]
     },
     "TK": {
-        "name": "Tokelau",
-        "currencyCode": "NZD",
-        "currency": "New Zealand Dollar",
+        "name": {
+            "common": "Tokelau",
+            "official": "Tokelau",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".tk",
+        "currency": {
+            "code": "NZD",
+            "name": "New Zealand Dollar",
+            "singular": "New Zealand dollar",
+            "plural": "New Zealand dollars",
+            "symbol": "NZ$"
+        },
         "phone": "+690",
         "languages": [
             {
                 "code": "tkl",
-                "name": "Tokelau",
+                "name": "Tokelauan",
                 "percentage": 69,
                 "status": "official"
             },
@@ -8684,9 +12502,20 @@ exports.countries = {
         ]
     },
     "TL": {
-        "name": "Timor-Leste",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "Timor-Leste",
+            "official": "Democratic Republic of Timor-Leste",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tl",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+670",
         "languages": [
             {
@@ -8704,9 +12533,20 @@ exports.countries = {
         ]
     },
     "TM": {
-        "name": "Turkmenistan",
-        "currencyCode": "TMT",
-        "currency": "Turkmenistani Manat",
+        "name": {
+            "common": "Turkmenistan",
+            "official": "Turkmenistan",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".tm",
+        "currency": {
+            "code": "TMT",
+            "name": "Turkmenistani Manat",
+            "singular": "Turkmenistani manat",
+            "plural": "Turkmenistani manat",
+            "symbol": "TMT"
+        },
         "phone": "+993",
         "languages": [
             {
@@ -8728,8 +12568,8 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "ku",
-                "name": "Kurdish",
+                "code": "ku-Cyrl",
+                "name": "Kurmanji (Cyrillic)",
                 "percentage": 0.4,
                 "status": null
             },
@@ -8742,9 +12582,20 @@ exports.countries = {
         ]
     },
     "TN": {
-        "name": "Tunisia",
-        "currencyCode": "TND",
-        "currency": "Tunisian Dinar",
+        "name": {
+            "common": "Tunisia",
+            "official": "Republic of Tunisia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tn",
+        "currency": {
+            "code": "TND",
+            "name": "Tunisian Dinar",
+            "singular": "Tunisian dinar",
+            "plural": "Tunisian dinars",
+            "symbol": "TND"
+        },
         "phone": "+216",
         "languages": [
             {
@@ -8768,9 +12619,20 @@ exports.countries = {
         ]
     },
     "TO": {
-        "name": "Tonga",
-        "currencyCode": "TOP",
-        "currency": "Tongan Paʻanga",
+        "name": {
+            "common": "Tonga",
+            "official": "Kingdom of Tonga",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".to",
+        "currency": {
+            "code": "TOP",
+            "name": "Tongan Paʻanga",
+            "singular": "Tongan paʻanga",
+            "plural": "Tongan paʻanga",
+            "symbol": "TOP"
+        },
         "phone": "+676",
         "languages": [
             {
@@ -8788,9 +12650,20 @@ exports.countries = {
         ]
     },
     "TR": {
-        "name": "Türkiye",
-        "currencyCode": "TRY",
-        "currency": "Turkish Lira",
+        "name": {
+            "common": "Türkiye",
+            "official": "Republic of Türkiye",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tr",
+        "currency": {
+            "code": "TRY",
+            "name": "Turkish Lira",
+            "singular": "Turkish lira",
+            "plural": "Turkish Lira",
+            "symbol": "TRY"
+        },
         "phone": "+90",
         "languages": [
             {
@@ -8807,8 +12680,14 @@ exports.countries = {
             },
             {
                 "code": "ku",
-                "name": "Kurdish",
+                "name": "Kurmanji",
                 "percentage": 5.5,
+                "status": null
+            },
+            {
+                "code": "apc",
+                "name": "Levantine Arabic",
+                "percentage": 5.2,
                 "status": null
             },
             {
@@ -8839,6 +12718,12 @@ exports.countries = {
                 "code": "ar",
                 "name": "Arabic",
                 "percentage": 0.56,
+                "status": null
+            },
+            {
+                "code": "bgx",
+                "name": "Balkan Gagauz Turkish",
+                "percentage": 0.46,
                 "status": null
             },
             {
@@ -8878,15 +12763,15 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "lzz",
-                "name": "Laz",
+                "code": "sr-Latn",
+                "name": "Serbian (Latin)",
                 "percentage": 0.028,
                 "status": null
             },
             {
-                "code": "sr-Latn",
-                "name": "Serbian (Latin)",
-                "percentage": 0.028,
+                "code": "lzz",
+                "name": "Laz",
+                "percentage": 0.025,
                 "status": null
             },
             {
@@ -8940,9 +12825,20 @@ exports.countries = {
         ]
     },
     "TT": {
-        "name": "Trinidad & Tobago",
-        "currencyCode": "TTD",
-        "currency": "Trinidad and Tobago Dollar",
+        "name": {
+            "common": "Trinidad and Tobago",
+            "official": "Republic of Trinidad and Tobago",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tt",
+        "currency": {
+            "code": "TTD",
+            "name": "Trinidad & Tobago Dollar",
+            "singular": "Trinidad & Tobago dollar",
+            "plural": "Trinidad & Tobago dollars",
+            "symbol": "TTD"
+        },
         "phone": "+1868",
         "languages": [
             {
@@ -8960,9 +12856,20 @@ exports.countries = {
         ]
     },
     "TV": {
-        "name": "Tuvalu",
-        "currencyCode": "AUD",
-        "currency": "Australian Dollar",
+        "name": {
+            "common": "Tuvalu",
+            "official": "Tuvalu",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".tv",
+        "currency": {
+            "code": "AUD",
+            "name": "Australian Dollar",
+            "singular": "Australian dollar",
+            "plural": "Australian dollars",
+            "symbol": "A$"
+        },
         "phone": "+688",
         "languages": [
             {
@@ -8980,14 +12887,25 @@ exports.countries = {
         ]
     },
     "TW": {
-        "name": "Taiwan",
-        "currencyCode": "TWD",
-        "currency": "New Taiwan Dollar",
+        "name": {
+            "common": "Taiwan",
+            "official": "Republic of China",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tw",
+        "currency": {
+            "code": "TWD",
+            "name": "New Taiwan Dollar",
+            "singular": "New Taiwan dollar",
+            "plural": "New Taiwan dollars",
+            "symbol": "NT$"
+        },
         "phone": "+886",
         "languages": [
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 95,
                 "status": "official"
             },
@@ -9012,9 +12930,20 @@ exports.countries = {
         ]
     },
     "TZ": {
-        "name": "Tanzania",
-        "currencyCode": "TZS",
-        "currency": "Tanzanian Shilling",
+        "name": {
+            "common": "Tanzania",
+            "official": "United Republic of Tanzania",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".tz",
+        "currency": {
+            "code": "TZS",
+            "name": "Tanzanian Shilling",
+            "singular": "Tanzanian shilling",
+            "plural": "Tanzanian shillings",
+            "symbol": "TZS"
+        },
         "phone": "+255",
         "languages": [
             {
@@ -9066,6 +12995,12 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "mgy",
+                "name": "Mbunga",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
                 "code": "asa",
                 "name": "Asu",
                 "percentage": 1.2,
@@ -9110,9 +13045,20 @@ exports.countries = {
         ]
     },
     "UA": {
-        "name": "Ukraine",
-        "currencyCode": "UAH",
-        "currency": "Ukrainian Hryvnia",
+        "name": {
+            "common": "Ukraine",
+            "official": "Ukraine",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".ua",
+        "currency": {
+            "code": "UAH",
+            "name": "Ukrainian Hryvnia",
+            "singular": "Ukrainian hryvnia",
+            "plural": "Ukrainian hryvnias",
+            "symbol": "UAH"
+        },
         "phone": "+380",
         "languages": [
             {
@@ -9190,9 +13136,20 @@ exports.countries = {
         ]
     },
     "UG": {
-        "name": "Uganda",
-        "currencyCode": "UGX",
-        "currency": "Ugandan Shilling",
+        "name": {
+            "common": "Uganda",
+            "official": "Republic of Uganda",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ug",
+        "currency": {
+            "code": "UGX",
+            "name": "Ugandan Shilling",
+            "singular": "Ugandan shilling",
+            "plural": "Ugandan shillings",
+            "symbol": "UGX"
+        },
         "phone": "+256",
         "languages": [
             {
@@ -9238,15 +13195,33 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "laj",
+                "name": "Lango (Uganda)",
+                "percentage": 3.8,
+                "status": null
+            },
+            {
                 "code": "ach",
                 "name": "Acoli",
                 "percentage": 3.7,
                 "status": null
             },
             {
+                "code": "myx",
+                "name": "Masaaba",
+                "percentage": 2.9,
+                "status": null
+            },
+            {
                 "code": "rw",
                 "name": "Kinyarwanda",
                 "percentage": 2.1,
+                "status": null
+            },
+            {
+                "code": "ttj",
+                "name": "Tooro",
+                "percentage": 1.9,
                 "status": null
             },
             {
@@ -9258,9 +13233,20 @@ exports.countries = {
         ]
     },
     "UM": {
-        "name": "U.S. Outlying Islands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "US Minor Outlying Islands",
+            "official": "United States Minor Outlying Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".us",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1",
         "languages": [
             {
@@ -9272,9 +13258,20 @@ exports.countries = {
         ]
     },
     "US": {
-        "name": "United States",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "United States of America",
+            "official": "United States of America",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".us",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1",
         "languages": [
             {
@@ -9291,7 +13288,7 @@ exports.countries = {
             },
             {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 0.69,
                 "status": null
             },
@@ -9335,6 +13332,12 @@ exports.countries = {
                 "code": "ru",
                 "name": "Russian",
                 "percentage": 0.24,
+                "status": null
+            },
+            {
+                "code": "mww",
+                "name": "Hmong Daw",
+                "percentage": 0.068,
                 "status": null
             },
             {
@@ -9416,8 +13419,14 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "cad",
-                "name": "Caddo",
+                "code": "oka",
+                "name": "Okanagan",
+                "percentage": 0.0001,
+                "status": null
+            },
+            {
+                "code": "io",
+                "name": "Ido",
                 "percentage": 0,
                 "status": null
             },
@@ -9428,8 +13437,8 @@ exports.countries = {
                 "status": null
             },
             {
-                "code": "io",
-                "name": "Ido",
+                "code": "cad",
+                "name": "Caddo",
                 "percentage": 0,
                 "status": null
             },
@@ -9448,9 +13457,20 @@ exports.countries = {
         ]
     },
     "UY": {
-        "name": "Uruguay",
-        "currencyCode": "UYU",
-        "currency": "Uruguayan Peso",
+        "name": {
+            "common": "Uruguay",
+            "official": "Oriental Republic of Uruguay",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".uy",
+        "currency": {
+            "code": "UYU",
+            "name": "Uruguayan Peso",
+            "singular": "Uruguayan peso",
+            "plural": "Uruguayan pesos",
+            "symbol": "UYU"
+        },
         "phone": "+598",
         "languages": [
             {
@@ -9462,9 +13482,20 @@ exports.countries = {
         ]
     },
     "UZ": {
-        "name": "Uzbekistan",
-        "currencyCode": "UZS",
-        "currency": "Uzbekistani Som",
+        "name": {
+            "common": "Uzbekistan",
+            "official": "Republic of Uzbekistan",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".uz",
+        "currency": {
+            "code": "UZS",
+            "name": "Uzbekistani Som",
+            "singular": "Uzbekistani som",
+            "plural": "Uzbekistani som",
+            "symbol": "UZS"
+        },
         "phone": "+998",
         "languages": [
             {
@@ -9500,9 +13531,20 @@ exports.countries = {
         ]
     },
     "VA": {
-        "name": "Vatican City",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Vatican City",
+            "official": "Vatican City State",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".va",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+379",
         "languages": [
             {
@@ -9520,9 +13562,20 @@ exports.countries = {
         ]
     },
     "VC": {
-        "name": "St. Vincent & Grenadines",
-        "currencyCode": "XCD",
-        "currency": "East Caribbean Dollar",
+        "name": {
+            "common": "Saint Vincent and the Grenadines",
+            "official": "Saint Vincent and the Grenadines",
+            "commonArticle": null,
+            "officialArticle": null
+        },
+        "topLevelDomain": ".vc",
+        "currency": {
+            "code": "XCD",
+            "name": "East Caribbean Dollar",
+            "singular": "East Caribbean dollar",
+            "plural": "East Caribbean dollars",
+            "symbol": "EC$"
+        },
         "phone": "+1784",
         "languages": [
             {
@@ -9534,9 +13587,20 @@ exports.countries = {
         ]
     },
     "VE": {
-        "name": "Venezuela",
-        "currencyCode": "VES",
-        "currency": "Venezuelan Bolívar",
+        "name": {
+            "common": "Venezuela",
+            "official": "Bolivarian Republic of Venezuela",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ve",
+        "currency": {
+            "code": "VES",
+            "name": "Venezuelan Bolívar",
+            "singular": "Venezuelan bolívar",
+            "plural": "Venezuelan bolívars",
+            "symbol": "VES"
+        },
         "phone": "+58",
         "languages": [
             {
@@ -9554,9 +13618,20 @@ exports.countries = {
         ]
     },
     "VG": {
-        "name": "British Virgin Islands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "British Virgin Islands",
+            "official": "Virgin Islands",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".vg",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1284",
         "languages": [
             {
@@ -9568,9 +13643,20 @@ exports.countries = {
         ]
     },
     "VI": {
-        "name": "U.S. Virgin Islands",
-        "currencyCode": "USD",
-        "currency": "US Dollar",
+        "name": {
+            "common": "US Virgin Islands",
+            "official": "Virgin Islands of the United States",
+            "commonArticle": "the",
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".vi",
+        "currency": {
+            "code": "USD",
+            "name": "US Dollar",
+            "singular": "US dollar",
+            "plural": "US dollars",
+            "symbol": "$"
+        },
         "phone": "+1340",
         "languages": [
             {
@@ -9582,9 +13668,20 @@ exports.countries = {
         ]
     },
     "VN": {
-        "name": "Vietnam",
-        "currencyCode": "VND",
-        "currency": "Vietnamese Dong",
+        "name": {
+            "common": "Vietnam",
+            "official": "Socialist Republic of Viet Nam",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".vn",
+        "currency": {
+            "code": "VND",
+            "name": "Vietnamese Dong",
+            "singular": "Vietnamese dong",
+            "plural": "Vietnamese dong",
+            "symbol": "₫"
+        },
         "phone": "+84",
         "languages": [
             {
@@ -9594,8 +13691,14 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "mww",
+                "name": "Hmong Daw",
+                "percentage": 1.4,
+                "status": null
+            },
+            {
                 "code": "zh-Hant",
-                "name": "Traditional Chinese",
+                "name": "Chinese (Traditional)",
                 "percentage": 1.1,
                 "status": null
             },
@@ -9610,13 +13713,30 @@ exports.countries = {
                 "name": "Hmong Njua",
                 "percentage": 0.17,
                 "status": null
+            },
+            {
+                "code": "cjm",
+                "name": "Eastern Cham",
+                "percentage": 0.089,
+                "status": null
             }
         ]
     },
     "VU": {
-        "name": "Vanuatu",
-        "currencyCode": "VUV",
-        "currency": "Vanuatu Vatu",
+        "name": {
+            "common": "Vanuatu",
+            "official": "Republic of Vanuatu",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".vu",
+        "currency": {
+            "code": "VUV",
+            "name": "Vanuatu Vatu",
+            "singular": "Vanuatu vatu",
+            "plural": "Vanuatu vatus",
+            "symbol": "VUV"
+        },
         "phone": "+678",
         "languages": [
             {
@@ -9640,9 +13760,20 @@ exports.countries = {
         ]
     },
     "WF": {
-        "name": "Wallis & Futuna",
-        "currencyCode": "XPF",
-        "currency": "CFP Franc",
+        "name": {
+            "common": "Wallis and Futuna",
+            "official": "Territory of the Wallis and Futuna Islands",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".wf",
+        "currency": {
+            "code": "XPF",
+            "name": "CFP Franc",
+            "singular": "CFP franc",
+            "plural": "CFP francs",
+            "symbol": "CFPF"
+        },
         "phone": "+681",
         "languages": [
             {
@@ -9650,13 +13781,36 @@ exports.countries = {
                 "name": "French",
                 "percentage": 83,
                 "status": "official"
+            },
+            {
+                "code": "wls",
+                "name": "Wallisian",
+                "percentage": 59,
+                "status": null
+            },
+            {
+                "code": "fud",
+                "name": "East Futuna",
+                "percentage": 30,
+                "status": null
             }
         ]
     },
     "WS": {
-        "name": "Samoa",
-        "currencyCode": "WST",
-        "currency": "Samoan Tala",
+        "name": {
+            "common": "Samoa",
+            "official": "Independent State of Samoa",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ws",
+        "currency": {
+            "code": "WST",
+            "name": "Samoan Tala",
+            "singular": "Samoan tala",
+            "plural": "Samoan tala",
+            "symbol": "WST"
+        },
         "phone": "+685",
         "languages": [
             {
@@ -9674,9 +13828,20 @@ exports.countries = {
         ]
     },
     "XK": {
-        "name": "Kosovo",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Kosovo",
+            "official": "Republic of Kosovo",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": null,
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+383",
         "languages": [
             {
@@ -9706,9 +13871,20 @@ exports.countries = {
         ]
     },
     "YE": {
-        "name": "Yemen",
-        "currencyCode": "YER",
-        "currency": "Yemeni Rial",
+        "name": {
+            "common": "Yemen",
+            "official": "Republic of Yemen",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".ye",
+        "currency": {
+            "code": "YER",
+            "name": "Yemeni Rial",
+            "singular": "Yemeni rial",
+            "plural": "Yemeni rials",
+            "symbol": "YER"
+        },
         "phone": "+967",
         "languages": [
             {
@@ -9726,9 +13902,20 @@ exports.countries = {
         ]
     },
     "YT": {
-        "name": "Mayotte",
-        "currencyCode": "EUR",
-        "currency": "Euro",
+        "name": {
+            "common": "Mayotte",
+            "official": "Department of Mayotte",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".yt",
+        "currency": {
+            "code": "EUR",
+            "name": "Euro",
+            "singular": "euro",
+            "plural": "euros",
+            "symbol": "€"
+        },
         "phone": "+262",
         "languages": [
             {
@@ -9744,6 +13931,12 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "buc",
+                "name": "Bushi",
+                "percentage": 23,
+                "status": null
+            },
+            {
                 "code": "sw",
                 "name": "Swahili",
                 "percentage": 1.4,
@@ -9752,9 +13945,20 @@ exports.countries = {
         ]
     },
     "ZA": {
-        "name": "South Africa",
-        "currencyCode": "ZAR",
-        "currency": "South African Rand",
+        "name": {
+            "common": "South Africa",
+            "official": "Republic of South Africa",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".za",
+        "currency": {
+            "code": "ZAR",
+            "name": "South African Rand",
+            "singular": "South African rand",
+            "plural": "South African rand",
+            "symbol": "ZAR"
+        },
         "phone": "+27",
         "languages": [
             {
@@ -9838,9 +14042,20 @@ exports.countries = {
         ]
     },
     "ZM": {
-        "name": "Zambia",
-        "currencyCode": "ZMW",
-        "currency": "Zambian Kwacha",
+        "name": {
+            "common": "Zambia",
+            "official": "Republic of Zambia",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".zm",
+        "currency": {
+            "code": "ZMW",
+            "name": "Zambian Kwacha",
+            "singular": "Zambian kwacha",
+            "plural": "Zambian kwachas",
+            "symbol": "ZMW"
+        },
         "phone": "+260",
         "languages": [
             {
@@ -9862,9 +14077,27 @@ exports.countries = {
                 "status": "official"
             },
             {
+                "code": "toi",
+                "name": "Tonga (Zambia)",
+                "percentage": 11,
+                "status": null
+            },
+            {
                 "code": "loz",
                 "name": "Lozi",
                 "percentage": 5.5,
+                "status": null
+            },
+            {
+                "code": "nse",
+                "name": "Nsenga",
+                "percentage": 3,
+                "status": null
+            },
+            {
+                "code": "leb",
+                "name": "Lala-Bisa",
+                "percentage": 2.8,
                 "status": null
             },
             {
@@ -9874,17 +14107,40 @@ exports.countries = {
                 "status": null
             },
             {
+                "code": "kqn",
+                "name": "Kaonde",
+                "percentage": 1.9,
+                "status": null
+            },
+            {
                 "code": "lun",
                 "name": "Lunda",
                 "percentage": 1.9,
+                "status": null
+            },
+            {
+                "code": "lue",
+                "name": "Luvale",
+                "percentage": 1.5,
                 "status": null
             }
         ]
     },
     "ZW": {
-        "name": "Zimbabwe",
-        "currencyCode": "ZWG",
-        "currency": "Zimbabwean Gold",
+        "name": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe",
+            "commonArticle": null,
+            "officialArticle": "the"
+        },
+        "topLevelDomain": ".zw",
+        "currency": {
+            "code": "ZWG",
+            "name": "Zimbabwean Gold",
+            "singular": "Zimbabwean gold",
+            "plural": "Zimbabwean gold",
+            "symbol": "ZWG"
+        },
         "phone": "+263",
         "languages": [
             {
@@ -9904,6 +14160,24 @@ exports.countries = {
                 "name": "North Ndebele",
                 "percentage": 12,
                 "status": "official"
+            },
+            {
+                "code": "mxc",
+                "name": "Manyika",
+                "percentage": 6.5,
+                "status": null
+            },
+            {
+                "code": "ndc",
+                "name": "Ndau",
+                "percentage": 6.1,
+                "status": null
+            },
+            {
+                "code": "kck",
+                "name": "Kalanga",
+                "percentage": 5.3,
+                "status": null
             },
             {
                 "code": "ny",
