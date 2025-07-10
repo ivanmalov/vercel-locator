@@ -26,9 +26,10 @@ export interface Region {
     name: string;
 }
 export interface Airport {
-    iata: string;
+    id: string;
+    iata: string | null;
     name: string;
-    city: string;
+    city: string | null;
     country: string;
     lat: number;
     lon: number;

@@ -1,8 +1,12 @@
 import { parseGeo, GeoInfo } from './parse';
-import fs from 'fs';
-import path from 'path';
 import RBush from 'rbush';
 import knn from 'rbush-knn';
+
+// Import data directly so it's included in the bundle
+import countriesData from './generated/countries.json';
+import regionsData from './generated/regions.json';
+import airportsData from './generated/airports/airports.json';
+import airportIndexData from './generated/airports/index.json';
 
 export interface Country {
   name: {
@@ -33,9 +37,10 @@ export interface Region {
 }
 
 export interface Airport {
-  iata: string;
+  id: string;
+  iata: string | null;
   name: string;
-  city: string;
+  city: string | null;
   country: string;
   lat: number;
   lon: number;
@@ -46,23 +51,13 @@ interface AirportIndexItem {
   minY: number;
   maxX: number;
   maxY: number;
-  iata: string;
+  id: string;
 }
 
-const countries: Record<string, Country> = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/countries.json'), 'utf-8')
-);
-const regions: Record<string, Region> = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8')
-);
+const countries: Record<string, Country> = countriesData as Record<string, Country>;
+const regions: Record<string, Region> = regionsData as Record<string, Region>;
+const airports: Record<string, Airport> = airportsData as Record<string, Airport>;
 
-const airports: Record<string, Airport> = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/airports/airports.json'), 'utf-8')
-);
-
-const airportIndexData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/airports/index.json'), 'utf-8')
-);
 const airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
 
 export interface Config {
@@ -90,7 +85,7 @@ export function resolveVisitorContext(
   let nearbyAirports: Airport[] | null = null;
   if (geo.latitude && geo.longitude) {
     const nearest = knn(airportIndex, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
-    nearbyAirports = nearest.map(item => airports[item.iata]);
+    nearbyAirports = nearest.map(item => airports[item.id]);
   }
 
   // Assemble once and return
