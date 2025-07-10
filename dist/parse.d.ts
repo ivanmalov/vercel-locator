@@ -9,4 +9,4 @@ export interface GeoInfo {
     latitude: number | null;
     timezone: string | null;
 }
-export declare function parseGeo(headers: Headers | Record<string, string | undefined>): GeoInfo;
+export declare function parseGeo(headers: Headers | Record<string, string | string[] | undefined>): GeoInfo;

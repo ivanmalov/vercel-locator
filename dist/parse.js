@@ -5,10 +5,18 @@ function parseGeo(headers) {
     // Helper to get a header value regardless of input type.
     // Plain objects in Node.js typically have lowercase keys.
     const getHeader = (key) => {
+        let value;
         if (headers instanceof Headers) {
-            return headers.get(key);
+            value = headers.get(key);
         }
-        return headers[key.toLowerCase()] ?? null;
+        else {
+            value = headers[key.toLowerCase()];
+        }
+        // If the value is an array, return the first element. Otherwise, return the value itself.
+        if (Array.isArray(value)) {
+            return value[0] ?? null;
+        }
+        return value ?? null;
     };
     return {
         ip: getHeader('x-real-ip'),

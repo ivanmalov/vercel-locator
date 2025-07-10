@@ -102,7 +102,7 @@ export interface VisitorContext extends GeoInfo {
 
 // The function must be async to support dynamic imports
 export async function resolveVisitorContext(
-  input: Request | Headers | Record<string, string | undefined>,
+  input: Request | Headers | Record<string, string | string[] | undefined>,
   opts: Partial<Config> = {},
 ): Promise<VisitorContext> {
   // Wait for the one-time data load to complete.
