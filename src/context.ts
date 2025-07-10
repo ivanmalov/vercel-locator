@@ -1,15 +1,7 @@
 import { parseGeo, GeoInfo } from './parse';
 import fs from 'fs';
 import path from 'path';
-import RBush from 'rbush';
-import knn from 'rbush-knn';
-
-// Import data directly so it's included in the bundle
-import countriesData from './generated/countries.json';
-import regionsData from './generated/regions.json';
-import airportsData from './generated/airports/airports.json';
-import { data as airportIndexBase64 } from './generated/airports/index';
-import airportIndexIds from './generated/airports/index-ids.json';
+import type RBush from 'rbush';
 
 export interface Country {
   name: {
@@ -65,20 +57,11 @@ interface AirportIndexItem {
   id: string;
 }
 
-const countries: Record<string, Country> = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/countries.json'), 'utf-8')
-);
-const regions: Record<string, Region> = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8')
-);
-const airports: Record<string, Airport> = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/airports/airports.json'), 'utf-8')
-);
-const airportIndexData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'generated/airports/index.json'), 'utf-8')
-);
-
-const airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
+// --- Create a cache for data to avoid reading files on every request ---
+let countries: Record<string, Country> | null = null;
+let regions: Record<string, Region> | null = null;
+let airports: Record<string, Airport> | null = null;
+let airportIndex: RBush<AirportIndexItem> | null = null; // This will hold the RBush instance
 
 export interface Config {
     //user expandable
@@ -93,10 +76,21 @@ export interface VisitorContext extends GeoInfo {
   //headers: Record<string, string | undefined>;
 }
 
-export function resolveVisitorContext(
+// The function must be async to support dynamic imports
+export async function resolveVisitorContext(
   input: Request | Headers,
   opts: Partial<Config> = {},
-): VisitorContext {
+): Promise<VisitorContext> {
+  // Lazy-load data and modules only on the first invocation
+  if (!airportIndex) {
+    const { default: RBush } = await import('rbush');
+    countries = JSON.parse(fs.readFileSync(path.join(__dirname, 'generated/countries.json'), 'utf-8'));
+    regions = JSON.parse(fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8'));
+    airports = JSON.parse(fs.readFileSync(path.join(__dirname, 'generated/airports/airports.json'), 'utf-8'));
+    const airportIndexData = JSON.parse(fs.readFileSync(path.join(__dirname, 'generated/airports/index.json'), 'utf-8'));
+    airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
+  }
+
   const headers = input instanceof Request ? input.headers : input;
   const geo = parseGeo(headers);
 
@@ -104,15 +98,16 @@ export function resolveVisitorContext(
 
   let nearbyAirports: Airport[] | null = null;
   if (geo.latitude && geo.longitude) {
-    const nearest = knn(airportIndex, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
-    nearbyAirports = nearest.map(item => airports[item.id]);
+    const { default: knn } = await import('rbush-knn');
+    const nearest = knn(airportIndex!, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
+    nearbyAirports = nearest.map(item => airports![item.id]);
   }
 
   // Assemble once and return
   return {
     ip: headers.get('x-real-ip') ?? null,
-    country: countries[geo.countryCode ?? ''] ?? null,
-    region: regionKey ? regions[regionKey] ?? null : null,
+    country: countries![geo.countryCode ?? ''] ?? null,
+    region: regionKey ? regions![regionKey] ?? null : null,
     airports: nearbyAirports,
     //headers: Object.fromEntries(headers),
     ...geo

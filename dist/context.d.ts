@@ -51,4 +51,4 @@ export interface VisitorContext extends GeoInfo {
     region: Region | null;
     airports: Airport[] | null;
 }
-export declare function resolveVisitorContext(input: Request | Headers, opts?: Partial<Config>): VisitorContext;
+export declare function resolveVisitorContext(input: Request | Headers, opts?: Partial<Config>): Promise<VisitorContext>;
