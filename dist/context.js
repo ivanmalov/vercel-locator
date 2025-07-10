@@ -46,6 +46,13 @@ async function resolveVisitorContext(input, opts = {}) {
         const { default: knn } = await import('rbush-knn');
         // The non-null assertion `!` is safe because initializationPromise ensures these are loaded.
         const nearest = knn(airportIndex, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
+        // --- DIAGNOSTIC LOG ---
+        // This loop will check each ID found by the search and log a warning if it's missing from the main data file.
+        nearest.forEach(item => {
+            if (!airports[item.id]) {
+                console.warn(`[vercel-locator] Data integrity issue: Airport ID "${item.id}" was found in the spatial index but is missing from the main airport data file.`);
+            }
+        });
         // Map to airport objects and then filter out any that were not found.
         // This prevents `undefined` values in the final array.
         nearbyAirports = nearest
