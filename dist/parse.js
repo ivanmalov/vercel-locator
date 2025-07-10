@@ -11,6 +11,7 @@ function parseGeo(headers) {
         return headers[key.toLowerCase()] ?? null;
     };
     return {
+        ip: getHeader('x-real-ip'),
         continentCode: getHeader('x-vercel-ip-continent'),
         countryCode: getHeader('x-vercel-ip-country'),
         regionCode: getHeader('x-vercel-ip-country-region'),

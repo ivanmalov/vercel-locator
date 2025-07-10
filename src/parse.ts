@@ -1,4 +1,5 @@
 export interface GeoInfo {
+  ip: string | null;
   continentCode: string | null;  
   countryCode: string | null;
   regionCode: string | null;
@@ -20,6 +21,7 @@ export function parseGeo(headers: Headers | Record<string, string | undefined>):
   };
 
   return {
+    ip:            getHeader('x-real-ip'),
     continentCode: getHeader('x-vercel-ip-continent'),
     countryCode:   getHeader('x-vercel-ip-country'),
     regionCode:    getHeader('x-vercel-ip-country-region'),

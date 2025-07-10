@@ -1,4 +1,5 @@
 export interface GeoInfo {
+    ip: string | null;
     continentCode: string | null;
     countryCode: string | null;
     regionCode: string | null;

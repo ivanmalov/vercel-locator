@@ -34,7 +34,7 @@ async function resolveVisitorContext(input, opts = {}) {
     }
     // Assemble once and return
     return {
-        ip: headers.get('x-real-ip') ?? null,
+        // ip is now included in the ...geo spread
         country: countries[geo.countryCode ?? ''] ?? null,
         region: regionKey ? regions[regionKey] ?? null : null,
         airports: nearbyAirports,

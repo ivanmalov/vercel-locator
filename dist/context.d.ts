@@ -46,9 +46,8 @@ export interface Config {
     nearbyAirports?: number;
 }
 export interface VisitorContext extends GeoInfo {
-    ip: string | null;
     country: Country | null;
     region: Region | null;
     airports: Airport[] | null;
 }
-export declare function resolveVisitorContext(input: Request | Headers, opts?: Partial<Config>): Promise<VisitorContext>;
+export declare function resolveVisitorContext(input: Request | Headers | Record<string, string | undefined>, opts?: Partial<Config>): Promise<VisitorContext>;

@@ -69,7 +69,7 @@ export interface Config {
 }
 
 export interface VisitorContext extends GeoInfo {
-  ip: string | null;
+  // ip is now inherited from GeoInfo
   country: Country | null;
   region: Region | null;
   airports: Airport[] | null;
@@ -78,7 +78,7 @@ export interface VisitorContext extends GeoInfo {
 
 // The function must be async to support dynamic imports
 export async function resolveVisitorContext(
-  input: Request | Headers,
+  input: Request | Headers | Record<string, string | undefined>,
   opts: Partial<Config> = {},
 ): Promise<VisitorContext> {
   // Lazy-load data and modules only on the first invocation
@@ -105,7 +105,7 @@ export async function resolveVisitorContext(
 
   // Assemble once and return
   return {
-    ip: headers.get('x-real-ip') ?? null,
+    // ip is now included in the ...geo spread
     country: countries![geo.countryCode ?? ''] ?? null,
     region: regionKey ? regions![regionKey] ?? null : null,
     airports: nearbyAirports,
