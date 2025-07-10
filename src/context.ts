@@ -1,5 +1,8 @@
 import { parseGeo, GeoInfo } from './parse';
-import Flatbush from 'flatbush';
+import fs from 'fs';
+import path from 'path';
+import RBush from 'rbush';
+import knn from 'rbush-knn';
 
 // Import data directly so it's included in the bundle
 import countriesData from './generated/countries.json';
@@ -54,24 +57,28 @@ export interface Airport {
   local_code: string | null;
 }
 
-// Helper function to decode base64 to ArrayBuffer for the edge runtime
-function base64ToArrayBuffer(base64: string): ArrayBuffer {
-  const binaryString = atob(base64);
-  const len = binaryString.length;
-  const bytes = new Uint8Array(len);
-  for (let i = 0; i < len; i++) {
-    bytes[i] = binaryString.charCodeAt(i);
-  }
-  return bytes.buffer;
+interface AirportIndexItem {
+  minX: number;
+  minY: number;
+  maxX: number;
+  maxY: number;
+  id: string;
 }
 
-const countries: Record<string, Country> = countriesData as Record<string, Country>;
-const regions: Record<string, Region> = regionsData as Record<string, Region>;
-const airports: Record<string, Airport> = airportsData as Record<string, Airport>;
-const indexIds: string[] = airportIndexIds as string[];
+const countries: Record<string, Country> = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'generated/countries.json'), 'utf-8')
+);
+const regions: Record<string, Region> = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8')
+);
+const airports: Record<string, Airport> = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'generated/airports/airports.json'), 'utf-8')
+);
+const airportIndexData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'generated/airports/index.json'), 'utf-8')
+);
 
-const airportIndexBuffer = base64ToArrayBuffer(airportIndexBase64);
-const airportIndex = Flatbush.from(airportIndexBuffer);
+const airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
 
 export interface Config {
     //user expandable
@@ -97,8 +104,8 @@ export function resolveVisitorContext(
 
   let nearbyAirports: Airport[] | null = null;
   if (geo.latitude && geo.longitude) {
-    const nearestIndices = airportIndex.neighbors(geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
-    nearbyAirports = nearestIndices.map(index => airports[indexIds[index]]);
+    const nearest = knn(airportIndex, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
+    nearbyAirports = nearest.map(item => airports[item.id]);
   }
 
   // Assemble once and return
