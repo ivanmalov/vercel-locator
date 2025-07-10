@@ -27,12 +27,20 @@ export interface Region {
 }
 export interface Airport {
     id: string;
-    iata: string | null;
+    type: string;
     name: string;
-    city: string | null;
-    country: string;
     lat: number;
     lon: number;
+    elevation_ft: number | null;
+    continent: string | null;
+    iso_country: string;
+    iso_region: string;
+    municipality: string | null;
+    scheduled_service: string;
+    icao_code: string | null;
+    iata_code: string | null;
+    gps_code: string | null;
+    local_code: string | null;
 }
 export interface Config {
     nearbyAirports?: number;

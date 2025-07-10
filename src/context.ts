@@ -1,12 +1,12 @@
 import { parseGeo, GeoInfo } from './parse';
-import RBush from 'rbush';
-import knn from 'rbush-knn';
+import Flatbush from 'flatbush';
 
 // Import data directly so it's included in the bundle
 import countriesData from './generated/countries.json';
 import regionsData from './generated/regions.json';
 import airportsData from './generated/airports/airports.json';
-import airportIndexData from './generated/airports/index.json';
+import { data as airportIndexBase64 } from './generated/airports/index';
+import airportIndexIds from './generated/airports/index-ids.json';
 
 export interface Country {
   name: {
@@ -38,27 +38,40 @@ export interface Region {
 
 export interface Airport {
   id: string;
-  iata: string | null;
+  type: string;
   name: string;
-  city: string | null;
-  country: string;
   lat: number;
   lon: number;
+  elevation_ft: number | null;
+  continent: string | null;
+  iso_country: string;
+  iso_region: string;
+  municipality: string | null;
+  scheduled_service: string;
+  icao_code: string | null;
+  iata_code: string | null;
+  gps_code: string | null;
+  local_code: string | null;
 }
 
-interface AirportIndexItem {
-  minX: number;
-  minY: number;
-  maxX: number;
-  maxY: number;
-  id: string;
+// Helper function to decode base64 to ArrayBuffer for the edge runtime
+function base64ToArrayBuffer(base64: string): ArrayBuffer {
+  const binaryString = atob(base64);
+  const len = binaryString.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+  return bytes.buffer;
 }
 
 const countries: Record<string, Country> = countriesData as Record<string, Country>;
 const regions: Record<string, Region> = regionsData as Record<string, Region>;
 const airports: Record<string, Airport> = airportsData as Record<string, Airport>;
+const indexIds: string[] = airportIndexIds as string[];
 
-const airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
+const airportIndexBuffer = base64ToArrayBuffer(airportIndexBase64);
+const airportIndex = Flatbush.from(airportIndexBuffer);
 
 export interface Config {
     //user expandable
@@ -84,8 +97,8 @@ export function resolveVisitorContext(
 
   let nearbyAirports: Airport[] | null = null;
   if (geo.latitude && geo.longitude) {
-    const nearest = knn(airportIndex, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
-    nearbyAirports = nearest.map(item => airports[item.id]);
+    const nearestIndices = airportIndex.neighbors(geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
+    nearbyAirports = nearestIndices.map(index => airports[indexIds[index]]);
   }
 
   // Assemble once and return
