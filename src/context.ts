@@ -3,6 +3,18 @@ import fs from 'fs';
 import path from 'path';
 import type RBush from 'rbush';
 
+export interface CurrencyDetails {
+  name: string;
+  singular: string;
+  plural: string;
+  symbol: string;
+}
+
+export interface LanguageDetails {
+  name: string;
+  nativeName: string | null;
+}
+
 export interface Country {
   name: {
     common: string;
@@ -11,17 +23,10 @@ export interface Country {
     officialArticle: string | null;
   };
   topLevelDomain: string | null;
-  currency: {
-    code: string;
-    name: string;
-    singular: string;
-    plural: string;
-    symbol: string;
-  } | null;
+  currency: string | null;
   phone: string | null;
   languages: {
     code: string;
-    name: string;
     percentage: number | null;
     status: string | null;
   }[];
@@ -60,6 +65,8 @@ interface AirportIndexItem {
 // --- Create a cache for data ---
 let countries: Record<string, Country>;
 let regions: Record<string, Region>;
+let currencies: Record<string, CurrencyDetails>;
+let languages: Record<string, LanguageDetails>;
 let airports: Record<string, Airport>;
 let airportIndex: RBush<AirportIndexItem>;
 let icaoMap: Record<string, string>;
@@ -73,6 +80,8 @@ const initializationPromise = (async () => {
     // Read all data files when the module first loads
     const countriesData = fs.readFileSync(path.join(__dirname, 'generated/countries.json'), 'utf-8');
     const regionsData = fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8');
+    const currenciesData = fs.readFileSync(path.join(__dirname, 'generated/currencies.json'), 'utf-8');
+    const languagesData = fs.readFileSync(path.join(__dirname, 'generated/languages.json'), 'utf-8');
     const airportsData = fs.readFileSync(path.join(__dirname, 'generated/airports/airports.json'), 'utf-8');
     const airportIndexData = JSON.parse(fs.readFileSync(path.join(__dirname, 'generated/airports/index.json'), 'utf-8'));
     const icaoMapData = fs.readFileSync(path.join(__dirname, 'generated/airports/icao-map.json'), 'utf-8');
@@ -81,6 +90,8 @@ const initializationPromise = (async () => {
     // Parse the data and build the index
     countries = JSON.parse(countriesData);
     regions = JSON.parse(regionsData);
+    currencies = JSON.parse(currenciesData);
+    languages = JSON.parse(languagesData);
     airports = JSON.parse(airportsData);
     airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
     icaoMap = JSON.parse(icaoMapData);
@@ -172,6 +183,26 @@ export async function lookupCountry(code: string): Promise<Country | null> {
 export async function lookupRegion(code: string): Promise<Region | null> {
   await initializationPromise;
   return regions[code.toUpperCase()] ?? null;
+}
+
+/**
+ * Looks up currency details by its ISO 4217 code.
+ * @param code The three-letter currency code (e.g., "USD").
+ * @returns A CurrencyDetails object or null if not found.
+ */
+export async function lookupCurrency(code: string): Promise<CurrencyDetails | null> {
+  await initializationPromise;
+  return currencies[code.toUpperCase()] ?? null;
+}
+
+/**
+ * Looks up language details by its code.
+ * @param code The language code (e.g., "en", "az_Cyrl").
+ * @returns A LanguageDetails object or null if not found.
+ */
+export async function lookupLanguage(code: string): Promise<LanguageDetails | null> {
+  await initializationPromise;
+  return languages[code] ?? null;
 }
 
 /**

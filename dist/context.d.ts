@@ -1,4 +1,14 @@
 import { GeoInfo } from './parse';
+export interface CurrencyDetails {
+    name: string;
+    singular: string;
+    plural: string;
+    symbol: string;
+}
+export interface LanguageDetails {
+    name: string;
+    nativeName: string | null;
+}
 export interface Country {
     name: {
         common: string;
@@ -7,17 +17,10 @@ export interface Country {
         officialArticle: string | null;
     };
     topLevelDomain: string | null;
-    currency: {
-        code: string;
-        name: string;
-        singular: string;
-        plural: string;
-        symbol: string;
-    } | null;
+    currency: string | null;
     phone: string | null;
     languages: {
         code: string;
-        name: string;
         percentage: number | null;
         status: string | null;
     }[];
@@ -63,6 +66,18 @@ export declare function lookupCountry(code: string): Promise<Country | null>;
  * @returns A Region object or null if not found.
  */
 export declare function lookupRegion(code: string): Promise<Region | null>;
+/**
+ * Looks up currency details by its ISO 4217 code.
+ * @param code The three-letter currency code (e.g., "USD").
+ * @returns A CurrencyDetails object or null if not found.
+ */
+export declare function lookupCurrency(code: string): Promise<CurrencyDetails | null>;
+/**
+ * Looks up language details by its code.
+ * @param code The language code (e.g., "en", "az_Cyrl").
+ * @returns A LanguageDetails object or null if not found.
+ */
+export declare function lookupLanguage(code: string): Promise<LanguageDetails | null>;
 /**
  * Finds the nearest airport(s) to a given set of coordinates, with an optional filter.
  * @param lat The latitude.

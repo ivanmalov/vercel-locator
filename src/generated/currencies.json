@@ -1,0 +1,1844 @@
+{
+  "ADP": {
+    "name": "Andorran Peseta",
+    "singular": "Andorran peseta",
+    "plural": "Andorran pesetas",
+    "symbol": "ADP"
+  },
+  "AED": {
+    "name": "United Arab Emirates Dirham",
+    "singular": "UAE dirham",
+    "plural": "UAE dirhams",
+    "symbol": "AED"
+  },
+  "AFA": {
+    "name": "Afghan Afghani (1927–2002)",
+    "singular": "Afghan afghani (1927–2002)",
+    "plural": "Afghan afghanis (1927–2002)",
+    "symbol": "AFA"
+  },
+  "AFN": {
+    "name": "Afghan Afghani",
+    "singular": "Afghan Afghani",
+    "plural": "Afghan Afghanis",
+    "symbol": "AFN"
+  },
+  "ALK": {
+    "name": "Albanian Lek (1946–1965)",
+    "singular": "Albanian lek (1946–1965)",
+    "plural": "Albanian lekë (1946–1965)",
+    "symbol": "ALK"
+  },
+  "ALL": {
+    "name": "Albanian Lek",
+    "singular": "Albanian lek",
+    "plural": "Albanian lekë",
+    "symbol": "ALL"
+  },
+  "AMD": {
+    "name": "Armenian Dram",
+    "singular": "Armenian dram",
+    "plural": "Armenian drams",
+    "symbol": "AMD"
+  },
+  "ANG": {
+    "name": "Netherlands Antillean Guilder",
+    "singular": "Netherlands Antillean guilder",
+    "plural": "Netherlands Antillean guilders",
+    "symbol": "ANG"
+  },
+  "AOA": {
+    "name": "Angolan Kwanza",
+    "singular": "Angolan kwanza",
+    "plural": "Angolan kwanzas",
+    "symbol": "AOA"
+  },
+  "AOK": {
+    "name": "Angolan Kwanza (1977–1991)",
+    "singular": "Angolan kwanza (1977–1991)",
+    "plural": "Angolan kwanzas (1977–1991)",
+    "symbol": "AOK"
+  },
+  "AON": {
+    "name": "Angolan New Kwanza (1990–2000)",
+    "singular": "Angolan new kwanza (1990–2000)",
+    "plural": "Angolan new kwanzas (1990–2000)",
+    "symbol": "AON"
+  },
+  "AOR": {
+    "name": "Angolan Readjusted Kwanza (1995–1999)",
+    "singular": "Angolan readjusted kwanza (1995–1999)",
+    "plural": "Angolan readjusted kwanzas (1995–1999)",
+    "symbol": "AOR"
+  },
+  "ARA": {
+    "name": "Argentine Austral",
+    "singular": "Argentine austral",
+    "plural": "Argentine australs",
+    "symbol": "ARA"
+  },
+  "ARL": {
+    "name": "Argentine Peso Ley (1970–1983)",
+    "singular": "Argentine peso ley (1970–1983)",
+    "plural": "Argentine pesos ley (1970–1983)",
+    "symbol": "ARL"
+  },
+  "ARM": {
+    "name": "Argentine Peso (1881–1970)",
+    "singular": "Argentine peso (1881–1970)",
+    "plural": "Argentine pesos (1881–1970)",
+    "symbol": "ARM"
+  },
+  "ARP": {
+    "name": "Argentine Peso (1983–1985)",
+    "singular": "Argentine peso (1983–1985)",
+    "plural": "Argentine pesos (1983–1985)",
+    "symbol": "ARP"
+  },
+  "ARS": {
+    "name": "Argentine Peso",
+    "singular": "Argentine peso",
+    "plural": "Argentine pesos",
+    "symbol": "ARS"
+  },
+  "ATS": {
+    "name": "Austrian Schilling",
+    "singular": "Austrian schilling",
+    "plural": "Austrian schillings",
+    "symbol": "ATS"
+  },
+  "AUD": {
+    "name": "Australian Dollar",
+    "singular": "Australian dollar",
+    "plural": "Australian dollars",
+    "symbol": "A$"
+  },
+  "AWG": {
+    "name": "Aruban Florin",
+    "singular": "Aruban florin",
+    "plural": "Aruban florin",
+    "symbol": "AWG"
+  },
+  "AZM": {
+    "name": "Azerbaijani Manat (1993–2006)",
+    "singular": "Azerbaijani manat (1993–2006)",
+    "plural": "Azerbaijani manats (1993–2006)",
+    "symbol": "AZM"
+  },
+  "AZN": {
+    "name": "Azerbaijani Manat",
+    "singular": "Azerbaijani manat",
+    "plural": "Azerbaijani manats",
+    "symbol": "AZN"
+  },
+  "BAD": {
+    "name": "Bosnia-Herzegovina Dinar (1992–1994)",
+    "singular": "Bosnia-Herzegovina dinar (1992–1994)",
+    "plural": "Bosnia-Herzegovina dinars (1992–1994)",
+    "symbol": "BAD"
+  },
+  "BAM": {
+    "name": "Bosnia-Herzegovina Convertible Mark",
+    "singular": "Bosnia-Herzegovina convertible mark",
+    "plural": "Bosnia-Herzegovina convertible marks",
+    "symbol": "BAM"
+  },
+  "BAN": {
+    "name": "Bosnia-Herzegovina New Dinar (1994–1997)",
+    "singular": "Bosnia-Herzegovina new dinar (1994–1997)",
+    "plural": "Bosnia-Herzegovina new dinars (1994–1997)",
+    "symbol": "BAN"
+  },
+  "BBD": {
+    "name": "Barbadian Dollar",
+    "singular": "Barbadian dollar",
+    "plural": "Barbadian dollars",
+    "symbol": "BBD"
+  },
+  "BDT": {
+    "name": "Bangladeshi Taka",
+    "singular": "Bangladeshi taka",
+    "plural": "Bangladeshi takas",
+    "symbol": "BDT"
+  },
+  "BEC": {
+    "name": "Belgian Franc (convertible)",
+    "singular": "Belgian franc (convertible)",
+    "plural": "Belgian francs (convertible)",
+    "symbol": "BEC"
+  },
+  "BEF": {
+    "name": "Belgian Franc",
+    "singular": "Belgian franc",
+    "plural": "Belgian francs",
+    "symbol": "BEF"
+  },
+  "BEL": {
+    "name": "Belgian Franc (financial)",
+    "singular": "Belgian franc (financial)",
+    "plural": "Belgian francs (financial)",
+    "symbol": "BEL"
+  },
+  "BGL": {
+    "name": "Bulgarian Hard Lev",
+    "singular": "Bulgarian hard lev",
+    "plural": "Bulgarian hard leva",
+    "symbol": "BGL"
+  },
+  "BGM": {
+    "name": "Bulgarian Socialist Lev",
+    "singular": "Bulgarian socialist lev",
+    "plural": "Bulgarian socialist leva",
+    "symbol": "BGM"
+  },
+  "BGN": {
+    "name": "Bulgarian Lev",
+    "singular": "Bulgarian lev",
+    "plural": "Bulgarian leva",
+    "symbol": "BGN"
+  },
+  "BGO": {
+    "name": "Bulgarian Lev (1879–1952)",
+    "singular": "Bulgarian lev (1879–1952)",
+    "plural": "Bulgarian leva (1879–1952)",
+    "symbol": "BGO"
+  },
+  "BHD": {
+    "name": "Bahraini Dinar",
+    "singular": "Bahraini dinar",
+    "plural": "Bahraini dinars",
+    "symbol": "BHD"
+  },
+  "BIF": {
+    "name": "Burundian Franc",
+    "singular": "Burundian franc",
+    "plural": "Burundian francs",
+    "symbol": "BIF"
+  },
+  "BMD": {
+    "name": "Bermudan Dollar",
+    "singular": "Bermudan dollar",
+    "plural": "Bermudan dollars",
+    "symbol": "BMD"
+  },
+  "BND": {
+    "name": "Brunei Dollar",
+    "singular": "Brunei dollar",
+    "plural": "Brunei dollars",
+    "symbol": "BND"
+  },
+  "BOB": {
+    "name": "Bolivian Boliviano",
+    "singular": "Bolivian boliviano",
+    "plural": "Bolivian bolivianos",
+    "symbol": "BOB"
+  },
+  "BOL": {
+    "name": "Bolivian Boliviano (1863–1963)",
+    "singular": "Bolivian boliviano (1863–1963)",
+    "plural": "Bolivian bolivianos (1863–1963)",
+    "symbol": "BOL"
+  },
+  "BOP": {
+    "name": "Bolivian Peso",
+    "singular": "Bolivian peso",
+    "plural": "Bolivian pesos",
+    "symbol": "BOP"
+  },
+  "BOV": {
+    "name": "Bolivian Mvdol",
+    "singular": "Bolivian mvdol",
+    "plural": "Bolivian mvdols",
+    "symbol": "BOV"
+  },
+  "BRB": {
+    "name": "Brazilian New Cruzeiro (1967–1986)",
+    "singular": "Brazilian new cruzeiro (1967–1986)",
+    "plural": "Brazilian new cruzeiros (1967–1986)",
+    "symbol": "BRB"
+  },
+  "BRC": {
+    "name": "Brazilian Cruzado (1986–1989)",
+    "singular": "Brazilian cruzado (1986–1989)",
+    "plural": "Brazilian cruzados (1986–1989)",
+    "symbol": "BRC"
+  },
+  "BRE": {
+    "name": "Brazilian Cruzeiro (1990–1993)",
+    "singular": "Brazilian cruzeiro (1990–1993)",
+    "plural": "Brazilian cruzeiros (1990–1993)",
+    "symbol": "BRE"
+  },
+  "BRL": {
+    "name": "Brazilian Real",
+    "singular": "Brazilian real",
+    "plural": "Brazilian reals",
+    "symbol": "R$"
+  },
+  "BRN": {
+    "name": "Brazilian New Cruzado (1989–1990)",
+    "singular": "Brazilian new cruzado (1989–1990)",
+    "plural": "Brazilian new cruzados (1989–1990)",
+    "symbol": "BRN"
+  },
+  "BRR": {
+    "name": "Brazilian Cruzeiro (1993–1994)",
+    "singular": "Brazilian cruzeiro (1993–1994)",
+    "plural": "Brazilian cruzeiros (1993–1994)",
+    "symbol": "BRR"
+  },
+  "BRZ": {
+    "name": "Brazilian Cruzeiro (1942–1967)",
+    "singular": "Brazilian cruzeiro (1942–1967)",
+    "plural": "Brazilian cruzeiros (1942–1967)",
+    "symbol": "BRZ"
+  },
+  "BSD": {
+    "name": "Bahamian Dollar",
+    "singular": "Bahamian dollar",
+    "plural": "Bahamian dollars",
+    "symbol": "BSD"
+  },
+  "BTN": {
+    "name": "Bhutanese Ngultrum",
+    "singular": "Bhutanese ngultrum",
+    "plural": "Bhutanese ngultrums",
+    "symbol": "BTN"
+  },
+  "BUK": {
+    "name": "Burmese Kyat",
+    "singular": "Burmese kyat",
+    "plural": "Burmese kyats",
+    "symbol": "BUK"
+  },
+  "BWP": {
+    "name": "Botswanan Pula",
+    "singular": "Botswanan pula",
+    "plural": "Botswanan pulas",
+    "symbol": "BWP"
+  },
+  "BYB": {
+    "name": "Belarusian Ruble (1994–1999)",
+    "singular": "Belarusian ruble (1994–1999)",
+    "plural": "Belarusian rubles (1994–1999)",
+    "symbol": "BYB"
+  },
+  "BYN": {
+    "name": "Belarusian Ruble",
+    "singular": "Belarusian ruble",
+    "plural": "Belarusian rubles",
+    "symbol": "BYN"
+  },
+  "BYR": {
+    "name": "Belarusian Ruble (2000–2016)",
+    "singular": "Belarusian ruble (2000–2016)",
+    "plural": "Belarusian rubles (2000–2016)",
+    "symbol": "BYR"
+  },
+  "BZD": {
+    "name": "Belize Dollar",
+    "singular": "Belize dollar",
+    "plural": "Belize dollars",
+    "symbol": "BZD"
+  },
+  "CAD": {
+    "name": "Canadian Dollar",
+    "singular": "Canadian dollar",
+    "plural": "Canadian dollars",
+    "symbol": "CA$"
+  },
+  "CDF": {
+    "name": "Congolese Franc",
+    "singular": "Congolese franc",
+    "plural": "Congolese francs",
+    "symbol": "CDF"
+  },
+  "CHE": {
+    "name": "WIR Euro",
+    "singular": "WIR euro",
+    "plural": "WIR euros",
+    "symbol": "CHE"
+  },
+  "CHF": {
+    "name": "Swiss Franc",
+    "singular": "Swiss franc",
+    "plural": "Swiss francs",
+    "symbol": "CHF"
+  },
+  "CHW": {
+    "name": "WIR Franc",
+    "singular": "WIR franc",
+    "plural": "WIR francs",
+    "symbol": "CHW"
+  },
+  "CLE": {
+    "name": "Chilean Escudo",
+    "singular": "Chilean escudo",
+    "plural": "Chilean escudos",
+    "symbol": "CLE"
+  },
+  "CLF": {
+    "name": "Chilean Unit of Account (UF)",
+    "singular": "Chilean unit of account (UF)",
+    "plural": "Chilean units of account (UF)",
+    "symbol": "CLF"
+  },
+  "CLP": {
+    "name": "Chilean Peso",
+    "singular": "Chilean peso",
+    "plural": "Chilean pesos",
+    "symbol": "CLP"
+  },
+  "CNH": {
+    "name": "Chinese Yuan (offshore)",
+    "singular": "Chinese yuan (offshore)",
+    "plural": "Chinese yuan (offshore)",
+    "symbol": "CNH"
+  },
+  "CNX": {
+    "name": "Chinese People’s Bank Dollar",
+    "singular": "Chinese People’s Bank dollar",
+    "plural": "Chinese People’s Bank dollars",
+    "symbol": "CNX"
+  },
+  "CNY": {
+    "name": "Chinese Yuan",
+    "singular": "Chinese yuan",
+    "plural": "Chinese yuan",
+    "symbol": "CN¥"
+  },
+  "COP": {
+    "name": "Colombian Peso",
+    "singular": "Colombian peso",
+    "plural": "Colombian pesos",
+    "symbol": "COP"
+  },
+  "COU": {
+    "name": "Colombian Real Value Unit",
+    "singular": "Colombian real value unit",
+    "plural": "Colombian real value units",
+    "symbol": "COU"
+  },
+  "CRC": {
+    "name": "Costa Rican Colón",
+    "singular": "Costa Rican colón",
+    "plural": "Costa Rican colóns",
+    "symbol": "CRC"
+  },
+  "CSD": {
+    "name": "Serbian Dinar (2002–2006)",
+    "singular": "Serbian dinar (2002–2006)",
+    "plural": "Serbian dinars (2002–2006)",
+    "symbol": "CSD"
+  },
+  "CSK": {
+    "name": "Czechoslovak Hard Koruna",
+    "singular": "Czechoslovak hard koruna",
+    "plural": "Czechoslovak hard korunas",
+    "symbol": "CSK"
+  },
+  "CUC": {
+    "name": "Cuban Convertible Peso",
+    "singular": "Cuban convertible peso",
+    "plural": "Cuban convertible pesos",
+    "symbol": "CUC"
+  },
+  "CUP": {
+    "name": "Cuban Peso",
+    "singular": "Cuban peso",
+    "plural": "Cuban pesos",
+    "symbol": "CUP"
+  },
+  "CVE": {
+    "name": "Cape Verdean Escudo",
+    "singular": "Cape Verdean escudo",
+    "plural": "Cape Verdean escudos",
+    "symbol": "CVE"
+  },
+  "CYP": {
+    "name": "Cypriot Pound",
+    "singular": "Cypriot pound",
+    "plural": "Cypriot pounds",
+    "symbol": "CYP"
+  },
+  "CZK": {
+    "name": "Czech Koruna",
+    "singular": "Czech koruna",
+    "plural": "Czech korunas",
+    "symbol": "CZK"
+  },
+  "DDM": {
+    "name": "East German Mark",
+    "singular": "East German mark",
+    "plural": "East German marks",
+    "symbol": "DDM"
+  },
+  "DEM": {
+    "name": "German Mark",
+    "singular": "German mark",
+    "plural": "German marks",
+    "symbol": "DEM"
+  },
+  "DJF": {
+    "name": "Djiboutian Franc",
+    "singular": "Djiboutian franc",
+    "plural": "Djiboutian francs",
+    "symbol": "DJF"
+  },
+  "DKK": {
+    "name": "Danish Krone",
+    "singular": "Danish krone",
+    "plural": "Danish kroner",
+    "symbol": "DKK"
+  },
+  "DOP": {
+    "name": "Dominican Peso",
+    "singular": "Dominican peso",
+    "plural": "Dominican pesos",
+    "symbol": "DOP"
+  },
+  "DZD": {
+    "name": "Algerian Dinar",
+    "singular": "Algerian dinar",
+    "plural": "Algerian dinars",
+    "symbol": "DZD"
+  },
+  "ECS": {
+    "name": "Ecuadorian Sucre",
+    "singular": "Ecuadorian sucre",
+    "plural": "Ecuadorian sucres",
+    "symbol": "ECS"
+  },
+  "ECV": {
+    "name": "Ecuadorian Unit of Constant Value",
+    "singular": "Ecuadorian unit of constant value",
+    "plural": "Ecuadorian units of constant value",
+    "symbol": "ECV"
+  },
+  "EEK": {
+    "name": "Estonian Kroon",
+    "singular": "Estonian kroon",
+    "plural": "Estonian kroons",
+    "symbol": "EEK"
+  },
+  "EGP": {
+    "name": "Egyptian Pound",
+    "singular": "Egyptian pound",
+    "plural": "Egyptian pounds",
+    "symbol": "EGP"
+  },
+  "ERN": {
+    "name": "Eritrean Nakfa",
+    "singular": "Eritrean nakfa",
+    "plural": "Eritrean nakfas",
+    "symbol": "ERN"
+  },
+  "ESA": {
+    "name": "Spanish Peseta (A account)",
+    "singular": "Spanish peseta (A account)",
+    "plural": "Spanish pesetas (A account)",
+    "symbol": "ESA"
+  },
+  "ESB": {
+    "name": "Spanish Peseta (convertible account)",
+    "singular": "Spanish peseta (convertible account)",
+    "plural": "Spanish pesetas (convertible account)",
+    "symbol": "ESB"
+  },
+  "ESP": {
+    "name": "Spanish Peseta",
+    "singular": "Spanish peseta",
+    "plural": "Spanish pesetas",
+    "symbol": "ESP"
+  },
+  "ETB": {
+    "name": "Ethiopian Birr",
+    "singular": "Ethiopian birr",
+    "plural": "Ethiopian birrs",
+    "symbol": "ETB"
+  },
+  "EUR": {
+    "name": "Euro",
+    "singular": "euro",
+    "plural": "euros",
+    "symbol": "€"
+  },
+  "FIM": {
+    "name": "Finnish Markka",
+    "singular": "Finnish markka",
+    "plural": "Finnish markkas",
+    "symbol": "FIM"
+  },
+  "FJD": {
+    "name": "Fijian Dollar",
+    "singular": "Fijian dollar",
+    "plural": "Fijian dollars",
+    "symbol": "FJD"
+  },
+  "FKP": {
+    "name": "Falkland Islands Pound",
+    "singular": "Falkland Islands pound",
+    "plural": "Falkland Islands pounds",
+    "symbol": "FKP"
+  },
+  "FRF": {
+    "name": "French Franc",
+    "singular": "French franc",
+    "plural": "French francs",
+    "symbol": "FRF"
+  },
+  "GBP": {
+    "name": "British Pound",
+    "singular": "British pound",
+    "plural": "British pounds",
+    "symbol": "£"
+  },
+  "GEK": {
+    "name": "Georgian Kupon Larit",
+    "singular": "Georgian kupon larit",
+    "plural": "Georgian kupon larits",
+    "symbol": "GEK"
+  },
+  "GEL": {
+    "name": "Georgian Lari",
+    "singular": "Georgian lari",
+    "plural": "Georgian laris",
+    "symbol": "GEL"
+  },
+  "GHC": {
+    "name": "Ghanaian Cedi (1979–2007)",
+    "singular": "Ghanaian cedi (1979–2007)",
+    "plural": "Ghanaian cedis (1979–2007)",
+    "symbol": "GHC"
+  },
+  "GHS": {
+    "name": "Ghanaian Cedi",
+    "singular": "Ghanaian cedi",
+    "plural": "Ghanaian cedis",
+    "symbol": "GHS"
+  },
+  "GIP": {
+    "name": "Gibraltar Pound",
+    "singular": "Gibraltar pound",
+    "plural": "Gibraltar pounds",
+    "symbol": "GIP"
+  },
+  "GMD": {
+    "name": "Gambian Dalasi",
+    "singular": "Gambian dalasi",
+    "plural": "Gambian dalasis",
+    "symbol": "GMD"
+  },
+  "GNF": {
+    "name": "Guinean Franc",
+    "singular": "Guinean franc",
+    "plural": "Guinean francs",
+    "symbol": "GNF"
+  },
+  "GNS": {
+    "name": "Guinean Syli",
+    "singular": "Guinean syli",
+    "plural": "Guinean sylis",
+    "symbol": "GNS"
+  },
+  "GQE": {
+    "name": "Equatorial Guinean Ekwele",
+    "singular": "Equatorial Guinean ekwele",
+    "plural": "Equatorial Guinean ekwele",
+    "symbol": "GQE"
+  },
+  "GRD": {
+    "name": "Greek Drachma",
+    "singular": "Greek drachma",
+    "plural": "Greek drachmas",
+    "symbol": "GRD"
+  },
+  "GTQ": {
+    "name": "Guatemalan Quetzal",
+    "singular": "Guatemalan quetzal",
+    "plural": "Guatemalan quetzals",
+    "symbol": "GTQ"
+  },
+  "GWE": {
+    "name": "Portuguese Guinea Escudo",
+    "singular": "Portuguese Guinea escudo",
+    "plural": "Portuguese Guinea escudos",
+    "symbol": "GWE"
+  },
+  "GWP": {
+    "name": "Guinea-Bissau Peso",
+    "singular": "Guinea-Bissau peso",
+    "plural": "Guinea-Bissau pesos",
+    "symbol": "GWP"
+  },
+  "GYD": {
+    "name": "Guyanaese Dollar",
+    "singular": "Guyanaese dollar",
+    "plural": "Guyanaese dollars",
+    "symbol": "GYD"
+  },
+  "HKD": {
+    "name": "Hong Kong Dollar",
+    "singular": "Hong Kong dollar",
+    "plural": "Hong Kong dollars",
+    "symbol": "HK$"
+  },
+  "HNL": {
+    "name": "Honduran Lempira",
+    "singular": "Honduran lempira",
+    "plural": "Honduran lempiras",
+    "symbol": "HNL"
+  },
+  "HRD": {
+    "name": "Croatian Dinar",
+    "singular": "Croatian dinar",
+    "plural": "Croatian dinars",
+    "symbol": "HRD"
+  },
+  "HRK": {
+    "name": "Croatian Kuna",
+    "singular": "Croatian kuna",
+    "plural": "Croatian kunas",
+    "symbol": "HRK"
+  },
+  "HTG": {
+    "name": "Haitian Gourde",
+    "singular": "Haitian gourde",
+    "plural": "Haitian gourdes",
+    "symbol": "HTG"
+  },
+  "HUF": {
+    "name": "Hungarian Forint",
+    "singular": "Hungarian forint",
+    "plural": "Hungarian forints",
+    "symbol": "HUF"
+  },
+  "IDR": {
+    "name": "Indonesian Rupiah",
+    "singular": "Indonesian rupiah",
+    "plural": "Indonesian rupiahs",
+    "symbol": "IDR"
+  },
+  "IEP": {
+    "name": "Irish Pound",
+    "singular": "Irish pound",
+    "plural": "Irish pounds",
+    "symbol": "IEP"
+  },
+  "ILP": {
+    "name": "Israeli Pound",
+    "singular": "Israeli pound",
+    "plural": "Israeli pounds",
+    "symbol": "ILP"
+  },
+  "ILR": {
+    "name": "Israeli Shekel (1980–1985)",
+    "singular": "Israeli shekel (1980–1985)",
+    "plural": "Israeli shekels (1980–1985)",
+    "symbol": "ILR"
+  },
+  "ILS": {
+    "name": "Israeli New Shekel",
+    "singular": "Israeli new shekel",
+    "plural": "Israeli new shekels",
+    "symbol": "₪"
+  },
+  "INR": {
+    "name": "Indian Rupee",
+    "singular": "Indian rupee",
+    "plural": "Indian rupees",
+    "symbol": "₹"
+  },
+  "IQD": {
+    "name": "Iraqi Dinar",
+    "singular": "Iraqi dinar",
+    "plural": "Iraqi dinars",
+    "symbol": "IQD"
+  },
+  "IRR": {
+    "name": "Iranian Rial",
+    "singular": "Iranian rial",
+    "plural": "Iranian rials",
+    "symbol": "IRR"
+  },
+  "ISJ": {
+    "name": "Icelandic Króna (1918–1981)",
+    "singular": "Icelandic króna (1918–1981)",
+    "plural": "Icelandic krónur (1918–1981)",
+    "symbol": "ISJ"
+  },
+  "ISK": {
+    "name": "Icelandic Króna",
+    "singular": "Icelandic króna",
+    "plural": "Icelandic krónur",
+    "symbol": "ISK"
+  },
+  "ITL": {
+    "name": "Italian Lira",
+    "singular": "Italian lira",
+    "plural": "Italian liras",
+    "symbol": "ITL"
+  },
+  "JMD": {
+    "name": "Jamaican Dollar",
+    "singular": "Jamaican dollar",
+    "plural": "Jamaican dollars",
+    "symbol": "JMD"
+  },
+  "JOD": {
+    "name": "Jordanian Dinar",
+    "singular": "Jordanian dinar",
+    "plural": "Jordanian dinars",
+    "symbol": "JOD"
+  },
+  "JPY": {
+    "name": "Japanese Yen",
+    "singular": "Japanese yen",
+    "plural": "Japanese yen",
+    "symbol": "¥"
+  },
+  "KES": {
+    "name": "Kenyan Shilling",
+    "singular": "Kenyan shilling",
+    "plural": "Kenyan shillings",
+    "symbol": "KES"
+  },
+  "KGS": {
+    "name": "Kyrgyz Som",
+    "singular": "Kyrgyz som",
+    "plural": "Kyrgyz soms",
+    "symbol": "KGS"
+  },
+  "KHR": {
+    "name": "Cambodian Riel",
+    "singular": "Cambodian riel",
+    "plural": "Cambodian riels",
+    "symbol": "KHR"
+  },
+  "KMF": {
+    "name": "Comorian Franc",
+    "singular": "Comorian franc",
+    "plural": "Comorian francs",
+    "symbol": "KMF"
+  },
+  "KPW": {
+    "name": "North Korean Won",
+    "singular": "North Korean won",
+    "plural": "North Korean won",
+    "symbol": "KPW"
+  },
+  "KRH": {
+    "name": "South Korean Hwan (1953–1962)",
+    "singular": "South Korean hwan (1953–1962)",
+    "plural": "South Korean hwan (1953–1962)",
+    "symbol": "KRH"
+  },
+  "KRO": {
+    "name": "South Korean Won (1945–1953)",
+    "singular": "South Korean won (1945–1953)",
+    "plural": "South Korean won (1945–1953)",
+    "symbol": "KRO"
+  },
+  "KRW": {
+    "name": "South Korean Won",
+    "singular": "South Korean won",
+    "plural": "South Korean won",
+    "symbol": "₩"
+  },
+  "KWD": {
+    "name": "Kuwaiti Dinar",
+    "singular": "Kuwaiti dinar",
+    "plural": "Kuwaiti dinars",
+    "symbol": "KWD"
+  },
+  "KYD": {
+    "name": "Cayman Islands Dollar",
+    "singular": "Cayman Islands dollar",
+    "plural": "Cayman Islands dollars",
+    "symbol": "KYD"
+  },
+  "KZT": {
+    "name": "Kazakhstani Tenge",
+    "singular": "Kazakhstani tenge",
+    "plural": "Kazakhstani tenges",
+    "symbol": "KZT"
+  },
+  "LAK": {
+    "name": "Laotian Kip",
+    "singular": "Laotian kip",
+    "plural": "Laotian kips",
+    "symbol": "LAK"
+  },
+  "LBP": {
+    "name": "Lebanese Pound",
+    "singular": "Lebanese pound",
+    "plural": "Lebanese pounds",
+    "symbol": "LBP"
+  },
+  "LKR": {
+    "name": "Sri Lankan Rupee",
+    "singular": "Sri Lankan rupee",
+    "plural": "Sri Lankan rupees",
+    "symbol": "LKR"
+  },
+  "LRD": {
+    "name": "Liberian Dollar",
+    "singular": "Liberian dollar",
+    "plural": "Liberian dollars",
+    "symbol": "LRD"
+  },
+  "LSL": {
+    "name": "Lesotho Loti",
+    "singular": "Lesotho loti",
+    "plural": "Lesotho lotis",
+    "symbol": "LSL"
+  },
+  "LTL": {
+    "name": "Lithuanian Litas",
+    "singular": "Lithuanian litas",
+    "plural": "Lithuanian litai",
+    "symbol": "LTL"
+  },
+  "LTT": {
+    "name": "Lithuanian Talonas",
+    "singular": "Lithuanian talonas",
+    "plural": "Lithuanian talonases",
+    "symbol": "LTT"
+  },
+  "LUC": {
+    "name": "Luxembourgian Convertible Franc",
+    "singular": "Luxembourgian convertible franc",
+    "plural": "Luxembourgian convertible francs",
+    "symbol": "LUC"
+  },
+  "LUF": {
+    "name": "Luxembourgian Franc",
+    "singular": "Luxembourgian franc",
+    "plural": "Luxembourgian francs",
+    "symbol": "LUF"
+  },
+  "LUL": {
+    "name": "Luxembourg Financial Franc",
+    "singular": "Luxembourg financial franc",
+    "plural": "Luxembourg financial francs",
+    "symbol": "LUL"
+  },
+  "LVL": {
+    "name": "Latvian Lats",
+    "singular": "Latvian lats",
+    "plural": "Latvian lati",
+    "symbol": "LVL"
+  },
+  "LVR": {
+    "name": "Latvian Ruble",
+    "singular": "Latvian ruble",
+    "plural": "Latvian rubles",
+    "symbol": "LVR"
+  },
+  "LYD": {
+    "name": "Libyan Dinar",
+    "singular": "Libyan dinar",
+    "plural": "Libyan dinars",
+    "symbol": "LYD"
+  },
+  "MAD": {
+    "name": "Moroccan Dirham",
+    "singular": "Moroccan dirham",
+    "plural": "Moroccan dirhams",
+    "symbol": "MAD"
+  },
+  "MAF": {
+    "name": "Moroccan Franc",
+    "singular": "Moroccan franc",
+    "plural": "Moroccan francs",
+    "symbol": "MAF"
+  },
+  "MCF": {
+    "name": "Monegasque Franc",
+    "singular": "Monegasque franc",
+    "plural": "Monegasque francs",
+    "symbol": "MCF"
+  },
+  "MDC": {
+    "name": "Moldovan Cupon",
+    "singular": "Moldovan cupon",
+    "plural": "Moldovan cupon",
+    "symbol": "MDC"
+  },
+  "MDL": {
+    "name": "Moldovan Leu",
+    "singular": "Moldovan leu",
+    "plural": "Moldovan lei",
+    "symbol": "MDL"
+  },
+  "MGA": {
+    "name": "Malagasy Ariary",
+    "singular": "Malagasy ariary",
+    "plural": "Malagasy ariaries",
+    "symbol": "MGA"
+  },
+  "MGF": {
+    "name": "Malagasy Franc",
+    "singular": "Malagasy franc",
+    "plural": "Malagasy francs",
+    "symbol": "MGF"
+  },
+  "MKD": {
+    "name": "Macedonian Denar",
+    "singular": "Macedonian denar",
+    "plural": "Macedonian denari",
+    "symbol": "MKD"
+  },
+  "MKN": {
+    "name": "Macedonian Denar (1992–1993)",
+    "singular": "Macedonian denar (1992–1993)",
+    "plural": "Macedonian denari (1992–1993)",
+    "symbol": "MKN"
+  },
+  "MLF": {
+    "name": "Malian Franc",
+    "singular": "Malian franc",
+    "plural": "Malian francs",
+    "symbol": "MLF"
+  },
+  "MMK": {
+    "name": "Myanmar Kyat",
+    "singular": "Myanmar kyat",
+    "plural": "Myanmar kyats",
+    "symbol": "MMK"
+  },
+  "MNT": {
+    "name": "Mongolian Tugrik",
+    "singular": "Mongolian tugrik",
+    "plural": "Mongolian tugriks",
+    "symbol": "MNT"
+  },
+  "MOP": {
+    "name": "Macanese Pataca",
+    "singular": "Macanese pataca",
+    "plural": "Macanese patacas",
+    "symbol": "MOP"
+  },
+  "MRO": {
+    "name": "Mauritanian Ouguiya (1973–2017)",
+    "singular": "Mauritanian ouguiya (1973–2017)",
+    "plural": "Mauritanian ouguiyas (1973–2017)",
+    "symbol": "MRO"
+  },
+  "MRU": {
+    "name": "Mauritanian Ouguiya",
+    "singular": "Mauritanian ouguiya",
+    "plural": "Mauritanian ouguiyas",
+    "symbol": "MRU"
+  },
+  "MTL": {
+    "name": "Maltese Lira",
+    "singular": "Maltese lira",
+    "plural": "Maltese lira",
+    "symbol": "MTL"
+  },
+  "MTP": {
+    "name": "Maltese Pound",
+    "singular": "Maltese pound",
+    "plural": "Maltese pounds",
+    "symbol": "MTP"
+  },
+  "MUR": {
+    "name": "Mauritian Rupee",
+    "singular": "Mauritian rupee",
+    "plural": "Mauritian rupees",
+    "symbol": "MUR"
+  },
+  "MVP": {
+    "name": "Maldivian Rupee (1947–1981)",
+    "singular": "Maldivian rupee (1947–1981)",
+    "plural": "Maldivian rupees (1947–1981)",
+    "symbol": "MVP"
+  },
+  "MVR": {
+    "name": "Maldivian Rufiyaa",
+    "singular": "Maldivian rufiyaa",
+    "plural": "Maldivian rufiyaas",
+    "symbol": "MVR"
+  },
+  "MWK": {
+    "name": "Malawian Kwacha",
+    "singular": "Malawian kwacha",
+    "plural": "Malawian kwachas",
+    "symbol": "MWK"
+  },
+  "MXN": {
+    "name": "Mexican Peso",
+    "singular": "Mexican peso",
+    "plural": "Mexican pesos",
+    "symbol": "MX$"
+  },
+  "MXP": {
+    "name": "Mexican Silver Peso (1861–1992)",
+    "singular": "Mexican silver peso (1861–1992)",
+    "plural": "Mexican silver pesos (1861–1992)",
+    "symbol": "MXP"
+  },
+  "MXV": {
+    "name": "Mexican Investment Unit",
+    "singular": "Mexican investment unit",
+    "plural": "Mexican investment units",
+    "symbol": "MXV"
+  },
+  "MYR": {
+    "name": "Malaysian Ringgit",
+    "singular": "Malaysian ringgit",
+    "plural": "Malaysian ringgits",
+    "symbol": "MYR"
+  },
+  "MZE": {
+    "name": "Mozambican Escudo",
+    "singular": "Mozambican escudo",
+    "plural": "Mozambican escudos",
+    "symbol": "MZE"
+  },
+  "MZM": {
+    "name": "Mozambican Metical (1980–2006)",
+    "singular": "Mozambican metical (1980–2006)",
+    "plural": "Mozambican meticals (1980–2006)",
+    "symbol": "MZM"
+  },
+  "MZN": {
+    "name": "Mozambican Metical",
+    "singular": "Mozambican metical",
+    "plural": "Mozambican meticals",
+    "symbol": "MZN"
+  },
+  "NAD": {
+    "name": "Namibian Dollar",
+    "singular": "Namibian dollar",
+    "plural": "Namibian dollars",
+    "symbol": "NAD"
+  },
+  "NGN": {
+    "name": "Nigerian Naira",
+    "singular": "Nigerian naira",
+    "plural": "Nigerian nairas",
+    "symbol": "NGN"
+  },
+  "NIC": {
+    "name": "Nicaraguan Córdoba (1988–1991)",
+    "singular": "Nicaraguan córdoba (1988–1991)",
+    "plural": "Nicaraguan córdobas (1988–1991)",
+    "symbol": "NIC"
+  },
+  "NIO": {
+    "name": "Nicaraguan Córdoba",
+    "singular": "Nicaraguan córdoba",
+    "plural": "Nicaraguan córdobas",
+    "symbol": "NIO"
+  },
+  "NLG": {
+    "name": "Dutch Guilder",
+    "singular": "Dutch guilder",
+    "plural": "Dutch guilders",
+    "symbol": "NLG"
+  },
+  "NOK": {
+    "name": "Norwegian Krone",
+    "singular": "Norwegian krone",
+    "plural": "Norwegian kroner",
+    "symbol": "NOK"
+  },
+  "NPR": {
+    "name": "Nepalese Rupee",
+    "singular": "Nepalese rupee",
+    "plural": "Nepalese rupees",
+    "symbol": "NPR"
+  },
+  "NZD": {
+    "name": "New Zealand Dollar",
+    "singular": "New Zealand dollar",
+    "plural": "New Zealand dollars",
+    "symbol": "NZ$"
+  },
+  "OMR": {
+    "name": "Omani Rial",
+    "singular": "Omani rial",
+    "plural": "Omani rials",
+    "symbol": "OMR"
+  },
+  "PAB": {
+    "name": "Panamanian Balboa",
+    "singular": "Panamanian balboa",
+    "plural": "Panamanian balboas",
+    "symbol": "PAB"
+  },
+  "PEI": {
+    "name": "Peruvian Inti",
+    "singular": "Peruvian inti",
+    "plural": "Peruvian intis",
+    "symbol": "PEI"
+  },
+  "PEN": {
+    "name": "Peruvian Sol",
+    "singular": "Peruvian sol",
+    "plural": "Peruvian soles",
+    "symbol": "PEN"
+  },
+  "PES": {
+    "name": "Peruvian Sol (1863–1965)",
+    "singular": "Peruvian sol (1863–1965)",
+    "plural": "Peruvian soles (1863–1965)",
+    "symbol": "PES"
+  },
+  "PGK": {
+    "name": "Papua New Guinean Kina",
+    "singular": "Papua New Guinean kina",
+    "plural": "Papua New Guinean kina",
+    "symbol": "PGK"
+  },
+  "PHP": {
+    "name": "Philippine Peso",
+    "singular": "Philippine peso",
+    "plural": "Philippine pesos",
+    "symbol": "₱"
+  },
+  "PKR": {
+    "name": "Pakistani Rupee",
+    "singular": "Pakistani rupee",
+    "plural": "Pakistani rupees",
+    "symbol": "PKR"
+  },
+  "PLN": {
+    "name": "Polish Zloty",
+    "singular": "Polish zloty",
+    "plural": "Polish zlotys",
+    "symbol": "PLN"
+  },
+  "PLZ": {
+    "name": "Polish Zloty (1950–1995)",
+    "singular": "Polish zloty (PLZ)",
+    "plural": "Polish zlotys (PLZ)",
+    "symbol": "PLZ"
+  },
+  "PTE": {
+    "name": "Portuguese Escudo",
+    "singular": "Portuguese escudo",
+    "plural": "Portuguese escudos",
+    "symbol": "PTE"
+  },
+  "PYG": {
+    "name": "Paraguayan Guarani",
+    "singular": "Paraguayan guarani",
+    "plural": "Paraguayan guaranis",
+    "symbol": "PYG"
+  },
+  "QAR": {
+    "name": "Qatari Riyal",
+    "singular": "Qatari riyal",
+    "plural": "Qatari riyals",
+    "symbol": "QAR"
+  },
+  "RHD": {
+    "name": "Rhodesian Dollar",
+    "singular": "Rhodesian dollar",
+    "plural": "Rhodesian dollars",
+    "symbol": "RHD"
+  },
+  "ROL": {
+    "name": "Romanian Leu (1952–2006)",
+    "singular": "Romanian leu (1952–2006)",
+    "plural": "Romanian Lei (1952–2006)",
+    "symbol": "ROL"
+  },
+  "RON": {
+    "name": "Romanian Leu",
+    "singular": "Romanian leu",
+    "plural": "Romanian lei",
+    "symbol": "RON"
+  },
+  "RSD": {
+    "name": "Serbian Dinar",
+    "singular": "Serbian dinar",
+    "plural": "Serbian dinars",
+    "symbol": "RSD"
+  },
+  "RUB": {
+    "name": "Russian Ruble",
+    "singular": "Russian ruble",
+    "plural": "Russian rubles",
+    "symbol": "RUB"
+  },
+  "RUR": {
+    "name": "Russian Ruble (1991–1998)",
+    "singular": "Russian ruble (1991–1998)",
+    "plural": "Russian rubles (1991–1998)",
+    "symbol": "RUR"
+  },
+  "RWF": {
+    "name": "Rwandan Franc",
+    "singular": "Rwandan franc",
+    "plural": "Rwandan francs",
+    "symbol": "RWF"
+  },
+  "SAR": {
+    "name": "Saudi Riyal",
+    "singular": "Saudi riyal",
+    "plural": "Saudi riyals",
+    "symbol": "SAR"
+  },
+  "SBD": {
+    "name": "Solomon Islands Dollar",
+    "singular": "Solomon Islands dollar",
+    "plural": "Solomon Islands dollars",
+    "symbol": "SBD"
+  },
+  "SCR": {
+    "name": "Seychellois Rupee",
+    "singular": "Seychellois rupee",
+    "plural": "Seychellois rupees",
+    "symbol": "SCR"
+  },
+  "SDD": {
+    "name": "Sudanese Dinar (1992–2007)",
+    "singular": "Sudanese dinar (1992–2007)",
+    "plural": "Sudanese dinars (1992–2007)",
+    "symbol": "SDD"
+  },
+  "SDG": {
+    "name": "Sudanese Pound",
+    "singular": "Sudanese pound",
+    "plural": "Sudanese pounds",
+    "symbol": "SDG"
+  },
+  "SDP": {
+    "name": "Sudanese Pound (1957–1998)",
+    "singular": "Sudanese pound (1957–1998)",
+    "plural": "Sudanese pounds (1957–1998)",
+    "symbol": "SDP"
+  },
+  "SEK": {
+    "name": "Swedish Krona",
+    "singular": "Swedish krona",
+    "plural": "Swedish kronor",
+    "symbol": "SEK"
+  },
+  "SGD": {
+    "name": "Singapore Dollar",
+    "singular": "Singapore dollar",
+    "plural": "Singapore dollars",
+    "symbol": "SGD"
+  },
+  "SHP": {
+    "name": "St. Helena Pound",
+    "singular": "St. Helena pound",
+    "plural": "St. Helena pounds",
+    "symbol": "SHP"
+  },
+  "SIT": {
+    "name": "Slovenian Tolar",
+    "singular": "Slovenian tolar",
+    "plural": "Slovenian tolars",
+    "symbol": "SIT"
+  },
+  "SKK": {
+    "name": "Slovak Koruna",
+    "singular": "Slovak koruna",
+    "plural": "Slovak korunas",
+    "symbol": "SKK"
+  },
+  "SLE": {
+    "name": "Sierra Leonean Leone",
+    "singular": "Sierra Leonean leone",
+    "plural": "Sierra Leonean leones",
+    "symbol": "SLE"
+  },
+  "SLL": {
+    "name": "Sierra Leonean Leone (1964—2022)",
+    "singular": "Sierra Leonean leone (1964—2022)",
+    "plural": "Sierra Leonean leones (1964—2022)",
+    "symbol": "SLL"
+  },
+  "SOS": {
+    "name": "Somali Shilling",
+    "singular": "Somali shilling",
+    "plural": "Somali shillings",
+    "symbol": "SOS"
+  },
+  "SRD": {
+    "name": "Surinamese Dollar",
+    "singular": "Surinamese dollar",
+    "plural": "Surinamese dollars",
+    "symbol": "SRD"
+  },
+  "SRG": {
+    "name": "Surinamese Guilder",
+    "singular": "Surinamese guilder",
+    "plural": "Surinamese guilders",
+    "symbol": "SRG"
+  },
+  "SSP": {
+    "name": "South Sudanese Pound",
+    "singular": "South Sudanese pound",
+    "plural": "South Sudanese pounds",
+    "symbol": "SSP"
+  },
+  "STD": {
+    "name": "São Tomé & Príncipe Dobra (1977–2017)",
+    "singular": "São Tomé & Príncipe dobra (1977–2017)",
+    "plural": "São Tomé & Príncipe dobras (1977–2017)",
+    "symbol": "STD"
+  },
+  "STN": {
+    "name": "São Tomé & Príncipe Dobra",
+    "singular": "São Tomé & Príncipe dobra",
+    "plural": "São Tomé & Príncipe dobras",
+    "symbol": "STN"
+  },
+  "SUR": {
+    "name": "Soviet Rouble",
+    "singular": "Soviet rouble",
+    "plural": "Soviet roubles",
+    "symbol": "SUR"
+  },
+  "SVC": {
+    "name": "Salvadoran Colón",
+    "singular": "Salvadoran colón",
+    "plural": "Salvadoran colones",
+    "symbol": "SVC"
+  },
+  "SYP": {
+    "name": "Syrian Pound",
+    "singular": "Syrian pound",
+    "plural": "Syrian pounds",
+    "symbol": "SYP"
+  },
+  "SZL": {
+    "name": "Swazi Lilangeni",
+    "singular": "Swazi lilangeni",
+    "plural": "Swazi emalangeni",
+    "symbol": "SZL"
+  },
+  "THB": {
+    "name": "Thai Baht",
+    "singular": "Thai baht",
+    "plural": "Thai baht",
+    "symbol": "THB"
+  },
+  "TJR": {
+    "name": "Tajikistani Ruble",
+    "singular": "Tajikistani ruble",
+    "plural": "Tajikistani rubles",
+    "symbol": "TJR"
+  },
+  "TJS": {
+    "name": "Tajikistani Somoni",
+    "singular": "Tajikistani somoni",
+    "plural": "Tajikistani somonis",
+    "symbol": "TJS"
+  },
+  "TMM": {
+    "name": "Turkmenistani Manat (1993–2009)",
+    "singular": "Turkmenistani manat (1993–2009)",
+    "plural": "Turkmenistani manat (1993–2009)",
+    "symbol": "TMM"
+  },
+  "TMT": {
+    "name": "Turkmenistani Manat",
+    "singular": "Turkmenistani manat",
+    "plural": "Turkmenistani manat",
+    "symbol": "TMT"
+  },
+  "TND": {
+    "name": "Tunisian Dinar",
+    "singular": "Tunisian dinar",
+    "plural": "Tunisian dinars",
+    "symbol": "TND"
+  },
+  "TOP": {
+    "name": "Tongan Paʻanga",
+    "singular": "Tongan paʻanga",
+    "plural": "Tongan paʻanga",
+    "symbol": "TOP"
+  },
+  "TPE": {
+    "name": "Timorese Escudo",
+    "singular": "Timorese escudo",
+    "plural": "Timorese escudos",
+    "symbol": "TPE"
+  },
+  "TRL": {
+    "name": "Turkish Lira (1922–2005)",
+    "singular": "Turkish lira (1922–2005)",
+    "plural": "Turkish Lira (1922–2005)",
+    "symbol": "TRL"
+  },
+  "TRY": {
+    "name": "Turkish Lira",
+    "singular": "Turkish lira",
+    "plural": "Turkish Lira",
+    "symbol": "TRY"
+  },
+  "TTD": {
+    "name": "Trinidad & Tobago Dollar",
+    "singular": "Trinidad & Tobago dollar",
+    "plural": "Trinidad & Tobago dollars",
+    "symbol": "TTD"
+  },
+  "TWD": {
+    "name": "New Taiwan Dollar",
+    "singular": "New Taiwan dollar",
+    "plural": "New Taiwan dollars",
+    "symbol": "NT$"
+  },
+  "TZS": {
+    "name": "Tanzanian Shilling",
+    "singular": "Tanzanian shilling",
+    "plural": "Tanzanian shillings",
+    "symbol": "TZS"
+  },
+  "UAH": {
+    "name": "Ukrainian Hryvnia",
+    "singular": "Ukrainian hryvnia",
+    "plural": "Ukrainian hryvnias",
+    "symbol": "UAH"
+  },
+  "UAK": {
+    "name": "Ukrainian Karbovanets",
+    "singular": "Ukrainian karbovanets",
+    "plural": "Ukrainian karbovantsiv",
+    "symbol": "UAK"
+  },
+  "UGS": {
+    "name": "Ugandan Shilling (1966–1987)",
+    "singular": "Ugandan shilling (1966–1987)",
+    "plural": "Ugandan shillings (1966–1987)",
+    "symbol": "UGS"
+  },
+  "UGX": {
+    "name": "Ugandan Shilling",
+    "singular": "Ugandan shilling",
+    "plural": "Ugandan shillings",
+    "symbol": "UGX"
+  },
+  "USD": {
+    "name": "US Dollar",
+    "singular": "US dollar",
+    "plural": "US dollars",
+    "symbol": "$"
+  },
+  "USN": {
+    "name": "US Dollar (Next day)",
+    "singular": "US dollar (next day)",
+    "plural": "US dollars (next day)",
+    "symbol": "USN"
+  },
+  "USS": {
+    "name": "US Dollar (Same day)",
+    "singular": "US dollar (same day)",
+    "plural": "US dollars (same day)",
+    "symbol": "USS"
+  },
+  "UYI": {
+    "name": "Uruguayan Peso (Indexed Units)",
+    "singular": "Uruguayan peso (indexed units)",
+    "plural": "Uruguayan pesos (indexed units)",
+    "symbol": "UYI"
+  },
+  "UYP": {
+    "name": "Uruguayan Peso (1975–1993)",
+    "singular": "Uruguayan peso (1975–1993)",
+    "plural": "Uruguayan pesos (1975–1993)",
+    "symbol": "UYP"
+  },
+  "UYU": {
+    "name": "Uruguayan Peso",
+    "singular": "Uruguayan peso",
+    "plural": "Uruguayan pesos",
+    "symbol": "UYU"
+  },
+  "UYW": {
+    "name": "Uruguayan Nominal Wage Index Unit",
+    "singular": "Uruguayan nominal wage index unit",
+    "plural": "Uruguayan nominal wage index units",
+    "symbol": "UYW"
+  },
+  "UZS": {
+    "name": "Uzbekistani Som",
+    "singular": "Uzbekistani som",
+    "plural": "Uzbekistani som",
+    "symbol": "UZS"
+  },
+  "VEB": {
+    "name": "Venezuelan Bolívar (1871–2008)",
+    "singular": "Venezuelan bolívar (1871–2008)",
+    "plural": "Venezuelan bolívars (1871–2008)",
+    "symbol": "VEB"
+  },
+  "VED": {
+    "name": "Bolívar Soberano",
+    "singular": "Bolívar Soberano",
+    "plural": "Bolívar Soberanos",
+    "symbol": "VED"
+  },
+  "VEF": {
+    "name": "Venezuelan Bolívar (2008–2018)",
+    "singular": "Venezuelan bolívar (2008–2018)",
+    "plural": "Venezuelan bolívars (2008–2018)",
+    "symbol": "VEF"
+  },
+  "VES": {
+    "name": "Venezuelan Bolívar",
+    "singular": "Venezuelan bolívar",
+    "plural": "Venezuelan bolívars",
+    "symbol": "VES"
+  },
+  "VND": {
+    "name": "Vietnamese Dong",
+    "singular": "Vietnamese dong",
+    "plural": "Vietnamese dong",
+    "symbol": "₫"
+  },
+  "VNN": {
+    "name": "Vietnamese Dong (1978–1985)",
+    "singular": "Vietnamese dong (1978–1985)",
+    "plural": "Vietnamese dong (1978–1985)",
+    "symbol": "VNN"
+  },
+  "VUV": {
+    "name": "Vanuatu Vatu",
+    "singular": "Vanuatu vatu",
+    "plural": "Vanuatu vatus",
+    "symbol": "VUV"
+  },
+  "WST": {
+    "name": "Samoan Tala",
+    "singular": "Samoan tala",
+    "plural": "Samoan tala",
+    "symbol": "WST"
+  },
+  "XAF": {
+    "name": "Central African CFA Franc",
+    "singular": "Central African CFA franc",
+    "plural": "Central African CFA francs",
+    "symbol": "FCFA"
+  },
+  "XAG": {
+    "name": "Silver",
+    "singular": "troy ounce of silver",
+    "plural": "troy ounces of silver",
+    "symbol": "XAG"
+  },
+  "XAU": {
+    "name": "Gold",
+    "singular": "troy ounce of gold",
+    "plural": "troy ounces of gold",
+    "symbol": "XAU"
+  },
+  "XBA": {
+    "name": "European Composite Unit",
+    "singular": "European composite unit",
+    "plural": "European composite units",
+    "symbol": "XBA"
+  },
+  "XBB": {
+    "name": "European Monetary Unit",
+    "singular": "European monetary unit",
+    "plural": "European monetary units",
+    "symbol": "XBB"
+  },
+  "XBC": {
+    "name": "European Unit of Account (XBC)",
+    "singular": "European unit of account (XBC)",
+    "plural": "European units of account (XBC)",
+    "symbol": "XBC"
+  },
+  "XBD": {
+    "name": "European Unit of Account (XBD)",
+    "singular": "European unit of account (XBD)",
+    "plural": "European units of account (XBD)",
+    "symbol": "XBD"
+  },
+  "XCD": {
+    "name": "East Caribbean Dollar",
+    "singular": "East Caribbean dollar",
+    "plural": "East Caribbean dollars",
+    "symbol": "EC$"
+  },
+  "XCG": {
+    "name": "Caribbean guilder",
+    "singular": "Caribbean guilder",
+    "plural": "Caribbean guilders",
+    "symbol": "XCG"
+  },
+  "XDR": {
+    "name": "Special Drawing Rights",
+    "singular": "special drawing rights",
+    "plural": "special drawing rights",
+    "symbol": "XDR"
+  },
+  "XEU": {
+    "name": "European Currency Unit",
+    "singular": "European currency unit",
+    "plural": "European currency units",
+    "symbol": "XEU"
+  },
+  "XFO": {
+    "name": "French Gold Franc",
+    "singular": "French gold franc",
+    "plural": "French gold francs",
+    "symbol": "XFO"
+  },
+  "XFU": {
+    "name": "French UIC-Franc",
+    "singular": "French UIC-franc",
+    "plural": "French UIC-francs",
+    "symbol": "XFU"
+  },
+  "XOF": {
+    "name": "West African CFA Franc",
+    "singular": "West African CFA franc",
+    "plural": "West African CFA francs",
+    "symbol": "F CFA"
+  },
+  "XPD": {
+    "name": "Palladium",
+    "singular": "troy ounce of palladium",
+    "plural": "troy ounces of palladium",
+    "symbol": "XPD"
+  },
+  "XPF": {
+    "name": "CFP Franc",
+    "singular": "CFP franc",
+    "plural": "CFP francs",
+    "symbol": "CFPF"
+  },
+  "XPT": {
+    "name": "Platinum",
+    "singular": "troy ounce of platinum",
+    "plural": "troy ounces of platinum",
+    "symbol": "XPT"
+  },
+  "XRE": {
+    "name": "RINET Funds",
+    "singular": "RINET Funds unit",
+    "plural": "RINET Funds units",
+    "symbol": "XRE"
+  },
+  "XSU": {
+    "name": "Sucre",
+    "singular": "Sucre",
+    "plural": "Sucres",
+    "symbol": "XSU"
+  },
+  "XTS": {
+    "name": "Testing Currency Code",
+    "singular": "Testing Currency unit",
+    "plural": "Testing Currency units",
+    "symbol": "XTS"
+  },
+  "XUA": {
+    "name": "ADB Unit of Account",
+    "singular": "ADB unit of account",
+    "plural": "ADB units of account",
+    "symbol": "XUA"
+  },
+  "XXX": {
+    "name": "Unknown Currency",
+    "singular": "(unknown unit of currency)",
+    "plural": "(unknown currency)",
+    "symbol": "XXX"
+  },
+  "YDD": {
+    "name": "Yemeni Dinar",
+    "singular": "Yemeni dinar",
+    "plural": "Yemeni dinars",
+    "symbol": "YDD"
+  },
+  "YER": {
+    "name": "Yemeni Rial",
+    "singular": "Yemeni rial",
+    "plural": "Yemeni rials",
+    "symbol": "YER"
+  },
+  "YUD": {
+    "name": "Yugoslavian Hard Dinar (1966–1990)",
+    "singular": "Yugoslavian hard dinar (1966–1990)",
+    "plural": "Yugoslavian hard dinars (1966–1990)",
+    "symbol": "YUD"
+  },
+  "YUM": {
+    "name": "Yugoslavian New Dinar (1994–2002)",
+    "singular": "Yugoslavian new dinar (1994–2002)",
+    "plural": "Yugoslavian new dinars (1994–2002)",
+    "symbol": "YUM"
+  },
+  "YUN": {
+    "name": "Yugoslavian Convertible Dinar (1990–1992)",
+    "singular": "Yugoslavian convertible dinar (1990–1992)",
+    "plural": "Yugoslavian convertible dinars (1990–1992)",
+    "symbol": "YUN"
+  },
+  "YUR": {
+    "name": "Yugoslavian Reformed Dinar (1992–1993)",
+    "singular": "Yugoslavian reformed dinar (1992–1993)",
+    "plural": "Yugoslavian reformed dinars (1992–1993)",
+    "symbol": "YUR"
+  },
+  "ZAL": {
+    "name": "South African Rand (financial)",
+    "singular": "South African rand (financial)",
+    "plural": "South African rands (financial)",
+    "symbol": "ZAL"
+  },
+  "ZAR": {
+    "name": "South African Rand",
+    "singular": "South African rand",
+    "plural": "South African rand",
+    "symbol": "ZAR"
+  },
+  "ZMK": {
+    "name": "Zambian Kwacha (1968–2012)",
+    "singular": "Zambian kwacha (1968–2012)",
+    "plural": "Zambian kwachas (1968–2012)",
+    "symbol": "ZMK"
+  },
+  "ZMW": {
+    "name": "Zambian Kwacha",
+    "singular": "Zambian kwacha",
+    "plural": "Zambian kwachas",
+    "symbol": "ZMW"
+  },
+  "ZRN": {
+    "name": "Zairean New Zaire (1993–1998)",
+    "singular": "Zairean new zaire (1993–1998)",
+    "plural": "Zairean new zaires (1993–1998)",
+    "symbol": "ZRN"
+  },
+  "ZRZ": {
+    "name": "Zairean Zaire (1971–1993)",
+    "singular": "Zairean zaire (1971–1993)",
+    "plural": "Zairean zaires (1971–1993)",
+    "symbol": "ZRZ"
+  },
+  "ZWD": {
+    "name": "Zimbabwean Dollar (1980–2008)",
+    "singular": "Zimbabwean dollar (1980–2008)",
+    "plural": "Zimbabwean dollars (1980–2008)",
+    "symbol": "ZWD"
+  },
+  "ZWG": {
+    "name": "Zimbabwean Gold",
+    "singular": "Zimbabwean gold",
+    "plural": "Zimbabwean gold",
+    "symbol": "ZWG"
+  },
+  "ZWL": {
+    "name": "Zimbabwean Dollar (2009–2024)",
+    "singular": "Zimbabwean dollar (2009–2024)",
+    "plural": "Zimbabwean dollars (2009–2024)",
+    "symbol": "ZWL"
+  },
+  "ZWR": {
+    "name": "Zimbabwean Dollar (2008)",
+    "singular": "Zimbabwean dollar (2008)",
+    "plural": "Zimbabwean dollars (2008)",
+    "symbol": "ZWR"
+  }
+}

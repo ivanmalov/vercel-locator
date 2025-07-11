@@ -6,6 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.resolveVisitorContext = resolveVisitorContext;
 exports.lookupCountry = lookupCountry;
 exports.lookupRegion = lookupRegion;
+exports.lookupCurrency = lookupCurrency;
+exports.lookupLanguage = lookupLanguage;
 exports.lookupAirportsByCoords = lookupAirportsByCoords;
 exports.lookupAirportByIcao = lookupAirportByIcao;
 exports.lookupAirportByIata = lookupAirportByIata;
@@ -15,6 +17,8 @@ const path_1 = __importDefault(require("path"));
 // --- Create a cache for data ---
 let countries;
 let regions;
+let currencies;
+let languages;
 let airports;
 let airportIndex;
 let icaoMap;
@@ -26,6 +30,8 @@ const initializationPromise = (async () => {
         // Read all data files when the module first loads
         const countriesData = fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/countries.json'), 'utf-8');
         const regionsData = fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/regions.json'), 'utf-8');
+        const currenciesData = fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/currencies.json'), 'utf-8');
+        const languagesData = fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/languages.json'), 'utf-8');
         const airportsData = fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/airports/airports.json'), 'utf-8');
         const airportIndexData = JSON.parse(fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/airports/index.json'), 'utf-8'));
         const icaoMapData = fs_1.default.readFileSync(path_1.default.join(__dirname, 'generated/airports/icao-map.json'), 'utf-8');
@@ -33,6 +39,8 @@ const initializationPromise = (async () => {
         // Parse the data and build the index
         countries = JSON.parse(countriesData);
         regions = JSON.parse(regionsData);
+        currencies = JSON.parse(currenciesData);
+        languages = JSON.parse(languagesData);
         airports = JSON.parse(airportsData);
         airportIndex = new RBush().fromJSON(airportIndexData);
         icaoMap = JSON.parse(icaoMapData);
@@ -98,6 +106,24 @@ async function lookupCountry(code) {
 async function lookupRegion(code) {
     await initializationPromise;
     return regions[code.toUpperCase()] ?? null;
+}
+/**
+ * Looks up currency details by its ISO 4217 code.
+ * @param code The three-letter currency code (e.g., "USD").
+ * @returns A CurrencyDetails object or null if not found.
+ */
+async function lookupCurrency(code) {
+    await initializationPromise;
+    return currencies[code.toUpperCase()] ?? null;
+}
+/**
+ * Looks up language details by its code.
+ * @param code The language code (e.g., "en", "az_Cyrl").
+ * @returns A LanguageDetails object or null if not found.
+ */
+async function lookupLanguage(code) {
+    await initializationPromise;
+    return languages[code] ?? null;
 }
 /**
  * Finds the nearest airport(s) to a given set of coordinates, with an optional filter.

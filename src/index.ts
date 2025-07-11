@@ -2,6 +2,8 @@ export {
   resolveVisitorContext,
   lookupCountry,
   lookupRegion,
+  lookupCurrency,
+  lookupLanguage,
   lookupAirportsByCoords,
   lookupAirportByIcao,
   lookupAirportByIata,
@@ -13,5 +15,7 @@ export type {
   Country,
   Region,
   Airport,
+  CurrencyDetails,
+  LanguageDetails,
 } from './context';
 export type { GeoInfo } from './parse';
