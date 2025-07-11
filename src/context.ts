@@ -62,6 +62,8 @@ let countries: Record<string, Country>;
 let regions: Record<string, Region>;
 let airports: Record<string, Airport>;
 let airportIndex: RBush<AirportIndexItem>;
+let icaoMap: Record<string, string>;
+let iataMap: Record<string, string>;
 
 // --- Create a promise that resolves once all data is loaded at startup ---
 const initializationPromise = (async () => {
@@ -73,12 +75,16 @@ const initializationPromise = (async () => {
     const regionsData = fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8');
     const airportsData = fs.readFileSync(path.join(__dirname, 'generated/airports/airports.json'), 'utf-8');
     const airportIndexData = JSON.parse(fs.readFileSync(path.join(__dirname, 'generated/airports/index.json'), 'utf-8'));
+    const icaoMapData = fs.readFileSync(path.join(__dirname, 'generated/airports/icao-map.json'), 'utf-8');
+    const iataMapData = fs.readFileSync(path.join(__dirname, 'generated/airports/iata-map.json'), 'utf-8');
 
     // Parse the data and build the index
     countries = JSON.parse(countriesData);
     regions = JSON.parse(regionsData);
     airports = JSON.parse(airportsData);
     airportIndex = new RBush<AirportIndexItem>().fromJSON(airportIndexData);
+    icaoMap = JSON.parse(icaoMapData);
+    iataMap = JSON.parse(iataMapData);
 
     console.log('Locator data initialized successfully.');
   } catch (err) {
@@ -144,4 +150,84 @@ export async function resolveVisitorContext(
     //headers: Object.fromEntries(headers),
     ...geo
   };
+}
+
+// --- Direct Lookup Functions ---
+
+/**
+ * Looks up a country by its ISO 3166-1 alpha-2 code.
+ * @param code The two-letter country code (e.g., "US").
+ * @returns A Country object or null if not found.
+ */
+export async function lookupCountry(code: string): Promise<Country | null> {
+  await initializationPromise;
+  return countries[code.toUpperCase()] ?? null;
+}
+
+/**
+ * Looks up a region by its ISO 3166-2 code.
+ * @param code The region code (e.g., "US-CA").
+ * @returns A Region object or null if not found.
+ */
+export async function lookupRegion(code: string): Promise<Region | null> {
+  await initializationPromise;
+  return regions[code.toUpperCase()] ?? null;
+}
+
+/**
+ * Finds the nearest airport(s) to a given set of coordinates, with an optional filter.
+ * @param lat The latitude.
+ * @param lon The longitude.
+ * @param count The number of airports to return. Defaults to 10.
+ * @param filter An optional function to filter the results.
+ * @returns An array of Airport objects.
+ */
+export async function lookupAirportsByCoords(
+  lat: number,
+  lon: number,
+  count: number = 1,
+  filter?: (airport: Airport) => boolean
+): Promise<Airport[]> {
+  await initializationPromise;
+  const { default: knn } = await import('rbush-knn');
+
+  // If a filter is provided, we search for more initial candidates (e.g., 50)
+  // to ensure we find enough that match the filter criteria.
+  const searchCount = filter ? 100000 : count;
+
+  const nearest = knn(airportIndex, lon, lat, searchCount);
+
+  let candidates = nearest
+    .map(item => airports[item.id])
+    .filter((airport): airport is Airport => airport !== undefined);
+
+  // Apply the user-provided filter if it exists
+  if (filter) {
+    candidates = candidates.filter(filter);
+  }
+
+  // Finally, return the requested number of airports
+  return candidates.slice(0, count);
+}
+
+/**
+ * Looks up an airport by its ICAO code.
+ * @param code The 4-letter ICAO code (e.g., "KLAX").
+ * @returns An Airport object or null if not found.
+ */
+export async function lookupAirportByIcao(code: string): Promise<Airport | null> {
+  await initializationPromise;
+  const airportId = icaoMap[code.toUpperCase()];
+  return airportId ? (airports[airportId] ?? null) : null;
+}
+
+/**
+ * Looks up an airport by its IATA code.
+ * @param code The 3-letter IATA code (e.g., "LAX").
+ * @returns An Airport object or null if not found.
+ */
+export async function lookupAirportByIata(code: string): Promise<Airport | null> {
+  await initializationPromise;
+  const airportId = iataMap[code.toUpperCase()];
+  return airportId ? (airports[airportId] ?? null) : null;
 }
