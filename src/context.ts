@@ -29,6 +29,9 @@ export interface Country {
     code: string;
     percentage: number | null;
     status: string | null;
+    // --- minimal addition so we can return names directly on the country object ---
+    name?: string | null;
+    nativeName?: string | null;
   }[];
 }
 
@@ -76,7 +79,7 @@ let iataMap: Record<string, string>;
 const initializationPromise = (async () => {
   try {
     const { default: RBush } = await import('rbush');
-    
+
     // Read all data files when the module first loads
     const countriesData = fs.readFileSync(path.join(__dirname, 'generated/countries.json'), 'utf-8');
     const regionsData = fs.readFileSync(path.join(__dirname, 'generated/regions.json'), 'utf-8');
@@ -105,8 +108,8 @@ const initializationPromise = (async () => {
 })();
 
 export interface Config {
-    //user expandable
-    nearbyAirports?: number;
+  // user expandable
+  nearbyAirports?: number;
 }
 
 export interface VisitorContext extends GeoInfo {
@@ -136,15 +139,17 @@ export async function resolveVisitorContext(
     const { default: knn } = await import('rbush-knn');
     // The non-null assertion `!` is safe because initializationPromise ensures these are loaded.
     const nearest = knn(airportIndex!, geo.longitude, geo.latitude, opts.nearbyAirports ?? 10);
-    
+
     // --- DIAGNOSTIC LOG ---
     // This loop will check each ID found by the search and log a warning if it's missing from the main data file.
     nearest.forEach(item => {
       if (!airports![item.id]) {
-        console.warn(`[vercel-locator] Data integrity issue: Airport ID "${item.id}" was found in the spatial index but is missing from the main airport data file.`);
+        console.warn(
+          `[vercel-locator] Data integrity issue: Airport ID "${item.id}" was found in the spatial index but is missing from the main airport data file.`,
+        );
       }
     });
-    
+
     // Map to airport objects and then filter out any that were not found.
     // This prevents `undefined` values in the final array.
     nearbyAirports = nearest
@@ -152,14 +157,27 @@ export async function resolveVisitorContext(
       .filter((airport): airport is Airport => airport !== undefined);
   }
 
+  // --- minimal enrichment: clone & add language names to the country object ---
+  const rawCountry = countries![geo.countryCode ?? ''] ?? null;
+  const country = rawCountry
+    ? {
+        ...rawCountry,
+        languages: rawCountry.languages.map(l => ({
+          ...l,
+          name: languages[l.code]?.name ?? null,
+          nativeName: languages[l.code]?.nativeName ?? null,
+        })),
+      }
+    : null;
+
   // Assemble once and return
   return {
     // ip is now included in the ...geo spread
-    country: countries![geo.countryCode ?? ''] ?? null,
+    country,
     region: regionKey ? regions![regionKey] ?? null : null,
     airports: nearbyAirports,
     //headers: Object.fromEntries(headers),
-    ...geo
+    ...geo,
   };
 }
 
@@ -217,7 +235,7 @@ export async function lookupAirportsByCoords(
   lat: number,
   lon: number,
   count: number = 1,
-  filter?: (airport: Airport) => boolean
+  filter?: (airport: Airport) => boolean,
 ): Promise<Airport[]> {
   await initializationPromise;
   const { default: knn } = await import('rbush-knn');
