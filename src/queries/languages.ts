@@ -1,5 +1,5 @@
-import type { DataLoader } from '../data/loader';
-import type { LanguageDetails, Country } from '../interfaces';
+import type { DataLoader } from '../data/loader.js';
+import type { LanguageDetails, Country } from '../interfaces.js';
 
 export async function lookupLanguage(loader: DataLoader, code: string): Promise<LanguageDetails | null> {
   const languages = await loader.loadLanguages();

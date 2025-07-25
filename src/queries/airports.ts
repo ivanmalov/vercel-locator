@@ -1,7 +1,7 @@
 import knn from 'rbush-knn';
-import type { DataLoader } from '../data/loader';
-import type { Airport } from '../interfaces';
-import type { Predicate } from '../utils/predicates';
+import type { DataLoader } from '../data/loader.js';
+import type { Airport, AirportIndexItem } from '../interfaces.js';
+import type { Predicate } from '../utils/predicates.js';
 
 export interface AirportOptions {
   count?: number;
@@ -18,7 +18,7 @@ export async function lookupAirportsByCoords(
 ): Promise<Airport[]> {
   const { airports, airportIndex } = await loader.loadAirports();
   const searchCount = opts.filter ? Math.max(opts.count ?? 10, 500) : (opts.count ?? 10);
-  const nearest = knn(airportIndex as any, lon, lat, searchCount);
+  const nearest = knn(airportIndex as any, lon, lat, searchCount) as unknown as AirportIndexItem[];
 
   const filter = opts.filter ?? (() => true);
   const out: Airport[] = [];

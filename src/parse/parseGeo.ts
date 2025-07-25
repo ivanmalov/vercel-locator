@@ -1,4 +1,4 @@
-import { GeoInfo } from '../interfaces';
+import { GeoInfo } from '../interfaces.js';
 
 export function parseGeo(headers: Headers | Record<string, string | string[] | undefined>): GeoInfo {
   const getHeader = (key: string): string | null => {

@@ -1,4 +1,4 @@
-import type { Country, Region, CurrencyDetails, LanguageDetails, Airport, AirportIndexItem } from '../interfaces';
+import type { Country, Region, CurrencyDetails, LanguageDetails, Airport, AirportIndexItem } from '../interfaces.js';
 import type RBush from 'rbush';
 
 export interface DataLoader {

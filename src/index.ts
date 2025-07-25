@@ -7,7 +7,7 @@ export {
   lookupAirportsByCoords,
   lookupAirportByIcao,
   lookupAirportByIata,
-} from './context';
+} from './context/index.js';
 
 export type {
   VisitorContext,
@@ -18,4 +18,4 @@ export type {
   CurrencyDetails,
   LanguageDetails,
   GeoInfo,
-} from './interfaces';
+} from './interfaces.js';
