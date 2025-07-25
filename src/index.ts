@@ -11,11 +11,11 @@ export {
 
 export type {
   VisitorContext,
-  Config, // Make sure Config is exported
+  Config,
   Country,
   Region,
   Airport,
   CurrencyDetails,
   LanguageDetails,
-} from './context';
-export type { GeoInfo } from './parse';
+  GeoInfo,
+} from './interfaces';
