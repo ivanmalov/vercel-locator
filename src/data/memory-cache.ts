@@ -1,5 +1,5 @@
-import type { DataLoader } from './loader';
-import type { Country, Region, CurrencyDetails, LanguageDetails, Airport, AirportIndexItem } from '../interfaces';
+import type { DataLoader } from './loader.js';
+import type { Country, Region, CurrencyDetails, LanguageDetails, Airport, AirportIndexItem } from '../interfaces.js';
 import type RBush from 'rbush';
 
 export class MemoryCacheLoader implements DataLoader {

@@ -1,13 +1,13 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { FSLoader } from '../data/fs-loader';
-import { MemoryCacheLoader } from '../data/memory-cache';
-import { createLocator } from './createLocator';
-import * as C from '../queries/countries';
-import * as R from '../queries/regions';
-import * as Cur from '../queries/currencies';
-import * as L from '../queries/languages';
-import * as A from '../queries/airports';
+import { FSLoader } from '../data/fs-loader.js';
+import { MemoryCacheLoader } from '../data/memory-cache.js';
+import { createLocator } from './createLocator.js';
+import * as C from '../queries/countries.js';
+import * as R from '../queries/regions.js';
+import * as Cur from '../queries/currencies.js';
+import * as L from '../queries/languages.js';
+import * as A from '../queries/airports.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const loader = new MemoryCacheLoader(new FSLoader(path.join(__dirname, '../generated')));

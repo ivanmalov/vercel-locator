@@ -1,7 +1,7 @@
-import { parseGeo } from '../parse/parseGeo';
-import type { DataLoader } from '../data/loader';
-import type { VisitorContext, Config, Airport } from '../interfaces';
-import { lookupAirportsByCoords, hasRegularService } from '../queries/airports';
+import { parseGeo } from '../parse/parseGeo.js';
+import type { DataLoader } from '../data/loader.js';
+import type { VisitorContext, Config, Airport } from '../interfaces.js';
+import { lookupAirportsByCoords, hasRegularService } from '../queries/airports.js';
 
 export interface IncludeOptions {
   airports?: boolean | { count?: number; regularServiceOnly?: boolean };

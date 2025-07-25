@@ -1,9 +1,9 @@
 import fs from 'fs/promises';
 import path from 'path';
 import type RBush from 'rbush';
-import type { DataLoader } from './loader';
-import type { Country, Region, CurrencyDetails, LanguageDetails, Airport, AirportIndexItem } from '../interfaces';
-import { DataLoadError } from './errors';
+import type { DataLoader } from './loader.js';
+import type { Country, Region, CurrencyDetails, LanguageDetails, Airport, AirportIndexItem } from '../interfaces.js';
+import { DataLoadError } from './errors.js';
 
 export class FSLoader implements DataLoader {
   constructor(private baseDir: string) {}
