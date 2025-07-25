@@ -13,7 +13,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const loader = new MemoryCacheLoader(new FSLoader(path.join(__dirname, '../generated')));
 
 export const resolveVisitorContext = createLocator(loader, {
-  include: { airports: false, region: true },
 });
 
 export const lookupCountry = (code: string) => C.lookupCountry(loader, code);
