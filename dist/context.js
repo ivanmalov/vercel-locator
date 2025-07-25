@@ -78,14 +78,26 @@ async function resolveVisitorContext(input, opts = {}) {
             .map(item => airports[item.id])
             .filter((airport) => airport !== undefined);
     }
+    // --- minimal enrichment: clone & add language names to the country object ---
+    const rawCountry = countries[geo.countryCode ?? ''] ?? null;
+    const country = rawCountry
+        ? {
+            ...rawCountry,
+            languages: rawCountry.languages.map(l => ({
+                ...l,
+                name: languages[l.code]?.name ?? null,
+                nativeName: languages[l.code]?.nativeName ?? null,
+            })),
+        }
+        : null;
     // Assemble once and return
     return {
         // ip is now included in the ...geo spread
-        country: countries[geo.countryCode ?? ''] ?? null,
+        country,
         region: regionKey ? regions[regionKey] ?? null : null,
         airports: nearbyAirports,
         //headers: Object.fromEntries(headers),
-        ...geo
+        ...geo,
     };
 }
 // --- Direct Lookup Functions ---

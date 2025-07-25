@@ -23,6 +23,8 @@ export interface Country {
         code: string;
         percentage: number | null;
         status: string | null;
+        name?: string | null;
+        nativeName?: string | null;
     }[];
 }
 export interface Region {
