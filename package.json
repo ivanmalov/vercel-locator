@@ -2,16 +2,10 @@
   "name": "vercel-locator",
   "version": "0.2.5",
   "description": "Handle vercel geolocation headers",
-  "type": "module",
-  "sideEffects": false,
-  "exports": {
-    ".": "./dist/index.js",
-    "./context": "./dist/context/index.js",
-    "./queries/airports": "./dist/queries/airports.js",
-    "./utils/predicates": "./dist/utils/predicates.js"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "vitest run",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "tsx scripts/build.ts",
     "pre-generate": "tsx scripts/prepare.ts",
     "build": "tsc && cp -r src/generated dist/"
@@ -34,8 +28,7 @@
     "@types/cheerio": "^0.22.35",
     "@types/node": "^24.0.10",
     "@types/rbush": "^4.0.0",
-    "typescript": "^5.8.3",
-    "vitest": "^0.34.6"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "cheerio": "^1.1.0",

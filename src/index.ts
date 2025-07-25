@@ -7,15 +7,15 @@ export {
   lookupAirportsByCoords,
   lookupAirportByIcao,
   lookupAirportByIata,
-} from './context/index.js';
+} from './context.js';
 
 export type {
   VisitorContext,
-  Config,
+  Config, // Make sure Config is exported
   Country,
   Region,
   Airport,
   CurrencyDetails,
   LanguageDetails,
-  GeoInfo,
-} from './interfaces.js';
+} from './context.js';
+export type { GeoInfo } from './parse.js';
